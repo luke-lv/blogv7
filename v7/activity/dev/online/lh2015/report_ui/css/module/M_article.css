@@ -1,0 +1,77 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*M_article*/
+.M_article{
+	color:#333;
+	overflow:hidden;
+	margin-top:23px;
+	border:1px solid #dadada;
+	border-bottom:none;
+}
+.M_article .art_list{
+	padding:26px 0;
+	overflow:hidden;
+	zoom:1;
+	border:1px solid #dadada;
+	border-bottom-width:5px;
+	background-color:#f5f5f5;
+}
+.M_article .art_list .list{
+	display:block;
+	overflow:hidden;
+	zoom:1;
+	background:url(../../images/listbg.jpg) repeat-y 500px top;
+}
+.M_article .art_list li{
+	width:450px;
+	height:34px;
+	float:left;
+	font-size:16px;
+	line-height:34px;
+	padding-left:48px;
+}
+.M_article .art_cont{
+	font-size:14px;
+	line-height:24px;
+	padding:60px 40px 230px;
+	word-spacing: normal;
+  word-wrap: break-word;
+}
+.M_article .h1Tit{
+	font-size:34px;
+	line-height:40px;
+	padding-bottom:15px;
+	margin-bottom:16px;
+	border-bottom:1px dashed #b2b2b2;
+}
+.M_article .h2Tit{
+	color:#d33a2e;
+	font-size:18px;
+	padding-bottom:8px;
+}
+.M_article .art_cont p{
+	text-indent:2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

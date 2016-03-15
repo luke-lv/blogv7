@@ -1,0 +1,25 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*½¨ÑÔÄ£¿é*/
+.M_recom{overflow:hidden;position:relative;width:1000px;margin:0 auto;}
+.M_recom .recom_list{overflow: hidden;position:relative;width:1000px;height:550px;}
+.M_recom .recom_list .list_item{position:absolute;left:0;bottom:0;}
+.M_recom .recom_list .list_item .list_a{width:260px;height:530px;display:block;background:url("../../images/_temp/img01.jpg") center center no-repeat;background-size: cover;}
+
+.M_recom .recom_list .cursor .list_a{width:480px;height:550px;}
+.M_recom .recom_list .list_item .recom_info{position:absolute;left:0;bottom:0;width:100%;height:40px;line-height:40px;text-align:center;background-color:#b8b8b8;font-size:16px;color:#666;}
+.M_recom .recom_list .cursor .recom_info{font-size:18px;}
+.M_recom .msk_wrap .msk_left,.M_recom .msk_wrap .msk_right {position:absolute;width:260px;height:490px;top:20px;z-index: 4;filter: alpha(Opacity=50);opacity: .5;background: #000;}
+.M_recom .msk_wrap .msk_left{left:0;}
+.M_recom .msk_wrap .msk_right{right:0;}
+.M_recom .recom_list .cursor .recom_info{background-color:#dfdfdf;}
+
+
+
+
+
+
+
+
+

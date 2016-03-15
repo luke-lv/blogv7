@@ -1,0 +1,53 @@
+td,p,li,select,input {
+font-size:12px;
+line-height:150%;
+}
+A.:link,A.:visited {
+text-decoration:none;
+color:#666666;
+}
+A.:active,A.:hover {
+text-decoration:underline;
+color:#666666;
+}
+.style1 {
+	color: #1168A7;
+	font: bold;
+}
+.titleout{
+	background: url("/images/help/sp_0627_04.gif");
+	cursor: hand;
+	}
+.titleover{
+	background: url("/images/help/sp_0627_03.gif");
+	font-weight: bold;
+	cursor: default;
+	}
+.boxshow{
+	display:'';
+	}
+.boxhidden{
+	display:none;
+	}
+.foot
+{
+	clear:both;
+	width:770px;
+	height:50px;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-top:none;
+	margin:auto;
+	color:#000;
+	font-size:12px;
+}
+.foot a:link,.foot a:visited,foot p a:link,.foot p a:visited
+{
+	text-decoration:underline;
+	color:#00f;
+}
+.foot a:active,.foot a:hover,.foot p a:active,.foot p a:hover
+{
+	text-decoration:underline;
+	color:#f00;
+}

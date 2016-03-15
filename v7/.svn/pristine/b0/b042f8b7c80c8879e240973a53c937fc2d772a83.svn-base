@@ -1,0 +1,7 @@
+@charset "utf-8";
+/*积分签到规则浮层*/
+.CP_check{ padding:5px 25px 0;}
+.CP_check .CP_w_ttl td {height: 30px;font-size: 14px;font-weight: bold;vertical-align: middle; width:50%;}
+.CP_check .CP_w_ttl .td2{ text-align:right; color:#cc0000;}
+.CP_check .CP_w_cnt{ color:#999; margin:15px 0 25px;}
+.CP_check .CP_w_btns_Mid{text-align: center;}

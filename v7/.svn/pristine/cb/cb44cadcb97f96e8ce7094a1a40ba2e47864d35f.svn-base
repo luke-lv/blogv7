@@ -1,0 +1,2 @@
+[2015-08-06 12:58:59.787] [INFO] access - 127.0.0.1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36"
+[2015-08-06 12:58:59.804] [INFO] access - 127.0.0.1 - - "GET /login HTTP/1.1" 200 3257 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36"

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.zComments{ padding:10px 21px 20px 21px; zoom:1}
+.zComments .commentsCell{ clear:left; padding-top:8px; *padding-top:10px; zoom:1; background-position:left bottom; padding-bottom:10px; overflow:hidden}
+.zComments .commentsName{ /*background:url(../../images/common/SG_dot2.gif) no-repeat left 5px;*/ background-position:left 5px; padding-left:8px; float:left; font-family:"宋体";}
+.zComments .commentsDate{ float:right; font-family: Arial, Helvetica, sans-serif; font-size:10px; margin-top:2px; *margin-top:0px; display:inline}
+.zComments .commentsContants{ font-size:14px; padding:4px 0 0 4px; margin-left:4px; zoom:1; }
+.zComments .commentsH{ overflow:hidden; _height:1%;}
+.zComments .commentsContantsTxt{ margin-right:45px; line-height:23px;  font-family:"宋体";  word-wrap:break-word; word-break:break-all;  overflow:hidden;}
+.zComments .option{ float:right; margin-top:4px; display:inline; }
+.zComments .toDoBar{ clear:left; padding-top:9px; overflow:hidden}
+.zComments .toDoBar .SG_more{ margin-top:6px}
+.zComments .commentsNav{ clear:left;}
+.zAvatars .avatars{ float:left;}
+.zAvatars .hasAvatars{ margin-left:60px;}
+.zAvatars .commentsName{ padding-left:0; background-image:none}
+.zAvatars .commentsContants{ margin-left:0; padding-left:0}
+.SG_colW21 .zComments{ padding:10px 11px 20px 11px}
+.SG_colW21 .zComments .commentsContants{ font-size:12px; padding-top:2px;}
+.SG_colW21 .zComments .commentsContantsTxt{ margin-right:0}

@@ -1,0 +1,70 @@
+/*reset*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+body{ color:#666; word-wrap: break-word;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0}
+table,th,td{margin:0;padding:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family:"宋体";}
+select,input {vertical-align:middle}
+cite,em {font-style:normal}
+a {text-decoration:none;outline:none; color:#0080cf;}
+a:hover {text-decoration:underline;}
+label {cursor:pointer;}
+.clearit{ clear: both; height:0px; overflow:hidden}
+.clearfix:after{ content:"."; clear:both; display:block; height:0; visibility:hidden; overflow:hidden; line-height:0;}
+.clearfix{zoom:1;}
+input,textarea{ resize:none; outline:none;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.header{ width:998px; height:314px; margin:109px auto 0; overflow:hidden; text-align:center;}
+
+.nav{ width:998px; margin:50px auto 0; height:92px; text-align:center;}
+.nav a{ width:76px; height:83px; margin:9px 11px 0; display:inline-block; line-height:9999em; overflow:hidden; background:url(../../../images/activity/blog7year/nav.png) no-repeat;}
+.nav .nav1{ background-position:0 0;}
+.nav .nav2{ background-position:-100px 0;}
+.nav .nav3{ background-position:-200px 0;}
+.nav .nav4{ background-position:-300px 0;}
+.nav .nav5{ background-position:-400px 0;}
+.nav .nav6{ background-position:-500px 0;}
+.nav .nav7{ background-position:-600px 0;}
+.nav .nav1:hover,.nav .nav1_hover{ background-position:0 -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+.nav .nav2:hover,.nav .nav2_hover{ background-position:-100px -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+.nav .nav3:hover,.nav .nav3_hover{ background-position:-200px -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+.nav .nav4:hover,.nav .nav4_hover{ background-position:-300px -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+.nav .nav5:hover,.nav .nav5_hover{ background-position:-400px -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+.nav .nav6:hover,.nav .nav6_hover{ background-position:-500px -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+.nav .nav7:hover,.nav .nav7_hover{ background-position:-600px -100px; margin:0; width:98px; height:92px; *position:relative; *top:-9px;}
+
+.box{ min-width:998px;}
+.box1{ height:735px; background:url(../../../images/activity/blog7year/img_01.jpg) no-repeat top center;}
+.box2{ height:648px; background:url(../../../images/activity/blog7year/img_02.jpg) no-repeat top center;}
+.box3{ height:649px; background:url(../../../images/activity/blog7year/img_03.jpg) no-repeat top center;}
+.box4{ height:650px; background:url(../../../images/activity/blog7year/img_04.jpg) no-repeat top center;}
+.box5{ height:650px; background:url(../../../images/activity/blog7year/img_05.jpg) no-repeat top center;}
+.box6{ height:650px; background:url(../../../images/activity/blog7year/img_06.jpg) no-repeat top center;}
+.box7{ height:636px; background:url(../../../images/activity/blog7year/img_07.jpg) no-repeat top center;}
+.box .con{ position:relative; width:998px; margin:0 auto; height:100%;}
+.box .con a{ display:block; width:135px; height:33px; line-height:9999em; overflow:hidden; position:absolute;}
+.box1 .con a{ left:0; top:467px;}
+.box2 .con a{ left:435px; top:482px;}
+.box3 .con a{ left:518px; top:583px;}
+.box4 .con a{ left:541px; top:413px;}
+.box5 .con a{ left:0; top:364px;}
+.box6 .con a{ left:0; top:407px;}
+.box7 .con a{ left:0; top:411px;}
+
+.footer{ min-width:998px; text-align:center; color:#dadada; line-height:26px; padding-bottom:50px; font-family:Arial, Helvetica, sans-serif;}
+.footer a{ vertical-align:middle; color:#dadada;}
+.footer b{ display:inline-block; width:0; height:12px; overflow:hidden; border-left:1px solid #dadada; margin:0 10px; vertical-align:middle;}
+
+.backTop{ display:block; width:52px; height:60px; background:url(../../../images/activity/blog7year/backtop.png) no-repeat; line-height:9999em; overflow:hidden;}
+
+.shareBox{ width:93px; height:365px; background:url(../../../images/activity/blog7year/share_bg.png) no-repeat; overflow:hidden;}
+.shareBox .shareIco{ width:80px; height:16px; padding:36px 0 20px 9px;}
+.shareBox .shareIco a{ display:inline-block; width:16px; height:16px; margin-right:3px;}
+.shareBox .shareIco .weibo_ico{ background:url(../../../images/activity/blog7year/weibo_ico.png) no-repeat;}
+.shareBox .shareIco .renren_ico{ background:url(../../../images/activity/blog7year/renren_ico.png) no-repeat;}
+.shareBox .shareIco .kaixin_ico{ background:url(../../../images/activity/blog7year/kaixin_ico.png) no-repeat;}
+.shareBox .shareIco .douban_ico{ background:url(../../../images/activity/blog7year/douban_ico.png) no-repeat;}
+.shareBox .shareLink{ display:block; width:57px; height:76px; line-height:9999em; overflow:hidden; margin:0 0 16px 16px;}

@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Debug Console 使用说明</title>
+	<style type="text/css">
+		* { font-size: 14px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+		body { margin: 0; padding: 0; }
+		h1 { font-size: 30px; }
+		pre { color: #E00; }
+		ul { margin :5px 5px 5px 30px; padding :0; }
+		li { list-style-type: none; font-size: 14px; margin: 8px 0; font-weight: 600; }
+		p { font-weight: 600; line-height: 30px; margin: 20px 0 0; }
+		a:link { color: #00F; }
+		a:active { color: #00F; }
+		a:visited { color: #00F; }
+		a:hover { color: #00F; }
+		.content { width: 900px; margin: 0 auto; }
+		.content div { margin-left: 24px; text-indent: 28px; line-height: 25px;}
+		.content div.figure { color: #00F; }
+		.content div.item { margin-left: 80px;}
+		.command { width: 800px; }
+		.command td { padding-left: 10px; }
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1>Debug Console 使用说明</h1>
+		<pre>L.Ming @ 2009.07.24</pre>
+		<p>目录</p>
+		<ul>
+			<li><a href="#intro" target="">简要介绍</a></li>
+			<li><a href="#setup" target="">部署方法</a></li>
+			<li><a href="#hotkey" target="">快捷键、界面</a></li>		
+			<li><a href="#command" target="">命令参考</a></li>
+		</ul>
+		<a name="intro"></a>
+		<p>简要介绍</p>
+		<div>作为一个以 Javascript 开发为主导的 RIA 工程师，在我们的日常的学习或工作中，每天都免不了和 Javascript 打交道。</div>
+		<div>如果做进行一些简单的调试：我们也许会采用 alert()，它可以中断 Javascript 的执行，让我们实时了解当前 Javascript 代码是否按照既定流程执行。</div>
+		<div>不过 alert() 也会让人苦恼，例如要测试一个循环，我们可能就要面对 N 次的 alert 弹出信息，这往往会让调试者抓狂；并且调试信息无法查阅历史，需要有好记性才能记住刚才弹出的那么多信息，事实上对绝大多数人来说，这是一件头疼的事情。</div>
+		<div><b>Debug Console</b> 就是用于解决这个问题，将当前页面的调试信息输出到一个 Javascript 生成 HTML 控制台中，既不影响程序执行，还能方便查找各种调试信息。Debug Console 有丰富的图形界面，支持快捷键和命令操作。</div>
+		<div>Debug Console 包括两个 JS 文件：<b>debug_base.js</b> 和 <b>debug.js</b>。</div>
+		<div><b>debug_base.js</b> 定义了用户的入口函数，及各种色彩配置等信息。它只将用户数据缓存起来，不提供任何显示图形界面。</div>
+		<div><b>debug.js</b> 给 document 绑定了 onkeydown 事件，在用户按下 Alt+~ 的时候显示或隐藏  Debug Console 图形界面。</div>
+		<div>浏览器兼容：</div>
+		<div><ul>
+			<li>Internet Explorer 6+ </li>
+			<li>Firefox 2+</li>
+			<li>Safari 3+</li>		
+			<li>Opera 9.23</li>
+			<li>Chrome</li>
+		</ul></div>
+		<div>目前支持的调用方法：</div>
+		<div><b>Debug.fatal</b>(<i>String</i> infomation)
+		<span style="background:#E00;color:#FFF;padding:3px 10px;margin-left:100px;"> 以红底白字显示调试信息，表示严重错误 </span></div>
+		<div><b>Debug.error</b>(<i>String</i> infomation)
+		<span style="background:#000;color:#E00;padding:3px 10px;margin-left:94px;"> 以黑底红字显示调试信息，表示一般错误 </span></div>
+		<div><b>Debug.warning</b>(<i>String</i> infomation)
+		<span style="background:#000;color:#FF0;padding:3px 10px;margin-left:70px;"> 以黑底黄字显示调试信息，表示警告 </span></div>
+		<div><b>Debug.info</b>(<i>String</i> infomation)
+		<span style="background:#000;color:#0F0;padding:3px 10px;margin-left:104px;"> 以黑底绿字显示调试信息，表示成功 </span></div>
+		<div><b>Debug.log</b>(<i>String</i> infomation)
+		<span style="background:#000;color:#FFF;padding:3px 10px;margin-left:110px;"> 以黑底白字显示调试信息，表示普通日志 </span></div>
+		<div><b>Debug.dir</b>(<i>JsonObject|Array</i> infomation)
+		<span style="background:#000;color:#FFF;padding:3px 10px;margin-left:34px;"> 打印 JSON 对象的结构，可展开的子节点绿色显示 </span></div>
+		<div><b>trace</b>(<i>String</i> infomation)
+		<span style="background:#000;color:#FFF;padding:3px 10px;margin-left:150px;"> Debug.log 的别名，为了兼容历史程序 </span></div>
+		<div><b>traceError</b>(<i>String</i> infomation)
+		<span style="background:#000;color:#E00;padding:3px 10px;margin-left:109px;"> Debug.error 的别名，为了兼容历史程序 </span></div>
+		<a name="setup"></a>
+		<p>部署方法</p>
+		<div>在执行 Debug Console 提供的方法之前，部署如下两个  JS</div>
+		<div><pre>&lt;script type="text/javascript" src="debug_base.js" charset="utf-8"&gt;&lt;/script&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript" src="debug.js" charset="utf-8"&gt;&lt;/script&gt;</pre></div>
+		<div>请注意文件的  charset 一定要设置成 UTF-8。</div>
+		<div>当然，你也可以只部署 debug_base.js，在必要的时候才引入 debug.js 来显示信息。因为按键绑定是在 debug.js 里完成的，因此一定要加载它才能看到图形界面。</div>
+		<a name="hotkey"></a>
+		<p>快捷键、界面</p>
+		<div>快捷键：</div>
+		<div><b>Alt+~</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示/隐藏 Debug Console 图形界面</div>
+		<div><b>Ctrl+~</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果图形界面展开，就激活命令输入框</div>
+		<div>注：在 Opera 下 alt+~ 用 Ctrl+4 代替，Ctrl+~ 用 Ctrl+5 代替</div>
+		<div>界面各功能点已经用数字标示，请看图片下的说明文字。</div>
+		<div><img src="images/ui_1.jpg" alt="" /></div>
+		<div class="item figure">图一、基本界面</div>
+		<div class="item"><b>1</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Debug Console 标题栏，拖动尚未开启</div>
+		<div class="item"><b>2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			显示/隐藏过滤器菜单（见图三）</div>
+		<div class="item"><b>3</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			显示开发模式选择界面（见图四。命令:o）</div>
+		<div class="item"><b>4</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			隐藏 Debug Console 界面</div>
+		<div class="item"><b>5</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Debug Console 调试信息显示区域</div>
+		<div class="item"><b>6</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Debug Console 命令输入框，可以在这里输入命令操作各种功能，也可以高亮查找指定的字符</div>
+		<div class="item"><b>7</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			清空 Debug Console 调试信息显示区域的所有调试信息，这里并不会清除缓存数据（命令:c）</div>
+		<div class="item"><img src="images/ui_2.jpg" alt="" /></div>
+		<div class="item figure">图二、扩展界面，包括脚本运行面板（用命令 :on 打开此面板，:off 关闭此面板）</div>
+		<div class="item"><b>8</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Javascript 脚本输入区域，Ctrl+Enter 快捷键执行脚本</div>
+		<div class="item"><b>9</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			执行上面文本框中的 Javascript 脚本</div>
+		<div class="item"><b>10</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			隐藏 脚本运行面板（命令:off）</div>
+		<div class="item"><img src="images/ui_3.jpg" alt="" /></div>
+		<div class="item figure">图三、过滤器菜单</div>
+		<div class="item"><b>11</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			过滤器菜单，可以让调试信息区域只显示 Fatal、Error、Warning、Info、Log、All 任意一级的调试信息<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			或设置过滤关键字，通过 Cookie 记录当前的过滤级别和关键字</div>
+		<div class="item"><img src="images/ui_4.jpg" alt="" /></div>
+		<div class="item figure">图四、开发模式选择界面</div>
+		<div class="item"><b>12</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			选择用户当前的开发模式</div>
+		<div class="item"><b>13</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			关闭开发模式选择模板，返回调试界面</div>
+		<a name="command"></a>
+		<p>命令参考</p>
+		<div>
+			<table cellpadding="0" cellspacing="0" border="1" summary="" class="command">
+				<thead>
+					<tr>
+						<th style="width: 180px;">命令</th>
+						<th>说明</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>:f 或 :fatal</td>
+						<td>切换到 fatal 过滤器</td>
+					</tr>
+					<tr>
+						<td>:e 或 :error</td>
+						<td>切换到 error 过滤器</td>
+					</tr>
+					<tr>
+						<td>:w 或 :warning</td>
+						<td>切换到 warning 过滤器</td>
+					</tr>
+					<tr>
+						<td>:i 或 :info</td>
+						<td>切换到 info 过滤器</td>
+					</tr>
+					<tr>
+						<td>:l 或 :log</td>
+						<td>切换到 log 过滤器</td>
+					</tr>
+					<tr>
+						<td>:a 或 :all</td>
+						<td>切换到 all 过滤器</td>
+					</tr>
+					<tr>
+						<td>:k <i>[Keyword]</i> <br/>或 :key <i>[Keyword]</i></td>
+						<td>设置过滤器关键字，控制台将只显示包含关键字的信息。<br/>
+						Keyword 表示你要设置的过滤关键字；不带 Kewword 表示清空关键字设置。</td>
+					</tr>
+					<tr>
+						<td>:o 或 :option</td>
+						<td>打开 Option 面板，事实上没什么用，就是用来从面板上查看当前是那种模式</td>
+					</tr>
+					<tr>
+						<td>:1 或 :mode1</td>
+						<td>切换到开发模式 1</td>
+					</tr>
+					<tr>
+						<td>:2 或 :mode2</td>
+						<td>切换到开发模式 3</td>
+					</tr>
+					<tr>
+						<td>:3 或 :mode3</td>
+						<td>切换到开发模式 3</td>
+					</tr>
+					<tr>
+						<td>:4 或 :mode4</td>
+						<td>切换到开发模式 4</td>
+					</tr>
+					<tr>
+						<td>:5 或 :mode5</td>
+						<td>切换到开发模式 5</td>
+					</tr>
+					<tr>
+						<td>:m 或 :mode</td>
+						<td>查看当前是哪种开发模式</td>
+					</tr>
+					<tr>
+						<td>:c 或 :cls 或 :clear</td>
+						<td>清空控制台</td>
+					</tr>
+					<tr>
+						<td>:on</td>
+						<td>打开 JS 运行框</td>
+					</tr>
+					<tr>
+						<td>:off</td>
+						<td>关闭 JS 运行框</td>
+					</tr>
+					<tr>
+						<td><i>Keyword</i></td>
+						<td>查找并高亮字符串；要查找冒号开始的，请将冒号转义 \:。Keyword 表示你要查找的关键字。</td>
+					</tr>
+					<tr>
+						<td>? 或 :h 或 :help</td>
+						<td>获取命令说明</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

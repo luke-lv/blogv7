@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+
+
+	/* 分类列表 */
+.menuList{ clear:both; padding:10px 6px 10px; width:198px; zoom:1; overflow:hidden;}
+.menuList ul{ clear:both;}
+.menuList ul li{ width:198px; zoom:1; padding-top:1px;line-height:22px; font-size:14px; font-family:"宋体";line-height:22px; font-size:14px; font-family:"宋体";}
+.menuList ul li .menuCell_main{clear:both;}
+.menuList ul li .menuCell_bot{ width:198px;  height:1px; clear:both; overflow:hidden;}
+.menuList ul li.current{background-image:url(../../images/common/menuList_bg.gif); background-position:left top; background-repeat: no-repeat;}
+.menuList ul li.current .menuCell_bot{background-image:url(../../images/common/menuList_bg.gif); background-position: left -105px; background-repeat: no-repeat;}
+.menuList ul li.current strong{ }
+.menuList ul li .SG_dot{background-position:5px 9px; padding-left:14px; display:block;}
+.menuList .SG_j_linedot{ clear:both; margin-top:7px; margin-bottom:5px; }
+.menuList .SG_j_line{ clear:both;margin-top:5px; margin-bottom:7px;}
+
+.menuList ul li.current,
+.menuList ul li.current a,
+.menuList ul li.current a:link,
+.menuList ul li.current a:visited,
+.menuList ul li.current a:hover,
+.menuList ul li.current em.SG_txtc{ color:#333}
+
+	/* 博文分类*/
+.blog_classList{ padding-top:15px;}
+.blog_classList ul li{ }
+.blog_classList ul li .menuCell_main{ padding-right:15px;}
+.blog_classList ul li.current{ padding-top:5px;} 
+	/*关于我*/
+.aboutMe{ padding-top:15px; padding-bottom:20px;}
+.aboutMe ul li{}
+.aboutMe ul li .menuCell_main{ padding-right:15px;}
+.aboutMe ul li.current{ padding-top:5px;} 	
+.aboutMe .mobile_img{vertical-align:-2px; margin-left:4px;}
+
+	/*归档*/
+.fileList{ padding-top:15px;}	
+.fileList .fileCell{ clear:both; min-height:25px; _min-height:25px; overflow:visible;font-size:14px; font-family:"宋体";}
+.fileList .fileList_year{ clear:both; height:19px; padding-top:6px; overflow:hidden; padding-left:14px; background-position:5px 11px; cursor:pointer;  }
+.fileList .fileList_year span{ float:left;}
+.fileList .fileList_year em{ float:left; margin-left:10px; width:7px; height:8px; margin-top:3px; margin-right:5px;background:url(../../images/blog/menuArrow_default.gif) no-repeat left -20px; }
+.fileList .fileList_month{ clear:both; display:none;}
+.fileList ul li{ clear:both;overflow:hidden; padding:0; line-height:normal;}
+.fileList ul li.current{ font-weight:bold; padding-top:3px; }
+.fileList .fileList_month li .menuCell_main{ padding-left:15px; height:17px; padding-top:7px;}
+.fileCell_open .fileList_year em{background:url(../../images/blog/menuArrow_default.gif) no-repeat left top;} 
+.fileCell_open .fileList_month{ display:block;}
+
+	/* 相册 */
+.albumList li{ margin-bottom:2px;}
+.albumList li .albumCell{ clear:both; padding-left:12px; padding-top:8px; height:92px; overflow:hidden;}
+.albumList li .albumCell .ptpic_m{height:86px;width:86px; overflow:hidden; background:url(../../images/photo/photoborder_m.gif) no-repeat scroll 0 0;float:left;}
+.albumList li .albumCell .ptpic_m img {width:80px; height:80px;padding:1px 5px 5px 1px;}
+.albumList li .albumCell p { width:85px; float:left; overflow:hidden; line-height:1.5em;margin-left:8px; font-size:12px; word-break:break-all;}
+.albumList li.current{ padding-top:5px;}
+.albumList li.current .albumCell p a{ /*font-weight:bold;*/}
+
+.myAlbum ul li.current{ padding-top:5px;} 
+.menuList .SG_page{ padding-top:5px; text-align:center; float:none; clear:both;}
+.menuList .SG_page ul.SG_pages{ float:none; margin-left:40px;}
+.menuList .SG_page ul li{ width:auto; font-size:12px;}
+
+ /*个人中心*/
+.centerList ul li span.home{ padding-left:3px;}
+.centerList ul li span.SG_dot{ padding-left:24px;background-position:15px 9px;}
+.centerList ul li .SG_icon41{ margin-left:7px; vertical-align:-2px;}
+.centerList ul li.current {padding-top:5px;}
+.centerList ul li .SG_icon11{ vertical-align:1px; margin-left:5px;}
+	/* 二期 */
+.centerList .centerMenu{ clear:both;}
+.centerList .centerMenu .centerMenu_tit{ height:37px; line-height:37px; overflow:hidden; font-size:14px;}
+.centerList .centerMenu .centerMenu_tit span{ float:left;}
+.centerList .centerMenu .centerMenu_tit .SG_icon{ margin-right:5px;vertical-align:-2px;}
+.centerList .centerMenu .centerMenu_tit em{width:7px; height:9px;margin-right:5px;margin-top:13px;
+float:right;background:url(../../images/blog/menuArrow_default.gif) no-repeat scroll left -20px;}
+.centerList .centerMenu_on  ul{ display:block;}
+.centerList .centerMenu_on .centerMenu_tit em{background:url(../../images/blog/menuArrow_default.gif) no-repeat scroll left top;}
+.centerList .centerMenu ul li span.SG_dot{ background-position:20px 9px; padding-left:30px;}
+.centerList .centerMenu .SG_j_linedot{ margin-left:20px; display:none;}
+.centerList .centerMenu_on .SG_j_linedot{ display:block;}
+
+/* 博文分类 首页widget*/
+.classList{ clear:both; padding:15px 20px; zoom:1;}
+.classList ul li{ clear:both; font-family:"宋体"; padding-left:8px; line-height:23px; font-size:14px; background-position:left 9px; }
+.classList ul li .count{ font-size:10px; font-family:Arial; margin-left:3px;}
+.SG_colW21 .classList{ padding:10px;}
+.SG_colW21 .classList ul li{line-height:21px; font-size:12px; background-position:left 8px; }

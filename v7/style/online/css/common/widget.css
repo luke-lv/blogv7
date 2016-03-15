@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* widget */
+
+@import url("w_frdVst.css");      /* 好友&访客 */
+@import url("w_list.css");        /* 首页博文列表 */
+@import url("w_person.css");      /* 个人资料&个人档案 */
+@import url("w_videolist.css");   /* 视频 */
+@import url("w_videoplay.css");   /* 视频播放 */
+@import url("w_WidgetPhoto.css"); /* 相册 */
+@import url("w_comment.css");     /* 评论 */
+

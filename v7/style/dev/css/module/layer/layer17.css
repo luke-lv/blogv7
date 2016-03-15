@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* 博客未开通 dongyan 2010-7-9 */
+.blognoopen{clear:both;}
+.blognoopen .noopen_tit{clear:both;font-size:14px;background-position:left bottom;padding-bottom:25px;font-weight:bold;}
+.blognopenBox{clear:both;padding-top:20px;padding-left:103px;background:url(../../../images/common/layer/noopen.png) no-repeat left 20px;font-family:"宋体";}
+.blognopenBox .blognoopenTips{clear:both;line-height:20px;padding-bottom:20px;}
+.blognopenBox table{clear:both;}
+.blognopenBox th{width:100px;text-align:right;font-size:14px;font-weight:normal;vertical-align:top;line-height:23px;padding-bottom:10px;}
+.blognopenBox th em{font-size:12px;}
+.blognopenBox td{width:300px;vertical-align:top;padding-bottom:10px;}
+.blognopenBox td .noopen_input1{width:182px;height:18px;padding:3px 0 0 3px;border:1px solid #999;}
+.blognopenBox td .noopen_input2{width:74px;height:18px;padding:3px 0 0 3px; border:1px solid #999;}
+.blognopenBox td p{margin-top:3px;clear:both;}
+
+.blognopenBox2{clear:both;padding-top:20px;padding-left:103px;background:url(../../../images/common/layer/noopen.png) no-repeat left 20px;font-family:"宋体";text-align:left;padding-bottom:50px;width:510px;margin:0 auto;}
+.blognopenBox2 .blognoopenTips{clear:both;line-height:20px;padding-bottom:20px;}
+.blognopenBox2 table{clear:both;}
+.blognopenBox2 th{width:100px;text-align:right;font-size:14px;font-weight:normal;vertical-align:top;line-height:23px;padding-bottom:10px;}
+.blognopenBox2 th em{font-size:12px;}
+.blognopenBox2 td{width:300px;vertical-align:top;padding-bottom:10px;}
+.blognopenBox2 td .noopen_input1{width:182px;height:18px;padding:3px 0 0 3px;border:1px solid #999;}
+.blognopenBox2 td .noopen_input2{width:74px;height:18px;padding:3px 0 0 3px; border:1px solid #999;}
+.blognopenBox2 td p{margin-top:3px;clear:both;}

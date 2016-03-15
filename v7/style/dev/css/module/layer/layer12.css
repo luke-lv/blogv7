@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* 订阅功能升级 dongyan 10-05-14*/
+.rssLayer{width:370px; min-height:100px; _height:100px;}
+.rssLayer th{ font-weight:normal; width:80px; font-size:14px;padding-bottom:10px;}
+.rssLayer td { line-height:18px; padding-bottom:10px; width:300px;}
+.rssLayer td .SG_input{ width:190px;border:1px solid #C1C1BB;font-family:verdana;height:16px;line-height:16px;padding:2px;margin-right:5px;}
+.rssLayer td .SG_aBtn{vertical-align:middle;}
+.rssLayer .rss_title{clear:both;}
+.rssLayer .rss_list{clear:both;margin-top:10px;margin-bottom:20px;clear:both;}
+.rssLayer .rss_list span{width:115px;height:18px;margin-top:10px;float:left;overflow:hidden;margin-right:5px;}
+.rssLayer .rss_list span a{display:block;width:115px;height:18px;}
+.rssLayer .rss_list span a {background:url(../../../images/common/layer/rsslist.png) no-repeat;}
+.rssLayer .rss_list span a.rss_google{background-position:left top;}
+.rssLayer .rss_list span a.rss_xianguo{background-position:left -30px;}
+.rssLayer .rss_list span a.rss_douban{background-position:left -60px;}
+.rssLayer .rss_list span a.rss_myphone{background-position:left -90px;}
+.rssLayer .rss_list span a.rss_shiye{background-position:left -120px;}
+.rssLayer .rss_list span.news{width:20px;}
+.rssLayer table{clear:both;}
+.CP_w a.SG_aBtn,
+.CP_w a.SG_aBtn:link,
+.CP_w a.SG_aBtn:visited,
+.CP_w a.SG_aBtn:hover{text-decoration:none;}
+.CP_w_star{font-family:"宋体";}
+.CP_w_star em{color:#c00;}
+.CP_w_part img.SG_icon11{float:none;margin:0;margin-left:5px;vertical-align:-1px;*vertical-align:2px;}
+

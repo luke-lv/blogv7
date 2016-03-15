@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* 公用-clearfix */
+@import url("editor.css");
+
+/* 微语录 发布器 */
+.MIB_blogb{background:#c3eff7 url(../../images/common/quotations/img_topbg.jpg) no-repeat center 0;}
+.MIB_blogb2{background:#c3eff7 url(../../images/common/quotations/img_topbg_login.jpg) no-repeat center 0;}
+.quotations{clear:both;}
+.quotationsbody{clear:both;width:960px;margin:0 auto;padding:0;z-index:10;}
+.quotationheader{background:url(../../images/common/quotations/img_topbg.jpg) no-repeat center 0;clear:both;height:170px;margin:0 auto;padding-top:30px;position:relative;width:960px;z-index:101;}
+.MIB_blogb2 .quotationheader{background:url(../../images/common/quotations/img_topbg_login.jpg) no-repeat center 0;clear:both;height:200px;margin:0 auto;padding-top:30px;position:relative;width:960px;z-index:101;}
+.loginbg{padding:24px 35px 0;background:url(../../images/common/quotations/bg_loginwarp.gif) repeat-y left 0;}
+.loginbg .lfbox{width:392px; float:left; display:inline; background:url(../../images/common/quotations/bg_grayline.gif) no-repeat right 0;text-align:left}
+.loginbg .lfbox .btn{margin:14px 0 80px; text-align:center}
+.loginbg .rfbox{float:right;width:470px;}
+.loginbg .loginlist li{float:left; width:468px; line-height:24px;}
+.loginbg .loginlist li.tit{color:666;padding:25px 0 10px;}
+.loginbg .loginlist li .txt{float:left; width:282px; height:24px; padding-left:8px; overflow:hidden; background:url(../../images/common/SG_dot.gif) no-repeat 0 center;}
+.loginbg .loginlist li .nameid{float:left;width:74px;}
+.loginbg .loginlist li .date{float:left;width:100px; color:#999}
+.loginbg .loginlist li a{color:#2474b5}
+.diarybox{clear:both;width:766px; height:602px; border:1px solid #75848b;}
+
+.quotations .flwarp{ float:left;width:810px; padding:0; overflow:hidden;background:url(../../images/common/quotations/bg_flwarp.jpg) repeat-y;}
+.quotations .flwarp .diary_box,
+.quotations .flwarp .options {  padding:0 20px 0 20px;}
+.quotations .flwarp .diary_box h2{padding-bottom:5px;font-size:22px;font-weight:normal;padding-bottom:5px;}
+.quotations .flwarp .diary_box .diarytit li {float:left; padding:3px 0 10px; font-size:14px;}
+.quotations .flwarp .diary_box .diarytit li .cTit { float:left; color:#333; font-size:14px; padding-top:12px; padding-top:16px\9; *padding-top:16px; font-weight:bold;}
+.quotations .flwarp .diary_box .diarytit li .cInfo { float:left; padding-top:6px; font-family:Arial;}
+.quotations .flwarp .diary_box .diarytit li .cInfo .editBtn1{ margin-right:4px;}
+.quotations .flwarp .diary_box .diarytit li .cInfo .Fm_input1{height:26px; padding-left:6px; font-size:14px; line-height:26px; color:#ccc}
+.quotations .flwarp .diary_box .diarytit li.edit{width:100%;font-size:12px;}
+.quotations .flwarp .diary_box .diarytit li.edit p.txtbox{margin-top:10px;}
+.quotations .flwarp .diary_box .diarytit li.edit p.txtbox textarea{width:429px; _width:424px; padding:4px;}
+.quotations .flwarp .diary_box ul.diarynamu{clear:both;height:22px;width:100%;background:#eff3f3;}
+.quotations .flwarp .diary_box ul.diarynamu li{float:left; display:block; padding:4px 10px 0; *padding:6px 10px 0;}
+.quotations .flwarp .diary_box ul.diarynamu li.on{height:18px;background:#2474b5;}
+.quotations .flwarp .diary_box ul.diarynamu li.on a{color:#fff;}
+.quotations .flwarp .diary_box ul.diarynamu li.fr{float:right;color:#999}
+.quotations .flwarp .diarylist{position:relative;padding:4px 0 0 4px;z-index:10}
+.quotations .flwarp .diarylist .sc{position:relative;height:544px;margin:6px 0 0; overflow-y:scroll;z-index:50}
+.quotations .flwarp .diarylist .sc .goto{padding:10px 0 0 10px;}
+.quotations .flwarp .diarylist .sc .goto a{font-weight:bold;}
+.quotations .flwarp .diarylist .loding{position:absolute;top:50%; left:50%;text-align:center;z-index:100}
+.quotations .flwarp .diarylist .allc{padding:0 0 5px 5px;}
+.quotations .flwarp .diary_textbox{width:756px; height:53px;margin:20px 0;padding:5px;color:#ccc;}
+.quotations .flwarp .generation{float:left;width:100%;margin:0 0 10px;}
+.quotations .flwarp .generation input{float:left; margin-top:2px; *margin-top:-2px; _margin-top:-4px;}
+.quotations .flwarp .btn_sendnotes{margin:0 0 20px 300px}
+.qtt_feed{float:left; margin:0 0 10px;}
+.qtt_feed li{float:left;width:725px;overflow:hidden;padding:10px;}
+.qtt_feed li .fl_date {position:relative;float:left;width:57px;height:63px; margin-top:15px;background:url(../../images/common/quotations/bg_data.gif) no-repeat;text-align:center;font-family:Arial}
+.qtt_feed li .fl_date .year{width:57px; line-height:20px; color:#fff;} 
+.qtt_feed li .fl_date .months{width:57px; line-height:36px; font-size:32px;} 
+.qtt_feed li .day{height:34px; background-position:0 -63px;}
+.qtt_feed li .dateday{font-size:16px;font-weight:bold;line-height:36px;}
+.qtt_feed li .qtt_feed_c{float:right;width:626px; margin-right:10px; display:inline; padding:0 15px; border:1px solid #e1e1e1;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;}
+.qtt_feed li .qtt_arrow{display:block;position:absolute;width:11px; height:19px; top:13px; right:-11px;float:left;background:url(../../images/common/quotations/bg_arrow.gif) no-repeat 0 0px;}
+.qtt_feed li .day .qtt_arrow{top:10px;}
+.qtt_assign {clear:both;margin:0 5px 10px 0;width:474px;}
+.qtt_asarrow_l{float:left;height:15px;margin:12px 0 0 3px;display:inline;overflow:hidden;position:absolute;width:11px;background:url(../../images/common/quotations/bg_arrow.gif) no-repeat 0 0px;}
+.qtt_asarrow_t {height:11px;margin:0 0 -2px 53px;overflow:hidden;position:relative;width:19px;background:url(../../images/common/quotations/bg_arrow.gif) no-repeat 0 -31px;}
+.qtt_assign .qtt_assign_t, .qtt_assign .qtt_assign_b {height:5px;overflow:hidden;width:474px;}
+.qtt_assign .qtt_assign_c{width:472px;line-height:1.7em;overflow:hidden;padding:6px 17px;border:1px solid #e1e1e1;margin:0 0 0 20px;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;}
+.qtt_feed li .qtt_feed_c .sms{padding:15px 0 10px; line-height:20px; font-size:14px;}
+.qtt_feed li .qtt_feed_c .sms .data{padding-left:4px; font-size:12px;}
+.qtt_feed li .qtt_feed_c .sms .inputaera{width:20px; float:left;padding-top:2px;}
+.qtt_feed li .qtt_feed_c .sms .contentaera{float:right;width:594px;margin:0 0 10px;line-height:22px;}
+.qtt_feed li .qtt_feed_c .qtt_feed_txt .feed_preview{float:right;width:594px;margin:0 0 15px;}
+.qtt_assign .qtt_assign_c .feed_preview{width:594px;margin:0 0 10px;}
+.qtt_assign .qtt_assign_c .source{padding:0 0 6px;}
+.qtt_assign .qtt_assign_c .feed_img,.qtt_feed li .qtt_feed_c .qtt_feed_txt .feed_img{float:left;margin:0 8px 10px 0;position:relative;}
+.qtt_assign .qtt_assign_c .feed_img img,.qtt_feed li .qtt_feed_c .qtt_feed_txt .feed_img img{margin-right:10px;}
+
+.quotations .frwarp{float:left;width:140px;height:800px;margin-left:-1px;background:url(../../images/common/quotations/bg_frwarp.jpg) no-repeat right 0;}
+.quotations .frwarp ul li{margin-bottom:10px;}
+.quotations .frwarp .diary_btn{width:135px; height:72px;background:url(../../images/common/quotations/bg_btndiary.jpg) no-repeat;}
+.quotations .frwarp .dy01 a,
+.quotations .frwarp .dy02 a{width:135px; height:72px; background:url(../../images/common/quotations/bg_btndiary.jpg) no-repeat;background-position:0 0px;display:block;text-decoration:none;}
+.quotations .frwarp .dy02 a{background-position:0 -232px;text-decoration:none;}
+.quotations .frwarp a.cur,.quotations .frwarp a.cur{width:135px; height:72px;cursor:pointer;text-decoration:none;}
+.quotations .frwarp .dy01 a.cur{background-position:0 -150px;}
+.quotations .frwarp .dy02 a.cur{background-position:0 -80px;}
+.quotations .frwarp .diary_btn input{width:107px; height:17px; margin:36px 0 0 12px;border:1px solid #75848b; border-right:1px solid #ced9df;border-bottom:1px solid #ced9df;color:#ccc;}
+
+.quotations .flwarp .more{width:680px;margin:0 auto;padding:8px 40px 10px 0;border-top:1px solid #E1E1E1; clear:both; background:url(../../images/common/quotations/bg_arrow.gif) no-repeat center -50px; text-align:center;line-height:20px;}
+.quotations .flwarp .more span{cursor:pointer;}
+.flwarp li div input{*margin-top:-2px}
+.flwarp input { vertical-align:-2px; float:left }
+.fl_topbar{float:right}
+.fl_topbar span.user{padding-top:5px;}
+.fl_topbar span.line_s{margin-top:2px; margin-top:0\9;}
+.specifyblog{padding:10px 0 20px;}
+.specifyblog span{margin:5px 10px 0 0; float:left;}
+.quotation_tb {width:100%;float:left;margin:0 0 20px}
+.quotation_tb p{padding:6px 0 10px;}
+.quotation_tb table{width:350px; float:left; margin-left:94px; display:inline;}
+.quotation_tb table td{padding:4px 0; line-height:28px;}
+.quotation_tb table input{width:178px; height:28px; margin-right:8px;padding-left:10px;line-height:28px;}
+.quotation_tb table .SG_aBtn{color:#333}
+
+/* 日历CSS */
+.pc_caldr {
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  height: auto;
+  padding: 2px;
+  width: 161px;
+  z-index: 1;
+}
+.pc_caldr .selector {
+  height: 24px;
+  padding: 2px 0 0;
+}
+.pc_caldr .selector .month {
+  border: 1px solid #CCCCCC;
+  float: left;
+  font-size: 12px;
+  width: 73px;
+}
+.pc_caldr .selector .month, .pc_caldr .selector .month option {
+  height: 19px;
+}
+.pc_caldr .selector .year {
+  float: right;
+  padding-left: 5px;
+  width: 80px;
+}
+.pc_caldr .selector .year .yearval {
+  float: left;
+  font-family: Tahoma,sans-serif;
+  font-size: 11px;
+  height: 15px;
+  line-height: 14px;
+  margin-right: 2px;
+  padding: 2px 0 0;
+  text-align: center;
+  width: 55px;
+}
+.pc_caldr .selector .year .yearbtn, .pc_caldr .selector .year .yearbtn2 {
+  background: url("../../f") no-repeat scroll center center #CCCCCC;
+  border: 0 none;
+  display: block;
+  float: left;
+  margin-left: 2px;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -1000em;
+}
+.pc_caldr .selector .year .yearbtn {
+  background: url("http://simg.sinajs.cn/blog7style/images/common/quotations/up.png") no-repeat scroll 0 0 transparent;
+  height: 9px;
+  width: 16px;
+}
+.pc_caldr .selector .year .yearbtn2 {
+  background: url("http://simg.sinajs.cn/blog7style/images/common/quotations/down.png") no-repeat scroll 0 0 transparent;
+  height: 9px;
+  width: 16px;
+}
+.pc_caldr .weeks, .pc_caldr .days {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.pc_caldr .weeks {
+  height: 16px;
+  margin-bottom: 2px;
+}
+.pc_caldr .days {
+  height: auto;
+}
+.pc_caldr .weeks li, .pc_caldr .days li {
+  float: left;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  width: 23px;
+}
+.pc_caldr .weeks li {
+  background-color: #B6D1F9;
+  color: #FFFFFF;
+  font-family: "宋体",sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+.pc_caldr .days li {
+  
+}
+.pc_caldr .days li, .pc_caldr .days li a {
+  color: #000000;
+  font-family: Tahoma,sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+.pc_caldr .days li a {
+  color: #43609C;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+.pc_caldr .days li a:link, .pc_caldr .days li a:visited, .pc_caldr .days li a:hover {
+  text-decoration: none;
+}
+.pc_caldr .days li a strong {
+  font-weight: normal;
+}
+.pc_caldr .days li.current, .pc_caldr .days li.current a, .pc_caldr .days li.current a:hover {
+  background-color: #0A6A16;
+  color: #FFFFFF;
+}
+.pc_caldr .days li a:hover {
+  /*background-color: #5D94E6;
+  color: #FFFFFF;*/
+  background:url("http://simg.sinajs.cn/blog7style/images/common/quotations/cal_bg.gif") no-repeat scroll 0 0 transparent;
+  color: #FFFFFF;
+}
+.pc_caldr .days .onsel {
+  background-color: #5D94E6;
+  color: #FFFFFF;
+}
+.pc_caldr .days li a.day {
+  background-color: #5D94E6;
+  color: #FFFFFF;
+}
+.weekHover {
+  background-color: #5D94E6;
+  color: #FFFFFF;
+}

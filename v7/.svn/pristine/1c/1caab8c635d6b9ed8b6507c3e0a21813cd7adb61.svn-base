@@ -1,0 +1,34 @@
+﻿@charset "utf-8";
+/*个人中心三期*/
+@import url("../../module/center/center.css");
+
+/*feed*/
+@import url("../../module/center/center_feed.css");
+
+/*看电影*/
+@import url("../../module/common/television.css");
+
+
+/*绑定*/
+@import url("../../module/common/bind.css");
+
+/*浮层*/
+@import url("../../module/layer/layer23.css");
+@import url("../../module/layer/layer25.css");
+/*绑定银行卡弹窗*/
+@import url("../../module/layer/layer29.css");
+/*微米浮层*/
+@import url("../../module/layer/layer27.css");
+/*签到积分规则弹窗*/
+@import url("../../module/layer/layer30.css");
+/*举报*/
+@import url("../../common/report.css");
+
+/*新用户引导*/
+@import url("../../module/center/guide_nctx.css");
+
+@import url("../../module/common/topbar.css");
+/*广告分成*/
+@import url("../../module/center/center_cps.css");
+/*积分兑换*/
+@import url("../../module/center/center_integral.css");

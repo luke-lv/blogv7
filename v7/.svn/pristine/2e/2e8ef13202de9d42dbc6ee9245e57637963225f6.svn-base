@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 长微博入口 */
+body{background:url(../../images/special/long/long_bg.jpg) repeat;}
+.longbox {position: relative; background:url(../../images/special/long/heard_bg.jpg) repeat-x;}
+.longbox .release{position: absolute;}
+.longbox .release a:focus{outline:none;}
+.longbox .longtop{background:url(../../images/special/long/long_top.jpg) no-repeat center top; height:182px;}
+
+.longbox .longenter{background:url(../../images/special/long/long_02.jpg) no-repeat center top; height:334px;}
+.longbox .infoeara{text-align:left;overflow: hidden; width:100%;}
+.longbox .infoeara p{ width:1012px;margin:0 auto;}
+.sinablogfooter{padding-bottom:60px;}
+.longbox .btn_detail{margin:0 auto; width:950px; position: relative;}
+.longbox .btn_detail a{margin:138px 0 0 480px; display:inline; float:left;box-shadow: 0px 0px 10px rgba(99,88,88,0.8) inset,0px 0px 5px rgba(90,88,88,0.5); }
+.longbox .btn_detail a:focus{outline:none;}
+.longbox .btn_release{margin:0 auto; width:1010px;}
+.longbox .btn_release a{margin:108px 0 0 42px; display:inline; float:left;}
+.longbox .btn_release a:focus{outline:none;}
+.longbox .btn_detail a.moto{position: absolute; margin:0;left:480px; top:100px;box-shadow:none;}

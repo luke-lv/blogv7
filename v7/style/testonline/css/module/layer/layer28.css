@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/*金笔道具浮层*/
+.jiben{ width:594px!important; padding:35px 32px 45px!important;color:#666666;}
+.jiben li{ margin-bottom:30px; *margin-bottom:26px; /*overflow:hidden; zoom:1*/ vertical-align:middle;}
+.jiben .denPicRow{ margin:40px auto;}
+.jiben .denPicRow .a{ width:130px; text-align:right; display:inline-block; font-size:14px; font-weight:700; vertical-align:top;}
+.jiben .denPicRow .b{ width:444px;  display:inline-block; font-size:14px; font-weight:700; padding-left:20px;}
+.jiben .butt01{ text-align:center; position:relative;}
+.jiben .cold{ color:#999999}
+.jiben .denPicRow .rlist input{vertical-align:-2px; margin-bottom:15px; margin-left:0}
+.jiben .denPicRow01 .rlist{ font-size:12px; color:#666666;}
+.jiben .denPicRow .rlist .SG_input{width:110px; height:24px; line-height:24px; padding:4px 10px; margin-left:-18px; color:#999999; border:1px solid #e2e2e2; outline:0 none; margin-bottom:0; vertical-align:middle}
+.jiben label{ margin-right:30px;_margin-right:28px; font-weight:400}
+.jiben .jf_rule{ font-size:12px; margin-left:28px; font-weight:normal; position:absolute; top:-85px;_top:-80px; left:320px;_left:50px; text-align:left;}
+.jiben .top_tab td{border-top: 1px dashed #d1d1d1; height:54px;}
+.jiben .top_tab th{height:54px; font-weight:normal;}
+.jiben .top_tab{ border-bottom:1px solid #d6d6d6; margin-bottom:30px; margin-top:15px;}
+.jiben .badge{ height:22px; margin-bottom:0;}
+.jiben a:hover {color: #2e3092!important;}
+.jiben .SG_tag ul li span a,
+.jiben .SG_tag ul li span a:link,
+.jiben .SG_tag ul li span a:visited,
+.jiben .SG_tag ul li span a:hover{ color:#878787!important;}
+.jiben .SG_tag ul li{background-image: url(../../../images/common/sg_newsp.png)!important; }
+.jiben .SG_tag ul li span.tagR {background-image: url(../../../images/common/sg_newsp.png)!important;}
+.jiben .SG_tag ul li.current {background-image: url(../../../images/common/sg_newsp.png)!important;}
+.jiben .SG_tag ul li.current span.tagR {background-image: url(../../../images/common/sg_newsp.png)!important;}
+.jiben .tag_h {background-image: url(../../../images/common/sg_newsp.png)!important;}
+/*帮助浮层*/
+.denounce{ clear:both;}
+.denounce select{ color:#666;}
+.denounce .SG_input{ width:200px;height:16px;line-height:16px; padding:2px 2px 2px; border:1px solid #C1C1BB;font-family:verdana}
+.denounce .SG_textarea{ width:200px; padding:2px 2px 2px; border:1px solid #C1C1BB;}
+.denounce li{ float:left;padding-bottom:10px}
+.denounce li span{ float:left;line-height:22px;}
+.denounce .butt{ margin-left:100px; display:inline}
+.denounce .a{ width:100px; color:#666; text-align:right}
+.denounce .b{ width:230px}
+.denounce .b .SG_input{ width:200px}
+.denounce .b .SG_textarea{ width:200px}
+.denounce .deninfo{ text-align:left; padding-top:20px; clear:both; color:#999; line-height:18px; clear:both}
+.denounce .deninfo .SG_j_linedot{ margin-bottom:15px;}
+.denounce .deninfo p{ text-indent:2em; padding-top:5px}
+.denounce .ErrTips{ padding:0 0 10px 10px;}
+.denounce .ErrTips img{ margin-right:3px;}
+.denounce .denPicRow .a{ width:70px; text-align:right;}
+.denounce .denPicRow .b { width:286px; overflow:hidden; word-break:break-all; word-wrap:break-word;}
+.denounce .denPicRow .rlist{ white-space:nowrap}
+.denounce .denPicRow .rlist input{ vertical-align:-2px;}
+.denounce .denPicRow .rlist label{ margin-right:6px;}
+.denounce .denPicRow .b .fm_sele{ width:280px; height:33px;}
+
+
+.denounce .ErrTips01{ padding:0 0 10px 70px;}
+.denounce .butt01{margin-left: 182px;display: inline;}
+.denounce .denPicRow01 .b{ width:385px !important;}
+.denounce .denPicRow01 .rlist{ font-weight:bold;}
+.denounce .denPicRow01 .b .textawh{ width:340px; height:60px; color:#b5b7bf;}
+.denounce .denPicRow01 .SG_input{color:#b5b7bf; width:175px;}

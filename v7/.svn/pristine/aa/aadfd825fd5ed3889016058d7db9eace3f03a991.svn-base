@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+.clear{font-size:0; height:0; overflow:hidden; clear:both;}
+.MIB_weibotools{background:url(../../../images/common/weibotools/weibotoolsbg02.png) center top no-repeat; margin-bottom:100px;}
+.weibotools{width:950px; margin:0 auto; overflow:hidden;}
+.weibotoolsheader{height:128px;background:url(../../../images/common/weibotools/weibotoolsbg02.png) center top no-repeat; overflow:hidden;}
+.weibotoolsheader a.link,.weibotoolsheader a.link:link{width:200px; height:70px; float:left; margin:36px 0 0 96px; text-indent:-9999px;}
+.weibotools_wrap{width:830px; margin:30px auto 0; overflow:hidden;}
+.weibotools_tips{ line-height:30px; height:30px; margin-bottom:20px;}
+.weibotootls_box{ border:1px solid #ececec; padding:30px 31px; *zoom:1; min-height:200px; _height:200px;}
+.weibotootls_tab{ float:left; margin:0 0 10px 1px; padding-left:1px; font-size:14px; overflow:hidden; *zoom:1; _margin-left:0;}
+.weibotootls_tab,
+.weibotootls_tab .cur{ background-image:url(../../../images/common/weibotools/bg_tab.gif); background-repeat:repeat-x;}
+.weibotootls_tab{ background-position:0 -35px;}
+.weibotootls_tab .cur{ background-position:0 0;}
+.weibotootls_tab span,
+.weibotootls_tab a{ border-right:1px solid #c7c7c7; border-left:1px solid #c7c7c7; padding:0 16px; height:32px; display:inline-block; line-height:32px; margin-left:-1px;}
+.weibotootls_tab a{ color:#333; text-decoration:none;}
+.weibotootls_tab span{ color:#666;}
+.weibotootls_title{ border:1px solid #c7c7c7; padding:6px 10px; margin-bottom:10px;}
+.weibotootls_title input{ border:0; width:100%; height:16px; padding:4px 0 0;}
+.weibotootls_oth{ color:#666; padding-bottom:34px;}
+.weibotootls_btn{ text-align:center; margin-bottom:10px;}
+.weibotootls_btn .btn{ margin:0 10px;}
+.weibotootls_btn .btn,
+.weibotootls_btn .btn span{ display:inline-block; height:36px; line-height:36px; color:#47301e; font-size:14px; cursor:pointer;}
+.weibotootls_btn .btn{ padding-left:20px;}
+.weibotootls_btn .btn:link,
+.weibotootls_btn .btn:visited,
+.weibotootls_btn .btn:hover{ text-decoration:none;}
+.weibotootls_btn .btn span{ padding-right:20px;}
+.weibotootls_btn .btn,
+.weibotootls_btn .btn span,
+.weibotootls_btn .btn:active,
+.weibotootls_btn .btn:active span{ background-image:url(../../../images/common/weibotools/weibotool_btn.png); background-repeat:no-repeat;}
+.weibotootls_btn .btn{ background-position:0 0;}
+.weibotootls_btn .btn span{ background-position:right -40px;}
+.weibotootls_btn .btn:active{ background-position:left -80px;}
+.weibotootls_btn .btn:active span{ background-position:right -120px;}
+
+.weibotootls_link{}
+.weibotootls_link .weibotootls_title,
+.weibotootls_link .weibotootls_btn{ float:left;}
+.weibotootls_link .weibotootls_btn2{ float:none;}
+.weibotootls_link .weibotootls_title{ width:83%;}
+.weibotootls_link .weibotootls_btn .btn{ margin-right:0;}
+.weibotootls_link .weibotootls_btn2 .btn{ margin-right:10px;}
+.weibotootls_prepsg{ border:1px solid #d8d8d8; padding:20px; overflow:auto;}
+.weibotootls_prepsg h4{ line-height:26px;}
+.weibotootls_prepsg .txt,.weibotootls_prepsg .img{ line-height:22px; margin-bottom:15px;}
+.weibotootls_prepsg em{font-style:italic;}
+
+
+.weibotootls_lay{ border:1px solid #999; padding:8px 0 8px 130px; background-color:#fff; width:300px;}
+.weibotootls_lay img{ vertical-align:-10px; margin-right:6px;}
+
+.pre_wrap{width:410px;padding:0 15px;margin:0 auto;overflow:hidden;}
+.pre_wrap .pre_header{width:410px;height:46px;border-bottom:1px #e8e8e8 solid;}
+.pre_wrap .pre_logo,
+.pre_wrap .pre_title{margin-top:8px;background-image:url(../../../images/common/weibotools/wb_preview.png);background-repeat:no-repeat;overflow:hidden;line-height:999em;}
+.pre_wrap .pre_logo{width:100px;height:31px;background-position:0 0;float:right;}
+.pre_wrap .pre_title{float:left;width:55px;height:31px;background-position:right -31px;}
+.pre_wrap .pst_title{padding:16px 0;font-size:24px;line-height:30px;font-family:"黑体";letter-spacing:0;word-spacing:0;word-wrap:break-word; word-break:break-all;}
+.pre_wrap .pst_info{padding:3px 0 14px;line-height:18px;color:#555;overflow:hidden;*zoom:1;font-size:12px;}
+.pre_wrap .pst_info a:link,
+.pre_wrap .pst_info a:visited{color:#555;}
+.pre_wrap .pst_info .pst_author{float:right;}
+.pre_wrap .pst_info .pst_time{width:130px;float:right;font-family:arial,"simsun";text-align:right;}
+.pre_wrap .pst_info .pst_link{clear:both;}
+.pre_wrap .pst_detail{max-height:9000px;overflow:hidden;line-height:24px;font-size:14px;color:#333;padding:0;margin-bottom:22px;}
+.pre_wrap .pst_detail p{font-size:14px;}
+.pre_wrap .pst_detail p img{padding:14px 0;}
+.pre_wrap .pst_detail img{padding:14px 0;max-width:434px;}
+.pre_wrap .pst_detail ul li{list-style-type:disc; margin-left:30px;}
+.pre_wrap .pst_detail ol li{list-style-type:decimal; margin-left:30px;}
+.pre_wrap .pst_detail em{font-style:italic;}
+.pre_wrap .declare{border-top:1px solid #e8e8e8;padding-top:8px;line-height:16px;color:#555;padding-bottom:40px;}
+.pre_wrap .declare a:link,
+.pre_wrap .declare a:visited,{color:#33c0f2;}
+.pre_wrap .pst_more{text-align:left;padding:0 0 22px;font-size:14px;font-weight:bold;}
+
+.MIB_weibotools .base_tools{ border-right:1px solid #c7c7c5; width:765px; background-position:-1187px -37px;}
+.MIB_weibotools .SinaEditor,
+.MIB_weibotools .SinaEditor .EditorContent{ width:766px;}
+.MIB_weibotools .SinaEditor .main_top,
+.MIB_weibotools .SinaEditor .main_middle,
+.MIB_weibotools .SinaEditor .main_foot{ width:766px; padding-right:0;}
+
+/* 长微博二期新增 by chenhui 2012.04.16 */
+.pre_button{margin-bottom:50px; text-align:center;}
+.pre_button a.SG_aBtnB,.pre_button a.SG_aBtnB cite{display:inline-block; height:32px!important; line-height:32px; background:url(../../../images/common/bigbtn_bg.png)!important;}
+.pre_button a.SG_aBtnB{padding:0 2px 0 0!important; background-position:right -64px!important;}
+.pre_button a.SG_aBtnB cite{padding-top:0!important; padding:0 10px 0 15px;}
+.pre_button a.SG_aBtn{position:relative;}
+.pre_button a.SG_aBtn img{position:absolute; top:10px; left:10px; margin-right:8px; margin-top:-2px;}
+.pre_button a.icoBtn cite{padding-left:30px;}
+
+.artical_select{clear:both; overflow:hidden; *zoom:1; margin-bottom:10px; line-height:23px;}
+.artical_select .txt{float:left; color:#ccc; margin-right:10px;}
+.artical_select .topBtn { display:block; float:left; width:108px; height:23px; line-height:23px; *line-height:25px; overflow:hidden; background:url(../../../images/common/weibotools/weibotool_sbtn.png) no-repeat left top; text-align:center; margin-right:10px;}
+.artical_select a.topBtn,
+.artical_select a.topBtn:link,
+.artical_select a.topBtn:visited,
+.artical_select a.topBtn:hover{ color:#595959; text-decoration:none;}
+.artical_select a.topBtn *{ cursor:pointer;}
+.artical_select a.topBtn .arrow{ float:right; width:16px; height:23px; background:url(../../../images/common/weibotools/weibotool_sbtn.png) no-repeat left -30px;}
+.artical_select a.topBtn em{float:left; margin-left:12px;}
+.artical_select a.topBtn:hover .arrow{ background:url(../../../images/common/weibotools/weibotool_sbtn.png) no-repeat -30px -30px;}
+.artical_selectlist{position:absolute; width:712px; border:1px #acacac solid; background:#fff;}
+.artical_selectlist ul li{background:url(../../../images/common/weibotools/weibotool_sbtn.png) -92px -26px no-repeat; padding:0 10px 0 12px; height:31px; line-height:31px; border-bottom:1px #dddde5 dashed; text-indent:10px; color:#595959; overflow:hidden;}
+.artical_selectlist ul li.act{background:#f6f6f6 url(../../../images/common/weibotools/weibotool_sbtn.png) -92px -26px no-repeat;}
+.artical_selectlist ul li span{width:530px; display:inline-block; word-wrap:break-word; word-break:break-all; cursor:pointer;}
+.artical_selectlist ul li em{float:right; color:#999;}
+.artical_selectlist .pages{padding:0 10px; height:38px; line-height:38px; overflow:hidden; text-align:right;}
+.artical_selectlist .pages em{padding:0 5px;}
+
+/* 长微博增加二维码 by zhaolei 2012_11_30 */
+dl,dt,dd{margin:0;line-height:0;}
+.pre_wrap .declare .twoCode{margin-top:15px;padding:0 20px;overflow:hidden;}
+.pre_wrap .declare .twoCode dl{float:left;}
+.pre_wrap .declare .twoCode dl dd{margin-top:15px;width:111px;}
+.pre_wrap .declare .twoCode dl dd p{font-size:12px;line-height:18px;}
+.pre_wrap .declare .twoCode .twoCodeAndroid{float:right;margin-left:10px;}
+
+/* 淘博汇 */
+.taofair{}
+.taofair .commodity{border-bottom:1px solid #e0e7e5;width:402px; background:#f3f3f3;}
+.taofair .commodity .commodityinfor{border:1px solid #e0e7e5;border-bottom:1px solid #c2c8c6; border-top:none;text-align:center;}
+.taofair .commodity .commodityinfor img{max-width:400px}
+.taofair .commodity .fairtxt{font-size:14px; color:#666; padding:18px 18px 10px 20px;background:#fff;text-align: left;}
+.taofair .commodity .fairtxt p{padding-bottom:10px;}
+.taofair .commodity .fairtxt a,
+.taofair .commodity .fairtxt .black{color:#000; font-weight:bold;}
+.taofair .commodity .fairbtn{clear:both; text-align:right; height:38px; line-height:38px; padding-top:10px;}
+.taofair .commodity .fairbtn img{float:left;}
+.taofair .commodity .fairbtn a{color:#00798a;font-weight:normal;}
+
+/* 新版长微博入口 */
+.weibotootls_newcblog{float:right; _display:inline; margin-top:-23px; margin-right:-14px;}
+.weibotootls_newcblog a,.weibotootls_newcblog a:link{display:inline-block; width:206px; height:55px; background:url(../../../images/common/weibotools/ico_newcblog.png) no-repeat;}

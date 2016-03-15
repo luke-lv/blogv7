@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*美食组件*/
+.blog_mfood{ padding:15px 15px 0 15px;}
+.blog_mfood .focus{ width:100%;}
+.blog_mfood .focus_img{width:180px; height:140px;overflow:hidden; position:relative;}
+.blog_mfood .focus_img .img,.blog_mfood .focus_img .img li img{width:180px; height:140px;}
+.blog_mfood .focus_img .img li{ float:left; overflow:hidden}
+.blog_mfood .focus_img .bg{position:absolute;  bottom:0; width:100%; height:26px; background:#000; background:rgba(0,0,0,.5);}
+.blog_mfood .focus_img .txt{ width:100%; height:26px; overflow:hidden; position:absolute; bottom:0;}
+.blog_mfood .focus_img .txt ul{ padding-left:10px;}
+.blog_mfood .focus_img .txt ul li{ width:118px; overflow:hidden; float:left;}
+.blog_mfood .focus_img .txt ul li a{line-height:26px; _line-height:28px; font-size:12px;color:#fff;}
+.blog_mfood .focus_img .txt ul li a:hover{ text-decoration:none;}
+.blog_mfood .focus_img .point{ position:absolute; bottom:10px; right:10px;}
+.blog_mfood .focus_img .point span{ display:inline-block; cursor:pointer; width:5px; height:5px; overflow:hidden; background:#999; float:left; margin-left:7px;}
+.blog_mfood .focus_img .point span.point_cur{ background:#fff;}
+.blog_mfood .focus_txt{ position:relative;margin:10px; width:160px; overflow:hidden; }
+.blog_mfood .focus_txt .focus_ul{ overflow:hidden;}
+.blog_mfood .focus_txt ul{ overflow:hidden;}
+.blog_mfood .focus_txt ul li{float:left; width:160px;font-size:12px; line-height:18px;} 
+.blog_mfood .blog_mfood_a li{ padding:10px 0; width:100%; float:left;}
+.blog_mfood .blog_mfood_a span.SG_dot{ float: left;width: 3px;height: 3px; margin-top:6px;margin-top:5px\0;*margin-top:4px;overflow: hidden;padding-right: 4px}
+
+/* 美食宽版*/
+.blog_mfood_w{ padding:10px 0px 0 0px;}
+.blog_mfood_w .focus_img{ width:268px; height:212px;overflow:hidden; position:relative;}
+.blog_mfood_w .focus_img .img,.blog_mfood_w .focus_img .img li img{width:268px; height:212px;}
+.blog_mfood_w .focus_img .txt ul li{ width:197px;}
+.blog_mfood_w .focus_txt{ width:244px;}
+.blog_mfood_w .focus_txt ul li{width:270px;}

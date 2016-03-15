@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/*blog list*/
+.bloglist{padding:0 20px 40px;clear:both;overflow:hidden;font-family:"宋体"; zoom:1;}
+.bloglist .blog_title_h{padding:26px 0 10px 0;clear:both;}
+.bloglist .blog_title_h .img1 em{float:left;padding-top:7px;}
+.bloglist .blog_title_h .img1 img{vertical-align:-3px;}
+.bloglist .blog_title_h .img2{padding-left:3px;vertical-align:2px;_vertical-align:0px}
+.bloglist .blog_title{font-size:18px;font-family:"微软雅黑","黑体";display:inline; font-weight:300;}
+.bloglist .blog_title .time{font-size:10px;padding-left:11px;font-family:Arial;}
+.bloglist table{line-height:1.5em;}
+.bloglist .tag{float:left;}
+.bloglist .tagMore{ clear:both; height:15px; padding:10px 0 19px 0 ;}
+.bloglist .content{position:relative;font-size:14px;clear:both;overflow:hidden;margin-bottom:24px;padding-top:20px;}
+.bloglist .content p{padding:0px 0px 5px 0;}
+.bloglist .more{float:right; padding:0;}
+.bloglist .content .con_video{margin:0 auto;width:468px;}
+.bloglist .content p,
+.bloglist .content span,
+.bloglist .content font{ line-height:150%;}
+.bloglist .content{ line-height:150%;}
+.bloglist .content img{margin:0 auto;}
+.bloglist .content pre {white-space:normal;}
+.SG_colW73 .bloglist .content{width:689px;}
+.SG_colW51 .bloglist .content{width:490px;}
+ul.onlylist{padding:5px 10px;}
+ul.onlylist li{background-position:left bottom;padding-top:8px; padding-bottom:8px;}
+ul.onlylist li p{width:180px;overflow:hidden;}
+ul.onlylist li p a{ white-space:nowrap; float:left; width:168px;overflow:hidden; font-family:"宋体"; }
+ul.onlylist li div.time{width:180px;overflow:hidden;padding-left:8px;font-size:10px;font-family:Arial; margin-top:4px;}
+ul.onlylist li div.setup{ width:180px;overflow:hidden;text-align:right;}
+ul.onlylist li div.w_list{padding-left:8px;}
+ul.onlylist li span.SG_dot{float:left;width:3px;height:3px;margin-top:5px;overflow:hidden;padding-right:4px;}
+ul.onlylist li .text{float:left;width:350px;height:33px;font-size:14px;overflow:hidden;}
+ul.onlylist li .origin{width:100px;float:right;font-size:12px;height:33px;overflow:hidden;}
+.no_text{height:193px; text-align:center;}
+.more1{text-align:right;padding:5px 10px 10px 0;line-height:1.5em;}
+.bloglist .pic_b img{width:688px;}
+.bloglist .pic_s img{width:468px;}
+.h_commend img{height:130px;margin:20px 0 5px 0;}
+ul.commend{padding:0;}
+ul.commend li{height:34px;line-height:34px;padding:0;}
+ul.commend li span.SG_dot{margin-top:14px;}
+.pic_s1 img{width:190px;height:56px;margin:9px 0 1px 9px;}
+/*登录后*/
+.vp_login{ border:1px solid #b5b7bf;padding:15px 0 20px 0;text-align:center;}
+.vp_login div{line-height:24px;}
+.w1{width:728px; }
+.w2{width:508px;}
+.w3{width:198px;text-align:left;padding-left:10px;}
+.vp_login a{margin-top:19px;}
+.vp_login span{margin-left:20px;}
+/*搜索*/
+.blog_search{text-align:center; padding:10px 0 10px;}
+.blog_search div input{width:257px;margin-right:10px; vertical-align:8px;*vertical-align:middle; height:16px; line-height:16px;}
+.SG_colW21 .blog_search{ padding-top:10px; padding-left:10px; padding-right:10px;}
+.blog_search div input.miniwidth{width:105px;}
+
+
+.articalTag{ width:100%;clear:both; word-break:break-all; line-height:20px;}
+.articalTag td{ vertical-align:top;}
+.articalTag .blog_tag{ padding-right:10px;}
+.articalTag .blog_tag span img{ /*float:left;*/margin-right:3px; vertical-align:-3px;}
+.articalTag .blog_tag span a{ /*float:left;*/ white-space:nowrap;}
+.articalTag .blog_class{ width:220px;white-space:nowrap;}
+.articalTag .blog_tag,
+.articalTag .blog_tag span,
+.articalTag .blog_tag a,
+.articalTag .blog_class,
+.articalTag .blog_class span,
+.articalTag .blog_class a{font-family:"宋体";}
+.bloglist table a{ margin-right:0px;}
+
+.bloglist .SG_page{ padding-top:20px;}
+.more{/* clear:both; */ padding:10px 0 17px 0; text-align:right;}
+.SG_colW21 .more{margin-right:10px;}
+
+/* 被推荐博文 正文页  dongyan*/
+.cmtA_tip{ clear:both; padding:10px; padding-bottom:15px; line-height:18px;}
+.cmtA_tip a{ font-weight:bold;}
+.cmtA_line{ margin:0 10px;}
+.cmtA_tit{ clear:both; padding:20px 10px 0 10px;}
+.more{/* clear:both; */ padding:10px 0 17px 0; text-align:right;}
+.SG_colW21 .more{margin-right:10px;}
+
+.SG_colW51 .bloglist{padding:0 10px 40px;}
+.SG_colW51 .bloglist .content p{padding:0px 0 5px 0;}
+a.CP_a_fuc{margin:0;}

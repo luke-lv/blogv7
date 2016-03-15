@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>底部搜索浮层</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>底部搜索浮层</title>
+
+<!-- 搜索浮层需要的样式文件 -->
+<link href="http://simg.sinajs.cn/blog7style/css/common/common.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div id="searchToQing" style="width: 100%; height: 100px; left: 0px; top: 228px; position: fixed; z-index: 201;">
+	<a href="#" class="blog_searchBtmBtn" title="关闭">关闭</a>
+	<div class="blog_searchBtm">
+					     
+		<div class="blog_searchBtmCon">
+			<a href="http://qing.blog.sina.com.cn/fancy.html" action-type="log_code" action-data="79_01_08" target="_blank"><h3 class="logo"></h3></a>
+			<ul class="picShow">
+			<li id='SLOT_52_searchqing'></li>
+			<li id='SLOT_53_searchqing'></li>
+			<li id='SLOT_54_searchqing'></li>
+			<li id='SLOT_55_searchqing'></li>
+			</ul>
+			<ul class="txt"><li id='SLOT_56_searchqing'></li><li id='SLOT_57_searchqing'></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	
+</body>
+<script type="text/javascript" src="http://sjs.sinajs.cn/xblogtheme/js/blog680-min.js"></script>
+<script type="text/javascript">
+    	var slotArr = ['SLOT_52_searchqing', 'SLOT_53_searchqing','SLOT_54_searchqing','SLOT_55_searchqing','SLOT_56_searchqing','SLOT_57_searchqing']; //广告位id
+    	var sourceArr = ['SLOT_52','SLOT_53','SLOT_54','SLOT_55','SLOT_56','SLOT_57'];  //广告资源id
+    	SinaBlog680.staticBox(slotArr, sourceArr);
+</script>
+</html>

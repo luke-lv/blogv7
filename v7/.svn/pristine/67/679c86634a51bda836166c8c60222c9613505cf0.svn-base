@@ -1,0 +1,99 @@
+/* 博客个人中心功能引导_Tip1 */
+.ctTipWrap{float:left;display:inline;}
+.ctTips{border:0;border-collapse:collapse;border-spacing:0;}
+.ctTips thead .tLeft,
+.ctTips thead .tRight,
+.ctTips tbody .tLeft,
+.ctTips tbody .tRight,
+.ctTips tfoot .tLeft,
+.ctTips tfoot .tRight{background:url(../../../images/common/topbar/cttip_b1.png) no-repeat;_background:url(../../../images/common/topbar/cttip_b1.gif) no-repeat;}
+.ctTips tbody .tLeft,.ctTips tbody .tRight{width:8px;background-repeat:repeat-y;}
+.ctTips thead .tLeft,
+.ctTips thead .tRight,
+.ctTips tfoot .tLeft,
+.ctTips tfoot .tRight{width:8px;height:8px;}
+.ctTips thead .tLeft{background-position:0 0;}
+.ctTips thead .tRight{background-position:-18px 0;}
+.ctTips tfoot .tLeft{background-position:0 -18px;}
+.ctTips tfoot .tRight{background-position:-18px -18px;}
+.ctTips tbody .tLeft{background-position:-36px 0;}
+.ctTips tbody .tRight{background-position:-54px 0;}
+.ctTips thead .tMid,
+.ctTips tbody .tMid,
+.ctTips tfoot .tMid{background:url(../../../images/common/topbar/cttip_b2.png) repeat-x;_background:url(../../../images/common/topbar/cttip_b2.gif) repeat-x;}
+.ctTips tfoot .tMid{height:8px;background-position:0 -18px;}
+.ctTips tbody .tMid{height:45px;background-position:0 -72px;vertical-align:top;}
+.ctTipCort,
+.ctTipCorr,
+.ctTipCorb,
+.ctTipCorl,
+.ctTips a.shut,
+.ctTipSCon .wl{background:url(../../../images/common/topbar/cttip.png) no-repeat;_background:url(../../../images/common/topbar/cttip.gif) no-repeat;}
+.ctTipCort{width:21px;height:14px;background-position:0 -266px;position:absolute;top:-10px;left:45%;}
+.ctTipCorr{width:14px;height:21px;background-position:-85px -266px;position:absolute;top:45%;right:-10px;}
+.ctTipCorb{width:21px;height:14px;background-position:-31px -266px;position:absolute;left:45%;bottom:-10px;}
+.ctTipCorl{width:14px;height:21px;background-position:-62px -266px;position:absolute;top:30%;left:-10px;}
+.ctTipSCon{position:relative;padding:5px 5px 3px;}
+.ctTipSCon a.shut{width:8px;height:8px;background-position:-18px -248px;position:absolute;top:5px;right:5px;}
+.ctTips a.shut:hover{background-position:-36px -248px;}
+.ctTipSCon .wl{height:35px;background-position:-181px -297px;padding-left:36px;padding-right:20px;color:#333;line-height:18px;}
+/* 博客个人中心功能引导_Tip2 */
+.ctTipb{border:0;border-collapse:collapse;border-spacing:0;}
+.ctTipb thead .tLeft,
+.ctTipb thead .tRight,
+.ctTipb tbody .tLeft,
+.ctTipb tbody .tRight,
+.ctTipb tfoot .tLeft,
+.ctTipb tfoot .tRight{background:url(../../../images/common/topbar/cttip_b1.png) no-repeat;_background:url(../../../images/common/topbar/cttip_b1.gif) no-repeat;}
+.ctTipb tbody .tLeft,.ctTipb tbody .tRight{width:8px;background-repeat:repeat-y;}
+.ctTipb thead .tLeft,
+.ctTipb thead .tRight,
+.ctTipb tfoot .tLeft,
+.ctTipb tfoot .tRight{width:8px;height:8px;}
+.ctTipb thead .tLeft{background-position:0 -36px;}
+.ctTipb thead .tRight{background-position:-18px -36px;}
+.ctTipb tfoot .tLeft{background-position:0 -54px;}
+.ctTipb tfoot .tRight{background-position:-18px -54px;}
+.ctTipb tbody .tLeft{background-position:-72px 0;}
+.ctTipb tbody .tRight{background-position:-90px 0;}
+.ctTipb thead .tMid,
+.ctTipb tbody .tMid,
+.ctTipb tfoot .tMid{background:url(../../../images/common/topbar/cttip_b2.png) repeat-x;_background:url(../../../images/common/topbar/cttip_b2.gif) repeat-x;}
+.ctTipb thead .tMid{height:8px;background-position:0 -36px;}
+.ctTipb tfoot .tMid{height:8px;background-position:0 -54px;}
+.ctTipb tbody .tMid{background:#fffbef;vertical-align:top;}
+.ctTipBCon .xld,
+.ctTipBCon .xlz,
+.ctTipBCon .xlx{background:url(../../../images/common/topbar/cttip_ico.png) no-repeat;_background:url(../../../images/common/topbar/cttip_ico.gif) no-repeat;}
+.ctTipBCon .xld{width:75px;height:108px;background-position:0 0;margin:20px 0 0 15px;float:left;display:inline;}
+.ctTipBCon .xlz{width:41px;height:67px;background-position:0 -119px;margin:5px 0 5px 10px;float:left;display:inline;}
+.ctTipBCon .xlx{width:18px;height:29px;background-position:0 -196px;margin:0 0 0 5px;float:left;display:inline;}
+.ctTipBCon a.shut{background:url(../../../images/common/topbar/cttip.gif) no-repeat;}
+.ctTipBCon{position:relative;padding:0 10px 0 0;background:#fffbef;overflow:auto;zoom:1;}
+.ctTipBCon a.shut{width:8px;height:8px;background-position:0 -248px;position:absolute;top:5px;right:5px;}
+.ctTipBCon a.shut:hover{background-position:-36px -248px;}
+.ctTipBCon .des{float:left;padding-left:25px;margin:20px 5px;color:#333;line-height:18px;}
+.ctTipBCon .des strong{display:block;font-family:Microsoft Yahei;font-size:14px;margin-bottom:8px;}
+.ctTipBCon .des p a,.ctTipBCon .des p a:link{color:#2e3092;text-decoration:none;}
+.ctTipBCon .des p a:visited{color:#2e3092;text-decoration:none;}
+.ctTipBCon .des p a:hover{color:#2e3092;text-decoration:underline;}
+.ctTipBCon .des .btn{margin-top:6px;}
+.ctTipBCon .des .btn a{background:url(../../../images/common/topbar/cttip.gif) 0 8px no-repeat;display:inline-block;padding:5px 0 0 5px;margin-right:20px;cursor:pointer;}
+.ctTipBCon .des .btn a,.ctTipBCon .des .btn a:link{color:#000;text-decoration:none;}
+.ctTipBCon .des .btn a:visited{color:#000;text-decoration:none;}
+.ctTipBCon .des .btn a:hover{color:#000;text-decoration:none;background-position:0 -116px;}
+.ctTipBCon .des .btn a cite{background:url(../../../images/common/topbar/cttip.gif) right -30px no-repeat;display:inline-block;padding:5px 12px 5px 10px;*padding:7px 12px 3px 10px;}
+.ctTipBCon .des .btn a:hover cite{background-position:right -154px;}
+.ctTipBCon .guide{float:left;margin:5px 0 5px 0;padding-left:5px;color:#333;line-height:18px;width:132px;}
+.ctTipBCon .guide strong{display:block;font-family:Microsoft Yahei;font-size:14px;margin:10px;}
+.ctTipBCon .guide .btn{margin-top:6px;text-align:right;color:#666;}
+.ctTipBCon .guide .btn a{background:url(../../../images/common/topbar/cttip.gif) 0 -63px no-repeat;display:inline-block;padding:3px 0 0 3px;margin-left:15px;cursor:pointer;}
+.ctTipBCon .guide .btn a,.ctTipBCon .guide .btn a:link{color:#666;text-decoration:none;}
+.ctTipBCon .guide .btn a:visited{color:#666;text-decoration:none;}
+.ctTipBCon .guide .btn a:hover{color:#666-position:0 -116px;}
+.ctTipBCon .des .btn a cite{background:url(../../../images/common/topbar/cttip.gif) right -30px no-repeat;display:inline-block;padding:5px 12px 5px 10px;*padding:7px 12px 3px 10px;}
+.ctTipBCon .des .btn a:hover cite{background-position:right -154px;};text-decoration:none;background-position:0 -187px;}
+.ctTipBCon .guide .btn a cite{background:url(../../../images/common/topbar/cttip.gif) right -95px no-repeat;display:inline-block;padding:0 6px 3px 3px;*padding:2px 6px 1px 3px;}
+.ctTipBCon .guide .btn a:hover cite{background-position:right -219px;}
+.ctTipBCon .guide .btn em{color:#ff6600;font-weight:bold;}
+.ctTipBCon .visit{margin:5px 10px 0 30px;color:#333;line-height:18px;width:96px;}

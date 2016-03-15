@@ -1,0 +1,952 @@
+//微博表情
+window.WEIBOFACEDATA = [{
+    "phrase": "[草泥马]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7a/shenshou_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7a/shenshou_thumb.gif",
+    "value": "[草泥马]",
+    "picid": ""
+}, {
+    "phrase": "[神马]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/60/horse2_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/60/horse2_thumb.gif",
+    "value": "[神马]",
+    "picid": ""
+}, {
+    "phrase": "[浮云]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/bc/fuyun_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/bc/fuyun_thumb.gif",
+    "value": "[浮云]",
+    "picid": ""
+}, {
+    "phrase": "[给力]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c9/geili_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c9/geili_thumb.gif",
+    "value": "[给力]",
+    "picid": ""
+}, {
+    "phrase": "[围观]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f2/wg_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f2/wg_thumb.gif",
+    "value": "[围观]",
+    "picid": ""
+}, {
+    "phrase": "[威武]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/70/vw_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/70/vw_thumb.gif",
+    "value": "[威武]",
+    "picid": ""
+}, {
+    "phrase": "[熊猫]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6e/panda_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6e/panda_thumb.gif",
+    "value": "[熊猫]",
+    "picid": ""
+}, {
+    "phrase": "[兔子]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/81/rabbit_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/81/rabbit_thumb.gif",
+    "value": "[兔子]",
+    "picid": ""
+}, {
+    "phrase": "[奥特曼]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/bc/otm_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/bc/otm_thumb.gif",
+    "value": "[奥特曼]",
+    "picid": ""
+}, {
+    "phrase": "[囧]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/15/j_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/15/j_thumb.gif",
+    "value": "[囧]",
+    "picid": ""
+}, {
+    "phrase": "[互粉]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/89/hufen_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/89/hufen_thumb.gif",
+    "value": "[互粉]",
+    "picid": ""
+}, {
+    "phrase": "[礼物]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c4/liwu_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c4/liwu_thumb.gif",
+    "value": "[礼物]",
+    "picid": ""
+}, {
+    "phrase": "[呵呵]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/ac/smilea_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/ac/smilea_thumb.gif",
+    "value": "[呵呵]",
+    "picid": ""
+}, {
+    "phrase": "[嘻嘻]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/0b/tootha_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/0b/tootha_thumb.gif",
+    "value": "[嘻嘻]",
+    "picid": ""
+}, {
+    "phrase": "[哈哈]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6a/laugh.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6a/laugh.gif",
+    "value": "[哈哈]",
+    "picid": ""
+}, {
+    "phrase": "[可爱]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/14/tza_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/14/tza_thumb.gif",
+    "value": "[可爱]",
+    "picid": ""
+}, {
+    "phrase": "[可怜]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/kl_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/kl_thumb.gif",
+    "value": "[可怜]",
+    "picid": ""
+}, {
+    "phrase": "[挖鼻屎]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a0/kbsa_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a0/kbsa_thumb.gif",
+    "value": "[挖鼻屎]",
+    "picid": ""
+}, {
+    "phrase": "[吃惊]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/cj_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/cj_thumb.gif",
+    "value": "[吃惊]",
+    "picid": ""
+}, {
+    "phrase": "[害羞]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6e/shamea_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6e/shamea_thumb.gif",
+    "value": "[害羞]",
+    "picid": ""
+}, {
+    "phrase": "[挤眼]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c3/zy_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c3/zy_thumb.gif",
+    "value": "[挤眼]",
+    "picid": ""
+}, {
+    "phrase": "[闭嘴]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/29/bz_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/29/bz_thumb.gif",
+    "value": "[闭嘴]",
+    "picid": ""
+}, {
+    "phrase": "[鄙视]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/71/bs2_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/71/bs2_thumb.gif",
+    "value": "[鄙视]",
+    "picid": ""
+}, {
+    "phrase": "[爱你]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/lovea_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/lovea_thumb.gif",
+    "value": "[爱你]",
+    "picid": ""
+}, {
+    "phrase": "[泪]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/9d/sada_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/9d/sada_thumb.gif",
+    "value": "[泪]",
+    "picid": ""
+}, {
+    "phrase": "[偷笑]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/19/heia_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/19/heia_thumb.gif",
+    "value": "[偷笑]",
+    "picid": ""
+}, {
+    "phrase": "[亲亲]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/8f/qq_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/8f/qq_thumb.gif",
+    "value": "[亲亲]",
+    "picid": ""
+}, {
+    "phrase": "[生病]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/b6/sb_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/b6/sb_thumb.gif",
+    "value": "[生病]",
+    "picid": ""
+}, {
+    "phrase": "[太开心]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/58/mb_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/58/mb_thumb.gif",
+    "value": "[太开心]",
+    "picid": ""
+}, {
+    "phrase": "[懒得理你]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/17/ldln_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/17/ldln_thumb.gif",
+    "value": "[懒得理你]",
+    "picid": ""
+}, {
+    "phrase": "[右哼哼]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/98/yhh_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/98/yhh_thumb.gif",
+    "value": "[右哼哼]",
+    "picid": ""
+}, {
+    "phrase": "[左哼哼]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/zhh_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/zhh_thumb.gif",
+    "value": "[左哼哼]",
+    "picid": ""
+}, {
+    "phrase": "[嘘]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a6/x_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a6/x_thumb.gif",
+    "value": "[嘘]",
+    "picid": ""
+}, {
+    "phrase": "[衰]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/cry.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/cry.gif",
+    "value": "[衰]",
+    "picid": ""
+}, {
+    "phrase": "[委屈]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/73/wq_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/73/wq_thumb.gif",
+    "value": "[委屈]",
+    "picid": ""
+}, {
+    "phrase": "[吐]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/9e/t_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/9e/t_thumb.gif",
+    "value": "[吐]",
+    "picid": ""
+}, {
+    "phrase": "[打哈欠]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f3/k_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f3/k_thumb.gif",
+    "value": "[打哈欠]",
+    "picid": ""
+}, {
+    "phrase": "[抱抱]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/27/bba_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/27/bba_thumb.gif",
+    "value": "[抱抱]",
+    "picid": ""
+}, {
+    "phrase": "[怒]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7c/angrya_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7c/angrya_thumb.gif",
+    "value": "[怒]",
+    "picid": ""
+}, {
+    "phrase": "[疑问]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/5c/yw_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/5c/yw_thumb.gif",
+    "value": "[疑问]",
+    "picid": ""
+}, {
+    "phrase": "[馋嘴]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a5/cza_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a5/cza_thumb.gif",
+    "value": "[馋嘴]",
+    "picid": ""
+}, {
+    "phrase": "[拜拜]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/70/88_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/70/88_thumb.gif",
+    "value": "[拜拜]",
+    "picid": ""
+}, {
+    "phrase": "[思考]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/e9/sk_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/e9/sk_thumb.gif",
+    "value": "[思考]",
+    "picid": ""
+}, {
+    "phrase": "[汗]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/24/sweata_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/24/sweata_thumb.gif",
+    "value": "[汗]",
+    "picid": ""
+}, {
+    "phrase": "[困]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7f/sleepya_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7f/sleepya_thumb.gif",
+    "value": "[困]",
+    "picid": ""
+}, {
+    "phrase": "[睡觉]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6b/sleepa_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6b/sleepa_thumb.gif",
+    "value": "[睡觉]",
+    "picid": ""
+}, {
+    "phrase": "[钱]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/90/money_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/90/money_thumb.gif",
+    "value": "[钱]",
+    "picid": ""
+}, {
+    "phrase": "[失望]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/0c/sw_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/0c/sw_thumb.gif",
+    "value": "[失望]",
+    "picid": ""
+}, {
+    "phrase": "[酷]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/cool_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/cool_thumb.gif",
+    "value": "[酷]",
+    "picid": ""
+}, {
+    "phrase": "[花心]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/8c/hsa_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/8c/hsa_thumb.gif",
+    "value": "[花心]",
+    "picid": ""
+}, {
+    "phrase": "[哼]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/49/hatea_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/49/hatea_thumb.gif",
+    "value": "[哼]",
+    "picid": ""
+}, {
+    "phrase": "[鼓掌]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/36/gza_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/36/gza_thumb.gif",
+    "value": "[鼓掌]",
+    "picid": ""
+}, {
+    "phrase": "[晕]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d9/dizzya_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d9/dizzya_thumb.gif",
+    "value": "[晕]",
+    "picid": ""
+}, {
+    "phrase": "[悲伤]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/1a/bs_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/1a/bs_thumb.gif",
+    "value": "[悲伤]",
+    "picid": ""
+}, {
+    "phrase": "[抓狂]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/62/crazya_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/62/crazya_thumb.gif",
+    "value": "[抓狂]",
+    "picid": ""
+}, {
+    "phrase": "[黑线]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/91/h_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/91/h_thumb.gif",
+    "value": "[黑线]",
+    "picid": ""
+}, {
+    "phrase": "[阴险]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/yx_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/yx_thumb.gif",
+    "value": "[阴险]",
+    "picid": ""
+}, {
+    "phrase": "[怒骂]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/89/nm_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/89/nm_thumb.gif",
+    "value": "[怒骂]",
+    "picid": ""
+}, {
+    "phrase": "[心]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/hearta_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/hearta_thumb.gif",
+    "value": "[心]",
+    "picid": ""
+}, {
+    "phrase": "[伤心]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/ea/unheart.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/ea/unheart.gif",
+    "value": "[伤心]",
+    "picid": ""
+}, {
+    "phrase": "[猪头]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/58/pig.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/58/pig.gif",
+    "value": "[猪头]",
+    "picid": ""
+}, {
+    "phrase": "[ok]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d6/ok_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d6/ok_thumb.gif",
+    "value": "[ok]",
+    "picid": ""
+}, {
+    "phrase": "[耶]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d9/ye_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d9/ye_thumb.gif",
+    "value": "[耶]",
+    "picid": ""
+}, {
+    "phrase": "[good]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d8/good_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d8/good_thumb.gif",
+    "value": "[good]",
+    "picid": ""
+}, {
+    "phrase": "[不要]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c7/no_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/c7/no_thumb.gif",
+    "value": "[不要]",
+    "picid": ""
+}, {
+    "phrase": "[赞]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d0/z2_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d0/z2_thumb.gif",
+    "value": "[赞]",
+    "picid": ""
+}, {
+    "phrase": "[来]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/come_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/come_thumb.gif",
+    "value": "[来]",
+    "picid": ""
+}, {
+    "phrase": "[弱]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d8/sad_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d8/sad_thumb.gif",
+    "value": "[弱]",
+    "picid": ""
+}, {
+    "phrase": "[蜡烛]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/91/lazu_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/91/lazu_thumb.gif",
+    "value": "[蜡烛]",
+    "picid": ""
+}, {
+    "phrase": "[钟]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d3/clock_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d3/clock_thumb.gif",
+    "value": "[钟]",
+    "picid": ""
+}, {
+    "phrase": "[话筒]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/1b/m_org.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/1b/m_thumb.gif",
+    "value": "[话筒]",
+    "picid": ""
+}, {
+    "phrase": "[蛋糕]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6a/cake.gif",
+    "hot": false,
+    "common": true,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6a/cake.gif",
+    "value": "[蛋糕]",
+    "picid": ""
+}, {
+    "phrase": "[微博益起来]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/95/yiqilai_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/95/yiqilai_thumb.gif",
+    "value": "[微博益起来]",
+    "picid": ""
+}, {
+    "phrase": "[微公益爱心]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/11/lxhgongyi_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/11/lxhgongyi_thumb.gif",
+    "value": "[微公益爱心]",
+    "picid": ""
+}, {
+    "phrase": "[笑哈哈]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/32/lxhwahaha_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/32/lxhwahaha_thumb.gif",
+    "value": "[笑哈哈]",
+    "picid": ""
+}, {
+    "phrase": "[转发]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/02/lxhzhuanfa_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/02/lxhzhuanfa_thumb.gif",
+    "value": "[转发]",
+    "picid": ""
+}, {
+    "phrase": "[得意地笑]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d4/lxhdeyidixiao_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d4/lxhdeyidixiao_thumb.gif",
+    "value": "[得意地笑]",
+    "picid": ""
+}, {
+    "phrase": "[moc转发]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/cb/moczhuanfa_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/cb/moczhuanfa_thumb.gif",
+    "value": "[moc转发]",
+    "picid": ""
+}, {
+    "phrase": "[劲能样]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/jingnengyang_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/jingnengyang_thumb.gif",
+    "value": "[劲能样]",
+    "picid": ""
+}, {
+    "phrase": "[bm可爱]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/95/bmkeai_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/95/bmkeai_thumb.gif",
+    "value": "[bm可爱]",
+    "picid": ""
+}, {
+    "phrase": "[xkl转圈]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/xklzhuanquan_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/xklzhuanquan_thumb.gif",
+    "value": "[xkl转圈]",
+    "picid": ""
+}, {
+    "phrase": "[ppb鼓掌]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7e/ppbguzhang_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/7e/ppbguzhang_thumb.gif",
+    "value": "[ppb鼓掌]",
+    "picid": ""
+}, {
+    "phrase": "[din推撞]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/dd/dintuizhuang_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/dd/dintuizhuang_thumb.gif",
+    "value": "[din推撞]",
+    "picid": ""
+}, {
+    "phrase": "[xb压力]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/e0/xbyali_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/e0/xbyali_thumb.gif",
+    "value": "[xb压力]",
+    "picid": ""
+}, {
+    "phrase": "[放假啦]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/37/lxhfangjiale_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/37/lxhfangjiale_thumb.gif",
+    "value": "[放假啦]",
+    "picid": ""
+}, {
+    "phrase": "[国旗]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/dc/flag_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/dc/flag_thumb.gif",
+    "value": "[国旗]",
+    "picid": ""
+}, {
+    "phrase": "[带着微博去旅行]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f5/weitripballoon_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/f5/weitripballoon_thumb.gif",
+    "value": "[带着微博去旅行]",
+    "picid": ""
+}, {
+    "phrase": "[玩去啦]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/92/weitrip_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/92/weitrip_thumb.gif",
+    "value": "[玩去啦]",
+    "picid": ""
+}, {
+    "phrase": "[ali哇]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/de/aliwanew_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/de/aliwanew_thumb.gif",
+    "value": "[ali哇]",
+    "picid": ""
+}, {
+    "phrase": "[酷库熊顽皮]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/46/kxwanpi_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/46/kxwanpi_thumb.gif",
+    "value": "[酷库熊顽皮]",
+    "picid": ""
+}, {
+    "phrase": "[BOBO爱你]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/74/boaini_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/74/boaini_thumb.gif",
+    "value": "[BOBO爱你]",
+    "picid": ""
+}, {
+    "phrase": "[偷乐]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/fa/lxhtouxiao_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/fa/lxhtouxiao_thumb.gif",
+    "value": "[偷乐]",
+    "picid": ""
+}, {
+    "phrase": "[泪流满面]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/64/lxhtongku_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/64/lxhtongku_thumb.gif",
+    "value": "[泪流满面]",
+    "picid": ""
+}, {
+    "phrase": "[lt切克闹]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/73/ltqiekenao_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/73/ltqiekenao_thumb.gif",
+    "value": "[lt切克闹]",
+    "picid": ""
+}, {
+    "phrase": "[江南style]",
+    "type": "face",
+    "url": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/67/gangnamstyle_org.gif",
+    "hot": true,
+    "common": false,
+    "category": "",
+    "icon": "http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/67/gangnamstyle_thumb.gif",
+    "value": "[江南style]",
+    "picid": ""
+}];

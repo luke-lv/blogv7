@@ -1,0 +1,38 @@
+{
+  "name": "RIAJsPack_v4",
+  "description": "blog RIA js pack web platform!",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.9.0",
+    "express-ws": "*",
+    "ejs": "*",
+    "connect-timeout": "*",
+    "cookie-session": "*",
+    "cookie-parser": "*",
+    "serve-favicon": "*",
+    "node-uuid": "*",
+    "body-parser": "*",
+    "log4js": "*",
+    "q": "*",
+    "async": "*",
+    "util": "*",
+    "css-combo": "*",
+    "clean-css": "^3.0.4",
+    "grunt": "*",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-copy": "*",
+    "grunt-loadnpmtasks": "*",
+    "which": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.10.0",
+    "js-combine-pack": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": {
+    "name": "wangqiang",
+    "email": "wjh_9527@163.com"
+  }
+}

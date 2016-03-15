@@ -1,0 +1,22 @@
+<!-- Begin Right Column -->
+<div class="jspack-rightcolumn" ng-controller="GetPackInfoCtrl as infoCtrl">
+    <div>
+        <ul class="main">
+            <li><h1 id="compress-title">正在打包，请稍等...</h1></li>
+            <li id="waiting-bar" ng-show="infoCtrl.isWaiting">
+                <label class="desc">loading....</label>
+
+                <div class="input-warp"></div>
+            </li>
+            <li id="packing-info-bar" ng-show="!infoCtrl.isWaiting">
+                <textarea id="packing-info" class="console" ng-model="infoCtrl.message"></textarea>
+            </li>
+            <li>
+                <div class="return-area"><a href="/home" class="button">返回打包</a></div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="clear"></div>
+</div>
+<!-- End Right Column -->

@@ -1,0 +1,11 @@
+/* 弹窗 xinyu */
+.blogreco{ overflow:hidden;}
+.blogreco .TB{ position:absolute; width:100%;}
+.blogreco .TB a{ float:right; display:block; width:15px; height:14px; margin:5px; margin-left:0;}
+.blogreco .TB .btnClose{ background:url(http://i2.sinaimg.cn/blog/mini/08olympic/blogrecommend_hz_003.gif);width:15px; height:14px;text-decoration:none;}
+.blogreco .TB .btnMin{ background:url(http://i2.sinaimg.cn/blog/mini/08olympic/blogrecommend_hz_004.gif);width:15px; height:14px;text-decoration:none;}
+.blogreco .TB .btnMax{ background:url(http://i1.sinaimg.cn/blog/mini/08olympic/yzq_001.gif);width:15px; height:14px;text-decoration:none;}
+.blogreco .TB .btnClose:hover,
+.blogreco .TB .btnMin:hover,
+.blogreco .TB .btnMax:hover{text-decoration:none;}
+.blogreco .IF { width:260px; height:210px; border:0;}

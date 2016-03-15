@@ -1,0 +1,45 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+LOGIN
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+#lightbox {
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-radius: 5px;
+    height: 270px;
+    margin: 5% auto;
+    visibility: visible;
+    width: 272px;
+    box-shadow: 0px 0px 5px 2px #3D3D3D;
+}
+
+#lbContent {
+    border-radius: 5px;
+}
+
+.li-login {
+    padding-left: 25px;
+    margin-top: 3px;
+}
+
+.info {
+    padding: 10px 0px 0px 50px;
+}
+
+.log-help {
+    padding-left: 50px;
+}
+
+a.help {
+    color: #ccc;
+}
+
+
+
+

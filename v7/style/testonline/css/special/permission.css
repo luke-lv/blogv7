@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*  */
+
+.permission{ width: 100%; clear: both; background:url(../../images/special/permission/bg_permission.jpg) no-repeat center top;}
+.permission .txt{width:950px; height: 399px; margin: 0 auto;}
+.permission .txt ul{float:right; width:362px; margin:104px 118px 0 0;}
+.permission .txt ul li{padding:10px 0 10px 44px;}
+.permission .txt ul li.fst{padding:0 0 0 44px; font-family:"微软雅黑","黑体"; font-size:20px;}
+.permission .txt ul li.fst img{float:left; margin-left:-44px;}
+.permission .txt ul li a{color:#43609c}
+.permission .txt ul li.goto{padding-top:56px;padding-top:53px\9;*padding-top:55px;}

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* reset  */
+body,button,input,select,textarea{font:14px/1.5 Tahoma,Helvetica,"Microsoft YaHei",Arial,sans-serif;}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+fieldset,img{border:0;vertical-align:middle;}
+input,textarea{outline-style:none;}
+textarea{resize:none;}
+article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:400;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+
+
+
+
+
+.part1{ background:url(../../images/activity/jfdraw/img1.jpg) no-repeat top center #fed351; height:900px;}
+.part_con{ width:782px; margin:0 auto; overflow:hidden;}
+.part1 .part_con{background:url(../../images/activity/jfdraw/img1.jpg) no-repeat top center;}
+.part1 .btn{ text-align:center}
+.part1 .btn a{ height:40px; line-height:40px; padding:0 20px; color:#FFF; background:#ec5151; display:inline-block; margin:27px 15px 23px}
+.part1 .btn a:hover{ background:#ff6a6a}
+.part1 .btn .a1{ background:url(../../images/activity/jfdraw/img9.png) no-repeat 20px  center #ec5151; text-indent:28px;}
+.part1 .btn .a1:hover{background:url(../../images/activity/jfdraw/img9.png) no-repeat 20px  center #ff6a6a;}
+.part1 .part1_t{ height:600px; position:relative; color:#fff; font-weight:700;}
+
+.part1 .p1{ text-align:center; color:#3b3b3b; font-weight:700}
+.part1 ul{ overflow:hidden; zoom:1; padding:0 28px}
+.part1 li{ text-align:center; float:left; width:242px; color:#333333; font-weight:700; line-height:22px; margin-top:32px;}
+.zp{ position:absolute; width:321px; height:128px; left:240px; top:27px; background:url(../../images/activity/jfdraw/img10.png) no-repeat; _background:url(../../images/activity/jfdraw/img10_8.png) no-repeat; z-index:4}
+.cut{ position:absolute; width:423px; height:423px; left:178px; top:140px; background:url(../../images/activity/jfdraw/img3.png) no-repeat; _background:url(../../images/activity/jfdraw/img3_8.png) no-repeat; z-index:2}
+.award{ position:absolute; width:423px; height:423px; left:178px; top:140px; background:url(../../images/activity/jfdraw/award.png) no-repeat; _background:url(../../images/activity/jfdraw/award_8.png) no-repeat; z-index:3}
+.cj{ position:absolute; width:159px; height:161px; left:311px; top:270px;background:url(../../images/activity/jfdraw/img14.gif) no-repeat -16px -12px; z-index:3}
+.cj:hover{ background:url(../../images/activity/jfdraw/img13.gif) no-repeat -16px -12px;}
+.cj_active{ background:url(../../images/activity/jfdraw/img12.gif) no-repeat -16px -12px;}
+.fan{position:absolute; }
+.fan1{width:155px; height:216px;left:386px; top:138px;background:url(../../images/activity/jfdraw/s1.png) no-repeat;}
+.fan2{width:217px; height:157px;left:386px; top:199px;background:url(../../images/activity/jfdraw/s2.png) no-repeat; }
+.fan3{width:216px; height:155px;left:388px; top:349px;background:url(../../images/activity/jfdraw/s3.png) no-repeat;}
+.fan4{width:155px; height:217px;left:386px; top:349px;background:url(../../images/activity/jfdraw/s4.png) no-repeat;}
+.fan5{width:153px;height:215px;left:239px; top:349px;background:url(../../images/activity/jfdraw/s5.png) no-repeat;}
+.fan6{width:214px; height:153px;left:178px; top:349px;background:url(../../images/activity/jfdraw/s6.png) no-repeat;}
+.fan7{width:213px; height:152px;left:177px; top:202px;background:url(../../images/activity/jfdraw/s7.png) no-repeat;}
+.fan8{width:150px; height:212px;left:241px; top:142px;background:url(../../images/activity/jfdraw/s8.png) no-repeat;}
+.part2{ background:#7dd1fc; height:668px;}
+.part2 h2{ font-size:24px; color:#fff; background:url(../../images/activity/jfdraw/img2.jpg) no-repeat left top; height:47px; line-height:47px; text-indent:22px;margin:58px 0 26px;}
+.part2 ul{ overflow:hidden; zoom:1; margin-bottom:255px;}
+.part2 li{ width:142px; height:173px; line-height:50px; color:#FFF;float:left; margin-left:18px; zoom:1; text-align:center; font-weight:700;}
+.part2 li a{color:#FFF; padding-top:123px; display:block }
+.part2 li a:hover{ text-decoration:underline}
+.part2 .bg1{ background:url(../../images/activity/jfdraw/img4.jpg) no-repeat top center; margin-left:0;}
+.part2 .bg2{ background:url(../../images/activity/jfdraw/img5.jpg) no-repeat top center}
+.part2 .bg3{ background:url(../../images/activity/jfdraw/img6.jpg) no-repeat top center}
+.part2 .bg4{ background:url(../../images/activity/jfdraw/img7.jpg) no-repeat top center}
+.part2 .bg5{ background:url(../../images/activity/jfdraw/img8.jpg) no-repeat top center}
+.part2 .foot p{ font-size:12px; color:#3f96c3; line-height:24px; text-align:center}
+
+.layer{padding:15px;width:398px; height:210px; background:#fff; position:relative;border:2px solid #e4e3e0; border:2px solid rgba(0,0,0,0.2);}
+.layer .p1{ font-size:18px; color:#434343; margin:30px 0 15px;text-align:center;}
+.layer .p2{ font-size:14px; height:20px; line-height:20px; margin-bottom:25px; color:#8e8e8e; text-align:center;}
+
+.layer .btn{ text-align:center}
+.layer .btn a{ height:40px; line-height:40px; font-size:18px; padding:0 28px; color:#FFF; background:#ec5151; display:inline-block; margin:0 8px 18px;}
+.layer .btn a:hover{ background:#ff6a6a}
+.layer .col1{ color:#ec5151}
+.layer .close{ height:18px;}
+.layer .btn .a2,.layer .btn .a2:hover{ background:#bababa}
+.layer .a3{ display:block; float:right; width:17px; height:18px; line-height:20px;*line-height:19px;_line-height:21px; overflow:hidden; text-align:center; font-family:"SimSun"; font-weight:700; font-size:20px; color:#c0c0c0; text-decoration:none; }
+.hint{ height:20px; line-height:20px;}
+.hint span,.hint  a,.hint a:hover{ float:right; font-size:14px; color:#adadad;}
+.hint input{ float:right; margin-top:3px; margin-right:8px;*margin-top:-1px;*margin-right:5px;}
+

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 手机绑定等 */
+.phoneLink {width:375px;padding-bottom:20px;font-family:Arial, Helvetica, sans-serif}
+.phoneLink p {	margin-bottom:10px;}
+.phoneLink span {color:#ff0000;}
+.phoneLink .redff {color:#ff0000;font-size:11px;	margin:0 2px;}
+.phoneLink .phonenum {margin:20px 0 10px;}
+.phoneLink .phonenum .phonenum_wrone {margin-bottom:5px;}
+.phoneLink .phonelast {	line-height:21px;}
+.phoneLink .r_btn{text-align:center} 
+.phoneLink .CP_w_btns{text-align:center;margin-right:60px;}
+
+/* 手机绑定浮层 */
+.mobileLayer .law{border:1px solid #cccccc;width:437px;height:160px;height:158px\9;overflow-y:scroll;padding:5px 10px;line-height:18px;word-wrap:break-word;word-break:break-all;}
+.mobLayer_btn{text-align:center;padding-top:20px;}
+.mobLayer_subAg .SG_clewtxt{padding-top:10px;font-weight:normal;line-height:20px;}
+

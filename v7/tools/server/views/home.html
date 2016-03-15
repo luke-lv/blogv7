@@ -1,0 +1,70 @@
+<!-- Begin Right Column -->
+<div class="jspack-rightcolumn" ng-controller="PackInfoCtrl as packInfoCtrl">
+    <h1>打包工程&发布到测试机</h1>
+
+    <div></div>
+    <div>
+        <form name="packingInfo" ng-submit="packingInfo.$valid && !packInfoCtrl.isSubmit && packInfoCtrl.send()">
+            <ul class="main" ng-class="{true:'error'}[submitted]">
+                <li>
+                    <div class="input-warp">
+                        <label class="label-highlight">
+                            <input type="checkbox" ng-model="packInfoCtrl.packInfo.isPackOnline" value="1"> 提交svn（上线请勾选）
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-warp">
+                        <select placeholder="请选择工程名" class="field text select"
+                                ng-model="packInfoCtrl.packInfo.productId" ng-change="changeProduct()" required>
+                            <option value="">---请选择工程名---</option>
+                            <% for (var i = 0, len = products.length; i < len; i++) {
+                            var product = products[i]; %>
+                            <option value="<%=product.svnname+':'+product.type%>"><%=product.name%></option>
+                            <%}%>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-warp"><input placeholder="SVN账号(exchange邮箱前缀)" type="text" class="field text" placeholder="请输入SVN账号" ng-model="packInfoCtrl.packInfo.svnAccount" required></div>
+                </li>
+                <li>
+                    <div class="input-warp"><input placeholder="SVN密码(exchange邮箱密码)" type="password" class="field text" placeholder="请输入svn密码" ng-model="packInfoCtrl.packInfo.svnPwd" required></div>
+                </li>
+                <li>
+                    <div class="input-warp"><input type="text" class="field text enlarge-width" placeholder="选择工程自动填写SVN路径" ng-model="packInfoCtrl.packInfo.svnUrl" required readonly></div>
+                </li>
+
+                <li class="hide">
+                    <label class="desc" for="test-machines">测试机</label>
+
+                    <div class="input-warp">
+                        <select id="test-machines" class="field text select">
+                            <option value="">---请选择测试机---</option>
+                            <% for(var i= 0, len=machines.length; i < len; i++) {%>
+
+                            <option value="<% machines[i].ip %>">$ip</option>
+                            <% } %>
+                        </select>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="input-warp">
+                        <a href="javascript:;"
+                           ng-click="submitted=true;(packingInfo.$valid && !packInfoCtrl.isSubmit && packInfoCtrl.send())"
+                           class="button">打包&发布</a>
+                    </div>
+                </li>
+                <li class="last-pack">
+                    <p class="last-pack-label">您最近打包的8个SVN路径：</p>
+                    <div class="input-warp" latest-pack-list>
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="clear"></div>
+
+</div>
+<!-- End Right Column -->

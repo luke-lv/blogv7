@@ -1,0 +1,458 @@
+@charset "utf-8";
+/* @import url("worldcup.css");  世界杯样式表 开始 */
+/* 博客-世界杯 dongyan */
+
+/* 世界杯博文日志 正文页 */
+.wdc_ta{ color:#e00303;}
+.wdc_tb{ color:#4698c2;}
+.wdc_tc{ color:#7546c2;}
+.wdc_td{ color:#c26946;}
+.wdc_te{ color:#003599;}
+.worldcup_article{ width:728px; margin:0 1px; overflow:hidden; background:#8ec2e2 url(../../images/common/worldcup/article_bg.jpg) no-repeat left top; font-family:"宋体",Verdana,sans-serif; color:#333;}
+.worldcup_article .article_head{ height:94px; position:relative;}
+.worldcup_article .article_head h2{ text-indent:-9999px; float:left;}
+.worldcup_article .article_head_r{ position:absolute; width:183px; left:540px; top:24px;}
+.worldcup_article .article_head_btn a{ display:block; width:183px; height:40px; background:url(../../images/common/worldcup/head_btn.gif) no-repeat left top;}
+.worldcup_article .article_tm{ color:#fff; text-align:center; margin-top:7px;}
+.worldcup_article .article_main{ width:690px; margin:0 auto; overflow:hidden; background:#fff url(../../images/common/worldcup/article_mainbg_t.jpg) no-repeat left top;}
+.worldcup_article .attentionTeam{ clear:both; padding-top:5px; padding-left:36px;}
+.worldcup_article .attentionTeam li{width:58px; height:40px; padding:5px; float:left; margin-bottom:10px; margin-right:10px;}
+.worldcup_article .attentionTeam li.hover{ position:relative;}
+.worldcup_article .attentionTeam li .wdc_teamflag{ width:58px; height:40px; overflow:hidden;}
+.worldcup_article .attentionTeam li .wdc_info{ display:none; background-color:#fff;}
+.worldcup_article .attentionTeam li .wdc_info .wdc_teamflag{ display:block; padding:4px;}
+.worldcup_article .attentionTeam li .wdc_info{ display:block; position:absolute; left:0; top:0; height:103px; width:65px; line-height:18px; border:1px solid #abd8f6;}
+.worldcup_article .attentionTeam li .wdc_info span{ display:block; text-align:center;}
+.worldcup_article .attentionTeam li .wdc_info span.wdc_dot{ text-align:left; background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 7px; padding-left:7px; margin-left:5px;}
+.worldcup_article .attentionTeam li.hover .wdc_info{ display:block;}
+.worldcup_article .attentionMatch{ clear:both; padding-left:36px; padding-top:8px;}
+.worldcup_article .attentionMatch table,
+.worldcup_article .attentionMatch tr,
+.worldcup_article .attentionMatch td,
+.worldcup_article .attentionMatch th{border:none;border-spacing:1px;border-collapse:0px; font-family:"宋体";}
+.worldcup_article .attentionMatch th{ background-color:#e6f6fb; height:22px; vertical-align:middle; text-align:center;}
+.worldcup_article .attentionMatch td{height:22px; vertical-align:middle; text-align:center;}
+.worldcup_article .attentionMatch th.w1{ width:126px;}
+.worldcup_article .attentionMatch th.w2{ width:46px;}
+.worldcup_article .attentionMatch table{ width:500px; background-color:#abd8f6; }
+.worldcup_article .attentionMatch table td{ background-color:#fff;}
+.worldcup_article .attentionMatch .matchL{ float:left; width:142px; text-align:right; overflow:hidden;}
+.worldcup_article .attentionMatch .matchR{ float:left; width:142px; text-align:left; overflow:hidden;}
+.worldcup_article .attentionMatch .vs{ float:left; width:35px; text-align:center; overflow:hidden;}
+.worldcup_nodata{ clear:both; padding:50px 0; line-height:20px; text-align:center; color:#666;}
+.worldcup_nodata a:link,
+.worldcup_nodata a:visited,
+.worldcup_nodata a:hover{ color:#002c90;}
+.myWorldcup{ clear:both; margin-top:20px; padding-top:3px; overflow:hidden; background:#fff url(../../images/common/worldcup/myWorldcup_bg.gif) repeat-x left top;}
+.myWorldcup h3{ height:60px; clear:both;}
+.myWorldcup h3 img{ float:left;}
+.myWorldcup .myWorldcup_cldlink{ float:right; padding-right:20px; margin-top:20px; font-size:12px; font-weight:normal;}
+.myWorldcup a.myWorldcup_cldlink,
+.myWorldcup a.myWorldcup_cldlink:visited,
+.myWorldcup a.myWorldcup_cldlink:hover{ color:#386903;}
+
+.myWorldcup .worldcupRecord{ width:620px; padding:0 30px 20px; clear:both;}
+.myWorldcup .worldcupRecord h4{ height:50px;font-family:"微软雅黑","黑体"; font-size:20px; color:#0f9e00; border-bottom:1px solid #dcdcdc;}
+.myWorldcup .worldcupRecord h4 em{ font-size:36px;}
+.myWorldcup .worldcupRecord h5{ width:500px; height:35px; border-bottom:1px solid #dcdcdc; line-height:35px; color:#666;font-family:"微软雅黑","宋体"; font-size:16px;}
+.myWorldcup .commentRecordList,
+.myWorldcup .matchRecordList,
+.myWorldcup .blogRecordList{ clear:both; padding-left:20px;}
+.myWorldcup .commentCell{ width:420px; padding-bottom:10px; background:url(../../images/common/worldcup/worldcup_linedot.gif) repeat-x left bottom;}
+.myWorldcup .commentCell p{ line-height:21px; color:#386903;}
+.myWorldcup .commentCell p a,
+.myWorldcup .commentCell p a:visited,
+.myWorldcup .commentCell p a:hover{  color:#386903;}
+.myWorldcup .commentCell p.commentTime{ height:37px; line-height:37px; font-size:14px; color:#333;}
+.myWorldcup .commentCell .scoreBox{ margin-bottom:5px;}
+.matchRecordList li,
+.blogRecordList li{ clear:both; padding-left:8px; background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 7px; line-height:16px; margin-top:11px;}
+.matchRecordList li a,
+.matchRecordList li a:visited,
+.matchRecordList li a:hover,
+.blogRecordList li a,
+.blogRecordList li a:visited,
+.blogRecordList li a:hover{color:#386903;}
+.blogRecordList li{ margin-top:5px; white-space:nowrap;}
+.blogRecordList li .title{ margin-right:10px;}
+.blogRecordList li .author{ margin-right:15px;}
+.blogRecordList li .time{ font-family:Verdana;  font-size:10px; color:#999;}
+.worldcup_article .matchRecordList{ padding-bottom:10px;}
+.worldcup_article .blogRecordList{ padding-top:10px;padding-bottom:10px;}
+.worldcup_article .myWorldcup_bottom{ height:160px;background:#fff url(../../images/common/worldcup/article_mainbg_b.jpg) no-repeat left bottom;}
+.worldcup_article .myWorldcup_Btn{ clear:both; text-align:right; padding-right:58px; }
+.worldcup_article .myWorldcup_Btn a{ margin-left:10px;}
+.worldcup_article .articalInfo{ padding-left:35px; margin-top:40px;}
+.worldcup_article .articalInfo .toMiniblog a,
+.worldcup_article .articalInfo .toMiniblog a:visited,
+.worldcup_article .articalInfo .toMiniblog a:hover{ color:#003599;}
+.worldcup_article .articalInfo .IL{ width:70%; color:#999;}
+.worldcup_article .articalInfo .IL a,
+.worldcup_article .articalInfo .IL a:visited,
+.worldcup_article .articalInfo .IL a:hover{ color:#457315;}
+.worldcup_article .articalInfo .IL .SG_txtb{ color:#a0aba3;}
+.worldcup_article .articalfrontback{ padding:10px 20px; margin-top:10px;}
+.worldcup_article .articalfrontback .SG_txtb{ color:#333;}
+.worldcup_article .articalfrontback a,
+.worldcup_article .articalfrontback a:visited,
+.worldcup_article .articalfrontback a:hover{ color:#003599;}
+
+/* 通用比分块 */
+.scoreBox{ width:210px; height:76px;padding:1px; overflow:hidden; border:1px solid #d6d5d4; background-color:#fff;}
+.scoreBox .scoreBoxc{ width:210px; height:76px; background-color:#f3f2f2; }
+.scoreBox .scoreL,
+.scoreBox .scoreR,
+.scoreBox .scoreC{ float:left; text-align:center; overflow:hidden;}
+.scoreBox .scoreL,
+.scoreBox .scoreR{ width:70px; padding-top:11px;}
+.scoreBox .scoreL p,
+.scoreBox .scoreR p{ margin-bottom:5px; color:#333;}
+.scoreBox .scoreC{ width:68px; line-height:76px; font-size:28px; font-weight:bold; color:#3582d1; font-family:arail;}
+
+/* 世界杯博文日志 首页  730*/
+.bloglist .worldcup_article{ margin-top:10px; margin-bottom:25px; width:688px; padding-bottom:20px; background:#8ec2e2 url(../../images/common/worldcup/article_bg_730.jpg) no-repeat left top;}
+.bloglist .worldcup_article .article_main{ width:650px; background:#fff url(../../images/common/worldcup/article_mainbg_t_730.jpg) no-repeat top left;}
+.bloglist .worldcup_article .myWorldcup{ margin-top:0; padding-top:1px; background:none;}
+.bloglist .worldcup_article .myWorldcup .worldcupRecord{ width:590px;}
+.bloglist .worldcup_article .myWorldcup_bottom{ background-image:none; height:30px; padding-top:40px;}
+.bloglist .worldcup_article .articalInfo{ margin-top:0;}
+.bloglist .worldcup_article .tagMore{ padding:0 20px 0 35px; color:#999;}
+.bloglist .worldcup_article .tagMore .SG_txtb,
+.bloglist .worldcup_article .tagMore .SG_txtc{ color:#474747;}
+.bloglist .worldcup_article .tagMore .SG_more,
+.bloglist .worldcup_article .tagMore a,
+.bloglist .worldcup_article .tagMore a:visited,
+.bloglist .worldcup_article .tagMore a:hover{ color:#457315;}
+	/*510*/
+.SG_colW51 .bloglist .worldcup_article{width:490px;padding-bottom:10px;background:#8ec2e2 url(../../images/common/worldcup/article_bg_510.jpg) no-repeat left top;}
+.SG_colW51 .bloglist .worldcup_article .article_main{ width:470px; background:#fff url(../../images/common/worldcup/article_mainbg_t_510.jpg) no-repeat top left;}
+.SG_colW51 .bloglist .worldcup_article .myWorldcup .worldcupRecord{ width:450px; padding:0 10px;}
+.SG_colW51 .bloglist .myWorldcup .worldcupRecord h5{width:450px;}
+.SG_colW51 .bloglist .worldcup_article .tagMore{ padding:0 10px 0 10px; color:#999;}
+
+
+/* 世界杯 wiedget 730 */
+.worldcup_widget{ width:728px; margin:0 1px; overflow:hidden; background:#8ec2e2 url(../../images/common/worldcup/article_bg.jpg) no-repeat left top; font-family:"宋体",Verdana,sans-serif; color:#333; padding-bottom:20px;}
+.worldcup_widget .article_head{ height:94px; position:relative;}
+.worldcup_widget .article_head h2{ text-indent:-9999px; float:left;}
+.worldcup_widget .article_head .article_head_nav{ position:absolute; right:20px; top:7px; color:#eaffd2;}
+.SG_colW21 .worldcup_widget .article_head .article_head_nav{top:10px;}
+.worldcup_widget .article_head .article_head_nav a:link,
+.worldcup_widget .article_head .article_head_nav a:visited,
+.worldcup_widget .article_head .article_head_nav a:hover{ color:#eaffd2;}
+.worldcup_widget .article_head .article_head_nav em{ margin:0 6px;}
+.worldcup_widget .article_main{ width:690px; margin:0 auto; overflow:hidden; background:#fff url(../../images/common/worldcup/article_mainbg_t.jpg) no-repeat left top;}
+.worldcup_widget h3.widget_title01{ height:37px; margin:0 10px; clear:both; border-bottom:1px dashed #dcdcdc; background:url(../../images/common/worldcup/worldcup_tit05.gif) no-repeat left top;}
+.worldcup_widget h3.widget_title01 span.SG_more{ float:right; line-height:37px; font-size:12px; font-weight:normal; color:#386903;}
+.worldcup_widget h3.widget_title01 span.SG_more a:link,
+.worldcup_widget h3.widget_title01 span.SG_more a:visited,
+.worldcup_widget h3.widget_title01 span.SG_more a:hover{ color:#386903;}
+.worldcup_widget h3.widget_title02{height:37px; margin:0 10px; clear:both; border-bottom:1px dashed #dcdcdc; background:url(../../images/common/worldcup/worldcup_tit08.gif) no-repeat left top;}
+.worldcup_widget .scoreList{ clear:both; padding-left:11px; padding-top:10px;}
+.worldcup_widget .scoreList .scoreBox{ float:left; margin-right:12px;}
+.worldcup_widget .myWorldcup_bottom{ min-height:130px; _height:130px; padding-top:10px; padding-bottom:20px;background:#fff url(../../images/common/worldcup/article_mainbg_b.jpg) no-repeat left bottom;}
+.worldcup_widget .blogRecordList{ padding-left:35px; padding-top:10px;}
+.widget_btn{ height:23px; clear:both; margin-top:20px;}
+.widget_btn a{ display:block; background:url(../../images/common/worldcup/worldcup_btnbg.gif) no-repeat left top; margin:0 auto; width:117px; height:23px; line-height:23px; text-align:center; font-size:12px;}
+.widget_btn a:link,
+.widget_btn a:visited,
+.widget_btn a:hover{ color:#333; text-decoration:none;}
+/* 510 */
+.SG_colW51 .worldcup_widget{ width:508px; padding-bottom:10px; background:#8ec2e2 url(../../images/common/worldcup/widget_bg_510.jpg) no-repeat left top;}
+.SG_colW51 .article_main{ width:491px; background:#fff url(../../images/common/worldcup/widget_main_510.jpg) no-repeat left top;}
+.SG_colW51 .worldcup_widget h3.widget_title01{ height:37px; margin:0 10px; clear:both; border-bottom:1px dashed #dcdcdc;}
+.SG_colW51 .worldcup_widget .scoreList{ padding-left:20px;}
+.SG_colW51 .worldcup_widget .scoreList .scoreBox{ margin-right:20px;}
+.SG_colW51 .worldcup_widget .myWorldcup_bottom{ min-height:140px; _height:140px; padding-bottom:20px;background:#fff url(../../images/common/worldcup/widget_bottom_510.jpg) no-repeat left bottom;}
+.SG_colW21 .worldcup_widget { width:208px; background:#8ec2e2 url(../../images/common/worldcup/widget_bg_210.jpg) no-repeat left top; padding-bottom:3px; position:relative;}
+.SG_colW21 .worldcup_widget .article_head{ height:70px;}
+.SG_colW21 .worldcup_widget .article_head .article_head_nav{ position:absolute; right:10px; }
+.SG_colW21 .article_main{ width:202px; background-image:none;}
+.SG_colW21 .scoreList ul{}
+.SG_colW21 .scoreList li{ clear:both; padding-left:8px; background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 9px; line-height:21px; color:#386903; }
+.SG_colW21 .scoreList li a:link,
+.SG_colW21 .scoreList li a:visited,
+.SG_colW21 .scoreList li a:hover{color:#386903;}
+.SG_colW21 .worldcup_widget .myWorldcup_bottom{ min-height:20px; _height:20px; background:url(../../images/common/worldcup/worldcup_widgetbg.gif) no-repeat left bottom; padding-bottom:70px;}
+.SG_colW21 .worldcup_widget .blogRecordList{ padding-left:10px;}
+.SG_colW21 .blogRecordList li .author,
+.SG_colW21 .blogRecordList li .time{ display:none;}
+
+/* 选择球队 浮层 */
+.worldcup_layPosit{ position:absolute; width:750px; height:157px; overflow:hidden;}
+.worldcup_layer01_bg{width:750px; height:157px; position:absolute; left:0px; top:0px; background:url(../../images/common/worldcup/worldcup_layer01bg.png) no-repeat left top;
+_background-image:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://simg.sinajs.cn/blog7style/images/common/worldcup/worldcup_layer01bg.png');}
+.worldcup_layer01{ width:750px; height:157px; color:#000; overflow:hidden; position:absolute; left:0px; top:0px;}
+.worldcup_layer01 .worldcup_layer01_tit{ clear:both; font-weight:bold; height:37px; line-height:37px; padding:0 15px;}
+.worldcup_layer01 .worldcup_layer01_list{ clear:both; height:104px; padding-left:15px;}
+.worldcup_layer01 .worldcup_layer01_group{ width:85px; height:104px; float:left; overflow:hidden; background:url(../../images/common/worldcup/worldcup_layer01_gp.gif) no-repeat left top; font-family:"微软雅黑","宋体"; float:left; margin-right:6px;}
+.worldcup_layer01 .worldcup_layer01_group li{ width:80px; height:14px;overflow:hidden; padding:1px 0 1px 1px; margin:0 auto; margin-bottom:2px;*margin-bottom:0px;  zoom:1; font-size:12px; cursor:pointer;}
+.worldcup_layer01 .worldcup_layer01_group li.selected{ background:url(../../images/common/worldcup/worldcup_layer01_gp_choose.gif) no-repeat left top;}
+.worldcup_layer01 .worldcup_layer01_group li img{ float:left; margin-right:1px;}
+.worldcup_layer01 .worldcup_layer01_group li em{ float:left; line-height:14px; color:#000;}
+.worldcup_layer01 .worldcup_layer01_gt{ margin-left:7px; height:22px; line-height:22px; font-size:14px;}
+/* 国旗 小*/
+.wdc_flag  { width:58px; height:40px; background:url(../../images/common/worldcup/wdc_flag.gif) no-repeat left top;}
+.wdc_flag_s{ width:18px; height:13px; background:url(../../images/common/worldcup/wdc_flag.gif) no-repeat left top;}
+.wdc_1_s{ background-position:0 0;}
+.wdc_2_s{ background-position:-30px 0;}
+.wdc_3_s{ background-position:-60px 0;}
+.wdc_4_s{ background-position:-90px 0;}
+.wdc_5_s{ background-position:-120px 0;}
+.wdc_6_s{ background-position:-150px 0;}
+.wdc_7_s{ background-position:-180px 0;}
+.wdc_8_s{ background-position:-210px 0;}
+.wdc_9_s{ background-position:0 -30px;}
+.wdc_10_s{ background-position:-30px -30px;}
+.wdc_11_s{ background-position:-60px -30px;}
+.wdc_12_s{ background-position:-90px -30px;}
+.wdc_13_s{ background-position:-120px -30px;}
+.wdc_14_s{ background-position:-150px -30px;}
+.wdc_15_s{ background-position:-180px -30px;}
+.wdc_16_s{ background-position:-210px -30px;}
+.wdc_17_s{ background-position:0 -60px;}
+.wdc_18_s{ background-position:-30px -60px;}
+.wdc_19_s{ background-position:-60px -60px;}
+.wdc_20_s{ background-position:-90px -60px;}
+.wdc_21_s{ background-position:-120px -60px;}
+.wdc_22_s{ background-position:-150px -60px;}
+.wdc_23_s{ background-position:-180px -60px;}
+.wdc_24_s{ background-position:-210px -60px;}
+.wdc_25_s{ background-position:0 -90px;}
+.wdc_26_s{ background-position:-30px -90px;}
+.wdc_27_s{ background-position:-60px -90px;}
+.wdc_28_s{ background-position:-90px -90px;}
+.wdc_29_s{ background-position:-120px -90px;}
+.wdc_30_s{ background-position:-150px -90px;}
+.wdc_31_s{ background-position:-180px -90px;}
+.wdc_32_s{ background-position:-210px -90px;}
+
+.wdc_1{ background-position:0 -120px;}
+.wdc_2{ background-position:-60px -120px;}
+.wdc_3{ background-position:-120px -120px;}
+.wdc_4{ background-position:-180px -120px;}
+.wdc_5{ background-position:0 -180px;}
+.wdc_6{ background-position:-60px -180px;}
+.wdc_7{ background-position:-120px -180px;}
+.wdc_8{ background-position:-180px -180px;}
+.wdc_9{ background-position:0 -240px;}
+.wdc_10{ background-position:-60px -240px;}
+.wdc_11{ background-position:-120px -240px;}
+.wdc_12{ background-position:-180px -240px;}
+.wdc_13{ background-position:0 -300px;}
+.wdc_14{ background-position:-60px -300px;}
+.wdc_15{ background-position:-120px -300px;}
+.wdc_16{ background-position:-180px -300px;}
+.wdc_17{ background-position:0 -360px;}
+.wdc_18{ background-position:-60px -360px;}
+.wdc_19{ background-position:-120px -360px;}
+.wdc_20{ background-position:-180px -360px;}
+
+.wdc_21{ background-position:0 -420px;}
+.wdc_22{ background-position:-60px -420px;}
+.wdc_23{ background-position:-120px -420px;}
+.wdc_24{ background-position:-180px -420px;}
+
+.wdc_25{ background-position:0 -480px;}
+.wdc_26{ background-position:-60px -480px;}
+.wdc_27{ background-position:-120px -480px;}
+.wdc_28{ background-position:-180px -480px;}
+
+.wdc_29{ background-position:0 -540px;}
+.wdc_30{ background-position:-60px -540px;}
+.wdc_31{ background-position:-120px -540px;}
+.wdc_32{ background-position:-180px -540px;}
+
+
+/* 世界杯动态 */
+
+.worldcup_feed{height:130px; margin:1px 0; position:relative;  width:480px; padding-left:10px; padding:0 10px; margin-left:-10px; overflow:hidden;}
+.worldcup_feed .worldcup_feedbg{width:490px; height:130px;overflow:hidden; position:absolute; left:0; top:0; background:url(../../images/common/worldcup/worldcup_feedbg.png) no-repeat left top;
+_background-image:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://simg.sinajs.cn/blog7style/images/common/worldcup/worldcup_feedbg.png');}
+.worldcup_feed .feedList_cell{ position:absolute; left:10px; top:0;}
+.worldcup_tip{ clear:both; margin-top:10px; color:#63ae49; display:block;}
+.worldcup_feed .worldcup_feedbot{ width:72px; height:19px; background:url(../../images/common/worldcup/worldcup_feed_bot.gif) no-repeat left top; overflow:hidden; line-height:19px; text-align:center; position:absolute; bottom:0; right:11px;}
+.worldcup_feed .worldcup_feedbot a:link,
+.worldcup_feed .worldcup_feedbot a:visited,
+.worldcup_feed .worldcup_feedbot a:hover{ color:#048700;}
+/*.worldcup_feed .feedList_main{ width:408px; overflow:hidden;}*/
+.worldcup_feed .feedTitle{width:330px;}
+.feedList_main p.worldcup_tip img{ border:none;}
+	/* 关于我 */
+
+.aBfocuse .worldcup_feed .feedList_cell{ padding-bottom:0;}
+.aBfocuse .worldcup_feed{ width:688px;}
+.aBfocuse .worldcup_feed .worldcup_feedbg{width:708px; height:130px;overflow:hidden; position:absolute; left:0; top:0; background:url(../../images/common/worldcup/worldcup_feedbg_730.png) no-repeat left top;
+
+_background-image:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://simg.sinajs.cn/blog7style/images/common/worldcup/worldcup_feedbg_730.png');}
+.aBfocuse .worldcup_feed .feedList_main{ width:680px;}
+.aBfocuse .worldcup_feed .feedTitle{ width:580px;}
+.aBfocuse .worldcup_feed .worldcup_feedbot{right:1px;}
+/* 托盘入口 */
+.topbar_worldcup{ float:left; margin-left:5px; margin-right:5px; color:#4b9930;}
+.topbar_worldcup a { float:left; padding-top:9px;}
+.topbar_worldcup a:link,
+.topbar_worldcup a:visited,
+.topbar_worldcup a:hover{ color:#4b9930;}
+.topbar_worldcup .ty_link{ width:58px; height:29px; padding-top:0; margin-right:3px; background:url(../../images/common/worldcup/ty_topbar.gif) no-repeat left top;}
+/* 托盘浮层 */
+.worldcup_layer02{ position:absolute;}
+.worldcup_layer02 .arrow{ width:11px; height:6px; overflow:hidden; background:url(../../images/common/worldcup/worldcup_layer02_arrow.gif) no-repeat left top; margin-bottom:-1px; position:relative; z-index:1; margin-left:90px;}
+
+.worldcup_layer02 .worldcup_layer02_c{ width:397px;overflow:hidden; border:1px solid #b5d099; background:#fdfffb url(../../images/common/worldcup/worldcup_layer02bg.png) no-repeat left bottom; color:#000; padding-bottom:10px; position:relative;}
+.worldcup_layer02_c a.close{ position:absolute; display:block; width:13px; height:14px; overflow:hidden; background:url(../../images/common/worldcup/worldcup_layer02_close.gif) no-repeat left top; right:5px; top:5px;}
+.worldcup_layer02 .worldcup_layer02_pt{ float:left; width:52px; overflow:hidden; margin-left:9px; margin-top:18px; display:inline;}
+.worldcup_layer02 .worldcup_layer02_pt img{ border:1px solid #c9cac8;}
+.worldcup_layer02 .worldcup_layer02_r{ float:left; width:320px; float:left; overflow:hidden; padding-left:10px; margin-top:18px;}
+.worldcup_layer02 .worldcup_layer02_tit{ height:32px;clear:both;}
+.worldcup_layer02_txt{ clear:both; line-height:18px; padding-bottom:10px;}
+.worldcup_layer02_txt ul{ padding:3px 0;}
+.worldcup_layer02_txt li{ line-height:18px; padding-left:8px; background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 7px;}
+.worldcup_layer02_txt a:link,
+.worldcup_layer02_txt a:visited,
+.worldcup_layer02_txt a:hover{ color:#009b42;}
+.worldcup_layer02 .worldcup_layer02_btn{ height:34px; padding-left:197px;}
+.worldcup_layer02 .worldcup_layer02_btn a{ display:block; width:102px; height:34px; line-height:25px; padding-left:17px; background:url(../../images/common/worldcup/worldcup_layer02_btn.gif) no-repeat left top; text-align:center;}
+.worldcup_layer02 .worldcup_layer02_btn a:link,
+.worldcup_layer02 .worldcup_layer02_btn a:visited,
+.worldcup_layer02 .worldcup_layer02_btn a:hover{ color:#fff;}
+.worldcup_layer02_mini .arrow{ margin-left:44px;}
+.worldcup_layer02_mini .worldcup_layer02_c{ padding:0; width:144px; height:23px; line-height:23px; overflow:hidden;background:#fdfffb url(../../images/common/worldcup/worldcup_layer02bg_s.png) no-repeat left bottom; cursor:pointer;}
+.worldcup_layer02_mini .worldcup_layer02_c span{ padding-left:10px; color:#ff3600;}
+
+/* 徽标 个人资料，好友，访客 */
+.worldcup_icon { background:url(../../images/common/worldcup/worldcup_icon.gif) no-repeat;}
+.worldcup_icon_l{ width:38px; height:38px; background-position:0 -30px;}
+.worldcup_icon_s{ width:14px; height:14px;  background-position:0 -0px;}
+
+
+/* boya */
+.wdc_teamvs{ background:url(../../images/common/worldcup/model_bg.jpg) no-repeat left top; width:510px; height:150px; overflow:hidden; text-align:center; }
+.wdc_teamvs .wdc_tmTit{padding:6px 0 0 0; height:19px; font-size:16px; font-weight:bold; color:#e3ffe6; font-family:'宋体'; overflow:hidden;}
+.wdc_teamvs .wdc_tmTime{padding:3px 0 0 0; height:17px; font-size:12px; color:#b6e1ba; font-family:'宋体'; overflow:hidden;}
+.wdc_teamvs .wdc_tmTime span.mid{ padding:0 8px;}
+.wdc_teamvs .wdc_tmConn{ position:relative; height:105px;}
+.wdc_teamvs .tmFlagL{ padding:13px 0 0 24px; width:87px; text-align:center;float:left;}
+.wdc_teamvs .tmFlagR{ padding:13px 24px 0 0; width:87px; text-align:center;float:right;}
+.wdc_teamvs .wdc_tmName{ height:20px; line-height:20px; overflow:hidden; color:#323e32;}
+.wdc_teamvs .tmFlagM{position:absolute; left:240px; top:26px; color:#3582d1; font-size:30px; font-family:'黑体';}
+.wdc_teamvs .tmLink{ width:510px; text-align:center; font-size:12px; position:absolute; bottom:10px; left:0px;}
+.wdc_teamvs .tmLink a:link,
+.wdc_teamvs .tmLink a:visited{ text-decoration:none; color:#49687f;}
+.wdc_teamvs .tmLink a:hover{ text-decoration:underline;color:#49687f;}
+.wdc_teamvs .tmLink span{color:#999999; padding:0 10px;}
+
+/* 日历 */
+.wdc_calender{ width:300px; height:191px; border:2px solid #d2d9e6; overflow:hidden; background-color:#fff; position:relative;}
+.wdc_cldTit{ height:19px; padding:9px 0 0 8px; color:#386903;}
+.wdc_cldTit a{ position:absolute; right:9px; top:9px; display:block; background:url(../../images/common/worldcup/wdccld_close.gif) no-repeat left top; width:8px; height:7px;}
+.wdc_cldMon{ padding-left:3px;}
+.wdc_cldMon .eve{ float:left; width:140px; height:156px; padding:1px; overflow:hidden; border:1px solid #d6d6d6; font-family:"宋体"; margin-right:5px; display:inline;}
+.wdc_cldMon .eve h3{ background:url(../../images/common/worldcup/wdccld_titbg.gif) repeat-x left top; height:17px; line-height:17px; font-size:12px; color:#fff; width:140px; text-align:center;}
+.wdc_cldMon .eve .week{ height:20px; line-height:20px; overflow:hidden;}
+.wdc_cldMon .eve .week span{ float:left; width:20px; text-align:center;}
+.wdc_cldMon .eve .week span.green{ color:#4fb51d;}
+.wdc_cldMon .eve li{ float:left; width:20px; height:20px; overflow:hidden;}
+.wdc_cldMon .eve li a{ display:block; width:20px; line-height:20px; line-height:20px; text-align:center; color:#393939;}
+.wdc_cldMon .eve li a:link,
+.wdc_cldMon .eve li a:visited,
+.wdc_cldMon .eve li a:hover{ text-decoration:none; cursor:default;}
+.wdc_cldMon .eve li.cur{ background:url(../../images/common/worldcup/wdccld_datecur.gif) no-repeat 1px 1px;}
+.wdc_cldMon .eve li.cur a{ color:#1c64b9; font-weight:bold;}
+.wdc_cldMon .eve li.new{ background:url(../../images/common/worldcup/wdccld_datenew.gif) no-repeat left top;}
+.wdc_cldMon .eve li.new a:link,
+.wdc_cldMon .eve li.new a:visited,
+.wdc_cldMon .eve li.new a:hover{ color:#fff; font-weight:bold; cursor:pointer;}
+.wdc_cldMon .eve li.open{ background:url(../../images/common/worldcup/wdccld_ball.gif) no-repeat 0 1px;}
+.wdc_cldMon .eve li.award{ background:url(../../images/common/worldcup/wdccld_award.gif) no-repeat 0 2px;}
+.wdc_cldMon .evelast{ margin-right:0px;}
+
+/* 世界杯活动宣传 */
+.wdcPropa{}
+.wdcPropa .SG_connHead{ height:1px;}
+.wdcPropa .SG_connBody{ padding-left:1px;}
+.wdcPropa_conn{padding-left:10px; padding-top:65px; width:198px; overflow:hidden; background:#ecffd8 url(../../images/common/worldcup/propa_bg.jpg) no-repeat center top;}
+.wdcPropa_conn_bot{ height:66px; clear:both; background:url(../../images/common/worldcup/worldcup_logo2.jpg) no-repeat center top; position:relative;}
+.wdcPropa_record{ width:190px; height:29px; overflow:hidden;}
+.wdcPropa_linedot{ background:url(../../images/common/worldcup/propa_linedot.gif) repeat-x left top; height:1px; overflow:hidden; width:100%; width:190px;}
+.wdcPropa_link{ padding:4px 0 10px 7px; width:183px;}
+.wdcPropa_link li{ background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 8px; padding-left:8px; word-wrap:break-word; word-break:break-all; line-height:18px;}
+.wdcPropa_link li a{ word-wrap:break-word; word-break:break-all; color:#386903;}
+.wdcPropa_act{ padding-bottom:5px;}
+
+/* 世界杯活动宣传浮层 */
+.wdcPropa_flt{ background:url(../../images/common/worldcup/propa_bg_flt.jpg) no-repeat left top; width:306px; height:129px; position:absolute; overflow:hidden;}
+.wdcPropa_flt a.close{ background:url(../../images/common/worldcup/worldcup_layer02_close.gif) no-repeat left top; width:13px; height:14px; display:block; position:absolute; right:6px; top:6px;}
+.wdcPropa_flt .join{ color:#333333; padding:83px 0 0 21px; clear:both;}
+.wdcPropa_flt .join span{ float:left; padding-top:6px; padding-right:6px;}
+.wdcPropa_flt .join a{ color:#fff; float:right; width:83px; height:28px; background:url(../../images/common/worldcup/worldcup_layer02_btn.gif) no-repeat left top; position:absolute; padding:6px 0 0 36px;}
+
+/* 世界杯通知*/
+
+.sysBox .wdc_Notice{ position:relative; width:550px;overflow:hidden; line-height:20px; height:110px;}
+.sysBox .wdc_Notice .wdc_NoticeBg{ width:550px; height:110px;overflow:hidden; position:absolute; left:0px; top:0;
+background-image:url(../../images/common/worldcup/worldcup_noticebg.png); background-position:left top; 
+_background-image:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://simg.sinajs.cn/blog7style/images/common/worldcup/worldcup_noticebg.png');
+}
+.sysBox .wdc_Notice .wdc_NoticeContent{ position:absolute; left:5px; top:3px; padding-right:10px;}
+.wdc_Notice .wdc_NotJoin{ position:absolute; right:0px; bottom:0px; background:url(../../images/common/worldcup/worldcup_feed_bot.gif) no-repeat left top; width:72px; height:19px; font-size:12px;}
+.wdc_Notice .wdc_NotJoin a{ display:block; width:57px; height:19px; line-height:19px; line-height:21px\9; overflow:hidden; padding-left:15px;}
+.wdc_Notice .wdc_NotJoin a:link,
+.wdc_Notice .wdc_NotJoin a:visited,
+.wdc_Notice .wdc_NotJoin a:hover{ color:#048700;}
+
+/* 世界杯搜索浮层 */
+.wdc_srhflt_Bg1{ height:86px; background:url(../../images/common/worldcup/bg_wcdflt_rp1.gif) repeat-x left top; position:relative; overflow:hidden;}
+.wdc_srhflt_Bg2{ height:131px; background:url(../../images/common/worldcup/bg_wcdflt_rp2.gif) repeat-x left top; padding-top:2px; overflow:hidden;}
+.wdcSrh_Flt1{ background:url(../../images/common/worldcup/bg_srhflt1.jpg) no-repeat center top;width:100%; height:86px;}
+.wdcSrh_Flt2{ background:url(../../images/common/worldcup/bg_srhflt2.jpg) no-repeat center top; width:100%; height:131px;}
+.wdcSrh_Flt950{ width:950px; margin:0 auto;}
+.wdcSrh_FLeft{ float:left; width:299px; overflow:hidden;}
+.wdcSrh_FConn{ padding:15px 0 0 48px;}
+.wdcSrh_FConn li{ line-height:18px; word-break:break-all; word-wrap:break-word; background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 8px;overflow:hidden; padding-left:8px;}
+.wdcSrh_FConn li a{ padding-right:10px;}
+.wdcSrh_FConn li a:link,
+.wdcSrh_FConn li a:visited,
+.wdcSrh_FConn li a:hover{ color:#336202;}
+.wdcSrh_FRight{ float:right;  width:108px; position:relative;}
+.wdcSrh_FRight .ty_link{ display:block; position:absolute; width:90px; height:45px; left:0; top:15px;}
+.wdcSrh_FRight1{ padding-left:200px; background:url(../../images/common/worldcup/bg_wcdfltright1.gif) no-repeat left 5px; height:68px; margin-top:10px;}
+.wdcSrh_FRight2{ padding-left:200px; background:url(../../images/common/worldcup/bg_wcdfltright2.gif) no-repeat left 16px; height:131px;}
+.wdcSrh_FRight3{ padding-left:200px; background:url(../../images/common/worldcup/bg_wcdfltright1.gif) no-repeat left 5px; height:68px; margin-top:10px;}
+.wdcSrh_FRight1 .btn{ margin:18px 0 0 18px; display:block; background:url(../../images/common/worldcup/bg_wcdfltbtn.gif) no-repeat left top; width:79px; height:32px;}
+.wdcSrh_FRight2 .btn{ margin:66px 0 0 20px; display:block; background:url(../../images/common/worldcup/bg_wcdfltbtn.gif) no-repeat left top; width:156px; height:42px;}
+.wdcSrh_FRight3 .btn{ margin:18px 0 0 18px; display:block; background:url(../../images/common/worldcup/bg_wcdfltbtn2.gif) no-repeat left top;  width:79px; height:32px;}
+.wdcSrh_fclo a{ width:25px; height:17px; display:block; position:absolute; right:0px; top:2px;}
+.wdcSrh_fclo a:link,
+.wdcSrh_fclo a:visited{ background:url(../../images/common/worldcup/bg_wcdfltclo.gif) no-repeat left top;}
+.wdcSrh_fclo a:hover{ background:url(../../images/common/worldcup/bg_wcdfltclo.gif) no-repeat left -17px;}
+.wdcSrh_fopen1 a,
+.wdcSrh_fopen2 a{ background-image:url(../../images/common/worldcup/bg_wcdfltopen.gif); background-repeat:no-repeat; position:absolute; left:50%; margin-left:-24px; top:1px; display:block; width:48px; height:17px; padding:2px 0 0 12px; height:16px\9; padding:3px 0 0 12px\9;}
+.wdcSrh_fopen1 a{ background-position:left -19px;}
+.wdcSrh_fopen2 a{ background-position:left top;}
+.wdcSrh_fopen1 a:link,
+.wdcSrh_fopen1 a:visited,
+.wdcSrh_fopen1 a:hover,
+.wdcSrh_fopen2 a:link,
+.wdcSrh_fopen2 a:visited,
+.wdcSrh_fopen2 a:hover{ color:#fff; text-decoration:none;}
+.wdcSrh_Fmiddle{ width:312px; float:left; overflow:hidden; padding-top:13px;}
+.wdcSrh_Fmiddle a{ display:block; width:312px; height:63px; background:url(../../images/common/worldcup/bg_wcdfltmiddle.gif) no-repeat left top;}
+/* 赞助商链接 */
+	/* 博文页 首页730*/
+	.worldcup_article .article_head .ty_link{ position:absolute; width:130px; height:50px; right:10px; top:18px;}
+	/* 首页510 */
+.SG_colW51 .worldcup_article .article_head .ty_link{position:absolute; width:80px; height:50px; right:0px; top:10px;}
+	/* 组件*/
+.SG_colW73 .worldcup_widget .ty_link{ position:absolute; width:130px; height:45px; right:10px; top:23px;}
+.SG_colW51 .worldcup_widget .ty_link{position:absolute; width:70px; height:40px; right:10px; top:23px;}
+.SG_colW21 .worldcup_widget .ty_link{position:absolute; width:90px; height:40px; left:10px; bottom:25px;}
+	/* 个人中心 */
+.worldcup_feed .ty_link{ position:absolute;width:80px; height:40px; right:12px; top:10px;}
+	/* 宣介 */
+.wdcPropa_conn_bot .ty_link{position:absolute; width:90px; height:45px; left:5px; bottom:15px;}
+/* @import url("worldcup.css");  世界杯样式表 结束 */

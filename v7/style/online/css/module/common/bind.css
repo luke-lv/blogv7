@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+
+/* 绑定MSN账号 dongyan 2010-6-9*/
+.bind{ clear:both; padding-bottom:50px;}
+.bind h2{ font-size:14px; padding-top:25px; padding-bottom:12px; background-position:left bottom;}
+.bind h2 img{ margin-right:5px;}
+.bind_box{ clear:both; padding-left:25px; padding-top:30px;}
+.bind_box1 .bind_url{ margin-bottom:20px;}
+.bind_box2 .bind_url{ margin-top:20px; padding-left:10px;}
+.bind_box1 p{ margin-top:20px;}
+.bind_box1 p.code{ padding-left:16px; margin-top:10px;}
+.bind_box1 p.code .input{ width:65px; color:#aaa;}
+.bind_box2 p{ margin-bottom:20px; padding-left:10px;}
+.bind_box2 p.SG_dot{ padding-left:10px; background-position:left 7px;}
+.bind_box2 p.SG_clewtxta{}
+.bind_box3 p{ margin-bottom:20px;}
+.bind_box3 .bind_url{ margin-bottom:10px;}
+.bind_box a.SG_aBtn{ vertical-align:middle;}
+/* 绑定微博 dongyan 2010-6-9*/
+.bind_box4 .bind_mib0{ font-size:14px; line-height:20px; padding-bottom:10px;}
+.bind_box4 .bind_mib0 span{ display:block; font-size:12px;}
+.bind_box4 p{ padding-left:15px; line-height:24px;}
+.bind_box4 p img{ vertical-align:middle;}
+.bind_box4 .bind_mib_bot1{ clear:both; padding-top:10px; margin-top:10px;padding-bottom: 10px;}
+.bind_box5 .SG_clewbox{ margin-bottom:20px; }
+.bind_box5 .bind_mib1{ clear:both; padding-bottom:15px;}
+.bind_box5 .bind_mib1 p.SG_txtb{ padding-left:76px; clear:both; padding-top:5px;}
+.bind_box5 .bind_mib_bot2{ padding-left:70px;background-position:left top; padding-top:15px;}
+.bind_box5 .bind_mib_bot2 p{ margin-bottom:8px;}
+.bind_box5 .bind_mib_bot2 p input{ margin-left:-2px;}
+/* 绑定MSN账号 新 原来的合并后改为绑定MSN机器人 dongyan 2010-10-20 */
+.bind_msnAccount{ clear:both; padding-left:15px; padding-top:45px; padding-bottom:80px;}
+.bind_msnAccountL{ width:160px; height:95px; overflow:hidden; float:left; background:url(../../../images/center/buddies.png) no-repeat left top;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://simg.sinajs.cn/blog7style/images/center/buddies.png'); }
+.bind_msnAccountR{ width:420px; overflow:hidden; float:left; margin-left:20px;}
+.bind_msnAccountT{ clear:both; padding-bottom:12px; background-position:left bottom; font-size:14px; line-height:20px;}
+.bind_msnAccountT .positionR{font-weight:normal; font-family:宋体;}
+a.bind_msnbtn{ display:inline-block; width:70px; height:22px; background:url(../../../images/center/msn_bindbtn.png) no-repeat left top; vertical-align:middle;}
+.bind_msnAccountPara{ clear:both; line-height:21px; font-family:Verdana,"宋体",sans-serif; padding-top:7px;}
+a.positionBtn:link{font-style:normal; font-family:Verdana,"宋体",sans-serif; padding:0 0 0 3px;}
+.bind_msnAccountPara p input{ *margin-left:-2px;}
+.bind_msnAccountR .SG_clewbox{ margin-bottom:20px;}
+.bind_msnAccountBtn{ margin-top:6px;}
+/*绑定微米账号 2014-01-07 by yanjun7*/
+.bind_weimi .bind_weimiAccountL{ width:80px; height:80px;overflow:hidden; float:left; background:url(../../../images/center/weimi.png)  no-repeat;_background:url(../../../images/center/weimi.gif)  no-repeat;}
+.bind_weimi a.bind_weimibtn,.bind_weimi a.bind_weimibtn:hover{ display:block; color:#fff !important; font-size:14px; width:174px; height:32px; line-height:32px; border:1px solid #d4373e; background:#f2454e; text-align:center; margin-top:10px; text-decoration:none;}
+.bind_weimi .bind_msnAccountT a.CP_a_fuc{ font-size:12px; font-weight:normal;  }
+.bind_weimi .bind_msnAccountT .weimi_size{font-size:12px; display:block; font-weight:normal; margin-bottom:12px; margin-top:3px;}
+.bind_weimi .bind_msnAccountPara{ padding-top:15px;}
+.bind_weimi .bind_msnAccountT { margin-top:5px;}
+.bind_weimi .bind_msnAccountParap p { margin-bottom:4px;}
+.bind_weimi .bind_msnAccountParap p .SG_aBtn{ margin-left:10px;}
+/*  个人中心按钮样式增加  xy 2010-11-12*/
+.move_btn008{display:block; width:130px; height:33px; background:url(../../../images/special/move/move_btn2.png) no-repeat left -350px;}
+
+

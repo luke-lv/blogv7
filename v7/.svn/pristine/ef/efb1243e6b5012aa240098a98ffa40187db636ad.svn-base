@@ -1,0 +1,12 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*report*/
+.M_report{width:1000px;overflow:hidden;margin: 0 auto;}
+.M_report .report_l{float:left;margin-right:30px;background:#f3f3f3;}
+.M_report .report_r{float:left;width:650px;_margin-right:-30px;}
+.M_report .report_l .h_title{width:320px;height:240px;}
+.M_report .report_l .head_info{width:320px;height:286px;overflow:hidden;}
+.M_report .report_l .head_info .info_title{font-size:16px;padding:20px 0;text-align: center;display:block;}
+.M_report .report_l .head_info .info_txt{padding:0 25px 30px 25px;color:#666;font-size:14px;}
+

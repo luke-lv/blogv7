@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* 微薄授权浮层 */
+.authorize{width:448px; float:left;}
+.authorize .conn{height:380px;background:url(../../../images/common/authorize/bg_authorize.jpg) no-repeat 0 bottom;}
+.authorize .conn .userface{float:left;width:238px; margin:28px 0 0 120px; display:inline;}
+.authorize .conn .userface li{float:left;display:inline; margin-right:36px; margin-bottom:15px}
+.authorize .conn .userface li img{border:1px solid #ccc; margin:2px 1px 2px 2px;}
+.authorize .conn .userface li.on{margin-right:35px;width:84px;}
+.authorize .conn .userface li.on img{margin:0 0 0 0}
+.authorize .conn .userface li.on .bd{position:relative;border:2px solid #a8de86;line-height:78px;}
+.authorize .conn .userface li .faceimg{}
+.authorize .conn .userface li.on .select{position:absolute; left:67px; top:67px; _top:69px;}
+.authorize .conn .userface li.on .select img{border:none;}
+.authorize .conn .userface li label{color:#ff0000; font-size:14px; font-weight:bold;}
+.authorize .conn .userface li input{margin-top:-1px; _margin-top:-6px; margin-right:3px;}
+.authorize .conn .userface li .userid{margin-top:4px; _margin-top:8px; text-align:center;}
+.authorize .conn .userface li.on .userid{margin-left:-1px;}
+.authorize .au_bottom{background:#e4fadd; border-top:1px solid #d0efc6; height:64px; padding-left:23px;}
+.authorize .au_bottom a{color:#0082cb;}
+.authorize .au_bottom a:hover{color:#339900}
+.authorize .au_bottom .fl{float:left; line-height:64px;}
+.authorize .au_bottom .fr{float:right; margin:20px 20px 0 0; display:inline;}
+.authorize .au_bottom .bgbtn{display:block; float:left; text-indent:-9999px; outline:medium none; width:79px; height:27px;margin-left:10px; background:url(../../../images/common/authorize/btn_authorize.gif) no-repeat}
+.authorize .au_bottom .bgbtn:hover{background-position:0 -67px;}
+.authorize .au_bottom .btn1{background-position:-94px 0;}
+.authorize .au_bottom .btn1:hover{background-position:-94px -67px;}

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* MSN搬家 */
+.sinablog_move2 .ready_move{padding:12px 17px 12px 30px;}
+.sinablog_move2 .movingback{float:right;}
+.sinablog_move2 .ready_move p{color:#666; line-height:18px;}
+.sinablog_move2 p.tips{clear:both; padding:5px 0 0; color:#000; font-size:14px; font-weight:bold; line-height:22px;}
+.sinablog_move2 p.txt{margin:0 0 100px 119px;}
+.sinablog_move2 p.connent{margin:50px 0 20px 300px;}
+.sinablog_move2 .steps{margin:10px 0 20px; height:41px;}
+.sinablog_move2 .steps_01{background:url(../../images/special/move/bg_steps.png) no-repeat 0 0;}
+.sinablog_move2 .steps_02{background:url(../../images/special/move/bg_steps.png) no-repeat 0 -91px;}
+.sinablog_move2 .steps_03{background:url(../../images/special/move/bg_steps.png) no-repeat 0 -187px;}
+.sinablog_move2 .steps_04{background:url(../../images/special/move/bg_steps.png) no-repeat 0 -285px;}
+.sinablog_move2 .thumbnail{margin:25px 0 0 233px; text-align:left;}
+.sinablog_move2 .thumbnail img{margin-bottom:14px;}
+.sinablog_move2 .account{clear:both; margin:0 0 15px}
+.sinablog_move2 .account dt{padding-bottom:6px; font-weight:bold;}
+.sinablog_move2 .account dd p{padding:2px 0 2px 10px; color:#333;}
+.sinablog_move2 .account dd input{margin-top:-3px}
+.sinablog_move2 .account dd.uesr{padding-left:50px;}
+.sinablog_move2 .account dd.uesr p{padding:6px 0;}
+.sinablog_move2 .account dd.uesr p input{margin-top:0px}
+.sinablog_move2 .account dd.uesr span{float:left; width:60px; text-align:right}
+.sinablog_move2 .account dd.btn{padding:16px 0 0 16px}
+.sinablog_move2 .account .le_w{ margin:10px 0 0 98px;}
+.sinablog_move2 .account table{ margin:10px 0 0 0;}
+.sinablog_move2 .account th{font-weight:normal; width:80px;text-align:right; font-size:14px; height:20px; padding-bottom:12px; vertical-align:top; line-height:25px;}
+.sinablog_move2 .account td{font-size:12px; height:20px; vertical-align:top;padding-bottom:14px; color:#999;line-height:24px;}
+.sinablog_move2 .account h3{padding:28px 0 8px 98px; font-size:12px; text-align:left;}
+.sinablog_move2 .account td .txt_red{padding-top:6px; padding-bottom:14px; color:#cc0000;}
+.sinablog_move2 .account td .txt_red a{text-decoration:underline}
+.sinablog_move2 .account td .tip01{padding:5px 10px;border:1px solid #ccc; color:#333; background:#ffffe5;}
+.sinablog_move2 .account .local_file .uploadbox{margin-bottom:4px;}
+.sinablog_move2 .account .local_file .localupload p{padding-top:4px; color:#999}
+.sinablog_move2 .account .local_file{clear:both;margin:40px 0 0 0;}
+.sinablog_move2 .account .local_file h3{float:left; width:110px; padding-top:4px; font-weight:normal;}
+.sinablog_move2 .account .local_file .localupload{float:left; margin-bottom:100px; *margin-bottom:60px;}
+.sinablog_move2 .account .select_zip{margin-bottom:24px;}
+.sinablog_move2 .account .local_file .loading{line-height:14px;}
+.sinablog_move2 .account .local_file .loading img{ vertical-align:top;}
+.sinablog_move2 .account .local_file .localupload .txt_red{padding-top:4px; padding-bottom:2px; color:#cc0000;}
+.sinablog_move2 .account .local_file .localupload .txt_red a{text-decoration:underline}
+.sinablog_move2 .account .local_file .localupload .uploadbox .move_input{ width:346px; border:1px solid #dbdbdb;}
+.sinablog_move2 .account01{clear:both;}
+.sinablog_move2 .account01 .account_l{float:left; width:380px; margin:7px 0 35px; border-right:1px solid #d1d1d1;}
+.sinablog_move2 .account01 .account_l table{clear:both; overflow:hidden;}
+.sinablog_move2 .account01 .account_l th{ font-weight:normal; width:255px;text-align:right; font-size:14px; height:20px; padding-bottom:22px; vertical-align:top; line-height:25px;}
+.sinablog_move2 .account01 .account_l td{ font-size:12px; width:405px; height:20px; vertical-align:top;padding-bottom:14px; color:#999}
+.sinablog_move2 .account01 .account_l h2{float:left; margin-bottom:10px; font-size:12px; text-align:left; font-weight:normal;text-indent:56px;}
+.sinablog_move2 .account01 .account_l .ps{clear:both; padding:0 0 0 50px; color:#999}
+.sinablog_move2 .account01 .account_r{float:left; margin:5px 0 35px 85px; display:inline}
+.sinablog_move2 .account01 .account_r p{padding-bottom:10px; padding-left:20px; color:#333;}
+.sinablog_move2 .account01 .account_l p a{line-height:26px;text-decoration:underline}
+.sinablog_move2 .account01 .account_r .ps{clear:both; margin-right:0px; margin-top:30px; color:#999}
+.sinablog_move2 .account01 .account_r table{float:left; margin-top:20px;}
+.sinablog_move2 .account01 .account_r th{ font-weight:normal; width:195px;text-align:right; font-size:14px; height:20px; padding-bottom:22px; vertical-align:top; line-height:25px;}
+.sinablog_move2 .account01 .account_r td{ font-size:12px; height:20px; vertical-align:top;padding-bottom:14px; color:#999;}
+.sinablog_move2 .account01 .account_r h2{float:left; font-size:20px; font-family:"微软雅黑","黑体"; text-align:left;}
+.sinablog_move2 .account01 .account_r td input{border:1px solid #dbdbdb}
+.sinablog_move2 .account .email{line-height:24px; font-size:18px; color:#333; font-weight:bold;}
+.sinablog_move2 .qnalist{clear:both;}
+.sinablog_move2 .qnalist li{ padding-left:10px; background:none; color:#999; line-height:18px;}
+.sinablog_move2 .qnalist li.fst{padding-bottom:10px;background:url(../../images/special/move/bg_dot.gif) no-repeat 0 6px;  color:#666; }
+.sinablog_move2 .qnalist li a{text-decoration:underline}
+.uploadbox .move_btn016{ float:left; margin-left:5px;}
+.sinablog_move2 .tit_top{clear:both; height:20px;}
+.sinablog_move2 .tit_top .move_user{float:left;}
+.sinablog_move2 .tit_top .fl{float:left; padding-top:20px;}
+.sinablog_move2 .tit_top .fl01{float:left; padding-top:10px; line-height:22px;}
+.sinablog_move2 .a_mc{ padding-left:230px;}
+.sinablog_move2 .a_mc .txt_l{color:#333; padding-left:15px;}
+.sinablog_move2 .a_mc td .err{ color:#c00; margin-left:10px;}
+.sinablog_move2 .account01 .account_l .pvc th{height:auto; padding:0;}
+.sinablog_move2 .privacy{text-align:left; margin-bottom:12px; padding-left:54px; font-size:12px; width:300px;}
+.sinablog_move2 .privacy input{margin-top:-4px;}
+.sinablog_move2 .account_r p{margin-bottom:10px;}
+.sinablog_move2 .account_r .privacy{padding-left:20px;margin-bottom:20px;}
+.sinablog_move2 .main .fag_h{height:auto;}
+
+/* Qzone博客搬家 */
+.sinablog_move3{ width:768px; margin:0 auto; clear:both; overflow:hidden; border:1px solid #6193af; background:#fff;}
+.sinablog_move3 .top{ width:768px; height:150px; overflow:hidden; background:url(../../images/special/move/move_top5.jpg) no-repeat left top;}
+.sinablog_move3 .top h1{ text-indent:-9999px;}
+
+/* Qzone宣介 */
+.sinablog_move3 .content{padding:0 0 18px;background:#fff url(../../images/special/move/baidumove_bg2.jpg) repeat 0 bottom;}
+.sinablog_move3 .move_publicity{width:518px; padding:1px 0 17px; overflow:hidden; border:1px solid #eee4a9; background-color:#fff;}
+.sinablog_move3 .move_publicity h2{clear:both; height:30px; margin:0 1px 13px; padding:0 20px 0 0; font-size:16px; background:#fff9d7; line-height:30px; font-size:14px;}
+.sinablog_move3 .move_publicity h2 span{float:left; margin-left:220px; display:inline;}
+.sinablog_move3 .move_publicity h2 a{float:right;cursor:pointer; color:#0066ff;}
+.sinablog_move3 .move_publicity p{color:#ff8800; font-size:14px; line-height:24px; padding:0 0 0 10px; }
+
+.sinablog_move3 .move_row2{width:520px; overflow:hidden; float:left; margin:0 10px; display:inline}
+.sinablog_move3 .move_row3{width:218px;overflow:hidden; float:left;}
+.sinablog_move3 .move_faq{width:218px; height:326px; overflow:hidden; border:1px solid #eee4a9; color:#333; background:#fff;}
+.sinablog_move3 .move_faq h2{clear:both; height:30px; line-height:30px; color:#555; font-size:18px; margin:1px 1px 18px;  background:#fff9d7; text-align:center; font-size:14px;}
+.sinablog_move3 .move_faq .faq_txt{ clear:both; margin:0 3px; padding-bottom:8px; background:url(../../images/special/move/bg_steps_bt.gif) no-repeat left bottom;}
+.sinablog_move3 .move_faq h3{height:30px; color:#fff; line-height:37px; font-size:12px; background:url(../../images/special/move/bg_steps_top.gif) no-repeat left top; text-align:center;}
+.sinablog_move3 .move_faq .faq_txt p{ line-height:22px; font-size:12px; padding:10px 8px 0 12px;background:url(../../images/special/move/bg_steps_ct.gif) repeat-y;}
+.sinablog_move3 .move_faq .next_btn{padding:4px 0;text-align:center;}
+.sinablog_move3 .move_account{width:518px; height:187px; overflow:hidden; border:1px solid #eee4a9; background-color:#fff; margin-top:10px;}
+.sinablog_move3 .move_account h2{text-align:center; font-size:14px; line-height:45px;}
+.sinablog_move3 .move_account p{padding:0 0 10px 125px;}
+.sinablog_move3 .move_account p label{color:#fe8800}
+.sinablog_move3 .move_account p label a{color:#0066ff}
+.sinablog_move3 .move_account p .input{width:202px;height:19px; margin-top:-2px; padding-left:6px; color:#999; border:1px solid #9eaab6; line-height:19px; }
+.sinablog_move3 .move_account p.btn{padding-left:196px;}
+.sinablog_move3 .move_account p span.infotxt{width:70px; display:inline; float:left; line-height:20px;}
+.move_btn031{display:block; width:116px; height:32px; background:url(../../images/special/move/move_btn2.png) no-repeat left -1326px;}
+.move_btn032{display:block; width:116px; height:32px; background:url(../../images/special/move/move_btn2.png) no-repeat left -1368px;}
+.sinablog_move3 .move_stap{width:746px; border:1px solid #eee4a9; margin:0 10px; padding:12px 0; background:#fff;}
+.sinablog_move3 .move_stap p{padding:0 0 4px 167px; line-height:30px;}
+.sinablog_move3 .move_stap .fill{padding:0 0 0 123px;}
+.sinablog_move3 .move_stap .error{color:#ff0000}
+.sinablog_move3 .move_stap .tips{padding-bottom:25px; color:#ff8800; font-size:14px;}
+.sinablog_move3 .move_stap .btn{padding:20px 0 20px 286px;}
+.sinablog_move3 .move_stap p input[type="radio"]{margin-top:-3px;}
+
+/* 百度搬家 */
+.sinablog_move3 .topbaidu{ width:768px; height:120px; overflow:hidden; background:url(../../images/special/move/move_top6.jpg) no-repeat left top;}

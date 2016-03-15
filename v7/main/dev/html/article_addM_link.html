@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd xhtml 1.0 strict//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="zh-CN">
+	<meta name="Generator" content="Aptana">
+	<meta name="Author" content="FlashSoft">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<meta http-equiv="pragma" content="no-cache">
+
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">	
+	<title></title>
+	<style type="text/css">
+		body, div, dl, dt,	dd,	ul, ol,	li,	h1,	h2,	h3,	h4,	h5,	h6,	pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{margin: 0; padding: 0;}
+		html{height: 100%;}
+		html {height: 100%; width: 100%; margin: 0;}
+		body, td, div, input{
+			font-size: 12px;
+			font-family: "Tahoma";
+		}
+		body{text-align: center; background-color: #fff;}
+		div{margin: 0 auto;}
+		form{margin: 0;}
+		
+		div {
+			text-align: left;
+		}
+	</style>
+	<script>
+		var _ua = navigator.userAgent.toLowerCase();
+		var $IE = /msie/.test(_ua);
+
+		function $ (sID) {
+			return document.getElementById(sID);
+		};
+		//String添加escapeHTML 方法
+		String.prototype.escapeHTML = function () {
+			return this.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+		}
+		//String添加trim 方法
+		String.prototype.trim = function () {
+			return this.replace(/^(\u3000|\s|\t)*/gi, "").replace(/(\u3000|\s|\t)*$/gi, "");
+		}
+
+		function chk_table () {
+			
+			var textValue = "";
+			var linkValue  = $("linkInput").value;
+			//	验证网址
+			if(!window.isSelectText){
+				textValue = $("textInput").value;
+				if(textValue.length < 1)
+				{
+					//parent.showError("插入链接的文字不能为空", "03", [{label: "确定",func: function () {$("textInput").select();}}], "window");
+					//return false;
+					textValue = linkValue;
+
+				}
+			}
+
+			if(linkValue.replace(/ |　/g,''))
+			{
+				if(linkValue.indexOf('://')==-1) linkValue = 'http://'+linkValue;
+				if(linkValue == 'http://') linkValue = '';
+				
+//				parent.showError("插入的链接不能为空", "03", [{label: "确定",func: function () {$("linkInput").select();}}], "window");
+//				return false;
+//			}
+//			else
+//			{
+//				var expUrl = /^((ht)|f|(rs))tp[s]?:\/\/([a-zA-Z0-9]|[-_])+\.[A-Za-z0-9]+[\/=\?%\-&_~`@[\]\':+!]*([^<>\"\"])*$/;
+//				if (!expUrl.test($("linkInput").value )) 
+//				{
+//					parent.showError("插入的链接格式不正确", "03", [{label: "确定",func: function () {$("linkInput").select();}}], "window");
+//					return false;
+//				}
+			}
+
+			try{
+				if(window.isSelectText){
+					textValue = parent.editor.getRangTxt(true).trim();
+				}else{
+					textValue = textValue.escapeHTML().trim();
+					if(!textValue) textValue = linkValue.escapeHTML().trim();
+				}
+
+				var html = linkValue?"<a href='" + linkValue.escapeHTML().trim() + "' target='_blank'>"+textValue+"</a>":textValue;
+				//alert(html);
+
+				if(parent.editor) {
+						parent.editor.insertHTML(html);
+				}
+				dialogClose();
+			}catch(e){}
+			return false;
+		}
+
+		//关闭对话框
+		function dialogClose () {
+			if(parent.linkDialog) {
+				parent.linkDialog.hidden();
+			}
+		}
+		
+		window.onload = function () {
+			//初始化页面元素
+			try{
+				var selTxt = parent.editor.getRangTxt();
+				if($IE){
+					var t = selTxt.toLowerCase().trim();
+					var tgs= '<div></div><span></span><p></p><div>&nbsp;</div><span>&nbsp;</span><p>&nbsp;</p>'
+					//过滤空标签
+					if( tgs.indexOf(t) != -1){
+						selTxt = "";
+					}
+				}
+				if(selTxt){
+					var tf = $('textField');
+					tf.parentNode.removeChild(tf);
+					window.isSelectText = true;
+				}else{
+					window.isSelectText = false;
+					$("textInput").focus();
+				};
+			}catch(e){ 
+			}
+		};
+	</script>
+</head><body>
+<form onsubmit="return chk_table();">
+<div style="margin-left: 20px; margin-top: 20px;" id="textField">文字: <input id="textInput" style="width: 220px; height: 14px; text-indent: 5px;"></div>
+<div style="margin-left: 20px; margin-top: 10px;">链接: <input id="linkInput" style="width: 220px; height: 14px; text-indent: 5px;" value="http://"></div>
+<div style="text-align: center; margin-top: 10px;"><input class="but_all but_2" value="确定" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="but_all but_2" value="取消" onclick="dialogClose();" type="button"></div>
+</form>
+</body></html>

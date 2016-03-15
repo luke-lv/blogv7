@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* 博客认证 */
+.pop_v { width:375px; padding-bottom:20px; font-family:Arial, Helvetica, sans-serif}
+.pop_v .SG_icon {float: left; margin: 2px 10px 0 0px;}
+.v_prompt { line-height: 20px;min-height: 95px;padding:0 20px 10px; position: relative;}
+.pop_v .v_btns{ text-align:center; margin-right:60px; padding-top:15px; border-top:1px solid #e6e6e6;width: 100%;}
+.pop_v .v_modify{ text-align:right;padding:10px 0 5px; border-top:1px solid #e6e6e6;color:#fb5f08;}
+.CP_w .pop_v .v_modify a,.CP_w .pop_v .v_modify a:link,.CP_w .pop_v .v_modify a:hover{ color:#fb5f08;}
+.v_prompt .v_cnt{height:85px;}
+.v_prompt .v_info{padding:0 0 25px 30px;margin-top:-20px;color:#333}
+.v_prompt .v_info p{padding-bottom:2px;}
+.v_prompt .v_info span{color:#999}
+/*
+.CP_w a:link,
+.CP_w a:visited { color:#2e3092 }
+.CP_w a:hover { color:#c00 }
+.CP_w a.SG_aBtn_dis:link,
+.CP_w a.SG_aBtn_dis:link cite,
+.CP_w a.SG_aBtn_dis:visited,
+.CP_w a.SG_aBtn_dis:visited cite,
+.CP_w a.SG_aBtn_dis:hover,
+.CP_w a.SG_aBtn_dis:hover cite{ color:#B9B8B8;}
+.CP_w thead .tLeft,
+.CP_w thead .tMid,
+.CP_w thead .tRight,
+.CP_w tfoot .tLeft,
+.CP_w tfoot .tMid,
+.CP_w tfoot .tRight,
+.CP_w_shut{background-image:url(../../../images/common/layer/layerbg23.png);_background-image:url(../../../images/common/layer/layerbg23.gif);}
+
+.CP_w thead .tRight span { height: 36px;}
+.CP_w thead .tMid {background-position: 0 -37px;}
+.CP_w tbody .tLeft, .CP_w tbody .tRight {background-image: url(../../../images/common/layer/layerbg22.png);_background-image: url(../../../images/common/layer/layerbg22.gif);}
+.CP_w_shut:hover{  background-position:0 -107px;}
+
+.CP_w tfoot .tLeft{
+    background-image: url(../../../images/common/layer/layerbg23.png);background-position: 0 -75px; _background-image: url(../../../images/common/layer/layerbg23.gif);background-position: 0 -75px;
+    background-repeat: no-repeat;}
+.CP_w tfoot .tRight{
+    background-image: url(../../../images/common/layer/layerbg23.png);background-position: right -82px; _background-image: url(../../../images/common/layer/layerbg23.gif);background-position: right -82px;
+    background-repeat: no-repeat;}
+.v_btns a.SG_aBtnB,.v_btns a.SG_aBtnB cite {
+    background-image: url(../../../images/common/sg_btnb_v.gif);
+    color: #333399;height: 27px;color:#333;}
+.v_btns a.SG_aBtnB cite{padding-top:2px;font-size:14px;}
+.v_btns a.SG_aBtnB:hover cite{color:#333;}
+.v_btns a.SG_aBtn_g cite{color:#999;}
+
+.SG_icon148{ background-position: 164px -89px; }
+*/

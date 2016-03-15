@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.e_layer_prompt{  width: 458px; border: 1px solid #c2c2c2; background:#fff;}
+.e_layer_prompt .e_prompt_header{ background: #fbfbfb; height: 55px; border-bottom: 1px solid #eee; overflow: hidden; zoom:1;}
+.e_layer_prompt .e_prompt_cont{ background: #fff;}
+.e_layer_prompt .e_prompt_cont .e_prompt_word{ margin: 76px auto 50px; font-size: 18px; /*width: 380px;*/ padding-left:40px; padding-right:40px; text-align: center; overflow: hidden; line-height: 25px;}
+.e_layer_prompt .e_prompt_cont .e_prompt_word2{ margin: 76px auto 50px; font-size: 18px; width: 380px; line-height: 25px;}
+.e_layer_prompt .e_prompt_cont .e_prompt_word3{ margin: 76px auto 16px; font-size: 18px; width: 380px; text-align: center; line-height: 25px;}
+.e_layer_prompt .e_prompt_cont .e_prompt_link{ display: block; margin: 0 auto 55px; font-size: 12px; color: #999; text-align: center;}
+.e_layer_prompt .e_prompt_header .e_prompt_tit{ float: left; margin: 20px 0 0 15px; display: inline; font-size: 16px;}
+.e_layer_prompt .e_prompt_header .e_prompt_close{  float: right; margin: 15px 10px 0 15px; display: inline; font-size: 18px; color: #999;}
+.e_layer_prompt .e_prompt_header .e_prompt_close:hover{ color: #b2bdf0;}
+.e_prompt_btn{ margin: 0 auto 55px; display: block; width: 120px; height: 38px; line-height: 40px; text-align: center; border: 1px solid #c4c4c4; font-size: 16px; border-radius: 2px;  background: #eaeaea; background:-webkit-linear-gradient(top,#fff,#eaeaea);
+background:-moz-linear-gradient(top,#fff,#eaeaea);background:-o-linear-gradient(top,#fff,#eaeaea);background:linear-gradient(top,#fff,#eaeaea);}
+.prompt_btn{ margin: 25px auto 50px; text-align: center;}
+.prompt_btn a{ display: inline-block; margin: 0 20px 0 0; width: 98px; height: 38px; line-height: 40px;}
+.e_layer_prompt .e_prompt_cont .prompt_input{ margin: 60px auto; text-align: center;}
+.e_layer_prompt .e_prompt_cont .prompt_input .txt{ margin: 0 12px 0 0; font-size: 14px;}
+.e_layer_prompt .e_prompt_cont .prompt_input .code_input{ vertical-align: middle; font-size: 14px; text-align: center; border: 1px solid #d9d9d9; width: 90px; height: 32px; line-height: 32px; margin: 0 4px 0 0;}
+.e_layer_prompt .e_prompt_cont .prompt_input .img_code{ padding: 9px 10px; background: #f4f4f4; width: 48px; height: 16px; display: inline-block;
+vertical-align: -13px; margin: 0 10px 0 0;}
+/*.e_layer_prompt .e_prompt_cont .prompt_input .img_code img{ }*/
+.e_layer_prompt .e_prompt_cont .prompt_input .replace_a{ font-size: 14px; color: #999;}
+

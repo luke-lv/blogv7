@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 通行证登录 */
+.passLoginItem{padding-bottom:0}
+.passLoginItem .ErrTips{padding:0 0 5px 62px;color:#c00;margin-top:-4px;}
+.passLoginItem .ErrTips a.underline,
+.passLoginItem .ErrTips a.underline:hover,
+.passLoginItem .ErrTips a.underline:visited{text-decoration:underline;}
+.passLoginItem .fm1{height:16px;line-height:16px;padding:2px 2px 2px;border:1px solid #C1C1BB;font-family:verdana}
+.passLoginItem .boxA {margin-bottom:10px;font-size:14px;}
+.passLoginItem .boxB {line-height:20px;padding-left:60px;*padding-left:61px;}
+.passLoginItem .boxB input{margin-left:1px;*margin-left:-2px;}
+.passLoginItem .boxB a.SG_aBtn{margin-left:1px;}
+.passLoginItem .boxB a.SG_aBtn cite{padding-right:18px;padding-left:16px;}
+.passLoginItem .CP_lg_ad {padding:10px 0 18px;margin:10px 0 0;}
+.passLoginItem .CP_lg_ad iframe a:link,
+.passLoginItem .CP_lg_ad iframe a:visited {color:#2E3092;}
+.passLoginItem .CP_lg_ad iframe a:hover,
+.passLoginItem .CP_lg_ad iframe a:active {color:#CC0000;}
+/* connect MSN dongyan 2010-10-01*/
+.connect_msn{ width:234px;margin:18px auto 0px;height:22px;padding:4px 0;overflow:hidden;background-color:#e3f2fb;border:1px solid #c0dede;text-align:center;}
+.connect_msn .msn_btn{display:inline-block;vertical-align:middle;width:77px;height:24px;overflow:hidden;background:url(../../../images/bring/connect_msn.png) no-repeat left top;}

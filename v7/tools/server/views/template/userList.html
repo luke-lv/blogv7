@@ -1,0 +1,46 @@
+<!-- Begin Right Column -->
+<div class="jspack-rightcolumn">
+    <h1>用户操作</h1>
+    <div>
+        <ul class="common">
+            <li>
+                <table class="list">
+                    <tbody>
+                    <tr>
+                        <th>用户名</th>
+                        <th>密码</th>
+                        <th>测试机IP</th>
+                        <th class="align-center">操作</th>
+                    </tr>
+                    <tr ng-repeat="user in users">
+                        <td style="width: 20%; height: 30px;">
+                            <span ng-show="2 != user.dirty">{{user.name}}</span>
+                            <input class="field" type="text" ng-model="user.name" ng-show="2 == user.dirty" placeholder="请输入用户名">
+                        </td>
+                        <td style="width: 30%">
+                            <span ng-show="!user.dirty">***</span>
+                            <input class="field" type="password" ng-model="user.dirtyPsw" ng-show="user.dirty" placeholder="请输入密码">
+                        </td>
+                        <td style="width: 30%" ng-init="user.dirtyIp = user.ip">
+                            <span ng-show="!user.dirty">{{user.ip}}</span>
+                            <input class="field" type="text" ng-model="user.dirtyIp" ng-show="user.dirty" placeholder="请输入测试机IP地址">
+                        </td>
+                        <td style="width: 20%" class="align-center">
+                            <a href="javascript:;" ng-show="!user.dirty" ng-click="modifyUser(user);">修改</a>
+                            <a href="javascript:;" ng-show="!user.dirty" ng-click="deleteUser(user);">删除</a>
+                            <a href="javascript:;" ng-show="user.dirty" ng-click="saveUser(user);">保存</a>
+                            <a href="javascript:;" ng-show="user.dirty" ng-click="cancel(user);">取消</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <button class="button" ng-click="addUser()">添加用户</button>
+                <button class="button" ng-click="refresh()">刷新</button>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<!-- End Right Column -->

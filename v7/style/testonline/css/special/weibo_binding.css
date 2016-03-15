@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+input,button{padding:0;margin:0;outline:none}
+body{color:#333;background:url(../../images/special/weibo_binding/body_bg.png) repeat;}
+body,input,button{font:14px/1.5 Arial,microsoft yahei;}
+
+
+/*content*/
+.weiboBinding .content{width:570px;margin:83px auto 0;background:#fff;background:rgba(255,255,255,0.6)}
+.formWrap{padding:15px;font-size:14px}
+.formWrap .hd{height:80px;background:#f4f4f4;overflow:hidden}
+.formWrap h3{width:311px;height:39px;margin:15px auto 0;text-indent:-9999em;overflow:hidden;background:url(../../images/special/weibo_binding/header.png) no-repeat;}
+.formWrap .formCon{padding:30px 0 0 115px}
+.itemList{position:relative;}
+.itemList .item{overflow:hidden;width:100%}
+.itemList .item .label{float:left;width:75px;overflow:hidden;margin-right:4px;line-height:24px;text-align:right}
+.itemList .item .inputTxt{float:left;width:217px;height:14px;font-size:12px;line-height:14px;padding:4px;border:1px solid #cacaca}
+.itemList .item .inputFocus{border-color:#43a1ef;background:#feffe3;box-shadow:0 1px 1px rgba(0,0,0,0.2) inset}
+.itemList .item .errorMsg{color:#d10000;line-height:27px}
+.itemList .itemSubmit .submit{width:66px;margin-top:8px;height:32px;line-height:32px;color:#fff;cursor:pointer;border:0 none;font-weight:bold;background-position:0 -42px}
+.itemList .itemAccount{padding-bottom:17px}
+.itemList .itemPassWord{padding-bottom:50px}
+.itemList .itemPassWord .label{word-spacing:23px;*word-spacing:20px;}
+.itemList .itemSubmit{padding:0 0 26px 0}
+.itemList .btnMod{width:93px;float:left;height:28px;font:18px/25px microsoft yahei;word-spacing:5px;text-align:center;color:#fff;cursor:pointer;border-style:solid;border-width:1px;}
+.itemList .btnSubmit{margin:0 45px 0 28px;_display:inline;background:#b65542;border-color:#de1e55}
+.itemList .btnCancel{background:#b6b6b6;border-color:#9b9b9b}
+.itemList .itemAgree{padding-bottom:63px}
+.itemList .itemAgree input{margin-right:5px;vertical-align:-1px;_vertical-align:1px}
+.itemList .itemAgree a{color:#004592;text-decoration:underline}
+.itemList .itemErrorTip{position:absolute;left:80px;top:69px;color:#E20000;font-size:12px}

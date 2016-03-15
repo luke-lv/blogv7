@@ -1,0 +1,1 @@
+SinaEditor._COMMANDS = {};

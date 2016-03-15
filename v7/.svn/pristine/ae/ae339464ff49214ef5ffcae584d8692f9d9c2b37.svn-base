@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+/*2014-4-14 广告分成 新增需求*/
+/*我的收益账户*/
+.cps_title{ margin:40px auto 32px; padding-left:54px}
+.cps_step{ height:45px; line-height:44px; width:507px; margin:0 auto; background:url(../../../images/center/newversion/cps_step.gif) no-repeat -9999px -9999px; padding-left:75px; margin-bottom:45px;}
+.cps_step1{ background-position:0 0}
+.cps_step2{ background-position:0 -50px}
+.cps_step3{ background-position:0 -100px}
+.cps_step span{ display:inline-block; padding-left:60px }
+.cps_step .step1{width:128px; }
+.cps_step .step2{ width:116px;}
+.cps_step .step3{  width:76px;}
+.cps_step1 .step1,.cps_step2 .step2,.cps_step3 .step3{ color:#f16100}
+
+.profit { min-height: 500px; }
+.profit .P_form { margin-bottom: 36px; }
+.profit .P_form dl { height: 30px; padding-top: 4px; margin-bottom: 16px; }
+.profit .P_form dt { width: 222px; float: left; line-height: 30px; text-align: right; padding-right: 11px; }
+.profit .P_form dt i { color: #ff0000; font-family: "宋体"; font-style: normal; padding-right: 5px; }
+.profit .P_form dd { float: left; }
+.profit .P_form .input_txt, .profit .P_form .Pbind_ok { width: 251px; height: 22px; color: #999; font-size: 12px; line-height: 22px; padding: 3px 10px; border: 1px solid #CCC; background-color: #FFF;/* text-shadow: 1px 1px 0px #fff;*/ }
+.profit .P_form .input_radio{float:left;}
+.profit .P_form .radio_sp{ float:left; margin-top:2px; margin-right:5px;}
+.profit .P_form .radio{ padding-top:7px;  overflow:hidden; zoom:1}
+.profit .P_form .Pbind_ok { display: inline-block; }
+.profit .P_form .input_cur { background-color: #F4F2F3; }
+.profit .P_form .tips { color: #ff2b06; line-height: 22px; padding-left: 241px; }
+.profit .P_btn { text-align: center }
+.profit a.SG_aBtn cite { padding-left: 10px; padding-right: 11px;}
+.profit .P_form .input_pin { width: 91px; }
+.profit .P_form .pin_img { width: 90px; height: 28px; overflow: hidden; margin: 0 10px 0 20px; display: inline-block; border: 1px solid #CCC; }
+.profit .P_form .pin_img img{ height:28px;width: 90px;}
+.profit .P_form .pin_no { color: #5f61aa; line-height: 30px; text-decoration: underline }
+.profit .P_form .sele{ padding:6px 0; color:#666; line-height:20px;}
+.profit .P_form .sele1{ width:96px; *margin-top:5px; _margin-top:4px}
+.profit .P_form .sele2{ width:62px}
+.profit .P_form .input_txt1{ width:178px; margin-left:10px}
+/*广告分成协议*/
+.pro_con{ border:1px solid #dddddd}
+.pro_cont{ height:222px; overflow:auto; line-height:23px; text-indent:2em; padding:20px 29px; color:#999999; word-break: break-all;word-wrap: break-word;}
+.pro_conb{ height:34px; line-height:34px; background:#f4f4f4; padding:0 32px;}
+.pro_conb input{ margin-right:8px; vertical-align:-2px;  _margin-top:7px;}
+.pro_btn{	text-align:center; margin:20px 0 200px;}
+.pro_btn a.SG_aBtn cite{padding-left:10px;padding-right:11px;font-family:"SimSun"}
+.ad_pro{ width:582px; margin:-15px auto 0;}
+
+.pro_btn_on a.SG_aBtn{ padding-left:0; border:1px solid #f4f4f4; }
+.pro_btn_on a.SG_aBtn cite{ background:none #e5e5e5; border:1px solid #fff;  color:#fff; height:18px;line-height:17px; *line-height:18px; _margin-left:-3px; }
+/*交易记录*/
+.cps_tab{ border:1px solid #ebebeb; border-collapse:collapse; table-layout:fixed}
+.cps_tab th{ text-align:center; border:1px solid #ebebeb;height:38px; background:#f7f7f7;text-align:center; vertical-align:middle;}
+.cps_tab td{ text-align:center; border:1px solid #ebebeb; text-align:center; vertical-align:middle; height:38px;}
+.cps_tab td span{word-wrap:break-word;word-break:break-all; display:block; padding:0 4px}
+.record_title p{font-size:14px; font-weight:bold}
+.record_title span{ font-weight:normal}
+.record_title .p1{ margin:36px 0 17px;}
+.record_title .p1 span{ color:#f76403; font-size:16px; font-weight:bold}
+.record_title .p1{ margin:32px 0 16px;}
+.record_title .p2{ margin:0 0 18px;}
+/* 身份证 */
+.profit .P_form .certificates{height:auto;overflow:hidden;}
+.certificates_box{overflow:hidden;padding-bottom:4px;}
+.certificates_box .btn{padding:2px 0px 0 2px;vertical-align:-4px;}
+.certificates_box .txt_ipt{
+   display:inline-block;
+   *display:inline;
+    line-height:20px;
+	max-width:248px;border:none;background:none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  _width:248px;
+}
+.profit .P_form .file{ width:48px; position:absolute; left:0;top:10px; *top:9px;  height:12px; overflow:hidden;opacity: 0;
+    filter:alpha(opacity=0);cursor:pointer; *margin-left:-18px;}
+@media screen and (-webkit-min-device-pixel-ratio:0){ .profit .P_form .file{ width:110px;margin-left:-64px;}}
+.cer_box_a{float:left;padding-right:6px;line-height:30px;  position:relative; overflow:hidden; _padding-top:8px;}
+.cer_box_a a:link,
+.cer_box_a a:visited,
+.cer_box_a a:hover{color:#2E3092;text-decoration:underline;display:inline-block; margin-right:5px; line-height:15px; cursor:pointer;}
+.certificates_box .tag_tx{
+	background: none repeat scroll 0 0 #F4F4F4;
+	border:1px solid #D7D7D7;
+	float:left;
+	line-height:none;
+	font-size:12px;
+	margin:3px 2px 0px 0px;
+	padding:1px 3px 0px 6px;
+	white-space:nowrap;
+}
+.certificates_box .tag_tx span{
+	display:inline-block;
+	max-width:248px;
+	line-height:20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.certificates_box .tag_tx a{display:inline-block;line-height:20px;vertical-align:top;}
+.certificates_box .tag_tx a:hover{text-decoration:none;}
+.SG_tag .contact_me{ position:absolute; right:0; top:3px;}
+.bind_card_icon{
+	margin-right:5px;
+	vertical-align:middle;
+	background:url(../../../images/center/newversion/ico_reserved.jpg) no-repeat left top;
+}
+.profit a.SG_aBtn cite{font-family:"SimSun"; line-height:20px; _line-height:22px}
+
+
+
+
+

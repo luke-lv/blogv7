@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOMUtil.findAllTextNodes method Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="../qunit/qunit.css" type="text/css"/>
+    <style>
+        #editor {
+            border: 1px solid #ccc;
+        }
+    </style>
+    <script src="../qunit/qunit.js" type="text/javascript"></script>
+    <script src="../qunit/tools.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="qunit"></div>
+<div id="editor"></div>
+
+<div id="qunit-fixture"></div>
+
+<script src="../js/editorapi.js" type="text/javascript"></script>
+<script src="../../includes.js" type="text/javascript"></script>
+<script>
+    QUnit.config.autostart = false;
+    QUnit.config.reorder = false;
+    test('Test findAllTextNodes', function () {
+        TestTools.setContent('<p><em>Th</em>is <strong>is first</strong> child</p><p>This is second line</p><p>This is <span>third<span> line</p>');
+        editor.focus();
+        TestTools.setSelection('p');
+        var range = editor.selection.getRange();
+
+        range.shrinkBoundary();
+        var nodes = editor.domUtil.findAllTextNodes(range.startContainer, range.endContainer);
+        var str = '';
+        editor.domUtil.each(nodes, function (i, node) {
+            str += node.nodeValue;
+        });
+        equal(str, 'This is first child', 'DOMUtil.findAllTextNodes pass!');
+    });
+    var editor = SinaEditor.create({
+        root: 'editor',
+        plugins: [
+            {
+                name: 'initDivContent',
+                params: {}
+            },
+            {
+                name: 'bold',
+                params: {}
+            }
+        ]
+    });
+    editor.ready(function () {
+        setTimeout(function () {
+            QUnit.start();
+        }, 500)
+    });
+</script>
+</body>
+</html>

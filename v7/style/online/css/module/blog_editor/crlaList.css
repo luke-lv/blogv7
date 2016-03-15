@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+
+/*相关博文*/
+.SideCrla{
+	overflow:hidden;
+	margin-top:10px;
+	padding:0 8px 12px;
+	border:1px solid #eee;
+	background-color:#FFF;
+}
+.SideCrla .crlaTit{
+	height:40px;
+	font-size:17px;
+	line-height:40px;
+	margin-bottom:7px;
+	border-bottom:1px solid #efefef;
+}
+.SideCrla .crlaList{
+	display:block;
+	overflow:hidden;
+}
+.SideCrla .crlaList li{
+	height:41px;
+	line-height:20px;
+	padding:4px 0 3px;
+}
+.SideCrla .crlaList .Ltit,
+.SideCrla .crlaList .Lname{
+	height:20px;
+	line-height:20px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.SideCrla .Ltit .icon{
+	margin-right:5px;
+}
+.SideCrla .crlaList .Lname{
+	padding-left:7px;
+}
+.SideCrla .more{
+	text-align:right;
+	line-height:18px;
+	padding-top:4px;
+}
+.SideCrla .more .BNE_lkA:hover .i46_rsj{
+	background-position:-32px -288px;
+}
+/*相关博文*/

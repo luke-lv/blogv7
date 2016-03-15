@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*表情浮层*/
+/* 插入表情 */
+.faceItemContent {}
+.faceItemContent .smallface{width:540px;height:62px;overflow:hidden;background:url(../../../images/common/editor/layerface_1.gif);}
+.face_ic{width:27px;height:27px;overflow:hidden;float:left;margin-top:1px;}
+.faceItemContent .bigface {padding:3px 0 0;width:534px;margin:0 1px 2px 1px;overflow:hidden;border-bottom:1px solid #E3E3E3;}
+.faceItemContent .bigface .faceSidebar{background:url(../../../images/common/editor/layerface_2.gif) repeat-y left top;width:138px;float:left;margin-bottom:-1px;}
+.faceItemContent .bigface .faceSidebar ul{width:100%;}
+.faceItemContent .bigface .faceSidebar li{height:22px;overflow:hidden;padding:5px 0;background:url(../../../images/common/editor/layerface_3.gif) repeat-x left bottom;margin-top:-1px;width:138px;float:left;font-family:simsun;}
+.faceItemContent .bigface .faceSidebar li img{margin:0 10px;float:left;}
+.faceItemContent .bigface .faceSidebar li span{float:left;padding-top:5px;} 
+.faceItemContent .bigface .faceSidebar li em{padding-top:5px;}
+.faceItemContent .bigface .faceSidebar li.cur{background:none #fff;width:137px;border:1px solid #E3E3E3;border-right-color:#fff;}
+.faceItemContent .bigface .faceSidebar li.cur a:link,
+.faceItemContent .bigface .faceSidebar li.cur a:visited{color:#333;font-weight:600;}
+.faceItemContent .bigface .faceSidebar li.cur a:hover{text-decoration:none;}
+.faceItemContent .bigface .faceShowAll{width:390px;height:370px;float:right;overflow-y:scroll;}
+.faceItemContent .bigface .faceShowAll li{float:left;width:52px;height:70px;overflow:hidden;margin:8px 5px 0px 3px;}
+.faceItemContent .bigface .faceShowAll li span{display:block;color:#999;padding-top:3px;text-align:center;white-space:nowrap;font-family:"宋体";}
+.faceItemContent .bigface .faceShowAll li a:link,
+.faceItemContent .bigface .faceShowAll li a:visited{border:1px solid #ccc;display:block;width:50px;height:50px;}
+.faceItemContent .bigface .faceShowAll li a:hover{border-color:#51BD2F;}
+
+/* 插入表情 新 上线后上面的可去掉 */
+.faceItemContent .insertface{width:534px;padding:0 7px 10px 6px;overflow:hidden;zoom:1;}
+.faceItemContent .insertface .insertface_top{clear:both;height:25px;padding:18px 10px;overflow:hidden;}
+.faceItemContent .insertface .insertface_top h3{float:left;font-size:12px;width:200px;}
+.faceItemContent .insertface .insertface_top .insertface_search{float:right;width:264px;}
+.faceItemContent .insertface .insertface_top .insertface_search .SG_input{width:183px;height:16px;border:1px solid #ccc;margin-right:5px;}
+.faceItemContent .insertface .insertface_top .insertface_search a.SG_aBtn{vertical-align:middle;margin-right:0;}
+.faceItemContent .insertface .insertface_hot{min-height:21px _height:21px;padding:0 10px;clear:both;line-height:21px;background-color:#f4f4f4;outline:none;}
+.faceItemContent .insertface .insertface_hot a{margin-right:10px;}
+.faceItemContent .insertface .facekeyword{line-height:26px;height:55px;padding:5px 10px 10px;}
+.faceItemContent .insertface .facetitle{line-height:27px;height:27px;padding:0 10px;font-size:12px;font-weight:normal;}
+.faceItemContent .insertface .facelist{}
+.faceItemContent .insertface .facelist ul{width:132px;min-height:217px;_height:217px;}
+.faceItemContent .insertface .facearrow{clear:both;padding-left:30px;padding-top:10px;}
+.faceItemContent .insertface .facearrow a{width:12px;height:12px;overflow:hidden;background:url(../../../images/common/editor/arrow.gif) no-repeat left top;float:left;margin-left:12px;}
+.faceItemContent .insertface .facearrow a.up_off{}
+.faceItemContent .insertface .facearrow a.down_off{background-position:left -19px;}
+.faceItemContent .insertface .facearrow a.up{background-position:left -36px;}
+.faceItemContent .insertface .facearrow a.up:hover{background-position:left -70px;}
+.faceItemContent .insertface .facearrow a.down{background-position:left -54px;}
+.faceItemContent .insertface .facearrow a.down:hover{background-position:left -88px;}
+.faceItemContent .insertface .bigface {padding:10px 0 0;margin:0;width:534px;height:347px;overflow:hidden;border-bottom:none;}
+.faceItemContent .insertface .bigface .faceSidebar{background:url(../../../images/common/editor/layerface_4.gif) repeat-y left top;width:132px;float:left;margin-bottom:0px;overflow:hidden;height:347px;}
+.faceItemContent .insertface .bigface .faceSidebar ul{width:100%;}
+.faceItemContent .insertface .bigface .faceSidebar li{height:auto;overflow:hidden;padding:5px 0 7px;background:url(../../../images/common/editor/layerface_3.gif) repeat-x left bottom;margin-top:-1px;width:132px;float:left;font-family:simsun;}/* 0816 */
+.faceItemContent .insertface .bigface .faceSidebar li img{margin:0 8px 0 16px;float:left;}
+.faceItemContent .insertface .bigface .faceSidebar li span{float:left;padding-top:2px;line-height:18px;} 
+.faceItemContent .insertface .bigface .faceSidebar li em{/*float:left;0816*/ padding-top:5px;line-height:18px;}
+.faceItemContent .insertface .bigface .faceSidebar li.cur{width:120px;background:#fff;border:1px solid #cddee7;border-right:none;margin-left:10px;line-height:18px;display:inline;}/* 0816 */
+.faceItemContent .insertface .bigface .faceSidebar li.cur a:link,
+.faceItemContent .insertface .bigface .faceSidebar li.cur a:visited{color:#333;font-weight:600;}
+.faceItemContent .insertface .bigface .faceSidebar li.cur a:hover{text-decoration:none;}
+.faceItemContent .insertface .bigface .faceShowAll{width:390px;height:347px;float:right;overflow:hidden;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li{position:relative;float:left;width:52px;height:70px;overflow:hidden;margin:0px 6px 8px 6px;display:inline;}/* add 100812 */
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li span{display:block;color:#999;padding-top:3px;text-align:center;white-space:nowrap;font-family:"宋体";}
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li a:link,
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li a:visited{border:1px solid #ccc;display:block;width:50px;height:50px;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li a:hover{border-color:#51BD2F;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page{text-align:center;padding-left:100px;width:auto;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_pages{float:none;text-align:center;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShownone{height:313px;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShownone p{padding-top:83px;padding-left:60px;font-family:"宋体";}
+
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li{float:left;width:auto;height:auto;overflow:hidden;margin:0;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li span{display:block;color:#999;padding-top:3px;text-align:center;white-space:nowrap;font-family:"宋体";}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li a:link,
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li a:visited{border:none;display:block;width:auto;height:auto;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li a:hover{border-color:none;}
+

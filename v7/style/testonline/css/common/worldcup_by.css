@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wdc_teamvs{ background:url(../../images/common/worldcup/model_bg.jpg) no-repeat left top; width:510px; height:150px; overflow:hidden; text-align:center; }
+.wdc_teamvs .wdc_tmTit{padding:6px 0 0 0; height:19px; font-size:16px; font-weight:bold; color:#e3ffe6; font-family:'宋体'; overflow:hidden;}
+.wdc_teamvs .wdc_tmTime{padding:3px 0 0 0; height:17px; font-size:12px; color:#b6e1ba; font-family:'宋体'; overflow:hidden;}
+.wdc_teamvs .wdc_tmTime span.mid{ padding:0 8px;}
+.wdc_teamvs .wdc_tmConn{ position:relative; height:105px;}
+.wdc_teamvs .tmFlagL{ padding:13px 0 0 24px; width:87px; text-align:center;float:left;}
+.wdc_teamvs .tmFlagR{ padding:13px 24px 0 0; width:87px; text-align:center;float:right;}
+.wdc_teamvs .wdc_tmName{ height:20px; line-height:20px; overflow:hidden; color:#323e32;}
+.wdc_teamvs .tmFlagM{position:absolute; left:240px; top:26px; color:#3582d1; font-size:30px; font-family:'黑体';}
+.wdc_teamvs .tmLink{ width:510px; text-align:center; font-size:12px; position:absolute; bottom:10px; left:0px;}
+.wdc_teamvs .tmLink a:link,
+.wdc_teamvs .tmLink a:visited{ text-decoration:none; color:#49687f;}
+.wdc_teamvs .tmLink a:hover{ text-decoration:underline;color:#49687f;}
+.wdc_teamvs .tmLink span{color:#999999; padding:0 10px;}
+
+/* 日历 */
+.wdc_calender{ width:448px; height:201px; border:2px solid #d2d9e6; overflow:hidden; background-color:#fff; position:relative;}
+.wdc_cldTit{ height:19px; padding:9px 0 0 8px; color:#386903;}
+.wdc_cldTit a{ position:absolute; right:9px; top:9px; display:block; background:url(../../images/common/worldcup/wdccld_close.gif) no-repeat left top; width:8px; height:7px;}
+.wdc_cldMon{ padding-left:3px;}
+.wdc_cldMon .eve{ float:left; width:140px; height:166px; padding:1px; overflow:hidden; border:1px solid #d6d6d6; font-family:"宋体"; margin-right:5px; display:inline;}
+.wdc_cldMon .eve h3{ background:url(../../images/common/worldcup/wdccld_titbg.gif) repeat-x left top; height:17px; line-height:17px; font-size:12px; color:#fff; width:140px; text-align:center;}
+.wdc_cldMon .eve .week{ height:20px; line-height:20px; padding-bottom:30px; overflow:hidden;}
+.wdc_cldMon .eve .week span{ float:left; width:20px; text-align:center;}
+.wdc_cldMon .eve .week span.green{ color:#4fb51d;}
+.wdc_cldMon .eve li{ float:left; width:20px; height:20px; overflow:hidden;}
+.wdc_cldMon .eve li a{ display:block; width:20px; line-height:20px; line-height:20px; text-align:center; color:#393939;}
+.wdc_cldMon .eve li a:link,
+.wdc_cldMon .eve li a:visited,
+.wdc_cldMon .eve li a:hover{ text-decoration:none; cursor:default;}
+.wdc_cldMon .eve li.cur{ background:url(../../images/common/worldcup/wdccld_datecur.gif) no-repeat 1px 1px;}
+.wdc_cldMon .eve li.cur a{ color:#1c64b9; font-weight:bold;}
+.wdc_cldMon .eve li.new{ background:url(../../images/common/worldcup/wdccld_datenew.gif) no-repeat left top;}
+.wdc_cldMon .eve li.new a:link,
+.wdc_cldMon .eve li.new a:visited,
+.wdc_cldMon .eve li.new a:hover{ color:#fff; font-weight:bold; cursor:pointer;}
+.wdc_cldMon .eve li.open{ background:url(../../images/common/worldcup/wdccld_ball.gif) no-repeat 0 1px;}
+.wdc_cldMon .eve li.award{ background:url(../../images/common/worldcup/wdccld_award.gif) no-repeat 0 2px;}
+.wdc_cldMon .evelast{ margin-right:0px;}
+
+/* 世界杯活动宣传 */
+.wdcPropa{}
+.wdcPropa .SG_connHead{ height:1px;}
+.wdcPropa .SG_connBody{ padding-left:1px;}
+.wdcPropa_conn{padding-left:10px; padding-top:65px; width:198px; overflow:hidden; background:#ecffd8 url(../../images/common/worldcup/propa_bg.jpg) no-repeat center top;}
+.wdcPropa_record{ width:190px; height:29px; overflow:hidden;}
+.wdcPropa_linedot{ background:url(../../images/common/worldcup/propa_linedot.gif) repeat-x left top; height:1px; overflow:hidden; width:100%; width:190px;}
+.wdcPropa_link{ padding:4px 0 10px 7px; width:183px;}
+.wdcPropa_link li{ background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 8px; padding-left:8px; word-wrap:break-word; word-break:break-all; line-height:18px;}
+.wdcPropa_link li a{ word-wrap:break-word; word-break:break-all; color:#386903;}
+.wdcPropa_act{ padding-bottom:5px;}
+
+/* 世界杯活动宣传浮层 */
+.wdcPropa_flt{ background:url(../../images/common/worldcup/propa_bg_flt.jpg) no-repeat left top; width:306px; height:129px; position:absolute; overflow:hidden;}
+.wdcPropa_flt a.close{ background:url(../../images/common/worldcup/worldcup_layer02_close.gif) no-repeat left top; width:13px; height:14px; display:block; position:absolute; right:6px; top:6px;}
+.wdcPropa_flt .join{ color:#333333; padding:83px 0 0 21px; clear:both;}
+.wdcPropa_flt .join span{ float:left; padding-top:6px; padding-right:6px;}
+.wdcPropa_flt .join a{ color:#fff; float:right; width:83px; height:28px; background:url(../../images/common/worldcup/worldcup_layer02_btn.gif) no-repeat left top; position:absolute; padding:6px 0 0 36px;}
+
+/* 世界杯通知*/
+.wdc_Notice{ background:url(../../images/common/worldcup/worldcup_feedbg_730.png) no-repeat right top; width:668px; height:97px; overflow:hidden; position:relative; padding:12px 10px 0 10px; font-size:14px; word-wrap:break-word; word-break:break-all; margin-top:13px; font-family:"宋体";}
+.wdc_Notice .conn{ line-height:20px;}
+.wdc_Notice .wdc_NotTime{ position:absolute; right:12px; top:15px;}
+.wdc_Notice .wdc_NotJoin{ position:absolute; right:0px; bottom:0px; background:url(../../images/common/worldcup/worldcup_feed_bot.gif) no-repeat left top; width:72px; height:19px; font-size:12px;}
+.wdc_Notice .wdc_NotJoin a{ display:block; width:57px; height:19px; line-height:19px; line-height:21px\9; overflow:hidden; padding-left:15px; color:#048700;}
+
+/* 世界杯搜索浮层 */
+.wdc_srhflt_Bg1{ height:68px; background:url(../../images/common/worldcup/bg_wcdflt_rp1.gif) repeat-x left top; position:relative; padding-top:2px;}
+.wdc_srhflt_Bg2{ height:131px; background:url(../../images/common/worldcup/bg_wcdflt_rp2.gif) repeat-x left top; padding-top:2px;}
+.wdcSrh_Flt1{ background:url(../../images/common/worldcup/bg_srhflt1.jpg) no-repeat center bottom; width:100%; height:68px;}
+.wdcSrh_Flt2{ background:url(../../images/common/worldcup/bg_srhflt2.jpg) no-repeat center bottom; width:100%; height:131px;}
+.wdcSrh_Flt950{ width:950px; margin:0 auto; position:relative;}
+.wdcSrh_FLeft{ float:left; width:737px; overflow:hidden;}
+.wdcSrh_FConn{ padding:12px 0 0 48px;}
+.wdcSrh_FConn li{ line-height:18px; white-space:nowrap; background:url(../../images/common/worldcup/worldcup_dot.gif) no-repeat left 8px; width:652px; overflow:hidden; padding-left:8px;}
+.wdcSrh_FConn li a{ padding-right:10px;}
+.wdcSrh_FConn li a:link,
+.wdcSrh_FConn li a:visited,
+.wdcSrh_FConn li a:hover{ color:#336202;}
+.wdcSrh_FRight{ float:left; width:213px;}
+.wdcSrh_FRight1{ background:url(../../images/common/worldcup/bg_wcdfltright1.gif) no-repeat left 5px; height:68px;}
+.wdcSrh_FRight2{ background:url(../../images/common/worldcup/bg_wcdfltright2.gif) no-repeat left 16px; height:131px;}
+.wdcSrh_FRight3{ background:url(../../images/common/worldcup/bg_wcdfltright2.gif) no-repeat left 16px; height:131px;}
+.wdcSrh_FRight1 .btn{ margin:18px 0 0 18px; display:block; background:url(../../images/common/worldcup/bg_wcdfltbtn.gif) no-repeat left top; width:156px; height:42px;}
+.wdcSrh_FRight2 .btn{ margin:66px 0 0 20px; display:block; background:url(../../images/common/worldcup/bg_wcdfltbtn.gif) no-repeat left top; width:156px; height:42px;}
+.wdcSrh_FRight3 .btn{ margin:66px 0 0 46px; display:block; background:url(../../images/common/worldcup/bg_wcdfltbtn2.gif) no-repeat left top; width:130px; height:32px;}
+.wdcSrh_fclo a{ width:25px; height:17px; display:block; position:absolute; right:0px; top:2px;}
+.wdcSrh_fclo a:link,
+.wdcSrh_fclo a:visited{ background:url(../../images/common/worldcup/bg_wcdfltclo.gif) no-repeat left top;}
+.wdcSrh_fclo a:hover{ background:url(../../images/common/worldcup/bg_wcdfltclo.gif) no-repeat left -17px;}
+.wdcSrh_fopen1 a,
+.wdcSrh_fopen2 a{ background-image:url(../../images/common/worldcup/bg_wcdfltopen.gif); background-repeat:no-repeat; position:absolute; left:473px; top:1px; display:block; width:48px; height:17px; padding:2px 0 0 12px; height:16px\9; padding:3px 0 0 12px\9;}
+.wdcSrh_fopen1 a{ background-position:left -19px;}
+.wdcSrh_fopen2 a{ background-position:left top;}
+.wdcSrh_fopen1 a:link,
+.wdcSrh_fopen1 a:visited,
+.wdcSrh_fopen1 a:hover,
+.wdcSrh_fopen2 a:link,
+.wdcSrh_fopen2 a:visited,
+.wdcSrh_fopen2 a:hover{ color:#fff; text-decoration:none;}
+
+
+
+
+

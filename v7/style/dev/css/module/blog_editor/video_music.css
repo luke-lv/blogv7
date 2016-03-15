@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*视频音乐*/
+.video_box{
+	margin-bottom:42px;
+}
+.video_box,
+.music_box{
+	overflow:hidden;
+	text-align:center;
+}
+

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*新模版 > 评论*/
+.BNE_review{
+	width:100%;
+	padding:0 0 70px;
+	margin-top:58px;
+	/*background-color:#3D4E6E;*/
+}
+.review_box{
+	width:1000px;
+	margin:0 auto;
+}
+.BNE_retract{
+	display: block;
+	margin-top: 30px;
+	padding: 18px 0;
+	width: 100%;
+	text-align: center;
+	color: #999;
+	font-size: 16px;
+	background: #f6f6f6;
+}
+.BNE_retract:hover{ 
+	background: #f8f8f8;
+}
+.BNE_retract .i28_arr_up{
+	margin-left: 6px;	
+	background-position: -64px -262px;
+}

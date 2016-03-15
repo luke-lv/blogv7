@@ -1,0 +1,1 @@
+define("lib",function(require,e,n){jQuery.noConflict(),n.exports=jQuery});

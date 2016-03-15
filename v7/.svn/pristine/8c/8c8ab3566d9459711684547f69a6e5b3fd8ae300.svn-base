@@ -1,0 +1,14 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*report*/
+.M_premier{width:1000px;overflow:hidden;margin:0 auto;}
+.M_premier .report_l{float:left;margin-right:35px;position:relative;}
+.M_premier .report_r{float:left;width:650px;_margin-right:-30px;}
+.M_premier .report_l .h_title{width:315px;height:450px;}
+.M_premier .report_l .title{position:absolute;left:0;bottom:0;width:100%;height:50px;line-height:50px;color:#fff;background:#373d40;text-align: center;font-size:16px;_width:315px;}
+.M_premier .report_l a.title:hover{color:#d33a2e;}
+.M_premier .report_l .head_info{width:315px;height:286px;overflow:hidden;}
+.M_premier .report_l .head_info .info_title{font-size:16px;padding:20px 0;text-align: center;}
+.M_premier .report_l .head_info .info_txt{padding:0 25px 30px 25px;color:#666;font-size:14px;}
+

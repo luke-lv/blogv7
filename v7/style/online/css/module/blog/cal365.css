@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+.cal365 .calBtn{margin:20px auto; overflow:hidden; _zoom:1; text-align:center; font-size:12px;}
+.cal365 .calBtn a.btn_preview,.calWrap .cal365 .calBtn a.btn_preview:link{float:left; background:url(../../../images/activity/act365/cal365_arrow.png) no-repeat; _background:url(../../../images/activity/act365/cal365_arrow.gif) no-repeat; padding-left:20px; line-height:15px; color:#666; font-size:12px;}
+.cal365 .calBtn a.btn_preview:hover{background-position:0 -30px; color:#999; text-decoration:none;}
+.cal365 .calBtn a.btn_next,.calWrap .cal365 .calBtn a.btn_next:link{float:right; *margin-top:-17px; background:url(../../../images/activity/act365/cal365_arrow.png) right -60px no-repeat; _background:url(../../../images/activity/act365/cal365_arrow.gif) right -60px no-repeat; padding-right:20px; line-height:15px; color:#666; font-size:12px;}
+.cal365 .calBtn a.btn_next:hover{background-position:right -90px; color:#999; text-decoration:none;}
+.cal365 .calBtn .current{display:inline-block; margin:0 auto; color:#a30000;}
+.cal365 .calCon{overflow:hidden; *zoom:1; width:690px;}
+.cal365 .calCon ul li{width:85px; height:113px; background:#fff; border:1px #e5e5e5 solid; float:left; _display:inline; margin-right:13px; margin-bottom:13px; overflow:hidden;}
+.cal365 .calCon ul li.hover{border-color:#000;}
+.cal365 .calCon ul li.nomgr{margin-right:0;}
+.cal365 .calCon ul li.wk1{margin-left:100px;}
+.cal365 .calCon ul li.wk2{margin-left:200px;}
+.cal365 .calCon ul li.wk3{margin-left:300px;}
+.cal365 .calCon ul li.wk4{margin-left:400px;}
+.cal365 .calCon ul li.wk5{margin-left:500px;}
+.cal365 .calCon ul li.wk6{margin-left:600px;}
+.cal365 .calCon ul li.wk7{margin-left:0;}
+.cal365 .calCon ul li .pic{position:relative; width:75px; height:75px; overflow:hidden; margin:5px auto 0; background:url(../../../images/activity/act365/cal365_nobgs.png) no-repeat;}
+.cal365 .calCon ul li .pic a,.cal365 .calCon ul li .pic a:link{width:103px; height:107px; float:left;}
+.cal365 .calCon ul li .pic a.txt,.cal365 .calCon ul li .pic a.txt:link,.cal365 .calCon ul li .pic a.txt:hover{width:63px; height:66px; line-height:17px; padding:3px 5px 4px; border:1px #e2e2e2 solid; display:block; background:#fff; text-decoration:none;}
+.cal365 .calCon ul li .pic img{width:75px; height:75px; float:left;}
+.cal365 .calCon ul li .pic a.music{position:absolute; left:37px; top:39px; width:32px; height:32px; background:url(../../../images/archive/ico_mplay.png) no-repeat;}
+.cal365 .calCon ul li .pic a.video{position:absolute; left:37px; top:39px; width:32px; height:32px; background:url(../../../images/archive/ico_rplay.png) no-repeat;}
+.cal365 .calCon ul li .info{margin:0 auto; padding:0 5px; height:33px; line-height:33px; position:relative; color:#333; *zoom:1;}
+.cal365 .calCon ul li .info .year{position:absolute; right:0; top:0; font-family:arial; font-size:10px;}
+.cal365 .calCon ul li .info .month{position:absolute; right:0; top:15px;}
+.cal365 .calCon ul li .info .week{float:left;}
+.cal365 .calCon ul li .info .week em{display:block; font-family:arial; color:#231f20; font-size:10px;}
+.cal365 .calCon ul li .info .day{width:26px; height:13px; float:right; background:url(../../../images/activity/act365/cal365_dates.png) no-repeat; _background:url(../../../images/activity/act365/cal365_dates.gif) no-repeat; display:block; margin-top:10px; font-size:24px; text-align:center; text-indent:-9999px; overflow:hidden;}
+.cal365 .calCon ul li .info .day.d1{background-position:0 0;}
+.cal365 .calCon ul li .info .day.d2{background-position:0 -26px;}
+.cal365 .calCon ul li .info .day.d3{background-position:0 -52px;}
+.cal365 .calCon ul li .info .day.d4{background-position:0 -78px;}
+.cal365 .calCon ul li .info .day.d5{background-position:0 -104px;}
+.cal365 .calCon ul li .info .day.d6{background-position:0 -130px;}
+.cal365 .calCon ul li .info .day.d7{background-position:0 -156px;}
+.cal365 .calCon ul li .info .day.d8{background-position:0 -182px;}
+.cal365 .calCon ul li .info .day.d9{background-position:0 -208px;}
+.cal365 .calCon ul li .info .day.d10{background-position:0 -234px;}
+.cal365 .calCon ul li .info .day.d11{background-position:0 -260px;}
+.cal365 .calCon ul li .info .day.d12{background-position:0 -286px;}
+.cal365 .calCon ul li .info .day.d13{background-position:0 -312px;}
+.cal365 .calCon ul li .info .day.d14{background-position:0 -338px;}
+.cal365 .calCon ul li .info .day.d15{background-position:0 -364px;}
+.cal365 .calCon ul li .info .day.d16{background-position:0 -390px;}
+.cal365 .calCon ul li .info .day.d17{background-position:0 -415px;}
+.cal365 .calCon ul li .info .day.d18{background-position:0 -441px;}
+.cal365 .calCon ul li .info .day.d19{background-position:0 -467px;}
+.cal365 .calCon ul li .info .day.d20{background-position:0 -493px;}
+.cal365 .calCon ul li .info .day.d21{background-position:0 -519px;}
+.cal365 .calCon ul li .info .day.d22{background-position:0 -545px;}
+.cal365 .calCon ul li .info .day.d23{background-position:0 -571px;}
+.cal365 .calCon ul li .info .day.d24{background-position:0 -597px;}
+.cal365 .calCon ul li .info .day.d25{background-position:0 -623px;}
+.cal365 .calCon ul li .info .day.d26{background-position:0 -649px;}
+.cal365 .calCon ul li .info .day.d27{background-position:0 -675px;}
+.cal365 .calCon ul li .info .day.d28{background-position:0 -701px;}
+.cal365 .calCon ul li .info .day.d29{background-position:0 -727px;}
+.cal365 .calCon ul li .info .day.d30{background-position:0 -753px;}
+.cal365 .calCon ul li .info .day.d31{background-position:0 -779px;}
+.cal365 .calCon ul li.today{background:#cee3e4;}
+.cal365 .calCon ul li.today .pic{background-position:0 -140px;}
+.cal365 .calCon ul li.coming .pic{background-position:0 -280px;}
+.cal365 .calCon ul li.default .pic{background-position:0 -420px;}
+

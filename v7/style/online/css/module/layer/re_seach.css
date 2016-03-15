@@ -1,0 +1,28 @@
+/* blog页搜索浮层 20110128Rebuild*/
+.blog_sfout{width:100%;background:url(../../../images/blog/srh_flt/srhflt_bg.gif) repeat-x center top;height:70px;position:relative;}
+.blog_sfout a:link,.blog_sfout a:visited{color:#1b468a}
+.blog_sfout a:hover{color:#d90b00;}
+.blog_srhflt{width:950px;margin:0 auto;overflow:hidden;}
+.blog_sfL{float:left;padding-left:6px;width:633px;overflow:hidden;padding-top:16px;}
+.blog_sfR{float:left;background:url(../../../images/blog/srh_flt/line_mid.gif) no-repeat 0 2px;height:54px;color:#666666;width:299px;position:relative;padding-top:14px;padding-top:16px\9;padding-left:12px;}
+.blog_sfTit{background-image:url(../../../images/blog/srh_flt/srh_title.gif);background-repeat:no-repeat;background-position:0 0;height:40px;text-indent:-9000px;float:left;margin-right:10px;}
+.blog_nofTit{background-position:0 -50px;}
+.blog_sfTit a{display:block;width:91px;height:40px;outline:none}
+.blog_sflist{position:relative;width:437px;float:left;margin-top:-3px;}
+.blog_onlyone .blog_sflist ul{padding-top:12px;_padding-top:11px;}
+.blog_onlyone .blog_sflist .SG_more{top:17px;}
+.blog_sflist .SG_icon107{float:left;margin-right:2px;margin-top:3px;}
+.blog_sflist .SG_more{position:absolute;right:0;top:26px;}
+.blog_sflist .SG_more a:link,.blog_sflist .SG_more a:visited,.blog_sflist .SG_more a:hover{color:#86691a}
+.blog_sfNm{background-color:#ffff66;font-weight:bold;color:#333333;}
+.blog_sflist li{background:url(../../../images/blog/srh_flt/bg_li.gif) no-repeat left 10px;height:22px;line-height:22px;line-height:24px;padding-left:10px;font-size:14px;width:390px;overflow:hidden;}
+.blog_sfR strong{font-size:12px;}
+.blog_sfL .con_erro{padding-top:12px;text-align:center}
+.blog_sfR .mren .mren_list li{display:inline-block;padding:7px 3px 0 0;float:left;}
+.blog_sfR .mren .back_home{position:absolute;top:35px;right:0;}
+.blog_sfR .mren .back_home a:link,.blog_sfR .mren .back_home a:visited,.blog_sfR .mren .back_home a:hover{color:#86691a;}
+.blog_sfClo{position:absolute;right:2px;top:2px;}
+.blog_sfClo a{display:block;width:39px;height:30px;background-image:url(../../../images/blog/srh_flt/close.gif);background-repeat:no-repeat;}
+.blog_sfClo a:link,
+.blog_sfClo a:visited{background-position:left top;}
+.blog_sfClo a:hover{background-position:left -30px;}

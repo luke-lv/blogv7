@@ -1,0 +1,35 @@
+@charset "gb2312";
+/* CSS Document */
+/*头部导航*/
+.Mininav{ width:100%; height:60px; background:#fff; position:fixed; z-index:9999;-webkit-box-shadow:1px 1px 10px #eceae8;box-shadow:1px 1px 10px #eceae8; border-bottom:1px solid #f2f1ef; }
+.top-nav{width: 1000px;margin: 0 auto;height: 60px;}
+.tn-left{float: left; }
+.tn-left a.logo,.Mininav .timeline-time li{float: left;}
+.tn-left a.logo{display:block; width:140px; height:60px; background: url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_pic/logotop.png) no-repeat left 9px;  background-size:100%;}
+.tn-left a.title {float: left;border-left: 1px solid #b39d6e;height:32px;line-height: 33px;font-size: 20px;padding-left: 20px; margin-left: 20px; color: #000; margin-top:14px;}
+.tn-left a.title:hover{ color:#d33a2e; text-decoration:none;}
+.tn-right{float: right; width:80px;}
+.tn-right .bshare-custom{ width: 27px;height: 60px; float: left; line-height: 200px;overflow: hidden;margin-right: 25px; cursor: pointer;}
+.tn-right .bshare-custom.icon-medium a.bshare-more.more-style-addthis{ width: 27px;height: 60px; float: left; background:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_pic/top_commit.png) no-repeat center; cursor: pointer; padding: 0px !important;margin: 0px !important;}
+.tn-right .cmnt{width: 28px;height: 60px; float: left; line-height: 200px;overflow: hidden; background: url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_pic/top_enjoy.png) no-repeat center; cursor: pointer;}
+/*头部背景图*/
+.M_img{padding-top:60px;_padding-top:0;}
+.Mtopbg{ background:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/topbg.jpg) top center no-repeat;  height:255px;}
+/*视频列表*/
+.C_video_list{margin-right:-25px;*zoom:1;}
+.C_video_list .list {float:left;margin-bottom:20px;margin-right:25px;}
+.C_video_list .list .list_video{width:200px;height:150px;display: block;position:relative;}
+.C_video_list .list .list_video .video_img{width:100%;height:100%;}
+.C_video_list .play_icon{width:22px;height:22px;background:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/v_icon.png);_background:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/v_icon.gif);position:absolute;left:10px;bottom:10px;}
+.C_video_list .list:hover .play_icon{background:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/v_icon2.png);}
+.C_video_list .title{display: block;width:200px;height:50px;line-height:20px;overflow:hidden;margin-top:5px;font-size:14px;}
+/*箭头*/
+.C_arr_wrap .arr_l,
+.C_arr_wrap .arr_r{width:45px;height:125px;display:block;position:absolute;right:0;z-index:9;top:50%;margin-top:-63px;filter: alpha(Opacity=70);opacity: .7;background: #000;}
+.C_arr_wrap .arr_l:hover,
+.C_arr_wrap .arr_r:hover{filter: alpha(Opacity=100);opacity: 1;}
+.C_arr_wrap .arr_l{left:0;}
+.C_arr_wrap .arr_l .arr_icon_l,
+.C_arr_wrap .arr_r .arr_icon_r{display:block;width:11px;height:22px;background:url("http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/arrow.png") no-repeat;_background:url("http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/arrow.gif") no-repeat;background-position: 0 -23px;position:absolute;top:50%;margin-top:-11px;left:50%;margin-left:-5px;}
+.C_arr_wrap .arr_r .arr_icon_r{background-position: 0 0;}
+

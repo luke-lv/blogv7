@@ -1,0 +1,206 @@
+@charset "utf-8";
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,tt,var,h1, h2, h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{outline:0; padding:0; margin:0; border:0; text-align:left; font-style:normal; word-wrap:break-word;}
+:focus{outline:0;}
+body{font-family:"Microsoft Yahei","STHeiti","SimSun","Arail","Verdana","Helvetica","sans-serif"; color:#999; font-size:12px;}
+ol, ul,li{list-style:none;}
+table{border-collapse:collapse; border-spacing:0; width:100%;}
+caption, th, td{font-weight:normal; text-align:left; vertical-align:top;}
+a:link,
+a:visited{font-family:"Microsoft Yahei"; color:#a9a9a9; text-decoration:none;}
+a:hover{font-family:"Microsoft Yahei"; color:#a9a9a9; text-decoration:underline;}
+
+body{background:url(../../images/activity/act365/cal_bg.png) repeat;}
+.wrap{width:100%;}
+.calHead{position:relative; width:900px; height:132px; overflow:hidden; padding-top:40px;}
+.calHead h1{padding-top:30px; padding-bottom:10px; font-size:33px; color:#000; font-weight:normal;}
+.calHead h1 span{color:#a30000;}
+.calHead h2{font-size:18px; color:#000; font-weight:normal;}
+.calHead h2 span{color:#a30000;}
+.calHead .shareTo{position:absolute; left:470px; top:126px; *top:130px; width:118px; height:18px; line-height:18px; border:1px #ffe91d solid; border-bottom-color:#f8caab; border-right-color:#f8caab; padding-left:3px; font-size:12px; color:#5e6ee3;}
+.calHead .shareTo a,.calHead .shareTo a:link{width:15px; height:16px; display:inline-block; margin-left:6px; margin-top:1px; background:url(../../images/activity/act365/cal_share.png) no-repeat; text-indent:-9999px;}
+.calHead .shareTo a.weibo{background-position:0 0;}
+.calHead .shareTo a.renren{background-position:0 -32px;}
+.calHead .shareTo a.kaixin{background-position:0 -64px;}
+.calHead .shareTo a.douban{background-position:0 -96px;}
+.calHead .returnPage{position:absolute; right:3px; top:132px; font-size:13px; color:#666;}
+.calHead .down365{position:absolute; right:0; bottom:26px;; width:146px; height:67px; background:url(../../images/activity/act365/ico_down365.png) no-repeat;}
+.calDesc{width:900px; height:389px; overflow:hidden; margin-bottom:19px; background:url(../../images/activity/act365/caldesc_bg.png) no-repeat;}
+.calDesc .pic{width:499px; height:389px; float:left; _display:inline;}
+.calDesc .pic img{width:481px; height:371px; float:left; margin:9px 0 0 9px;}
+.calDesc .txt{position:relative; width:383px; height:369px; float:left; padding:20px 8px 0; font-size:14px; line-height:24px; color:#4e0909;}
+.calDesc .txt strong{display:block; padding-top:20px; font-weight:normal; margin:0;}
+.calDesc .txt ul.c1{margin-bottom:-10px;}
+.calDesc .txt ul.c1 li{list-style:disc inside none; padding-left:3px;}
+.calDesc .txt ul.c2 li{list-style:decimal inside none; padding-left:3px; line-height:21px;}
+.calDesc .txt ul li a,.calDesc .txt ul li a:link{font-size:16px; color:#a0301a; text-decoration:underline;}
+.calDesc .txt a.btn,.calDesc .txt a.btn:link,.calDesc .txt a.btn:hover{position:absolute; right:27px; bottom:56px; width:130px; height:41px; line-height:41px; background:url(../../images/activity/act365/ico_btn.png) no-repeat; _background:url(../../images/activity/act365/ico_btn.gif) no-repeat; font-size:16px; text-align:center; color:#fff; text-decoration:none;}
+.calAdv{width:900px; margin-bottom:19px; overflow:hidden;}
+.calPicShow{width:900px; height:70px; margin-top:6px; *margin-top:20px; margin-bottom:10px; overflow:hidden; *zoom:1; position:relative; background:url(../../images/activity/act365/cal_picshow.png) no-repeat;}
+.calPicShow h3{display:none;}
+.calPicShow .con{width:693px; height:50px; overflow:hidden; margin-left:168px; margin-top:10px;}
+.calPicShow ul{}
+.calPicShow ul li{float:left; _display:inline; margin-right:13px;}
+.calPicShow ul li img{width:50px; height:50px; overflow:hidden; float:left;}
+.calPicShow a.btn_preview,.calPicShow a.btn_preview:link,.calPicShow a.btn_next,.calPicShow a.btn_next:link{position:absolute; left:130px;; top:22px; width:21px; height:31px; overflow:hidden; background:url(../../images/activity/act365/cal_arrow.png) no-repeat; _background:url(../../images/activity/act365/cal_arrow.gif) no-repeat; text-indent:-9999px;}
+.calPicShow a.btn_preview:hover{background-position:-1px -63px;}
+.calPicShow a.btn_next,.calPicShow a.btn_next:link{left:auto; right:15px; background-position:0 -124px;}
+.calPicShow a.btn_next:hover{background-position:0 -186px;}
+.calBtn{margin:20px auto; overflow:hidden; _zoom:1; text-align:center; font-size:14px;}
+.calBtn a.btn_preview,.calWrap .calBtn a.btn_preview:link{float:left; background:url(../../images/calendar365/cal365_arrow.png) no-repeat; _background:url(../../images/calendar365/cal365_arrow.gif) no-repeat; padding-left:20px; line-height:15px; color:#666;}
+.calBtn a.btn_preview:hover{background-position:0 -30px; color:#999; text-decoration:none;}
+.calBtn a.btn_next,.calWrap .calBtn a.btn_next:link{float:right; *margin-top:-17px; background:url(../../images/calendar365/cal365_arrow.png) right -60px no-repeat; _background:url(../../images/calendar365/cal365_arrow.gif) right -60px no-repeat; padding-right:20px; line-height:15px; color:#666;}
+.calBtn a.btn_next:hover{background-position:right -90px; color:#999; text-decoration:none;}
+.calBtn .current{display:inline-block; margin:0 auto; color:#a30000;}
+.calCon{overflow:hidden; *zoom:1; width:900px;}
+.calCon ul li{width:120px; height:165px; background:#fff; float:left; _display:inline; margin-right:10px; margin-bottom:14px;}
+.calCon ul li.hover{background:url(../../images/activity/act365/cal365_hoverbg.png) no-repeat;}
+.calCon ul li.nomgr{margin-right:0;}
+.calCon ul li.wk1{margin-left:130px;}
+.calCon ul li.wk2{margin-left:260px;}
+.calCon ul li.wk3{margin-left:390px;}
+.calCon ul li.wk4{margin-left:520px;}
+.calCon ul li.wk5{margin-left:650px;}
+.calCon ul li.wk6{margin-left:780px;}
+.calCon ul li.wk7{margin-left:0;}
+.calCon ul li .pic{position:relative; width:103px; height:107px; overflow:hidden; margin:9px auto 0; background:url(../../images/activity/act365/cal365_nobg.png) no-repeat;}
+.calCon ul li .pic a,.calCon ul li .pic a:link{width:103px; height:107px; float:left;}
+.calCon ul li .pic a.txt,.calCon ul li .pic a.txt:link,.calCon ul li .pic a.txt:hover{width:91px; height:98px; line-height:17px; padding:2px 5px 5px; border:1px #e2e2e2 solid; display:block; background:#fff; text-decoration:none;}
+.calCon ul li .pic img{width:114px; height:114px; float:left;}
+.calCon ul li .pic a.music{position:absolute; left:37px; top:39px; width:32px; height:32px; background:url(../../images/archive/ico_mplay.png) no-repeat;}
+.calCon ul li .pic a.video{position:absolute; left:37px; top:39px; width:32px; height:32px; background:url(../../images/archive/ico_rplay.png) no-repeat;}
+.calCon ul li .info{margin:7px 9px 0; position:relative; color:#333; *zoom:1;}
+.calCon ul li .info .year{position:absolute; right:0; top:0; font-family:arial; font-size:10px;}
+.calCon ul li .info .month{position:absolute; right:0; top:15px;}
+.calCon ul li .info .week{position:absolute; left:0; top:0;}
+.calCon ul li .info .week em{display:block; font-family:arial; color:#231f20; font-size:10px;}
+.calCon ul li .info .day{width:34px; height:17px; position:relative; top:10px; background:url(../../images/calendar365/cal365_date.png) no-repeat; _background:url(../../images/calendar365/cal365_date.gif) no-repeat; display:block; margin:0 auto; margin-left:38px; font-size:24px; text-align:center; text-indent:-9999px; overflow:hidden;}
+.calCon ul li .info .day.d1{background-position:0 0;}
+.calCon ul li .info .day.d2{background-position:0 -34px;}
+.calCon ul li .info .day.d3{background-position:0 -68px;}
+.calCon ul li .info .day.d4{background-position:0 -102px;}
+.calCon ul li .info .day.d5{background-position:0 -136px;}
+.calCon ul li .info .day.d6{background-position:0 -170px;}
+.calCon ul li .info .day.d7{background-position:0 -204px;}
+.calCon ul li .info .day.d8{background-position:0 -238px;}
+.calCon ul li .info .day.d9{background-position:0 -272px;}
+.calCon ul li .info .day.d10{background-position:0 -306px;}
+.calCon ul li .info .day.d11{background-position:0 -340px;}
+.calCon ul li .info .day.d12{background-position:0 -374px;}
+.calCon ul li .info .day.d13{background-position:0 -408px;}
+.calCon ul li .info .day.d14{background-position:0 -442px;}
+.calCon ul li .info .day.d15{background-position:0 -476px;}
+.calCon ul li .info .day.d16{background-position:0 -510px;}
+.calCon ul li .info .day.d17{background-position:0 -544px;}
+.calCon ul li .info .day.d18{background-position:0 -578px;}
+.calCon ul li .info .day.d19{background-position:0 -612px;}
+.calCon ul li .info .day.d20{background-position:0 -646px;}
+.calCon ul li .info .day.d21{background-position:0 -680px;}
+.calCon ul li .info .day.d22{background-position:0 -714px;}
+.calCon ul li .info .day.d23{background-position:0 -748px;}
+.calCon ul li .info .day.d24{background-position:0 -782px;}
+.calCon ul li .info .day.d25{background-position:0 -816px;}
+.calCon ul li .info .day.d26{background-position:0 -850px;}
+.calCon ul li .info .day.d27{background-position:0 -884px;}
+.calCon ul li .info .day.d28{background-position:0 -918px;}
+.calCon ul li .info .day.d29{background-position:0 -952px;}
+.calCon ul li .info .day.d30{background-position:0 -986px;}
+.calCon ul li .info .day.d31{background-position:0 -1020px;}
+.calCon ul li.today{background:#cee3e4;}
+.calCon ul li.today .pic{background-position:0 -160px;}
+.calCon ul li.coming .pic{background-position:0 -320px;}
+.calCon ul li.default .pic{background-position:0 -480px;}
+
+.reward .container{width:1006px; margin:0 auto;}
+.reward .calHead{width:986px; margin:0 auto;}
+.rewardContent{width:1006px; margin:0 auto;}
+.rewardContent .top10{width:986px; margin:0 auto; padding-top:25px; border-top:1px #989898 dashed;}
+.rewardContent .top10 .hd{overflow:hidden; *zoom:1;}
+.rewardContent .top10 .hd strong{float:left; font-size:50px; color:#ac5353; font-weight:normal;}
+.rewardContent .top10 .hd em{float:left; margin-top:32px; margin-left:15px; font-size:14px; color:#fff; width:249px; height:26px; line-height:25px; background:url(../../images/activity/act365/ico_ctrlf.png) no-repeat; overflow:hidden; text-align:center;}
+.rewardContent .top10 .hd span{float:right; margin-top:45px; font-size:13px; color:#000;}
+.rewardContent .top10 .bd{margin-top:8px; -webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; background:#fff; overflow:hidden; *zoom:1; position:relative;}
+.rewardContent .top10 .bd .tabTit{width:100%; overflow:hidden; *zoom:1; padding:25px 0 20px; border-bottom:2px #e8e8e8 solid; margin-bottom:30px;}
+.rewardContent .top10 .bd .tabTit li{height:37px; line-height:37px; padding-right:48px; margin-left:48px; float:left; font-size:13px; color:#ac5353; background:url(../../images/activity/act365/ico_xline.png) right 0 no-repeat; font-family:"Microsoft Yahei","simsun"; _font-size:12px;}
+.rewardContent .top10 .bd .tabTit li.nobd{background:none;}
+.pmlist{margin-bottom:-30px;}
+.pmlist li{clear:both; height:81px; line-height:81px; margin-bottom:60px;}
+.pmlist li div{float:left; _display:inline; width:150px;}
+.pmlist li .rank{text-align:center; width:120px;}
+.pmlist li .rank span{display:block; width:40px; height:57px; margin:0 auto; background:url(../../images/activity/act365/ico_reward.png) 0 0 no-repeat; _background:url(../../images/activity/act365/ico_reward.gif) 0 0 no-repeat; text-indent:-9999px; overflow:hidden;}
+.pmlist li .rank .p1{background-position:0 0; margin-top:10px;}
+.pmlist li .rank .p2{background-position:0 -67px; margin-top:10px;}
+.pmlist li .rank .p3{background-position:0 -134px; margin-top:10px;}
+.pmlist li .rank .p4{width:40px; height:41px; line-height:41px; text-align:center; background-position:0 -204px; margin-top:16px; font-size:24px; color:#fff; text-indent:0; font-family:arial; font-weight:bold;}
+.pmlist li .headpic{text-align:center; overflow:hidden;}
+.pmlist li .headpic a,.pmlist li .headpic a:link{margin:0 auto; width:81px; height:81px; position:relative; overflow:hidden; display:block;}
+.pmlist li .headpic em{width:23px; height:28px; position:absolute; right:0; top:0; background:url(../../images/activity/act365/ico_reward.png) 0 0 no-repeat; _background:url(../../images/activity/act365/ico_reward.gif) 0 0 no-repeat;}
+.pmlist li .headpic em.no1{background-position:-17px -255px;}
+.pmlist li .headpic em.no2{background-position:-17px -294px;}
+.pmlist li .headpic em.no3{background-position:-17px -335px;}
+.pmlist li .headpic img{width:81px; height:81px;}
+.pmlist li .pics{width:auto;}
+.pmlist li .pics ul li{width:111px; height:81px; position:relative; float:left; _display:inline; margin-right:11px; margin-bottom:0; clear:none; line-height:auto; *zoom:1;}
+.pmlist li .pics a,.pmlist li .pics a:link{width:111px; height:81px; position:relative; z-index:9; *zoom:1;}
+.pmlist li .pics img{width:111px; height:81px; overflow:hidden;}
+.pmlist li .pics span{width:111px; height:18px; line-height:18px; display:block; background:#000; background:rgba(0,0,0,.5); color:#fff; position:absolute; bottom:0; left:0; z-index:10; text-align:right; cursor:pointer;}
+.pmlist li .pics span em{margin-right:5px; background:url(../../images/activity/act365/ico_reward.png) -28px -396px no-repeat; _background:url(../../images/activity/act365/ico_reward.gif) -28px -396px no-repeat; padding-left:16px; font-size:10px;}
+.pmlist li .pics span em.liked{background-position:-28px -416px;}
+.pmlist li .username{text-align:center; font-size:13px; color:#333;}
+.pmlist li .username a,.pmlist li .username a:link{color:#333;}
+.pmlist li .username a:hover{text-decoration:underline; color:#999;}
+.pmlist li .likecount{text-align:center; height:57px; line-height:57px; color:#333;}
+.pmlist li .likecount em{display:block; height:15px; line-height:15px; margin-top:34px; margin-left:20px; background:url(../../images/activity/act365/ico_reward.png) -24px -376px no-repeat; _background:url(../../images/activity/act365/ico_reward.gif) -24px -376px no-repeat; padding-left:20px;}
+.overTop10 .hd{width:1006px; height:10px; background:url(../../images/activity/act365/ico_365lbg.png) no-repeat; overflow:hidden;}
+.overTop10 .bd{width:1006px; -webkit-border-radius:0 0 5px 5px; -moz-border-radius:0 0 5px 5px; border-radius:0 0 5px 5px; background:#fff; padding-bottom:20px;}
+.overTop10 .bd ul{overflow:hidden; *zoom:1; padding:30px 56px;}
+.overTop10 .bd ul li{width:226px; float:left; margin-bottom:5px; _display:inline; height:20px; line-height:20px; margin-right:100px; overflow:hidden;}
+.overTop10 .bd ul li.xline{width:100%; height:1px; background:#efefef; margin:15px 0; overflow:hidden;}
+.overTop10 .bd ul li.nomgr{margin-right:0;}
+.overTop10 .bd ul li div{float:left; _display:inline; font-size:13px; color:#333;}
+.overTop10 .bd ul li div a,.overTop10 .bd ul li div a:link{color:#333; text-decoration:none;}
+.overTop10 .bd ul li div a:hover{text-decoration:underline; color:#999;}
+.overTop10 .bd ul li .username{margin-right:25px; width:9em; overflow:hidden;}
+.overTop10 .bd ul li .likecount em{display:block; height:20px; line-height:20px; background:url(../../images/activity/act365/ico_reward.png) -24px -372px no-repeat; _background:url(../../images/activity/act365/ico_reward.gif) -24px -372px no-repeat; padding-left:20px;}
+.rewardContent .top10 .bd .searchbar{position:absolute; top:6px; right:45px; margin:15px auto 0; overflow:hidden; *zoom:1;}
+.rewardContent .top10 .bd .searchbar .bd {float:right; border:1px solid #ddd; width:183px; height:31px; position:relative; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0;}
+.rewardContent .top10 .bd .searchbar .bd input.ipt {border:0; color:#cfcfcf; font-family:"Microsoft Yahei","arial"; font-size:14px; height:31px;line-height:31px; margin:0; padding:0 40px 0 9px; width:134px;}
+.rewardContent .top10 .bd .searchbar .bd input.ipt:focus{color:#000;}
+.rewardContent .top10 .bd .searchbar .bd input.btn {width:35px; height:31px; background:url(../../images/activity/act365/ico_ndashboard.png) no-repeat; border:0; position:absolute; right:0; _right:-1px; top:0; _top:1px; cursor:pointer;}
+.rewardContent .top10 .bd .searchbar .inpt_focus{border:1px solid #f3f3f3;}
+.rewardContent .top10 .bd .searchbar .inpt_focus input.btn{}
+.rewardContent .top10 .bd .searchbar .inpt_focus input.ipt{color:#D9D8D8;}
+
+.footer{line-height:22px; clear:both; margin:30px 0;}
+.footer p{text-align:center; color:#ababad;}
+.footer a,.footer a:link,.footer a:hover{color:#ababad; text-decoration:none;}
+
+.searchTagWrap{background:#eeefef; margin-top:20px;}
+.container .content{margin:0 auto;}
+.dbWrapW{background:none;}
+.postBox .titMod{position:relative;}
+.postBox .titMod span{position:absolute; left:145px; top:10px; font-size:14px; color:#666;}
+.postBox .titMod span a,.postBox .titMod span a:link{color:#f6ce28; text-decoration:underline;}
+
+.pops{width:436px; height:248px; background:#fff; -webkit-border-radius:11px; -webkit-border-radius:11px; border-radius:11px;}
+.pops .bd{background:none; width:100%; text-align:center;}
+.pops .hd,.pops .ft{background:none;}
+.pops .bd .con a.close, .pops .bd .con a.close:link{width:13px; height:13px; top:10px; right:10px; background:url(../../images/activity/act365/ico_close.png?2012020801) no-repeat;}
+.pops .bd .confirm{width:312px; margin:75px auto 0;}
+.pops .bd .confirm p{font-size:24px; color:#666;}
+.pops .bd .confirm a,.pops .bd .confirm a:link{display:block; text-align:right; font-size:14px; color:#f6ce28;}
+.pops .bd .con a.btn{float:none; display:inline-block; background:#f6ce28; width:106px; height:29px; line-height:28px; font-size:14px; color:#333; text-align:center;}
+.pops .bd .con a.btn span{background:none; float:none; height:29px; line-height:28px; font-size:14px; color:#333;}
+.pops .bd .con .submit{margin-top:45px; text-align:center; padding-left:0;}
+
+.postBox .mainCon .actionBox .checkBox{float:left;margin-top:4px;*margin-top:-28px}
+.postBox .mainCon .actionBox .checkBox input{position:relative;top:2px;_top:0}
+.postBox .mainCon .actionBox .checkBox a,
+.postBox .mainCon .actionBox .checkBox a:link{color:#F6CE28; text-decoration:underline}
+
+.calDesc .picSlide{width:499px; height:389px; float:left; _display:inline;}
+.calDesc .picSlide .picW{width:473px; height:323px; overflow:hidden; margin:9px 0 0 10px; position:relative;}
+.calDesc .picSlide .picW ul{width:2365px; position:absolute; left:0; top:0;}
+.calDesc .picSlide .picW ul li{float:left; _display:inline;}
+.calDesc .picSlide .picNo{margin:12px 0 0 13px;}
+.calDesc .picSlide .picNo a,.calDesc .picSlide .picNo a:link{width:11px; height:11px; float:left; margin-right:5px; background:url(../../images/activity/act365/ico_slide.png?2012073101) -16px 0 no-repeat; _background:url(../../images/activity/act365/ico_slide.gif?2012073101) -16px 0 no-repeat; overflow:hidden; text-indent:-9999px;}
+.calDesc .picSlide .picNo a.cur,.calDesc .picSlide .picNo a.cur:link{background-position:0 0;}

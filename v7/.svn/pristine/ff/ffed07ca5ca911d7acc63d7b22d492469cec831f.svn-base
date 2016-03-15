@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<link href="http://simg.sinajs.cn/products/news/items/2015/ranklist/v1/css/reset.css" rel="stylesheet" type="text/css">
+<link href="http://i.sso.sina.com.cn/css/userpanel/v1/top_account_v2.css" rel="stylesheet" type="text/css">
+<link href="http://n.sinaimg.cn/common/channelnav/css/common_nav.css" rel="stylesheet" type="text/css"/>
+<link href="http://simg.sinajs.cn/products/news/items/2015/ranklist/v1/css/bmedialistpc.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.sinaimg.cn/video/2014_news_video/js/jquery.1.10.2.min.js">
+</script>
+
+</head> 
+
+
+<body>
+<!--主导航-->
+<div class="sina15-top-bar-wrap">
+  <div class="sina15-top-bar-inner">
+    <div class="sina15-nav">
+      <ul class="sina15-nav-list">
+        <li class="sina15-nav-list-first"><a href="http://www.sina.com.cn/">新浪首页</a></li>
+        <li><a href="http://news.sina.com.cn/">新闻</a></li>
+        <li><a href="http://sports.sina.com.cn/">体育</a></li>
+        <li><a href="http://finance.sina.com.cn/">财经</a></li>
+        <li><a href="http://ent.sina.com.cn/">娱乐</a></li>
+        <li><a href="http://tech.sina.com.cn/">科技</a></li>
+        <li><a href="http://blog.sina.com.cn/">博客</a></li>
+        <li><a href="http://photo.sina.com.cn/">图片</a></li>
+        <li><a href="http://zhuanlan.sina.com.cn/">专栏</a></li>
+        <li class="sina15-nav-list-last"><a class="sina15-more" href="#" data-action="dropdown" data-target="more">更多<i class="sina15-icon sina15-icon-arrows-a"></i></a></li>
+        <!--鼠标滑过更多<a>标签添加class="cur"-->
+      </ul>
+      <ul class="sina15-nav-list nav-list-4pad">
+        <li class="sina15-nav-list-first"><a href="http://www.sina.com.cn/">新浪首页</a></li>
+        <li><a href="http://news.sina.com.cn/">新闻</a></li>
+        <li><a href="http://sports.sina.com.cn/">体育</a></li>
+        <li><a href="http://finance.sina.com.cn/">财经</a></li>
+        <li class="sina15-nav-list-last"><a class="sina15-more" href="#" data-action="dropdown" data-target="pad-more">更多<i class="sina15-icon sina15-icon-arrows-a"></i></a></li>
+        <!--鼠标滑过更多<a>标签添加class="cur"-->
+      </ul>
+      <ul id="more" class="sina15-nav-others">
+        <li><a href="http://auto.sina.com.cn/">汽车</a><a href="http://edu.sina.com.cn/">教育</a><a href="http://fashion.sina.com.cn/">时尚</a><a href="http://eladies.sina.com.cn/">女性</a><a href="http://astro.sina.com.cn/">星座</a><a href="http://health.sina.com.cn/">健康</a></li>
+        <li><a href="http://house.sina.com.cn/">房产</a><a href="http://history.sina.com.cn/">历史</a><a href="http://video.sina.com.cn/">视频</a><a href="http://collection.sina.com.cn/">收藏</a><a href="http://baby.sina.com.cn/">育儿</a><a href="http://book.sina.com.cn/">读书</a></li>
+        <li class="sina15-nav-others-last"><a href="http://fo.sina.com.cn/">佛学</a><a href="http://games.sina.com.cn/">游戏</a><a href="http://travel.sina.com.cn/">旅游</a><a href="http://mail.sina.com.cn/">邮箱</a><a href="http://news.sina.com.cn/guide/">导航</a></li>
+      </ul>
+      <ul id="pad-more" class="sina15-nav-others nav-others-4pad">
+        <li><a href="http://ent.sina.com.cn/">娱乐</a><a href="http://tech.sina.com.cn/">科技</a><a href="http://blog.sina.com.cn/">博客</a><a href="http://photo.sina.com.cn/">图片</a></li>
+        <li><a href="http://zhuanlan.sina.com.cn/">专栏</a><a href="http://auto.sina.com.cn/">汽车</a><a href="http://edu.sina.com.cn/">教育</a><a href="http://fashion.sina.com.cn/">时尚</a></li>
+        <li><a href="http://eladies.sina.com.cn/">女性</a><a href="http://astro.sina.com.cn/">星座</a><a href="http://health.sina.com.cn/">健康</a><a href="http://house.sina.com.cn/">房产</a></li>
+        <li><a href="http://history.sina.com.cn/">历史</a><a href="http://video.sina.com.cn/">视频</a><a href="http://collection.sina.com.cn/">收藏</a><a href="http://baby.sina.com.cn/">育儿</a></li>
+        <li><a href="http://book.sina.com.cn/">读书</a><a href="http://fo.sina.com.cn/">佛学</a><a href="http://games.sina.com.cn/">游戏</a><a href="http://travel.sina.com.cn/">旅游</a></li>
+        <li class="sina15-nav-others-last"><a href="http://mail.sina.com.cn/">邮箱</a><a href="http://news.sina.com.cn/guide/">导航</a></li>
+      </ul>
+    </div>
+    <!--通行证组件start--> 
+    <div class="sina15-client">
+        <div class="sina15-client-tl">
+            <a class="sina15-more" href="#" data-action="dropdown" data-target="mobileclient">移动客户端<i class="sina15-icon sina15-icon-arrows-a"></i></a>
+        </div>
+          <ul id="mobileclient" class="sina15-dropdown" style="display: none;">
+            <li><a href="http://m.sina.com.cn/m/weibo.shtml"><i class="sina15-ico-client sina15-ico-weibo"></i>新浪微博</a></li>
+            <li><a href="http://news.sina.com.cn/m/sinanews.html"><i class="sina15-ico-client sina15-ico-news"></i>新浪新闻</a></li>
+            <li><a href="http://m.sina.com.cn/m/sinasports.shtml"><i class="sina15-ico-client sina15-ico-sports"></i>新浪体育</a></li>
+            <li><a href="http://m.sina.com.cn/m/sinaent.shtml"><i class="sina15-ico-client sina15-ico-ent"></i>新浪娱乐</a></li>
+            <li><a href="http://finance.sina.com.cn/mobile/comfinanceweb.shtml"><i class="sina15-ico-client sina15-ico-finance"></i>新浪财经</a></li>
+            <li><a href="http://blog.sina.com.cn/lm/z/app/"><i class="sina15-ico-client sina15-ico-blog"></i>新浪博客</a></li>            <li><a href="http://video.sina.com.cn/app"><i class="sina15-ico-client sina15-ico-video"></i>新浪视频</a></li>
+            <li><a href="http://video.sina.com.cn/app"><i class="sina15-ico-client sina15-ico-video"></i>新浪视频</a></li>
+            <li><a href="http://games.sina.com.cn/o/kb/12392.shtml"><i class="sina15-ico-client sina15-ico-games"></i>新浪游戏</a></li>
+            <li><a href="http://m.sina.com.cn/m/weather.shtml"><i class="sina15-ico-client sina15-ico-weather"></i>天气通</a></li>
+          </ul>
+    </div>
+    <div id="SI_User" class="TAP14">
+      <div class="ac-rgst"> <a href="https://login.sina.com.cn/signup/signup?entry=account" class="msg-link">注册</a> </div>
+      <div class="ac-login">
+        <div class="ac-login-cnt "> <a href="javascript:void(0);" class=""><span class="thumb"><img src="http://i.sso.sina.com.cn/images/login/thumb_default.png"></span><span class="log-links">登录</span></a> </div>
+      </div>
+    </div>
+    
+    <!--/通行证组件end--> 
+  </div>
+</div>
+<!--/主导航-->
+
+<div class="Bmedialist" node="bmediaList">
+  <div class="head">
+    <div class="share" node="share-suda" data-suda="15_11_13_uid"><a target="_blank" href="#" data-src="http://simg.sinajs.cn/blog7items/ranklist/v1/images/Bmedialist_logo.png" data-href="http://www.sina.com.cn" data-title="新浪全媒体影响力排行榜" role="shareTo-weibo" ><img src="http://simg.sinajs.cn/products/news/items/2015/ranklist/v1/images/Bmedialist_share.png"/></a></div>
+    <img class="iconlist" src="http://simg.sinajs.cn/products/news/items/2015/ranklist/v1/images/Bmedia_list.png"/>
+    <div class="logo">新浪全媒体影响力排行榜</div>
+  </div>
+  <div class="tittotal">
+    <div class="nav">
+      <ul >
+        <li node="week-button"><a class="cur" href="#">周榜</a></li>
+        <li node="month-button"><a href="#">月榜</a></li>
+      </ul>
+    </div>
+    <div class="title">
+      <ul>
+        <li class="li1">排名</li>
+        <li class="li2">名称</li>
+        <li class="li3">排名趋势</li>
+        <li class="li4">影响力指数</li>
+        <li class="li5">微博影响力</li>
+        <li class="li5">微信影响力</li>
+        <li class="li5">博客影响力</li>
+      </ul>
+    </div>
+  </div>
+  <div class="subnav" node="list-button">
+    <ul>
+      <li><a data-media="1" class="cur" href="#" data-suda="15_11_01_uid">总榜</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="2" href="#">时评</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="3" href="#">财经</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="4" href="#">房地产</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="5" href="#">汽车</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="6" href="#">娱乐</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="7" href="#">历史文化</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="8" href="#">科技IT</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="9" href="#">美食</a></li>
+      <li><a data-suda="15_11_01_uid" data-media="10" href="#">旅游</a></li>
+    </ul>
+  </div>
+  <div class="subtitle" node="list-box"> 
+    <!--
+  1.color_1 - color_10 影响力颜色
+  2.icon_4上箭头 icon_5下箭头
+  3.greybar 排名趋势灰杠
+  4.greybar_1 影响力灰杠
+  -->
+    
+    
+  </div>
+  <div class="cf_foot">
+      <p><a target="_blank" href="#">新浪BLOG意见反馈留言板</a><span>电话：4006900000提示音后按1键（按当地市话标准计费）</span>欢迎批评指正</p>
+      <a target="_blank" href="#">新浪简介</a> | <a target="_blank" href="#">About Sina</a> | <a target="_blank" href="#">广告服务</a> | <a target="_blank" href="#">联系我们</a> | <a target="_blank" href="#">招聘信息</a> | <a target="_blank" href="#">网站律师</a> | <a target="_blank" href="#">SINA English</a> | <a target="_blank" href="#">通行证注册</a> | <a target="_blank" href="#">产品答疑</a> | <a target="_blank" href="#">使用须知</a>
+      <p>Copyright © 1996-2015 SINA Corporation, All Rights Reserved</p>
+      <p>新浪公司 版权所有</p>
+    </div>
+
+
+</div>
+
+  <script type="text/javascript" src="http://i.sso.sina.com.cn/js/outlogin_layer.js" charset="utf-8"></script>
+  <script type="text/javascript" src="http://i.sso.sina.com.cn/js/user_panel_new_version_v2.js" charset="utf-8"></script>
+  <script>
+(function(){
+  var userPanel = window.SINA_USER_PANEL;
+  var $ = userPanel.STK;
+  if(userPanel){
+    $.Ready(function(){ 
+    
+    userPanel.set('outloginLayer', {
+      ready : function(){
+        var loginLayer = window.SINA_OUTLOGIN_LAYER;
+        if(loginLayer){
+          loginLayer.set('extra',{
+            css: 'http://i.sso.sina.com.cn/css/outlogin/v1/outlogin_skin_reversion.css'
+          }).set('sso', {
+            entry : 'account'
+          }).init();
+          }
+        }
+      }).set('container',{
+        node: $.E("SI_User")
+      }).init();
+    });
+  }
+})();
+</script>
+
+<script charset="utf-8" type="text/javascript" src="http://sjs1.sinajs.cn/video/common/channelnav/js/nav.js"></script>
+
+
+
+
+  <script src="http://sjs.sinajs.cn/products/news/items/2015/ranklist/v1/js/lithe.js" 
+    data-config="config.js">
+  </script>
+
+  <!-- page scripts -->
+  <script type="text/javascript">
+    lithe.use('conf/page/blog-inflance');
+
+  </script>
+</body>
+</html>

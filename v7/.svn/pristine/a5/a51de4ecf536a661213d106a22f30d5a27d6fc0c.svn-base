@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* @import url("worldcup.css");  世界杯样式表 开始 */
+/* 博客-世界杯 dongyan */
+/* 国旗 大*/
+.wdc_flag  { width:58px; height:40px; background:url(../../images/common/worldcup/wdc_flag.gif) no-repeat left top;}
+.wdc_1{ background-position:0 -120px;}
+.wdc_2{ background-position:-60px -120px;}
+.wdc_3{ background-position:-120px -120px;}
+.wdc_4{ background-position:-180px -120px;}
+.wdc_5{ background-position:0 -180px;}
+.wdc_6{ background-position:-60px -180px;}
+.wdc_7{ background-position:-120px -180px;}
+.wdc_8{ background-position:-180px -180px;}
+.wdc_9{ background-position:0 -240px;}
+.wdc_10{ background-position:-60px -240px;}
+.wdc_11{ background-position:-120px -240px;}
+.wdc_12{ background-position:-180px -240px;}
+.wdc_13{ background-position:0 -300px;}
+.wdc_14{ background-position:-60px -300px;}
+.wdc_15{ background-position:-120px -300px;}
+.wdc_16{ background-position:-180px -300px;}
+.wdc_17{ background-position:0 -360px;}
+.wdc_18{ background-position:-60px -360px;}
+.wdc_19{ background-position:-120px -360px;}
+.wdc_20{ background-position:-180px -360px;}
+.wdc_21{ background-position:0 -420px;}
+.wdc_22{ background-position:-60px -420px;}
+.wdc_23{ background-position:-120px -420px;}
+.wdc_24{ background-position:-180px -420px;}
+.wdc_25{ background-position:0 -480px;}
+.wdc_26{ background-position:-60px -480px;}
+.wdc_27{ background-position:-120px -480px;}
+.wdc_28{ background-position:-180px -480px;}
+.wdc_29{ background-position:0 -540px;}
+.wdc_30{ background-position:-60px -540px;}
+.wdc_31{ background-position:-120px -540px;}
+.wdc_32{ background-position:-180px -540px;}
+
+/* @import url("worldcup.css");  世界杯样式表 结束 */

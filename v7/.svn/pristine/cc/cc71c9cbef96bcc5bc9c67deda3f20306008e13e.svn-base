@@ -1,0 +1,15 @@
+﻿/*相册*/
+.uploadPicResult{ padding:40px 20px 50px; zoom:1;}
+.uploadPicResult .resultInfo{  clear:both; padding-bottom:50px; background-position:left bottom;}
+.uploadPicResult .resultInfo .iconLeft{ float:left; width:55px;padding:0px 0px 0px 90px;}
+.uploadPicResult .resultInfo .infoRight{ float:left; width:74%; line-height:20px;}
+.uploadPicResult .resultInfo .infoRight h3{ font-weight:600;padding:17px 0 10px; font-size:14px;}
+.uploadPicResult .resultInfo .infoRight .falseTit{ font-weight:600;padding:26px 0 5px; }
+.uploadPicResult .resultInfo .infoRight .falseList { margin-bottom:10px;}
+.uploadPicResult .resultInfo .infoRight .falseList li{ padding-bottom:3px;}
+.uploadPicResult .successPic{ clear:both; }
+.uploadPicResult .successPic .tit{ height:32px; padding-left:90px; }
+.uploadPicResult .successPic .tit span{ font-weight:600; padding:19px 0 0; display:block;}
+.uploadPicResult .successPic .listPic{ clear:both;  padding-left:90px;}
+.uploadPicResult .successPic .listPic li{ float:left; height:122px; width:152px; overflow:hidden; padding-top:15px;}
+.uploadPicResult .successPic .listPic li img{ border:1px solid #ccc;}

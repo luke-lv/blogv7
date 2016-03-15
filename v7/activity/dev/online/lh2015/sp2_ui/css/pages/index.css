@@ -1,0 +1,33 @@
+@charset "gb2312";
+/* CSS Document */
+/*¹«ÓÃ*/
+@import "../common/reset.css";
+@import "../common/common.css";
+
+/*module*/
+@import "../module/m_hotreport.css";
+@import "../module/m_oneminu.css";
+@import "../module/m_player.css";
+@import "../module/m_premier.css";
+@import "../module/m_recom.css";
+@import "../module/m_report.css";
+@import "../module/m_spot.css";
+@import "../module/foot.css";
+@import "../module/title.css";
+/*¸¡²ã*/
+.M_layer{width:132px;position:fixed;right:0;top:140px;-webkit-backface-visibility: hidden; z-index:100;}
+.M_layer a span{ vertical-align:middle; display:inline-block; width:94px; height:54px; line-height:54px; text-align:center; cursor:pointer;}
+.M_layer .nav1{ border-bottom:1px solid #fff; font-size:16px;}
+.M_layer .nav1 a{ display:block; width:100%; height:54px; line-height:54px; background:#4a525e; color:#fff;}
+.M_layer .nav1 .bshare-custom{ font-size:16px;}
+.M_layer .nav1 .bshare-custom .bshare-more{ color:#fff!important;}
+.M_layer .nav1 a:hover,.M_layer .nav1 .cur{background:#d13c34; text-decoration:none;}
+.M_layer .nav2_ul{ display:none;}
+.M_layer .nav2{ height:42px; border-top:1px solid #ba2621; font-size:14px;}
+.M_layer .nav2 a{ display:block; height:42px; line-height:42px; color:#fff; background:#d13c34; text-align:center;}
+.M_layer .nav2 a:hover{ background:#ba2621;text-decoration:none;}
+.M_layer .icon{ display:inline-block; width:38px; height:54px; line-height:54px; vertical-align:middle; background-position: center right; background-repeat:no-repeat; cursor:pointer;}
+.M_layer .icon1{ background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer1.png);_background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer1ie6.png);}
+.M_layer .icon2{ background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer2.png);_background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer2ie6.png);}
+.M_layer .icon3{ background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer3.png);_background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer3ie6.png); background-position: 18px center;}
+.M_layer .icon4{ background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer4.png);_background-image:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/layer4ie6.png);}

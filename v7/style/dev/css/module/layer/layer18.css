@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 微博秀 dongyan 2010-7-5 */
+.miniblogshow{font-family:"宋体";}
+.miniblogshow .url{clear:both;padding-bottom:10px;background-position:left bottom;padding-left:40px;}
+.miniblogshow .tab{clear:both;padding-top:20px;}
+.miniblogshow .tab th,
+.miniblogshow .tab td{vertical-align:top;}
+.miniblogshow .tab th{width:112px;text-align:right;line-height:18px;}
+.miniblogshow .tab td{width:250px;padding-bottom:15px;}
+.miniblogshow .tab td.btn{padding-bottom:0;}
+.miniblogshow .skinlist{clear:both;}
+.miniblogshow .skinlist li{width:31px;height:31px;padding:2px;border:2px solid #fff;position:relative;float:left;overflow:hidden;margin-right:5px;}
+.miniblogshow .skinlist li img{border:1px solid #c0c0c0;}
+.miniblogshow .skinlist img.SG_icon{display:none;}
+.miniblogshow .skinlist li.current{border:2px solid #65b954;}
+.miniblogshow .skinlist li.current img.SG_icon{display:inline;border:none;position:absolute;right:3px;bottom:2px;}
+.miniblogshow .tab td p input{margin-left:-1px;}

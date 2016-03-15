@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.e_layer_cont3 .share_tit{ margin: 0 0 46px 88px; color: #333; font-size: 24px; overflow: hidden; zoom:1;}
+.e_layer_cont3 .share_tit .share_icon{ float: left; margin: 0 14px 0 0; background: url(../../../images/blog_editor/bg_bne.png) top center no-repeat; _background-image:url(../../../images/blog_editor/bg_bne.gif);background-position: -98px -99px; width: 24px; height: 24px;}
+.e_layer_cont3 .e_layer_share{ margin: 16px 0 0; overflow: hidden; zoom:1;}
+.e_layer_cont3 .e_layer_share dt{ float: left; font-size:14px; margin: 0 5px 0 0;}
+.e_layer_cont3 .e_layer_share .md{ padding: 7px 0 0;}
+.e_layer_cont3 .e_layer_share dd{ float: left; overflow: hidden; zoom:1;}
+.e_layer_cont3 .e_layer_share .share_input{float: left; border: 1px solid #d9d9d9;  width: 274px; height: 58px;  line-height: 32px;  overflow: hidden; zoom:1; background-color:#fff;color:#999; font-size: 14px; }
+.e_layer_cont3 .e_layer_share .share_input textarea{ padding: 6px 6px 0; width: 262px; height: 50px; border: 0 none; resize:none; outline:0 none; color: #999; line-height: 17px;}
+.e_layer_cont3 .share_btn{ margin: 25px 0 50px 43px;}
+.e_layer_cont3 .share_btn a{ display: inline-block; margin: 0 20px 0 0; width: 98px; height: 38px; line-height: 40px;}
+.e_layer_cont3 .share_select{ height:34px;}
+.e_layer_cont3 .share_select .selected{ position: absolute; width: 274px; height: 32px; line-height: 32px; font-size:14px; background: #fff;}
+.e_layer_cont3 .share_select .selected .s1{ position: relative; text-indent: 10px; border: 1px solid #ccc;}
+.e_layer_cont3 .share_select .menu a{ color:#999; display: block;}
+.e_layer_cont3 .share_select .menu a:hover{ background: #fbfbfb; cursor: pointer;}
+.e_layer_cont3 .share_select .down{ position: absolute; top:0; right: 0; width: 34px; height: 32px; text-indent: 10px;}
+.e_layer_cont3 .share_select .down i{ margin: 0 0 0 4px; *margin-top: 13px;}
+.e_layer_cont3 .share_select .selected .menu{ background: #fff; width: 272px; border: 1px solid #ccc; border-top: 0 none; overflow-x: hidden; overflow-y: auto;}
+.e_layer_cont3 .share_select .selected .menu li{ overflow: hidden; white-space:nowrap; zoom:1; text-indent: 10px;}
+.e_layer_cont3 .share_select .selected .menu span,.e_layer_cont3 .share_select .selected .s1 span{ display: block; overflow: hidden; white-space:nowrap; text-overflow: ellipsis; width: 230px;} 
+.e_layer_cont3 .share_p{ width: 324px; overflow: hidden; zoom:1;}
+.e_layer_cont3 .share_p .share_sort{ float: right; margin: 10px 0 0; color: #8997d8;}
+

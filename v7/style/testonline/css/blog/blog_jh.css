@@ -1,0 +1,149 @@
+﻿@charset "utf-8";
+/* 博文正文页  */
+/* 公用-clearfix */
+
+.clearfix:after { content:"."; clear:both; display:block; height:0; visibility:hidden; overflow:hidden; }
+.clearfix { display: inline-table; }
+/* Hides from IE-mac */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+*+html .clearfix { min-height:1%; }
+
+.artical{ padding:24px 20px 0; clear:both; zoom:1;}
+.articalTitle{ clear:both; line-height:20px; padding-bottom:10px;}
+.articalTitle span{white-space:nowrap}
+.articalTitle .titName{ font-size:18px;font-family:"微软雅黑","黑体";font-weight:300;}
+.articalTitle .img1{ margin-right:2px;}
+.articalTitle .img1 img{ margin-right:2px;}
+.articalTitle .img2{ padding-top:4px;}
+.articalTitle .img2 img{ margin-left:5px; vertical-align:text-bottom}
+.articalTitle .time{ font-family:Arial; font-size:10px; margin-left:5px;margin-right:13px;}
+.articalTitle .edit{}
+
+.articalTag{ width:100%;clear:both; word-break:break-all; line-height:20px;}
+.articalTag td{ vertical-align:top;}
+.articalTag .blog_tag{ padding-right:10px;}
+.articalTag .blog_tag span img{ /*float:left;*/margin-right:3px; vertical-align:-3px;}
+.articalTag .blog_tag span a{ /*float:left;*/ white-space:nowrap;}
+.articalTag .blog_class{ width:220px;white-space:nowrap;}
+.articalTag .blog_tag,
+.articalTag .blog_tag span,
+.articalTag .blog_tag a,
+.articalTag .blog_class,
+.articalTag .blog_class span,
+.articalTag .blog_class a{font-family:"宋体";}
+
+.articalMusic{ clear:both; padding-top:28px; }
+.articalContent{ clear:both; padding-top:18px; font-size:14px; line-height:150%; padding-bottom:30px;word-wrap:break-word;word-break:break-all; overflow:hidden; font-family:simsun;}
+
+.articalContent ul li { margin-left:30px; list-style-type: disc; }
+.articalContent ol li { margin-left:30px; list-style-type:decimal; }
+.articalContent,
+.articalContent p,
+.articalContent span,
+.articalContent font { word-wrap:normal; word-break:normal; }
+.articalContent a { text-decoration:underline }
+.articalContent p em { font-style: italic }
+.articalContent,
+.articalContent p,
+.articalContent p font,
+.articalContent font,
+.articalContent span,
+.articalContent table td {line-height:150%;}
+/*.articalContent img{ vertical-align:bottom}*/
+.articalContent pre {white-space:normal;}
+.articalContent em { font-style: italic }
+.articalContent p { margin-bottom:5px; }
+
+.articalContent table{line-height:normal;}
+
+.fontSize_S .articalContent,
+.fontSize_S .articalVote,
+.fontSize_S .articalVote .vHead,
+.fontSize_S .articalList,
+.fontSize_S .articalList .listTit,
+.fontSize_S .articalList li label{font-size:12px;}
+.fontSize_M {}
+.fontSize_L .articalContent,
+.fontSize_L .articalVote,
+.fontSize_L .articalVote .vHead,
+.fontSize_L .articalList,
+.fontSize_L .articalList li label,
+.fontSize_L .articalList .listTit{ font-size:16px;}
+.fontSize_L .articalVote .vBom .vBtn .result,
+.fontSize_L .articalVote .vBom .vLink ,
+.fontSize_L .articalVote .vContent .choosed label em,
+.fontSize_L .articalVote .vContent .num,
+.fontSize_L .articalVote .vContent .choosed label span,
+.fontSize_L .articalVote .vTit em,
+.fontSize_L .articalVote .vTime,{ font-size:14px;}
+.fontSize_L .articalList li span { font-size:12px;}
+
+
+
+.articalVote{ clear:both; width:648px; margin:0px auto 20px;}
+.articalVote .voteBg{ padding:24px 13px 30px 15px; clear:both}
+.articalVote .vHead{font-size:14px; line-height:19px;}
+.articalVote strong{ float:left; width:28px;}
+.articalVote .vTit{ float:left; width:565px;font-family:simsun; overflow:hidden;}
+.articalVote .vTit span{ padding-right:10px; font-weight:600}
+.articalVote .vTit em{ font-size:12px; font-family:simsun; white-space:nowrap}
+.articalVote .vTime{ font-size:12px; padding-left:27px; padding-top:2px; clear:both; font-family:simsun;}
+.articalVote .vContent{ padding:13px 0 0; margin-left:15px;}
+.articalVote .vContent li{ padding:5px 10px; width:450px;}
+.articalVote .vContent li.cur{ padding:4px 9px; width:450px;}
+.articalVote .vContent .choosed{ width:170px; float:left; overflow:hidden;font-family:simsun; line-height:18px; }
+.articalVote .vContent .choosed input{ margin-right:6px;float:left;}
+.articalVote .vContent .choosed label{ width:140px; float:left; overflow:hidden;padding:1px 0 0;}
+.articalVote .vContent .choosed label em{ float:left; width:13px; }
+.articalVote .vContent .choosed label span{ float:left; width:120px; overflow:hidden; _padding:1px 0 0;  word-break:break-all;}
+.articalVote .vContent .linebg{ height:7px; background:#B9B9B9; width:170px; border:1px solid #A1A1A1; overflow:hidden; float:left; margin:5px 13px 0 0;}
+.articalVote .vContent .linebg em{ background:url(../../images/blog/blogvote_1.gif) repeat-x; display:block; width:auto; height:100%;}
+.articalVote .vContent .num{ float:left; font-family:simsun; line-height:18px}
+.articalVote .vContent .num span{}
+.articalVote .vBom{  padding:15px 0 0 15px; _padding:15px 0 0 15px;clear:both}
+.articalVote .vBom .vBtn{ float:left; width:280px; padding-left:13px;}
+.articalVote .vBom .vBtn .btn { float:left; margin-right:17px;}
+.articalVote .vBom .vBtn .btn a:link,
+.articalVote .vBom .vBtn .btn a:visited{ background:url(../../images/blog/blogvote_2.gif) no-repeat left top; width:51px; height:23px;  display:block;text-decoration:none;}
+.articalVote .vBom .vBtn .btn a:hover{ background:url(../../images/blog/blogvote_2.gif) no-repeat left bottom; text-decoration:none;}
+.articalVote .vBom .vBtn .btn a input{ width:51px; height:21px;height:23px\9; padding-bottom:2px;padding-bottom:0px\9; border:0; background:none transparent;color:#333;}
+.articalVote .vBom .vBtn .voteState{ float:left; font-weight:600; padding:5px 20px 0 0}
+.articalVote .vBom .vBtn .result { float:left; padding:5px 0 0;}
+.articalVote .vBom .vBtn .result a{ text-decoration:underline}
+.articalVote .vBom .vLink{ float:right; width:200px; text-align:right; height:20px; line-height:23px; overflow:hidden;}
+.articalVote .vBom .vLink a{ text-decoration:underline}
+
+.articalList{ clear:both; width:648px; margin:0px auto 20px; }
+.articalList .listBg{ padding:20px 20px 15px;}
+.articalList .listTit{ padding:0 0 10px 10px; font-size:14px;}
+.articalList li { height:16px; line-height:16px; line-height:18px\9; padding:4px 0 5px; *padding:5px 0 4px;background-repeat:repeat-x; background-position:left top;}
+.articalList li label{ background-repeat:no-repeat; background-position:left 7px; background-position:left 6px\9;padding-left:10px; margin-left:10px;font-size:14px;} 
+.articalList li label img{ vertical-align:-2px;}
+.articalList li span{ font-size:10px;}
+.articalInfo{ clear:both; padding-top:10px;}
+.articalInfo .IL{ float:left; width:57%; padding-top:2px; *padding-top:1px;}
+.articalInfo .IL span.SG_txtb{ font-family:"宋体";}
+.articalInfo .IL em{ margin:0 2px; *margin:0 3px; _margin:0 2px;}
+.articalInfo .IR{ float:right;width:42%; /*white-space:nowrap;*/}
+.articalInfo .IR table{ float:right;}
+.articalInfo .IR td,
+.articalInfo .IR th{ vertical-align:top; font-weight:normal;}
+.articalInfo .IR th{ width:60px; text-align:right;}
+.articalInfo .IR span{margin-right:5px; height:22px;}
+.articalInfo .IR span img{  margin-right:0px; *margin-right:-2px;}
+.articalInfo .IR span a{  word-break:break-all;}
+.articalInfo .IR .IR_list{ float:left;}
+.articalInfo .IR .IR_list span{display:block; float:left;/* display:block\9; float:left\9; *display:inline; *float:none;*/}
+.articalInfo .IR .IR_list p{ clear:both; height:15px; padding-bottom:8px;}
+.articalInfo .IR .IR_list p img{  margin-right:4px; float:left;}
+.articalInfo .IR .IR_list p a{ float:left; padding-top:2px\9;}
+.articalInfo .toMiniblog{ clear:both; height:15px; padding-bottom:10px; overflow:hidden;}
+.articalInfo .toMiniblog_link{ float:right;}
+.articalInfo .toMiniblog a{ padding-left:20px; height:15px; background:url(../../images/blog/miniblog_icon.gif) no-repeat left top; padding-top:1px; *padding-top:3px; }
+
+
+.articalfrontback{ clear:both; margin:20px 0 0; padding:24px 0; font-size:14px;}
+.articalfrontback div{ padding:0 0 3px; line-height:24px; height:24px;}
+
+

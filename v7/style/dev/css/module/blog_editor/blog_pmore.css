@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.BNE_pmore{ overflow: hidden; zoom:1; margin-right:-26px;}
+.BNE_pmore li{ float: left; margin: 20px 26px 0 0;}
+.BNE_pmore .pmore_pic{ position: relative; display: block; background: #999; width: 148px; height: 110px; overflow: hidden; background: #f5f5f5; text-align: center;}
+.BNE_pmore .pmore_pic span{  position: absolute; top: -45px; left: -25px; text-align: center; width: 200px; height: 200px; line-height: 200px;} 
+.BNE_pmore .pmore_tit{ display: block; margin: 10px 0 0; line-height: 19px; font-size: 14px; width: 148px; height: 40px; overflow: hidden; word-wrap: break-word; word-break:break-all;}
+

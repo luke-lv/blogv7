@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url("../../css/module/blog/article.css");
+@import url("../../css/module/layer/layer.css");
+@import url("../../css/module/layer/layer23.css");
+/* general */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+table,th,td{margin:0;padding:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family:Verdana, "宋体", sans-serif}
+select,input {vertical-align:middle}
+cite,em {font-style:normal}
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox] {cursor:pointer}
+label {cursor:pointer;}
+.hidden {display:none}
+.wordwrap {word-wrap:break-word;word-break:break-all; }
+.clearit{ clear: both; height:0px; overflow:hidden}
+
+/* 通行证登录 */
+.passLoginItem{ padding-bottom:0}
+.passLoginItem .ErrTips{padding:0 0 5px 62px; color:#c00; margin-top:-4px;}
+.passLoginItem .ErrTips a.underline,
+.passLoginItem .ErrTips a.underline:hover,
+.passLoginItem .ErrTips a.underline:visited{ text-decoration:underline;}
+.passLoginItem .fm1{height:16px;line-height:16px; padding:2px 2px 2px; border:1px solid #C1C1BB;font-family:verdana}
+.passLoginItem .boxA { margin-bottom:10px; font-size:14px; }
+.passLoginItem .boxB { line-height:20px; padding-left:60px; *padding-left:61px; }
+.passLoginItem .boxB input{ margin-left:1px; *margin-left:-2px;}
+.passLoginItem .boxB a.SG_aBtn{ margin-left:1px;}
+.passLoginItem .boxB a.SG_aBtn cite{ padding-right:18px; padding-left:16px;}
+.passLoginItem .CP_lg_ad { padding:10px 0 18px; margin:10px 0 0;}
+.passLoginItem .CP_lg_ad iframe a:link,
+.passLoginItem .CP_lg_ad iframe a:visited { color:#2E3092; }
+.passLoginItem .CP_lg_ad iframe a:hover,
+.passLoginItem .CP_lg_ad iframe a:active { color:#CC0000; }
+/* connect MSN dongyan 2010-10-01*/
+.connect_msn{  width:234px; margin:18px auto 0px; height:22px; padding:4px 0; overflow:hidden; background-color:#e3f2fb; border:1px solid #c0dede; text-align:center;}
+.connect_msn .msn_btn{ display:inline-block; vertical-align:middle; width:77px; height:24px; overflow:hidden; background:url(../../images/bring/connect_msn.png) no-repeat left top;}
+
+
+/*认证*/
+.authentication{}
+.authentication .v_topbar{height:30px; background:#000}
+.authentication .v_banner{text-align:center;  background:url(../../images/special/authentication/bg_herad.jpg) repeat-x center 0;}
+.authentication .v_warp{width:950px; margin:0 auto; padding:40px 0;clear: both;overflow:hidden;}
+.authentication .v_tit{border:1px solid #e1e1e0;}
+.authentication .v_tit h2{position: relative;border:1px solid #f4f4f4; background:#efefef; font-family:"微软雅黑";color:#543e42; padding:10px 28px 8px; font-size:17px;}
+.authentication .v_tit h2 a{position: absolute; right:20px; color:#565656; font-size:15px; top:13px;}
+.authentication .v_tit h2 a:hover{ color:#565656; font-size:15px;}
+.authentication .v_txt{border-left:1px solid #e1e1e0;border-right:1px solid #e1e1e0;text-align:left;padding:26px 30px;}
+.authentication .v_txt p{padding:0 0 20px; font-family:"微软雅黑"; font-size:15px; line-height:20px; color:#5a5a5a; font-weight:bold;}
+.authentication .v_txt p.pic{text-align:center; }
+.authentication dl dt{background:url(../../images/special/authentication/dot.jpg) no-repeat 0 7px; padding:0 0 6px 10px;font-family:"微软雅黑";font-size:15px; color:#565656;font-weight:bold;}
+.authentication dl dd{color:#888;padding:0 0 26px 10px;font-family:"微软雅黑";font-size:15px; font-weight:bold;}
+.authentication .picbottom{margin-bottom:28px;}
+.authentication .picbottom img{vertical-align: top;}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.e_layer_cont2 .e_layer_music{ overflow: hidden; zoom:1; margin: 0 50px 18px 0;}
+.e_layer_cont2 .music_warn{ color: red; font-size: 12px; margin: -8px 0 26px 75px;}
+.e_layer_cont2 .e_layer_music dt{ float: left; font-size:14px; margin: 0 5px 0 0;}
+.e_layer_cont2 .e_layer_music .md{ padding: 7px 0 0;}
+.e_layer_cont2 .e_layer_music dd{ float: left; overflow: hidden; zoom:1;}
+.e_layer_cont2 .e_layer_music .music_input{float: left; border: 1px solid #d9d9d9;  width:448px; height: 32px;  line-height: 32px;  overflow: hidden; zoom:1; background-color:#fff;}
+.e_layer_cont2 .e_layer_music .music_input em{ font-style:normal; margin: 0 0 0 8px; color:#ccc; font-size: 12px; }
+.e_layer_cont2 .e_layer_music .music_input .tag_input{ font-size: 12px; border: 0 none; outline: none; vertical-align: middle; *margin: 9px 0;}
+.e_layer_cont2 .e_layer_music a{ float: right; margin: 0 0 0 10px;}
+.e_layer_cont2 .e_layer_music .music_select{ width: 448px; height: 92px; padding: 10px 0; overflow: hidden; overflow-y: auto; border: 1px solid #ccc;}
+.e_layer_cont2 .e_layer_music .music_select li{ overflow: hidden; zoom:1; line-height: 19px;}
+.e_layer_cont2 .e_layer_music .music_select .music_chosen{ float: left; color:#6583ff; margin: 0 0 0 9px; display: inline; width: 365px; overflow: hidden; text-overflow: ellipsis; white-space:nowrap;}
+.e_layer_cont2 .e_layer_music .music_select .music_close{ float: right; margin: 0 8px 0 0; display: inline;color:#6583ff;}
+.e_layer_cont2 .music_btn{ display: inline-block; padding: 0 10px; height:32px; line-height: 32px; text-align: center; font-size: 14px;}
+.e_layer_cont2 .m_btn{ margin: 0 0 0 68px;}
+.e_layer_cont2 .mp{ color: #999; font-size: 12px; margin:-8px 0 45px 73px;}
+.e_layer_cont2 .mp .music_box{ margin: 0 5px 0 0;}
+
+

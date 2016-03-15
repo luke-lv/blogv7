@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>tj=2博文页</title>
+
+<!-- <link rel="stylesheet" type="text/css" href="http://simg.sinajs.cn/blog7style/css/conf/blog/blog_ad.css"> -->
+<link href="http://simg.sinajs.cn/blog7style/css/conf/iframe/blog_mfood.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div class="sinatopbar"></div>
+<div class="sinabloga">
+  <div class="sinablogb">
+    <div class="sinabloghead"> </div>
+    <!--主题内容开始 -->
+    <div class="sinablogbody">
+    	
+      <div class="SG_colW21"> 
+      	<!-- 组件开始 -->
+  		<div class="SG_conn conn_right_txt">
+			<div class="SG_connHead"><span class="title">美食秘籍</span> <span class="edit"><a href="">查看更多&gt;&gt;</a></span> </div>
+            <div class="SG_connBody">
+			    <!--blog_mfood 窄版 blog_mfood_w 宽版-->
+	            <div class="blog_mfood blog_mfood_w">
+	              <div style="display:none;" id="meishi-wrap" class="focus">
+	                <div class="focus_img">
+	                  <div class="img">
+	                    <ul id="meishi-img">
+	                      <li id="SLOT_92_meishi" style="display:none;"></li>
+	                      <li id="SLOT_93_meishi" style="display:none;"></li>
+	                      <li id="SLOT_94_meishi" style="display:none;"></li>
+	                      <li id="SLOT_95_meishi" style="display:none;"></li>
+	                    </ul>
+	                  </div>
+	                  <div class="bg"></div>
+	                  <div class="txt">
+	                    <ul id="meishi-txt">
+	                    </ul>
+	                    <div id="meishi-point" class="point">
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="focus_txt">
+	                  <ul id="meishi-destxt">
+	                    
+	                  </ul>
+	                 
+	                </div>
+	              </div>
+	              <ul class="blog_mfood_a">
+	                <li style="display:none;" id="SLOT_96_meishi" class="SG_j_linedot1">
+	                </li>
+	                <li style="display:none;" id="SLOT_97_meishi" class="SG_j_linedot1">
+	                </li>
+	              </ul>
+	            </div>
+            </div>
+			<div class="SG_connFoot"></div>
+		</div>
+      	<!-- 组件结束 -->
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- 美食组件js -->
+<script type="text/javascript">
+	;(function() {
+		/*** DomEx ***/
+		if (typeof DomEx === "undefined") {
+	        DomEx = {};
+	    }
+	    DomEx.parent = function (node, nodeName) {
+	        // 文档节点没有tagName, 因此不能使用tagName
+	        nodeName = nodeName.toLowerCase();
+	        while(node){
+	            if(node.nodeName.toLowerCase() === nodeName){
+	                return node;
+	            }
+	            node = node.parentNode;
+	        }
+	        return null;
+	    };
+	    DomEx.addClass = function(node, classname) {
+	        var cn = node.className;
+	        if( (' '+cn+' ').indexOf(' '+classname+' ')===-1 ){
+	            node.className = classname+' '+cn;
+	        }
+	    };
+	    DomEx.removeClass = function(node, classname) {
+	        var cn = (' '+node.className+' ').replace(' '+classname+' ', ' ');
+	        node.className = cn.replace(/^\s+/, '').replace(/\s+$/, '');
+	    };
+	    DomEx.opacity = function(elm, value) {
+	        elm = typeof elm=="string"?$ID(elm):elm;
+	        elm.style.filter = 'alpha(opacity=' + value + ')';
+	        elm.style.opacity = value/100;
+	    };
+	    if( document.documentElement.contains ){
+	        DomEx.contains = function( a, b ) {
+	            return a.contains ? a.contains(b) : true;
+	        };
+	    }else if( document.documentElement.compareDocumentPosition ){
+	        DomEx.contains = function( a, b ) {
+	            return a===b || !!(a.compareDocumentPosition(b) & 16);
+	        };
+	    }else{
+	        DomEx.contains = function(a, b) {
+	            while(b){
+	                if(a===b){return true}
+	                b=b.parentNode;
+	            }
+	            return false;
+	        };
+	    }
+		DomEx.enterLeave = function(wrapEle, fnOver, fnOut, delaytime){
+		    var _lastover = null, //上次鼠标移入的li
+		        _overtimer = 0,
+		        _outtimer = 0;
+		    
+		    fnOver = fnOver||function(){};
+		    fnOut = fnOut||function(){};
+		    delaytime = delaytime||0;
+		    
+		    //鼠标移入
+		    addEvent(wrapEle, function(event){
+		        clearTimeout(_outtimer);
+		        
+		        var e = event || window.event, ele = e.target||e.srcElement;
+		        _overtimer = setTimeout(function(){
+		            if( _lastover && DomEx.contains(_lastover, ele) )return;
+		            var t = DomEx.parent(ele, "span");
+		            if( t ){
+		                if(_lastover){ //这是必要的
+		                    fnOut(_lastover);
+		                }
+		                fnOver(t);
+		                _lastover = t;
+		            }else if(_lastover){
+		                fnOut(_lastover);
+		                _lastover = null;
+		            }
+		        }, delaytime);
+		    }, "mouseover");
+		    //鼠标移出
+		    addEvent(wrapEle, function(){
+		        clearTimeout(_overtimer);
+		        
+		        _outtimer = setTimeout(function(){
+		            if(_lastover){
+		                fnOut(_lastover);
+		                _lastover = null;
+		            }
+		        }, delaytime);
+		    }, "mouseout");
+		};
+		DomEx.insertHTML = function(el, html, where){
+			el = $ID(el) || document.body;
+			where = where.toLowerCase() || "beforeend";
+			// https://developer.mozilla.org/en/DOM/element.insertAdjacentHTML
+			// 浏览器兼容历史
+			if(el.insertAdjacentHTML){
+				switch(where){
+					case "beforebegin":
+						el.insertAdjacentHTML('BeforeBegin', html);
+						return el.previousSibling;
+					case "afterbegin":
+						el.insertAdjacentHTML('AfterBegin', html);
+						return el.firstChild;
+					case "beforeend":
+						el.insertAdjacentHTML('BeforeEnd', html);
+						return el.lastChild;
+					case "afterend":
+						el.insertAdjacentHTML('AfterEnd', html);
+					return el.nextSibling;
+				}
+				throw 'Illegal insertion point -> "' + where + '"';
+			}
+			var range = el.ownerDocument.createRange();
+			var frag;
+			switch(where){
+				case "beforebegin":
+					range.setStartBefore(el);
+					frag = range.createContextualFragment(html);
+					el.parentNode.insertBefore(frag, el);
+					return el.previousSibling;
+				case "afterbegin":
+					if(el.firstChild){
+						range.setStartBefore(el.firstChild);
+						frag = range.createContextualFragment(html);
+						el.insertBefore(frag, el.firstChild);
+						return el.firstChild;
+					}else{
+						el.innerHTML = html;
+						return el.firstChild;
+					}
+					break;
+				case "beforeend":
+					if(el.lastChild){
+						range.setStartAfter(el.lastChild);
+						frag = range.createContextualFragment(html);
+						el.appendChild(frag);
+						return el.lastChild;
+					}else{
+						el.innerHTML = html;
+						return el.lastChild;
+					}
+					break;
+				case "afterend":
+					range.setStartAfter(el);
+					frag = range.createContextualFragment(html);
+					el.parentNode.insertBefore(frag, el.nextSibling);
+					return el.nextSibling;
+			}
+			throw 'Illegal insertion point -> "' + where + '"';
+	    }
+	    /*** DomEx ***/
+
+	    /*** function ***/
+	    function addEvent(elm, func, evType, useCapture) {
+	        var _el = typeof elm == 'string' ?$E(elm) : elm;
+	        if(_el == null) {
+	            console.log("addEvent 找不到对象：" + elm);
+	            return;
+	        }
+	        if (typeof useCapture == 'undefined') {
+	            useCapture = false;
+	        }
+	        if (typeof evType == 'undefined') {
+	            evType = 'click';
+	        }
+	        if (_el.addEventListener) {
+	            //添加鼠标滚动事件支持
+	            if(evType == 'mousewheel' && $FF) {
+	                evType = 'DOMMouseScroll';
+	            }
+	            _el.addEventListener(evType, func, useCapture);
+	            return true;
+	        } else if (_el.attachEvent) {
+	            var r = _el.attachEvent('on' + evType, func);
+	            return true;
+	        } else {
+	            _el['on' + evType] = func;
+	        }
+	    }
+	    function $ID(id) {
+			var node = typeof id == "string"? document.getElementById(id): id;
+			if (node != null) {
+				return node;
+			}
+			return null;
+		}
+		function $tagName(obj, tagName) {
+			return obj.getElementsByTagName(tagName);
+		}
+		/*** function ***/
+
+		var $IE = 0;
+		var _ua = navigator.userAgent.toLowerCase();
+		if(_ua.match(/msie/)) {
+			$IE = true;
+		}
+
+		var _opacity = DomEx.opacity;
+		var $imgWrap = $ID('meishi-img');
+		var $imgPoint = $ID('meishi-point');
+		var $componentWrap = $ID('meishi-wrap');
+		var $txtUl = $ID('meishi-txt');
+		var $destxtUl = $ID('meishi-destxt');
+
+		var fxtimer = 0, looptimer = 0,
+		showing = 0, //当前正在显示第i个
+		popc = $IE ? 5:2,
+		opc = 0;
+
+		var len = 0;
+
+		var initInterval = setInterval(function() {
+
+			var imgs = $tagName($imgWrap, "img");
+			len = imgs.length;
+
+			if(len) {
+				clearInterval(initInterval);
+				initInterval = null;
+				initJob(imgs);
+				$componentWrap.style.display = '';
+			}
+		}, 500);
+
+		function initJob(imgs) {
+			for(var i=0; i<imgs.length; i++){
+				var imgLi, txtLi, destxtLi, pointSpan;
+
+				var title = imgs[i].getAttribute('title');
+				var destxt = imgs[i].getAttribute('destxt');
+				var titlelink = imgs[i].getAttribute('titlelink');
+
+				var txtHtml = '<li style="display:none;"><a href="'+ titlelink +'">'+ title +'</a></li>';
+				var destxtHtml = '<li style="display:none;">'+ destxt +'</li>';
+				var pointHtml = '<span></span>';
+
+				DomEx.insertHTML('meishi-txt', txtHtml, 'beforeend');
+				DomEx.insertHTML('meishi-destxt', destxtHtml, 'beforeend');
+				DomEx.insertHTML('meishi-point', pointHtml, 'beforeend');
+
+				// 图片
+				imgLi = DomEx.parent(imgs[i], 'li');
+				imgLi && imgLi.setAttribute("noo", i);
+				// 标题
+				txtLi = $tagName($txtUl, "li")[i];
+				txtLi && txtLi.setAttribute("noo", i);
+				// 描述
+				destxtLi = $tagName($destxtUl, "li")[i];
+				destxtLi && destxtLi.setAttribute("noo", i);
+				// 进度标志
+				pointSpan = $tagName($imgPoint, "span")[i];
+				pointSpan && pointSpan.setAttribute("noo", i);
+
+				$tagName(txtLi, 'a')[0].innerHTML = title;
+				$tagName(txtLi, 'a')[0].setAttribute('href', titlelink);
+				destxtLi.innerHTML = destxt;
+			}
+			showNoo(0);
+		}
+
+		function showNoo(index) {
+			index = parseInt(index);
+
+			clearTimeout(fxtimer);
+			clearTimeout(looptimer);
+
+			_opacity($imgWrap, 0);
+
+			// 图片
+			$tagName($imgWrap, "li")[showing].style.display = 'none';
+			$tagName($imgWrap, "li")[index].style.display = '';
+			// 标题
+			$tagName($txtUl, "li")[showing].style.display = 'none';
+			$tagName($txtUl, "li")[index].style.display = '';
+			// 描述
+			$tagName($destxtUl, "li")[showing].style.display = 'none';
+			$tagName($destxtUl, "li")[index].style.display = '';
+			// 进度
+			DomEx.removeClass($tagName($imgPoint, "span")[showing], "point_cur");
+			DomEx.addClass($tagName($imgPoint, "span")[index], "point_cur");
+
+			opc = 30;
+			qingFadeIn();
+			showing = index;
+			looptimer = setTimeout(loopShow, 5000);
+		}
+
+		function qingFadeIn(){
+			_opacity($imgWrap, opc);
+			opc += popc;
+			if(opc<100){
+				fxtimer = setTimeout(qingFadeIn, 15);
+			}else{
+				_opacity($imgWrap, 100);
+			}
+		}
+
+		function loopShow(){
+			var j = showing+1;
+			j>=len && (j=0);
+			showNoo(j);
+		}
+
+		DomEx.enterLeave($imgPoint, function(span){
+			var j = span.getAttribute("noo");
+			showNoo(j);
+		}, function(li){
+
+		}, 100);
+
+
+	})();
+</script>
+
+<script type="text/javascript" charset="utf-8" src="http://i3.sinaimg.cn/unipro/pub/suda_s_v851c.js"></script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/xblogtheme/js/blog680-min.js"></script>
+<script type="text/javascript">
+	var slotArr = ['SLOT_92_meishi', 'SLOT_93_meishi', 'SLOT_94_meishi', 'SLOT_95_meishi', 'SLOT_96_meishi', 'SLOT_97_meishi'];
+	var sourceArr = ['SLOT_92', 'SLOT_93', 'SLOT_94', 'SLOT_95', 'SLOT_96', 'SLOT_97'];
+	SinaBlog680.staticBox(slotArr, sourceArr);
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+@charset "utf-8";
+/* 外引美食组件 */
+@import url("../../module/blog/common.css");
+@import url("../../module/iframe/blog_mfood.css");

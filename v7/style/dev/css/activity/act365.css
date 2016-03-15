@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* reset  */
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,tt,var,h1, h2, h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{outline:0; padding:0; margin:0; border:0; text-align:left; font-style:normal; word-wrap:break-word;}
+:focus{outline:0;}
+body{font-family:"Microsoft Yahei","STHeiti","SimSun","Arail","Verdana","Helvetica","sans-serif"; color:#999; font-size:12px;}
+ol, ul,li{list-style:none;}
+table{border-collapse:collapse; border-spacing:0; width:100%;}
+caption, th, td{font-weight:normal; text-align:left; vertical-align:top;}
+a:link,
+a:visited{font-family:"Microsoft Yahei"; color:#a9a9a9; text-decoration:none;}
+a:hover{font-family:"Microsoft Yahei"; color:#a9a9a9; text-decoration:underline;}
+
+body{background:url(../../images/activity/act365/cal_bg.png) repeat;}
+.container{width:950px; margin:0 auto;}
+.calHead{position:relative; width:950px; height:132px; overflow:hidden; padding-top:40px;}
+.calHead h1{padding-top:30px; padding-bottom:10px; font-size:33px; color:#000; font-weight:normal;}
+.calHead h1 span{color:#a30000;}
+.calHead h2{font-size:18px; color:#000; font-weight:normal;}
+.calHead h2 span{color:#a30000;}
+.calHead .shareTo{position:absolute; left:426px; top:126px; *top:130px; width:118px; height:18px; line-height:18px; border:1px #ffe91d solid; border-bottom-color:#f8caab; border-right-color:#f8caab; padding-left:3px; font-size:12px; color:#5e6ee3;}
+.calHead .shareTo a,.calHead .shareTo a:link{width:15px; height:16px; display:inline-block; margin-left:6px; margin-top:1px; background:url(../../images/activity/act365/cal_share.png) no-repeat; text-indent:-9999px;}
+.calHead .shareTo a.weibo{background-position:0 0;}
+.calHead .shareTo a.renren{background-position:0 -32px;}
+.calHead .shareTo a.kaixin{background-position:0 -64px;}
+.calHead .shareTo a.douban{background-position:0 -96px;}
+.calHead .returnPage{position:absolute; right:3px; top:132px; font-size:13px; color:#666;}
+.calHead .down365{position:absolute; right:0; bottom:28px;; width:146px; height:67px; background:url(../../images/activity/act365/ico_down365.png) no-repeat;}
+.calDesc{width:950px; height:389px; overflow:hidden; margin-bottom:19px; background:url(../../images/activity/act365/caldesc_bg.png) no-repeat;}
+.calDesc .pic{width:499px; height:389px; float:left; _display:inline;}
+.calDesc .pic img{width:481px; height:371px; float:left; margin:9px 0 0 9px;}
+.calDesc .txt{position:relative; width:420px; height:369px; float:left; padding:25px 8px 0 22px; font-size:14px; line-height:24px; color:#4e0909;}
+.calDesc .txt strong{display:block; padding-top:20px; font-weight:normal; margin:0;}
+.calDesc .txt ul.c1{margin-bottom:0;}
+.calDesc .txt ul.c1 li{list-style:disc inside none; padding-left:3px;}
+.calDesc .txt ul.c2 li{list-style:decimal inside none; padding-left:3px; line-height:21px;}
+.calDesc .txt ul li a,.calDesc .txt ul li a:link{font-size:16px; color:#a0301a; text-decoration:underline;}
+.calDesc .txt a.btn,.calDesc .txt a.btn:link,.calDesc .txt a.btn:hover{position:absolute; right:27px; bottom:56px; width:130px; height:41px; line-height:41px; background:url(../../images/activity/act365/ico_btn.png) no-repeat; _background:url(../../images/activity/act365/ico_btn.gif) no-repeat; font-size:16px; text-align:center; color:#fff; text-decoration:none;}
+.calAdv{width:950px; margin-bottom:19px; overflow:hidden;}
+.calPicShow{width:900px; height:70px; margin-top:6px; *margin-top:20px; margin-bottom:10px; overflow:hidden; *zoom:1; position:relative; background:url(../../images/activity/act365/cal_picshow.png) no-repeat;}
+.calPicShow h3{display:none;}
+.calPicShow .con{width:693px; height:50px; overflow:hidden; margin-left:168px; margin-top:10px;}
+.calPicShow ul{}
+.calPicShow ul li{float:left; _display:inline; margin-right:13px;}
+.calPicShow ul li img{width:50px; height:50px; overflow:hidden; float:left;}
+.calPicShow a.btn_preview,.calPicShow a.btn_preview:link,.calPicShow a.btn_next,.calPicShow a.btn_next:link{position:absolute; left:130px;; top:22px; width:21px; height:31px; overflow:hidden; background:url(../../images/activity/act365/cal_arrow.png) no-repeat; _background:url(../../images/activity/act365/cal_arrow.gif) no-repeat; text-indent:-9999px;}
+.calPicShow a.btn_preview:hover{background-position:-1px -63px;}
+.calPicShow a.btn_next,.calPicShow a.btn_next:link{left:auto; right:15px; background-position:0 -124px;}
+.calPicShow a.btn_next:hover{background-position:0 -186px;}
+.calBtn{margin:20px auto; overflow:hidden; _zoom:1; text-align:center; font-size:14px;}
+.calBtn a.btn_preview,.calWrap .calBtn a.btn_preview:link{float:left; background:url(../../images/activity/act365/cal365_arrow.png) no-repeat; _background:url(../../images/activity/act365/cal365_arrow.gif) no-repeat; padding-left:20px; line-height:15px; color:#666;}
+.calBtn a.btn_preview:hover{background-position:0 -30px; color:#999; text-decoration:none;}
+.calBtn a.btn_next,.calWrap .calBtn a.btn_next:link{float:right; *margin-top:-17px; background:url(../../images/activity/act365/cal365_arrow.png) right -60px no-repeat; _background:url(../../images/activity/act365/cal365_arrow.gif) right -60px no-repeat; padding-right:20px; line-height:15px; color:#666;}
+.calBtn a.btn_next:hover{background-position:right -90px; color:#999; text-decoration:none;}
+.calBtn .current{display:inline-block; margin:0 auto; color:#a30000;}
+.calCon{overflow:hidden; *zoom:1; width:950px;}
+.calCon ul li{width:128px; height:171px; background:#fff; float:left; _display:inline; margin-right:9px; margin-bottom:14px;}
+.calCon ul li.hover{background:url(../../images/activity/act365/cal365_hoverbg.png) no-repeat;}
+.calCon ul li.nomgr{margin-right:0;}
+.calCon ul li.wk1{margin-left:137px;}
+.calCon ul li.wk2{margin-left:274px;}
+.calCon ul li.wk3{margin-left:411px;}
+.calCon ul li.wk4{margin-left:548px;}
+.calCon ul li.wk5{margin-left:685px;}
+.calCon ul li.wk6{margin-left:822px;}
+.calCon ul li.wk7{margin-left:0;}
+.calCon ul li .pic{position:relative; width:108px; height:108px; overflow:hidden; margin:10px auto 0; background:url(../../images/activity/act365/cal365_nobg.png) no-repeat;}
+.calCon ul li .pic a,.calCon ul li .pic a:link{width:103px; height:107px; float:left;}
+.calCon ul li .pic a.txt,.calCon ul li .pic a.txt:link,.calCon ul li .pic a.txt:hover{width:96px; height:98px; line-height:17px; padding:2px 5px 5px; border:1px #e2e2e2 solid; display:block; background:#fff; text-decoration:none;}
+.calCon ul li .pic img{width:108px; height:108px; float:left;}
+.calCon ul li .pic a.music{position:absolute; left:37px; top:39px; width:32px; height:32px; background:url(../../images/archive/ico_mplay.png) no-repeat;}
+.calCon ul li .pic a.video{position:absolute; left:37px; top:39px; width:32px; height:32px; background:url(../../images/archive/ico_rplay.png) no-repeat;}
+.calCon ul li .info{margin:7px 9px 0; padding:0; position:relative; color:#333; *zoom:1;}
+.calCon ul li .info .year{position:absolute; right:0; top:0; font-family:arial; font-size:10px;}
+.calCon ul li .info .month{position:absolute; right:0; top:15px;}
+.calCon ul li .info .week{position:absolute; left:0; top:0;}
+.calCon ul li .info .week em{display:block; font-family:arial; color:#231f20; font-size:10px;}
+.calCon ul li .info .day{width:37px; height:20px; position:relative; top:7px; background:url(../../images/activity/act365/cal365_date.png) no-repeat; _background:url(../../images/activity/act365/cal365_date.gif) no-repeat; display:block; margin:0 auto; margin-left:38px; font-size:24px; text-align:center; text-indent:-9999px; overflow:hidden;}
+.calCon ul li .info .day.d1{background-position:0 0;}
+.calCon ul li .info .day.d2{background-position:0 -40px;}
+.calCon ul li .info .day.d3{background-position:0 -80px;}
+.calCon ul li .info .day.d4{background-position:0 -120px;}
+.calCon ul li .info .day.d5{background-position:0 -160px;}
+.calCon ul li .info .day.d6{background-position:0 -200px;}
+.calCon ul li .info .day.d7{background-position:0 -240px;}
+.calCon ul li .info .day.d8{background-position:0 -280px;}
+.calCon ul li .info .day.d9{background-position:0 -320px;}
+.calCon ul li .info .day.d10{background-position:0 -360px;}
+.calCon ul li .info .day.d11{background-position:0 -400px;}
+.calCon ul li .info .day.d12{background-position:0 -440px;}
+.calCon ul li .info .day.d13{background-position:0 -480px;}
+.calCon ul li .info .day.d14{background-position:0 -520px;}
+.calCon ul li .info .day.d15{background-position:0 -560px;}
+.calCon ul li .info .day.d16{background-position:0 -600px;}
+.calCon ul li .info .day.d17{background-position:0 -640px;}
+.calCon ul li .info .day.d18{background-position:0 -680px;}
+.calCon ul li .info .day.d19{background-position:0 -720px;}
+.calCon ul li .info .day.d20{background-position:0 -760px;}
+.calCon ul li .info .day.d21{background-position:0 -800px;}
+.calCon ul li .info .day.d22{background-position:0 -840px;}
+.calCon ul li .info .day.d23{background-position:0 -880px;}
+.calCon ul li .info .day.d24{background-position:0 -920px;}
+.calCon ul li .info .day.d25{background-position:0 -960px;}
+.calCon ul li .info .day.d26{background-position:0 -1000px;}
+.calCon ul li .info .day.d27{background-position:0 -1040px;}
+.calCon ul li .info .day.d28{background-position:0 -1080px;}
+.calCon ul li .info .day.d29{background-position:0 -1120px;}
+.calCon ul li .info .day.d30{background-position:0 -1160px;}
+.calCon ul li .info .day.d31{background-position:0 -1200px;}
+.calCon ul li.today{background:#cee3e4;}
+.calCon ul li.today .pic{background-position:0 -160px;}
+.calCon ul li.coming .pic{background-position:0 -320px;}
+.calCon ul li.default .pic{background-position:0 -480px;}
+
+.calDesc .picSlide{width:499px; height:389px; float:left; _display:inline;}
+.calDesc .picSlide .picW{width:481px; height:371px; overflow:hidden; margin:9px 0 0 10px; position:relative;}
+.calDesc .picSlide .picW ul{width:2365px; position:absolute; left:0; top:0;}
+.calDesc .picSlide .picW ul li{float:left; _display:inline;}
+.calDesc .picSlide .picNo{margin:12px 0 0 13px;}
+.calDesc .picSlide .picNo a,.calDesc .picSlide .picNo a:link{width:11px; height:11px; float:left; margin-right:5px; background:url(../../images/activity/act365/ico_slide.png?2012073101) -16px 0 no-repeat; _background:url(../../images/activity/act365/ico_slide.gif?2012073101) -16px 0 no-repeat; overflow:hidden; text-indent:-9999px;}
+.calDesc .picSlide .picNo a.cur,.calDesc .picSlide .picNo a.cur:link{background-position:0 0;}
+
+.content{width:950px; margin:15px auto;}
+.todayRec{width:728px; border:1px #e0e1e2 solid; background:#ededed; float:left;}
+.todayRec .hd{width:728px; height:40px; line-height:40px;}
+.todayRec .hd h3{padding:0 10px; font-size:14px; color:#666; text-align:left; font-weight:normal;}
+.todayRec .bd ul{position:relative; margin-left:1px; overflow:hidden; _margin-bottom:30px; *zoom:1;}
+.todayRec .bd ul li{float:left; display:inline; margin-left:9px; margin-bottom:18px;}
+.todayRec .bd ul li .pic{width:170px; overflow:hidden; margin-bottom:2px;}
+.todayRec .bd ul li .pic img{width:160px; height:120px; overflow:hidden; border:5px #fff solid;}
+.todayRec .bd ul li .txt span{display:block; line-height:18px; font-size:12px; color:#999;}
+.todayRec .bd ul li .txt span.title,.todayRec .bd ul li .txt span.title a,.todayRec .bd ul li .txt span.title a:link{color:#333;}
+.todayRec .bd ul li .txt span.nickname,.todayRec .bd ul li .txt span.nickname a,.todayRec .bd ul li .txt span.nickname a:link{color:#999;}
+.sideMod{width:210px; margin-left:10px; float:left; display:inline;}
+.newRec{width:208px; border:1px #e0e1e2 solid; background:#fff;}
+.newRec .hd{height:33px; line-height:33px; padding-top:3px;}
+.newRec .hd h3{padding:0 10px; font-weight:normal; font-size:14px; color:#333;}
+.newRec .bd ul{border-left:1px #e7e7e7 solid; margin-left:9px;}
+.newRec .bd ul li{margin-bottom:15px;}
+.newRec .bd ul li em{float:left; margin-left:-7px; _margin-left:-8px; margin-bottom:8px; padding-left:21px; font-family:arial; font-size:12px; color:#7d7d7d; background:url(../../images/activity/act365/cal365_lt.png) 0 -27px no-repeat; _background:url(../../images/activity/act365/cal365_lt.png) 1px -27px no-repeat;}
+.newRec .bd ul li em.red{background-position:0 1px; color:#ff2222;}
+.newRec .bd ul li .pic{clear:both; width:168px; height:122px; overflow:hidden; margin-left:15px;}
+.newRec .bd ul li .pic img{width:168px; height:122px;}
+.newRec .bd ul li .txt{width:150px; height:30px; margin-left:15px; background:#eee; padding:0 9px; line-height:33px; font-size:12px; color:#666;}
+.monHot{width:208px; border:1px #e0e1e2 solid; background:#fff; margin-top:11px;}
+.monHot .hd{height:33px; line-height:33px; padding-top:3px;}
+.monHot .hd h3{padding:0 10px; font-weight:normal; font-size:14px; color:#333;}
+.monHot .bd ul{margin:0 7px;}
+.monHot .bd ul li{border-top:1px #e2e2e2 dotted; height:32px; line-height:32px; font-size:13px; _font-size:12px; color:#666;}
+.monHot .bd ul li a,.monHot .bd ul li a:link{color:#666; text-decoration:none;}
+.monHot .bd ul li a:hover{text-decoration:underline;}
+.monHot .bd ul li em{font-size:12px; font-family:arial; color:#999; padding:0 9px 0 5px;}
+.monHot .bd ul li em.red{color:#ff0000;}
+.monHot .bd ul li span{float:right; font-size:12px; color:#999;}
+.monHot .bd ul li span a,.monHot .bd ul li span a:link{font-size:12px; color:#999; text-decoration:none;}
+

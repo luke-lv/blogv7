@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url("../../css/module/blog/article.css");
+@import url("../../css/module/layer/layer.css");
+@import url("../../css/module/layer/layer23.css");
+@import url("../../css/module/layer/layer6.css");
+/* general */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+table,th,td{margin:0;padding:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family:Verdana, "宋体", sans-serif}
+select,input {vertical-align:middle}
+cite,em {font-style:normal}
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox] {cursor:pointer}
+label {cursor:pointer;}
+.hidden {display:none}
+.wordwrap {word-wrap:break-word;word-break:break-all; }
+.clearit{ clear: both; height:0px; overflow:hidden}
+
+
+/*认证*/
+.fairwarp{width:100%;background:#fff url(../../images/special/fair/fair_bg.jpg) no-repeat center 0;}
+.fairwarp .fair_banner{width:950px; margin:0 auto;}
+.fairwarp .faircenter{width:890px; margin:0 auto; padding:50px 0; font-size:14px; color:#666; font-family:"微软雅黑"; font-weight:bold; line-height:22px;}
+.fairwarp .faircenter h2{font-size:18px; padding:50px 0 25px; color:#444}
+.fairwarp .introduction dt{padding:0 0 13px;}
+.fairwarp .introduction dd{color:#ababab; padding-bottom:5px;text-decoration: underline;}
+.fairwarp .application dt{color:#ff9512; font-size:16px; padding:0 0 4px;}
+.fairwarp .application dd{padding:0 0 25px; }
+.fairwarp .application dd .org{color:#ff9512; padding:0 3px;}
+.fairwarp .application dd p{padding-bottom:5px;}
+.fairwarp .application dd.btn_apply{text-align:center;padding: 20px 0 90px;}
+.fairwarp .privilege{border:1px solid #d5d5d5;background:#eff1f3; padding:30px 0 45px 35px}
+.fairwarp .privilege img{float:left;}
+.fairwarp .privilege dl{ padding:15px 0 0 215px;}
+.fairwarp .privilege dt{font-size:16px; color:#444; padding-bottom:10px;}
+.fairwarp .privilege dd{width:600px; font-size:12px;}
+.fairwarp .privilege p{width:100%;background:url(../../images/special/fair/dd_dot.jpg) no-repeat 0 8px; padding-left:10px;}
+.fairwarp .privilege p.btn_r{text-align:right; background:none;}
+.fairwarp .privilege p a,
+.fairwarp .privilege p a:hover{color:#ff9512;}
+
+.fairwarp .step{border:1px solid #d5d5d5; border-top:2px solid #333; padding:40px 0 80px; margin:20px 0 0;clear:both;}
+.fairwarp .step .prompt{ width:740px; margin:0 auto; clear:both; overflow:hidden;border-bottom:2px solid #707070; padding:0 0 50px; }
+.fairwarp .step .approve{padding:50px;width:190px;float:left; background:#e8e8e8; border:1px solid #d5d5d5;}
+.fairwarp .step .approve .approve_info{width:190px;height:406px;background:url(../../images/special/fair/taoblog_temp.jpg) no-repeat 0 0; color:#fff;}
+.fairwarp .step .approve .approve_info .linkno{padding:218px 14px 10px 20px; font-size:13px;}
+.fairwarp .step .approve .approve_info .userinfo{padding:0px 12px 10px 22px; font-size:13px;}
+.fairwarp .step .approve .approve_info .userinfo em{float:left;width:70px;overflow:hidden;}
+.fairwarp .step .approve .approve_info .userinfo p{padding:0 0 0 75px;_margin-top:-22px;}
+.fairwarp .step .approve .info_h{height:426px;background:url(../../images/special/fair/taoblog_temp_1.jpg) no-repeat 0 0;}
+.fairwarp .step .steptemp{width:834px; margin:50px auto 0;}
+.fairwarp .step .steptemp .steptemp_tit{font-size:16px;width:724px; margin:0 auto;color:#444;}
+.fairwarp .step .steptemp .steptemp_txt{font-size:14px;width:724px; margin:10px auto 20px;color:#666;}
+.fairwarp .step .pass{padding:50px 0 0 330px; font-size:14px;}
+.fairwarp .step .pass p img{margin:30px 0 10px;}
+.fairwarp .step .pass .downtit{height:39px;background:url(../../images/special/fair/bg_arrow.jpg) no-repeat 0 0; color:#b5b5b5; font-size:13px; padding:10px;}
+
+.material{width:614px; padding-left:220px;clear:both;overflow:hidden;}
+.material dt{float:left;width:90px;line-height:30px; text-align:right;padding-right:8px; font-size:15px; color:#666;}
+.material dd{float:left;width:510px; padding-bottom:10px;}
+.material dd .red{color:#f00; font-weight:normal;}
+.material dd img{margin:0 4px 0 2px;}
+.material dd input{height:30px; width:269px; line-height:30px; font-size:15px; color:#b5b5b5; margin-right:6px;}
+.material dd select{height:32px; width:275px; line-height:32px; font-size:15px; color:#b5b5b5;padding:4px 0; font-family:"微软雅黑"; margin-right:6px;}
+.material dd select option{ line-height:32px; font-size:15px; padding:5px 0;}
+.btn_submit{text-align:center; padding:10px 0 50px;}

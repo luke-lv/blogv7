@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.sinafooter{ width: 100%; background: #3d4e6e;}
+.sinafooter .sinablogfooter{ padding: 50px 0 0;font-size: 12px; color: #5e7296; width: 950px; height: 170px; margin: 0 auto; text-align: center;}
+.sinafooter .sinablogfooter p { line-height: 22px;}
+.sinafooter .sinablogfooter .SG_linka a{ color:#5e7296;}
+.sinafooter .sinablogfooter .SG_linka a:hover{ text-decoration: underline;}
+.sinafooter .sinablogfooter .copyright { padding-top: 10px;}
+/*页脚信息换肤 添加类sinafooter2可得到新发布器页脚信息样式*/
+.sinafooter2{ background: #fbfbfb; border-top: 1px solid #f2f2f2;}
+.sinafooter2 .sinablogfooter .SG_linka a{ color:#aaa;}
+.sinafooter2 .sinablogfooter{ color:#aaa;}

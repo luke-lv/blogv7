@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>uploadv1</title>
+</head>
+<body bgcolor="#ffffff">
+
+<script type="text/javascript">
+	function aaalert(msg)
+	{
+		alert(msg+"");
+	}
+	
+	function test1(data)
+	{
+		alert(data+"");
+	}
+	function test2()
+	{
+		return true;
+	}
+	function test3()
+	{
+		document['uploadv1'].accessintoinit("123","1123");
+	}
+</script>
+<embed src="uploadv1.swf?callback=test1&isready=test2&flashisready=test3" quality="high" bgcolor="#ffffff" width="200" height="28" name="uploadv1" align="middle" allowScriptAccess="always" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</body>
+</html>

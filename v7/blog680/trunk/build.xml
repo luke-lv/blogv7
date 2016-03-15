@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project name="blog680" default="build" basedir=".">
+	<property name="concat.note" value="//合并文件"/>
+	<property name="dist.dir" value="dist"/>
+	<property name="src.dir" value="src"/>
+	<property name="yuicompressor.path" location="${basedir}/lib/yuicompressor/yuicompressor-2.4.7.jar"/>
+	<!-- 清除项目合并与打包文件，构建整个工程 -->
+	<target name="build" depends="clear,mkdir,concat,minify-js">
+		<dirname property="antfile.dir" file="${ant.file}"/>
+		<echo message="${antfile.dir}"/>
+	</target>
+	<!-- 清除项目自动生成文件 -->
+	<target name="clear">
+		<echo>Clear project</echo>
+		<delete dir="${dist.dir}" verbose="true"/>
+	</target>
+	<!-- 生成项目自动生成文件夹 -->
+	<target name="mkdir">
+		<echo>生成${dist.dir}目录</echo>
+		<mkdir dir="${dist.dir}"/>
+	</target>
+	<!-- 合并项目文件 -->
+	<target name="concat">
+		<echo>开始合并文件</echo>
+		<concat destfile="${dist.dir}/blog680.js" fixlastline="yes" encoding="UTF-8" outputencoding="UTF-8">
+			<header trimleading="yes">${concat.note}</header>
+			<!-- 在这里添加合并文件 -->
+			<path path="${src.dir}/header.js"/>
+			<path path="${src.dir}/ver.js"/>
+			<path path="${src.dir}/utils.js"/>
+			<path path="${src.dir}/json2.js"/>
+			<path path="${src.dir}/jsload.js"/>
+			<path path="${src.dir}/pptBox.js"/>
+			<path path="${src.dir}/staticBox.js"/>
+			<path path="${src.dir}/footer.js"/>
+		</concat>
+	</target>
+	<!-- 压缩项目JS文件 -->
+	<target name="minify-js">
+		<apply executable="java" verbose="true" dest="${dist.dir}" failonerror="true" parallel="false">
+			<fileset dir="${dist.dir}" includes="*.js"/>
+			<arg line="-jar"/>
+			<arg line="${yuicompressor.path}"/>
+			<arg line="-o"/>
+			<targetfile/>
+			<mapper type="glob" from="*.js" to="*-min.js"/>
+		</apply>
+	</target>
+	<!--
+	<target name="bak">
+		<echo>Backup file</echo>
+		<copy file="${dist.dir}/a_b.js" tofile="${dist.dir}/a_b.js.bak"></copy>
+	</target>
+	-->
+</project>

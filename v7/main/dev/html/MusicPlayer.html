@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>MusicPlayer</title>
+</head>
+<script type="text/javascript">
+	function debugswf()
+	{
+		var obj = document.getElementById("swfobj");
+		alert(obj.message());
+	}
+</script>
+<body bgcolor="#ffffff">
+<embed id="swfobj" name="swfobj" src="MusicPlayer.swf?url=http://fm393.com/music/%E6%9A%97%E6%81%8B.mp3" quality="high" bgcolor="#ffffff" width="238" height="24" name="MusicPlayer" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+<a href="javascript:;" onclick="debugswf()">调试</a>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@import url("某皮肤.css");
+
+/*自定义网页背景色*/
+body{background-color: #f8ecd8;}
+/*自定义背景图图片*/
+.sinablogb{ background-image: url(../../images/common/sinablogb.jpg); }
+/*
+
+background-repeat 背景图片平铺 repeat | no-repeat | repeat-x | repeat-y;
+background-position 对齐方式 第一个代表水平对齐方式 center left right ,第二个代表垂直对齐方式 top center bottom
+*/
+.sinablogb{ background-repeat:repeat;background-position:center top;}
+/*自定义背景图下方背景色*/
+.sinabloghead{background-image: url(../../images/common/sinablogb.jpg); }
+/*自定义头图区域高度*/
+.sinabloghead{ height: 265px; }
+/*
+自定义是否显示头图
+不放这个属性也是不显示背景图，但再个别模板下需要加一个background-image:none
+*/
+.sinabloghead{ background-image:none}
+/*
+
+background-repeat 自定义头图是否平铺 repeat | no-repeat | repeat-x | repeat-y;
+background-position 对齐方式 第一个代表水平对齐方式 center left right ,第二个代表垂直对齐方式 top center bottom
+*/
+.sinabloghead{ background-repeat:repeat;background-position:center top;}
+/*
+自定义导航底图图片
+注意，滤镜要用绝对地址
+*/
+.sinabloghead .blognav .blognavBg{  background-image: url(../../images/common/blognavbg.png); _background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../../images/common/blognavbg.png');  }
+/*
+
+background-repeat 自定义导航底图是否平铺 repeat | no-repeat | repeat-x | repeat-y;
+background-position 对齐方式 第一个代表水平对齐方式 center left right ,第二个代表垂直对齐方式 top center bottom
+*/
+.sinabloghead .blognav .blognavBg{ background-repeat:repeat;background-position:center top;}
+/*
+自定义博客标题在950头图区域内的位置
+top left
+*/
+.sinabloghead .blogtoparea{ top:95px; left:115px;}

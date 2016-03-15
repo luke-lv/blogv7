@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* 分类管理 */
+#categoryBody {background: #fff;width: 460px;padding:11px 17px 0 17px;margin: 0;color: #444;}
+#categoryBody .hide { display:none;}
+#categoryBody .left {float:left;}
+#categoryBody .right {float:right;}
+#categoryHead {padding:5px 0 0;margin:5px auto;background:#fff;}
+#categoryTitle span.title {padding-left:5px;font-weight:bold;}
+#errTips {color:#c00;font-weight:bold;margin-bottom:10px; padding-left:6px;}
+.errTips {color:#c00;font-weight:bold;}
+#categoryName {width:155px;*height:14px;padding:3px 3px 4px;border:1px solid #C2C3BD;color:#999;margin-right:7px;font-size:12px;position:relative;top:0px;top:-1px\9;}
+
+#categoryList {margin:10px 0 0px;  }
+#categoryList span.tip {margin-left:5px;}
+#categoryList .SG_j_linedot{ background-image:url(../../../images/common/editor/layertype_2.gif)}
+#categoryList li {height:30px;line-height:30px;overflow:hidden; display:block; clear:both;background:url(../../../images/common/editor/layertype_2.gif) repeat-x left top; font-family:simsun; float:left; width:100%;}
+#categoryList li span {float:left;}
+#categoryList li span.htit {background:url(../../../images/common/editor/layertype_3.gif) no-repeat 11px 13px; padding-left:20px; width:310px;padding-top:1px\9; *padding-top:2px; height:28px; overflow:hidden;}
+#categoryList li.cline {background:url(../../../images/common/editor/layertype_1.gif) repeat-x left top;}
+#categoryList li.cline span.htit{ color:#999;background-image:url(../../../images/common/SG_dot.gif)}
+#categoryList li span.control {float:right;}
+#categoryList li span.control .manage{ float:left; width:80px; padding-top:2px\9;*padding-top:3px;}
+#categoryList li span.control div.arrow {float: left; width:40px;}
+#categoryList li span.control div.arrow a {display: block;float: left;background:url(http://simg.sinajs.cn/blog/v5images/icon/arrow.gif);width: 12px;height: 12px;margin: 0;margin-left: 2px;margin-top: 10px;}
+#categoryList li span.control div.arrow .up {background-position: 0 -35px;}
+#categoryList li span.control div.arrow .up:hover {background-position: 0 -69px;}
+#categoryList li span.control div.arrow .up_disabled {background-position: 0 0;}
+#categoryList li span.control div.arrow .down {background-position: 0 -53px;}
+#categoryList li span.control div.arrow .down:hover {background-position: 0 -87px;}
+#categoryList li span.control div.arrow .down_disabled {background-position: 0 -19px;}
+#categoryList li .writeinfo{ display:none}
+#categoryList li.editName .htit{ display:none}
+#categoryList li.editName .control{ display:none}
+#categoryList li.editName .writeinfo{ display:block; padding:4px 0 0 20px;background:url(../../../images/common/editor/layertype_3.gif) no-repeat 11px 13px;}
+#categoryList li.editName .writeinfo input{ float:left; margin-right:5px;width:200px;height:14px;padding:3px 3px 4px;border:1px solid #C2C3BD;color:#999;}
+#categoryList li.editName .writeinfo .SG_aBtn{ margin-right:5px;}
+#categoryBottom {height:60px;padding-top:20px;text-align:center;}
+

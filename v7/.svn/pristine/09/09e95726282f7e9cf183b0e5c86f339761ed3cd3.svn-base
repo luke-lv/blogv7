@@ -1,0 +1,17 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*title*/
+.Title{
+	overflow:hidden;
+}
+.Title .tit{
+	font-size:34px;
+	display:inline-block;
+}
+
+.Title .tit .lk_a{ color:#333;}
+.Title .tit .lk_a:hover{ color:#d23a2d;}
+
+
+/*title End*/

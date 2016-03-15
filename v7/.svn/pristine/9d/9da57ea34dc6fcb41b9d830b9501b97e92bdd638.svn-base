@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>打包平台</title>
+    <link type="text/css" rel="stylesheet" href="/static/style/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/style/css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/style/css/pack.css"/>
+    <% include jsLibTmpl.html %>
+    <script type="text/javascript" src="/static/js/app/home.js"></script>
+    <script type="text/javascript" src="/static/js/app/compress.js"></script>
+</head>
+<body ng-app="jspack">
+
+<!-- Begin Wrapper -->
+<div class="jspack-wrapper">
+
+    <!-- Begin Header -->
+    <div class="jspack-header">
+        <% include header.html %>
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Navigation -->
+    <div class="jspack-navigation">
+        <% include navMenu.html %>
+    </div>
+    <!-- End Navigation -->
+
+    <!-- Begin Faux Columns -->
+    <div class="jspack-faux">
+
+        <!-- Begin Left Column -->
+        <div class="jspack-leftcolumn">
+            <% include leftColumnMenu.html %>
+        </div>
+        <!-- End Left Column -->
+        <div ng-view></div>
+        <div class="clear"></div>
+
+    </div>
+    <!-- End Faux Columns -->
+
+    <!-- Begin Footer -->
+    <div class="jspack-footer">
+        <% include footer.html %>
+    </div>
+    <!-- End Footer -->
+
+</div>
+<!-- End Wrapper -->
+<div ng-controller="AlertCtrl as alertCtrl" ng-show="alerts.length">
+    <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+    <button class='btn btn-default' ng-click="addAlert()">Add Alert</button>
+</div>
+</body>
+</html>

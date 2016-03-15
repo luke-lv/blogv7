@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>图片上传</title>
+<link href="http://simg.sinajs.cn/blog7style/css/common/common.css" type="text/css" rel="stylesheet" />
+<link href="http://simg.sinajs.cn/blog7style/css/common/editor.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+        <div class="insetPhotoContent">
+          <div class="headerTab" id="headerTab">
+            <h4>选择插入图片来源：</h4>
+          </div>
+          <div class="errTips" style="display:none"></div>
+          <!--出错提示-->
+          <div class="urlPath" id="useClient">
+            <ul>
+              <li class="li1"><span>选择本地图片：</span>
+                <div>
+                  <input type="text" class="fmTxt" />
+                  <a href="#" class="SG_aBtn SG_aBtnB SG_aBtn_sub"><cite>添加
+                  <input type="button" value="添加" />
+                  </cite></a></div>
+              </li>
+              <li class="li2">
+                <div class="processline" id="upload_image_loading">
+                  
+                </div>
+                <div class="goon"><strong>+</strong><a href="#">继续添加</a></div>
+              </li>
+              <li class="li3"><span class="SG_txtc">提示：选择的文件大小不超过3M，支持jpg、gif、png。为保证浏览速度和浏览效果，系统会自动为您优化压缩</span><br />
+                <span class="SG_clewtxta">支持批量上传！（新）</span></li>
+            </ul>
+          </div>
+          <div class="sinaAlbum" id="sinaAlbum" style="display:none">
+			<div>
+				<div class="menu">
+				  <ul id="album_menu">
+				  </ul>
+				</div>
+				<div class="preview clearfix">
+				  <ul id="album_pics" class="pics">
+				  </ul>
+				  <div class="clearit"></div>
+				  <div class="myPages" id="pagingContent"><a href="#">上一页</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">下一页</a></div>
+				</div>
+				<div class="clearit"></div>
+			</div>
+          </div>
+          <div class="urlPath" id="webUrl" style="display:none">
+            <ul>
+              <li class="li1"><span>输入图片地址：</span>
+                <div>
+                  <input id="web_image_input" value="http://" type="text" class="fmTxt" />
+                  <a href="javascript:void(0);" class="SG_aBtn SG_aBtnB SG_aBtn_sub"><cite id="web_image_submit">添加
+                  <input type="button" value="添加" />
+                  </cite></a></div>
+              </li>
+              <li class="li2" style="display:none">
+                <div class="processline">
+                  <!-- 完成 -->
+                  <p class="picOne pOk"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico">&nbsp;</span> <span class="percent">完成</span> <span class="opt">&nbsp;</span> </p>
+                  <!-- 错误 -->
+                  <p class="picOne pErr"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico"><img src="../../images/common/editor/img_album_ico1.gif" /></span> <span class="percent">错误</span> <span class="opt">&nbsp;</span> </p>
+                  <!-- 过程中 -->
+                  <p class="picOne pHalf"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em style=" width:70%"></em></span> <span class="ico">&nbsp;</span> <span class="percent">30%</span> <span class="opt"><a href="#">取消</a></span> </p>
+                  <!-- 初始 -->
+                  <p class="picOne"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico">&nbsp;</span> <span class="percent">等待上传中</span> <span class="opt"><a href="#">取消</a></span> </p>
+                  <!-- 初始 -->
+                  <p class="picOne"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico">&nbsp;</span> <span class="percent">等待上传中</span> <span class="opt"><a href="#">取消</a></span> </p>
+                  <!-- 初始 -->
+                  <p class="picOne"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico">&nbsp;</span> <span class="percent">等待上传中</span> <span class="opt"><a href="#">取消</a></span> </p>
+                  <!-- 初始 -->
+                  <p class="picOne"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico">&nbsp;</span> <span class="percent">等待上传中</span> <span class="opt"><a href="#">取消</a></span> </p>
+                  <!-- 初始 -->
+                  <p class="picOne"> <span class="name">P1123847.JPG</span> <span class="lineBg"><em></em></span> <span class="ico">&nbsp;</span> <span class="percent">等待上传中</span> <span class="opt"><a href="#">取消</a></span> </p>
+                </div>
+                <div class="goon"><strong>+</strong><a href="#">继续添加</a></div>
+              </li>
+              <li class="li3"><span class="SG_txtc">注：此处插入的图片显示会受到图片存放地址的影响</span><br  />
+                <span class="SG_clewtxta" style="display:none">支持批量上传！（新）</span></li>
+            </ul>
+          </div>
+		  <div class="inArea"> <span>插入的图片：(每次最多能添加8张图片)</span>
+            <div class="view" id="img_list">
+             
+            </div>
+          </div>
+          <div class="bottom"> <a class="SG_aBtn SG_aBtnB SG_aBtn_sub" href="#"><cite>插入图片
+            <input type="button" value=" 插入图片 " id="button_insert"/>
+            </cite></a> </div>
+        </div>
+        <!-- 任何内容 结束 --></td>
+
+</body>
+<script type="text/javascript">
+var scope = {
+	$uid : "1601810050",
+	$PRODUCT_NAME : "blog7",		//blog7photo,blog7icp
+	$pageid : "editor_add_image"
+};
+var __SINAPRO__ = "";
+
+</script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/config.js"></script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/boot.js"></script>
+<script type="text/javascript">__load_js();</script>
+<script type="text/javascript">__render_page();</script>
+
+</html>

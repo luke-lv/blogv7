@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* 博文分享 */
+.shareItemLayer{min-height:118px;padding:20px 10px 10px 17px;width:366px;}
+.shareItemLayer .shTit{font-size:14px;clear:both;}
+.shareItemLayer .shForm{margin:10px 0;}
+.shareItemLayer .shForm textarea{width:350px;height:60px;margin-right:10px;float:left}
+.shareItemLayer .shBtn{clear:both;height:23px;padding-bottom:10px;text-align:center;}
+.shareItemLayer .logoList{margin:0 0 10px;}
+.shareItemLayer .logoList li{float:left;margin:8px 10px 0 0}
+

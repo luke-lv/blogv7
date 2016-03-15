@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*个人信息*/
+.BNE_info{}
+.BNE_info .userinfo{
+	border:1px solid #EEE;
+	padding:14px 14px 8px;
+}
+.userinfo .user_img{
+	width:180px;
+	height:180px;
+	margin-bottom:14px;
+	position:relative;
+}
+.userinfo .user_tit{
+	margin-top:14px;
+	text-align:center;
+}
+.userinfo .user_tit .name{
+	font-size:14px;
+	margin-right:8px;
+}
+.userinfo .user_tit .addV{ vertical-align:3px;}
+.userinfo .user_btn{
+	margin-top:10px;
+	text-align:center;
+}
+.userinfo .user_btn .BNE_btn cite{
+	width:69px;
+}
+.userinfo .user_btn .i31_jia{
+	margin-top:-4px;
+	margin-right:5px;}
+
+.ie6 .userinfo .user_btn .i31_jia{
+	margin-top:-4px;
+	margin-right:5px;
+	float:left;
+	margin-top:7px;
+	margin-left:10px;
+	margin-right:-5px;
+}
+.userinfo .user_list{
+	padding-top:10px;
+	margin-top:14px;
+	border-top:1px solid #EEE;
+}
+.userinfo .listul li{
+	height:20px;
+	clear:both;
+	display:block;
+	line-height:20px;
+	white-space:nowrap;
+	padding:3px 0;
+}
+.userinfo .listul .BNE_txtE{
+	margin-right:4px;
+	display:inline-block;
+}
+.userinfo .listul .number{
+	vertical-align:3px;
+}
+.userinfo .listul .lisp{
+	height:auto;
+}
+.userinfo .listul .lisp .lisp_icon{
+	width:22px;
+	height:25px;
+	margin-right:10px;
+	margin-bottom:4px;
+	margin-top:-3px;
+	display:inline-block;
+	vertical-align:-12px;
+	*vertical-align:-6px;
+	background-repeat:no-repeat;
+	background-position:0 center;
+}
+
+
+
+
+
+

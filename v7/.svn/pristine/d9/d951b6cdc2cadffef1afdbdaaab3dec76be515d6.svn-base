@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://simg.sinajs.cn/blog7style/css/common/common.css" type="text/css" rel="stylesheet" />
+<title>首页</title>
+<style type="text/css">
+* {margin: 0;padding: 0;}
+html {height: 100%;}
+ul {list-style: none;margin: 0;}
+body {font-size: 12px;font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;background: #fff;}
+.hide, .invisible {  display:none;}
+.clear { clear:both; height:0px; overflow:hidden;}
+.blogEditorWrap { margin:10px auto 14px; width:210px; height:267px; border:1px solid #c6c6c6; background:#F0F0F0;  }
+.blogEditorWrap .editor_title {  height:21px; *height:23px !important; padding:4px;border:1px solid #C6C6C6; border-width:0px 0 1px 0;}
+.blogEditorWrap .editor_title input { width:196px;height:14px;line-height:14px; padding:3px 2px 3px; border:1px solid #C1C1BB; font-size:12px; font-family:verdana; color:#666;}                        
+.blogEditorWrap .editor_content { width:210px; height:140px;}
+.blogEditorWrap .editor_content textarea { width:188px; height:101px; border:none; padding:4px; color:#999; font-size:12px; background:#fff; margin-top:29px;}
+/* insertImage Div */
+.insertImage{ width: 430px; height: 94px; background: #FFF; border: 1px solid #c6c6c6; position: absolute;text-align: center; z-index: 100;}
+.insertImage div{padding:20px 20px 0; clear:both; height:30px;}
+.insertImage .imageUrl{ margin:0px 10px 2px 0px;color:#999;height:16px;line-height:16px; padding:3px 2px 3px; border:1px solid #C1C1BB; font-size:14px; font-family:verdana; float:left;}
+.insertImage .txt{ float:left; color:#333; padding-top:4px; padding-left:20px;}
+.insertImage .SG_aBtn{ float:left}
+.insertImage p{ color:#999; width:100%; padding:10px 0 0; clear:both; float:left;}
+
+/* oooooooooooooooo编辑器专有样式ooooooooooooooooo */
+.SinaEditor { width:100%; height:208px; position:relative}
+.SinaEditor .main_middle {background:#fff; margin:5px;*margin:5px 5px 3px;}
+.SinaEditor .main_foot{ width:100%; height:20px;}
+.SinaEditor .main_foot .leftFoot { float: left; margin-bottom:4px;}
+.SinaEditor .main_foot .leftFoot input {  margin-left: 6px; vertical-align:middle; _vertical-align:-2px; }
+
+/* TEXTAREA */
+.SinaEditor .textarea { display:block; width: 202px; height: 177px; height:174px\9; font-size: 12px; margin-left:0px; overflow: scroll; font-family: '宋体', Verdana,Arial, Helvetica, sans-serif; line-height:1.5; scrollbar-face-color: #ffffff; scrollbar-highlight-color: #ffffff; scrollbar-shadow-color: #c0c1bb; scrollbar-3dlight-color: #c0c1bb; scrollbar-arrow-color: #c9cbb6; scrollbar-track-color: #f4f5f0; scrollbar-darkshadow-color: #ffffff; scrollbar-base-color: #ffffff; word-wrap: break-word; overflow:hidden; overflow-y:scroll;}
+/* IFRAME */
+.SinaEditor .iframe { width: 202px; height: 177px; height: 174px\9; border: 0;}
+
+
+/** 基础版 **/
+.mini_tools { width: 100%; height: 30px;}
+.mini_tools div { float: left; display: inline; cursor: default;}
+.mini_tools .fontsize {  text-align: left;}
+.mini_tools .fontsize div { margin-left: 5px; margin-top: 3px;} 
+
+.fontItemContent {  position: absolute;  width: 60px;  height:135px;  height:115px\9;  overflow:auto;*overflow-y:auto;  *overflow-x:hidden;  border: 1px solid #C6C6C6;  background-color: #F4F4F4; } 
+.fontItem {  display: block;  text-decoration:none;  text-align:left;  padding: 1px 0 1px 3px;  border: 1px solid #F4F4F4;  color: #000;  font-family: "宋体";  } 
+.fontItemContent .fontItemTitle{ display:none}
+.fontItem:hover {  border: 1px solid #316AC5;  background:#eef; } 
+.fontItem i {  font-size: 11px; display:none } 
+.colorItemContent {  position: absolute;  width: 107px;  height:93px;  padding-bottom:8px;  _padding-bottom:7px;  border: 1px solid #C7C7C7;  background-color: #fff; } 
+.colorItems {  width: 88px;  margin:10px 10px 8px;  *margin:10px;  _margin-bottom:8px;  height: 60px; } 
+.colorItemLeft {   float: left;   width: 18px;   background-color: #fff; }
+.colorItemRight {  float: left;  width: 108px;  background-color: #fff; } 
+.colorItem{  float: left;   font-size: 1px;  height: 11px; width: 10px;  margin-right: 1px;  margin-bottom: 1px; }
+.colorItemBottom {  height: auto;   text-align:center; }   
+
+
+.mini_tools .ico_bold_1,
+.mini_tools .ico_forecolor_1,
+.mini_tools .ico_fontsize_1,
+.mini_tools .ico_img_1,
+
+.mini_tools .ico_bold_2,
+.mini_tools .ico_forecolor_2,
+.mini_tools .ico_fontsize_2,
+.mini_tools .ico_img_2,
+
+.mini_tools .ico_bold_3,
+.mini_tools .ico_forecolor_3,
+.mini_tools .ico_fontsize_3,
+.mini_tools .ico_img_3{ background-image:url(http://sjs.sinajs.cn/blog7style/images/common/editor/mini_editor.gif); background-repeat:no-repeat; overflow:hidden; height:22px;}
+
+.mini_tools .ico_fontsize_1 div,
+.mini_tools .ico_fontsize_2 div,
+.mini_tools .ico_fontsize_3 div{ margin-left: 5px; margin-top: 3px;} 
+
+.mini_tools .ico_bold_1{background-position: -8px -71px; margin-left: 4px; margin-top: 3px; width:22px;}
+.mini_tools .ico_forecolor_1{background-position: -45px -71px; margin-left: 3px; margin-top: 3px; width: 22px;}
+.mini_tools .ico_fontsize_1{background-position: -83px -71px; margin-left: 10px; margin-top: 4px; width: 61px; height:20px;}
+.mini_tools .ico_img_1{background-position: -156px -71px; margin-left: 7px; margin-top: 3px; width: 71px; }
+
+.mini_tools .ico_bold_2{background-position: -8px -10px; margin-left: 4px; margin-top: 3px; width:22px;}
+.mini_tools .ico_forecolor_2{background-position: -45px -10px; margin-left: 3px; margin-top: 3px; width: 22px;}
+.mini_tools .ico_fontsize_2{background-position: -83px -10px; margin-left: 10px; margin-top: 4px; width: 61px; height:20px;}
+.mini_tools .ico_img_2{background-position: -156px -10px;margin-left: 7px; margin-top: 3px; width: 71px; }
+
+.mini_tools .ico_bold_3{background-position: -8px -40px; margin-left: 4px; margin-top: 3px; width:22px;}
+.mini_tools .ico_forecolor_3{background-position: -45px -40px; margin-left: 3px; margin-top: 3px; width: 22px;}
+.mini_tools .ico_fontsize_3{background-position: -83px -40px; margin-left: 10px; margin-top: 4px; width: 61px; height:20px;}
+.mini_tools .ico_img_3{background-position: -156px -40px;margin-left: 7px; margin-top: 3px; width: 71px; }
+
+
+
+
+.myWidth_S { width:210px;}
+.myWidth_S .editor_title input { width:196px;}
+.myWidth_S .editor_content { width:210px;}
+.myWidth_S .textarea { display:block; width: 202px; }
+.myWidth_S .iframe { width: 202px;}
+
+
+
+.myWidth_M { width:510px;}
+.myWidth_M .editor_title input { width:496px;}
+.myWidth_M .editor_content { width:510px;}
+.myWidth_M .textarea { display:block; width: 502px; }
+.myWidth_M .iframe { width: 502px;}
+
+
+
+.myWidth_L {width:730px; }
+.myWidth_L .editor_title input { width:716px;}
+.myWidth_L .editor_content { width:730px;}
+.myWidth_L .textarea { display:block; width: 722px; }
+.myWidth_L .iframe { width: 722px;}
+
+.miniEd_Btn{ text-align:center;}
+.miniEd_Btn .SG_aBtn{ margin:0px 5px;}
+
+</style>
+
+</head>
+<body>
+
+<a href="javascript:editor.swapSize('big')">大</a> 
+<a href="javascript:editor.swapSize('hit')">中</a>  
+<a href="javascript:editor.swapSize('small')">小</a> 
+<div id="sizeContainer" class="blogEditorWrap myWidth_M">
+  <div class="editor_title"> </div>
+  <div id="SinaEditor" class="SinaEditor">
+    <div class="mini_tools" id="mini_tools"> </div>
+    <div class="EditorContent">
+      <div class="EditorBoxLeft">
+        <div class="main_middle">
+          <div id="textarea_container" style="">
+            <textarea name="blog_body" id="editor_textarea" class="textarea" style="border:0px none;display: none;">									</textarea>
+          </div>
+          <div id="iframe_container">
+          </div>
+        </div>
+        <div class="main_foot">
+          <div class="leftFoot">
+            <input type="checkbox" id="editor_checkbox"/>
+            <label for="editor_checkbox">显示源代码</label>
+          </div>
+        </div>
+        <img id="SinaEditor_59_ie_rsave" style="width: 1px; display: none;"/> </div>
+    </div>
+  </div>
+</div>
+</body>
+ <script type="text/javascript">
+var scope = {
+	$uid : "1601810050",
+	$PRODUCT_NAME : "blog7",		//blog7photo,blog7icp
+	$pageid : "editor_small",
+	$setDomain:true
+};
+var __SINAPRO__ = "";
+</script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/config.js"></script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/boot.js"></script>
+<script type="text/javascript">__load_js();</script>
+<script type="text/javascript">__render_page();</script>
+</html>

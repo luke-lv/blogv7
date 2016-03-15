@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*  博文列表 */
+
+	/*搜博主文章*/
+.searchAtc_blk{ clear:both; padding:15px 0 20px 11px; height:24px;}
+.searchAtc_blk .SG_input{ width:100px; vertical-align:7px; *vertical-align:middle; margin-right:10px; }
+	
+.article_blk{ clear:both; padding:12px 21px 40px;  }
+.articleTop{ clear:both; background-position:left bottom; min-height:27px; _height:27px; padding-top:4px;}
+	/*博文筛选器*/
+.articleNav{ float:right;}
+.articleNav span{ float:left; font-family:"宋体"; font-size:12px;}
+.articleNav span.border{ margin:0 5px; margin-top:4px;}
+.articleNav span em{ float:left; margin-top:5px;}
+.articleNav span img{margin-right:2px; float:left; margin-top:4px;  *margin-top:3px;}
+.articleNav span img.SG_icon105{margin-top:0px;  *margin-top:-1px;}
+.articleNav span a{ float:left;}
+.articleNav span a em{ cursor:pointer;}
+	/* 搜索文章*/
+.articleSearch_txt{ float:left; font-family:"宋体"; font-size:14px; padding-top:6px; height:35px; width:480px; line-height:20px; white-space:nowrap;}
+.articleSearch_tip{ font-size:12px;}
+.articleSearch_blk{ float:right; width:200px; text-align:right;}
+.articleSearch_blk .searchAtc_blk{ padding:0; margin-top:4px;}
+.searchAtc_nodata{ clear:both; font-size:14px; padding-left:217px; text-align:left;padding-top:50px; padding-bottom:300px;}
+.searchAtc_nodata ul{ clear:both; padding-top:15px;}
+.searchAtc_nodata li{ line-height:24px;}
+/*博文列表*/
+.articleList{ clear:both; padding-bottom:20px;}
+.articleCell{ height:26px; padding-top:8px; background-position:left bottom;}
+.articleCell .atc_main{ width:410px; white-space:nowrap; overflow:hidden; float:left; padding-left:11px; background-position:left 7px;}
+.articleCell .atc_ic_f{ float:left;}
+.articleCell .atc_ic_f img{ float:left;}
+.articleCell .SG_icon107{margin-right:2px;}
+.articleCell .SG_icon105{margin-left:-3px; margin-right:-1px;}
+.articleCell .SG_icon104{margin-right:1px;}
+.articleCell .atc_ic_b{ float:left; margin-left:2px; padding-top:2px;}
+.articleCell .atc_ic_b img{ float:left; margin-right:1px;}
+.articleCell .atc_title{ float:left; font-family:"宋体"; font-size:14px; padding-top:2px;}
+
+.articleCell .atc_info{ float:right;}
+.articleCell .atc_tm{ font-size:10px; float:left; text-align:right; margin-right:4px; padding-top:1px;}
+.articleCell .atc_data{ margin-right:9px; float:left;}
+.articleCell .act_cmd{ text-align:left; float:left; width:100px; margin-right:10px;}
+.articleCell .act_set{ float:left;}
+/*搜索文章列表*/
+.searchAtcList{ clear:both; padding-bottom:20px;}
+.searchAtcCell{ clear:both; background-position:left bottom; padding:14px 0 10px; zoom:1;}
+.searchAtc_top{ clear:both; overflow:hidden;}
+.searchAtc_top .searchAtc_title{ font-size:14px; font-weight:normal; font-family:"宋体"; float:left; padding-left:10px; background-position:0 5px;}
+.searchAtc_top .searchAtc_tm{ float:right; font-size:10px;}
+.searchAtc_para{ clear:both; line-height:21px; font-size:12px; font-family:"宋体"; word-break:break-all; padding-left:10px; padding-top:5px;}
+
+
+
+/*相关博文 推荐博文*/
+.atcTitLists{ clear:both; width:188px; overflow:hidden; padding:5px 11px 13px 11px; padding-bottom:14px\9;  _padding-bottom:12px;}
+.atcTitList{ clear:both; width:188px; overflow:hidden; padding:5px 11px 13px 11px; padding-bottom:14px\9;  _padding-bottom:12px;}
+.atcTitList li{ clear:both; background-position:left bottom; padding:8px 0 9px 0;}
+.atcTitList li .atcTitCell_tit{ clear:both; font-family:"宋体"; font-size:12px; white-space:nowrap; overflow:hidden; padding-left:7px; background-position:left 5px;}
+.atcTitList li .atcTitCell_tm{ clear:both; font-size:10px; padding-left:7px; padding-top:6px;}
+.atcTitList li .atcTitCell_nm{ clear:both; font-family:"宋体"; font-size:12px; white-space:nowrap; overflow:hidden; padding-left:7px; padding-top:4px;}
+.atcTit_more{ clear:both; padding-top:10px; text-align:right;}
+.natcTit_more{ clear:both; padding-top:10px; text-align:right;}
+	/*带图*/
+.relaPic{ clear:both; padding-top:10px; background-position:left bottom; zoom:1; overflow:hidden;}
+.relaPic li{ width:86px; height:103px; margin-left:4px; margin-right:4px; overflow:hidden; float:left; clear:none; padding:0; display:inline; word-break:break-all; font-family:"宋体"; font-size:12px; line-height:18px;}
+.relaPic li img{ border:1px solid #dcdcdc; margin-bottom:1px; _margin-bottom:2px;}
+.relaPic li.videoImg2{ height:117px;}
+.relaPic li.videoImg2 img.videoImg{border:none; padding:3px 3px 13px; background:url(../../images/blog/relaVideo_bg.gif) no-repeat left top;}
+.relaPic .clearfix{ height:0; overflow:hidden; }

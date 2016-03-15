@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.e_layer_cont1 .e_layer_pic{ padding: 24px 24px 14px 14px; background: #fbfbfb; border: 1px solid #eee;}
+.e_layer_cont1 .e_layer_pic .pic_line{ padding: 0 0 6px 0; overflow: hidden; zoom: 1;}
+.e_layer_cont1 .e_layer_pic .pic_line li{ float: left; width: 130px; margin: 0 0 8px 10px; display: inline;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_link{ position: relative; display: block; margin: 0 0 10px 0; width: 130px; height: 96px; overflow: hidden; zoom:1; background: #f5f5f5; text-align:center;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_link span{ position: absolute; top: -50px; left: -35px; text-align: center; width: 200px; height: 200px; line-height: 200px;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_link span .pic_img{ *margin: 45px 0 0;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_nofile{ padding: 15px 8px; text-align: left; font-size: 12px; background: #f5f5f5; color: #999;  width: 114px; height: 66px; line-height: 17px;}
+.e_layer_cont1 .e_layer_pic .pic_line .i22_clicked{ position: absolute; z-index: 99; top: 5px; right: 3px;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_small:hover .i22_clicked,
+.e_layer_cont1 .e_layer_pic .pic_line .pic_hover .i22_clicked{ top: 3px; right: 1px;}
+.e_layer_cont1 .e_layer_pic .pic_line .i7_clicked,.e_layer_cont1 .e_layer_pic .pic_line .i9_clicked{ position: absolute; z-index: 89; top: 5px; right: 4px; cursor: pointer;}
+
+.e_layer_cont1 .e_layer_pic .pic_line .pic_small{ float: left; position: relative; background: url(../../../images/blog_editor/bne_scover.gif) center no-repeat; width: 43px; height: 48px; overflow: hidden;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_small .pic_img{ width: 43px; height: 48px;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_small:hover,
+.e_layer_cont1 .e_layer_pic .pic_line .pic_hover{ border: 2px solid #ff364d; width: 39px; height: 44px;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_small:hover .pic_img,
+.e_layer_cont1 .e_layer_pic .pic_line .pic_hover .pic_img{ position: absolute; top:-2px; left:-2px;}
+
+.e_layer_cont1 .e_layer_pic .pic_line p{ overflow: hidden; zoom:1;}
+.e_layer_cont1 .e_layer_pic .pic_line input{ float: left; *margin-top: -4px;}
+.e_layer_cont1 .e_layer_pic .pic_line .pic_tit{ float: left; padding: 0 0 4px 7px; *padding: 0; font-size: 12px; width: 110px; height: 26px; overflow: hidden; word-break: break-all; line-height: 14px;}
+.e_layer_cont1 .e_layer_warn{ margin: 15px 0 0; overflow: hidden; zoom: 1;}
+.e_layer_cont1 .e_layer_warn .p{ float: left; font-size: 14px;}
+.e_layer_cont1 .e_layer_warn .num_s,
+.e_layer_cont1 .e_layer_warn .num_l{ padding:0 5px;}
+.e_layer_cont1 .e_layer_warn .p a{ margin: 0 0 0 9px; color: #8997d8;}
+.e_layer_cont1 .e_layer_warn .p a:hover{ color: #b2bdf0;}
+.e_layer_cont1 .e_layer_btn{ margin: 22px auto 0; display: block; width: 140px; height: 38px; line-height: 40px;}
+

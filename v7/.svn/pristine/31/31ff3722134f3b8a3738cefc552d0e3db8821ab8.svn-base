@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.BNE_blog_tags{ white-space: nowrap; font-size: 14px; margin-bottom:-8px;}
+.BNE_blog_tags .btn_close{ float:right; margin-top:-10px; margin-bottom:10px;}
+.BNE_blog_tags .blog_input{ margin: 10px 0 0; padding: 0 0 3px 0; border: 1px solid #d9d9d9;  width:668px; overflow: hidden; zoom:1; background-color:#FFF;}
+.BNE_blog_tags .blog_input em{ float: left; margin: 3px 0 0 10px; display: inline; color:#ccc; line-height: 27px;}
+.BNE_blog_tags .blog_input .tag_input{ float: left; margin:3px 0 0 6px; padding: 5px 0; display: inline; font-size: 14px;  height: 15px; border: 0 none; outline: none;}
+.BNE_blog_tags .blog_input .tag1 span{ display: inline-block; padding: 0 8px; color: #999;}
+.BNE_blog_tags .blog_input .tag1{ float: left; margin: 3px 3px 0 3px; display: inline; border: 1px solid #e2e3e5; text-align: center; line-height: 25px;}
+.BNE_blog_tags .blog_input .tag1 .close{ display: inline-block; border-left: 1px solid #e2e3e5;  width: 24px; font-size: 14px; color: #ccc;}
+.BNE_blog_tags .blog_tags .tag_tit{ margin: 10px 0 0; color: #999;}
+.BNE_blog_tags .blog_tags .tag_cont{ margin: 25px 0 0; overflow: hidden; zoom:1;}
+.BNE_blog_tags .blog_tags .tag_cont2{ margin: 10px 0 0; *padding-top: 10px;}
+.BNE_blog_tags .blog_tags .tag_cont dt{ float: left; padding: 5px 8px 0 0; color: #666;}
+.BNE_blog_tags .blog_tags .tag_cont dd{ float: left; overflow: hidden; zoom: 1; width: 604px;}
+.BNE_blog_tags .blog_tags .tag_cont .tag2{ float: left; margin: 0 10px 10px 0; border: 1px solid #e2e3e5; padding: 0 8px;line-height: 24px;}
+

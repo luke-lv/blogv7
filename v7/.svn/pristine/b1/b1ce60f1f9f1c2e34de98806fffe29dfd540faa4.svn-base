@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*  找朋友 dongyan */
+
+.peoplesearch{ width:950px; margin:0 auto; margin-top:18px; color:#333; font-family:"宋体";}
+.peoplesearch a:link,
+.peoplesearch a:visited,
+.peoplesearch a:hover{ color:#0860a8;}
+.peoplesearch a.linkb:link,
+.peoplesearch a.linkb:visited,
+.peoplesearch a.linkb:hover{ color:#73a3cb;}
+.peoplesearch .txta{ color:#666;}
+.peoplesearch .txtb{ color:#999;}
+/* 搜索条 */
+.searchBar{ clear:both;}
+.searchBar .searchTab{ height:31px; overflow:hidden; clear:both;position:relative; z-index:2;}
+.searchBar .searchTab li{ float:left; width:86px; height:26px; margin-top:3px; overflow:hidden; background-color:#f8f8f8; border:1px solid #c6c6c6;line-height:26px; text-align:center; cursor:pointer; margin-right:-1px;}
+.searchBar .searchTab li.current{ height:29px; margin-top:0; line-height:29px; font-weight:bold; cursor:text; border-bottom:1px solid #fff;  background:transparent url(../../images/special/peoplesearch/bg.gif) repeat-x left -50px;}
+.searchBar .searchTab li.current a{ cursor:text;}
+.searchBar .searchTab li.current a:link,
+.searchBar .searchTab li.current a:visited,
+.searchBar .searchTab li.current a:hover{ text-decoration:none; color:#000;}
+.searchBar_dis .searchTab li { cursor:default;}
+.searchBar_dis .searchTab li a:link,
+.searchBar_dis .searchTab li a:visited,
+.searchBar_dis .searchTab li a:hover{ color:#666; text-decoration:none;}
+.searchhMain{ height:47px; clear:both; margin-top:-1px; background:url(../../images/special/peoplesearch/bg.gif) repeat-x left top; border:1px solid #ddd; border-top:none;}
+.searchhMain .searchOption{ padding-top:15px; padding-left:20px;}
+.searchhMain .searchOption .searchBtn{ width:83px; height:23px; border:none; background:url(../../images/special/peoplesearch/searchbtn.png) no-repeat left top; font-size:14px;  font-weight:bold; color:#000; cursor:pointer;}
+.searchBar_dis .searchhMain .searchOption .searchBtn{ background-position:left -30px; color:#999; border:none;}
+.searchContent{ clear:both; overflow:hidden; zoom:1; padding-top:20px;}
+.peoplesearch_l{ width:720px; overflow:hidden; float:left;}
+.peoplesearch_r{ width:210px; overflow:hidden; float:right;}
+.peoplesearchTips{ clear:both; height:30px; line-height:30px; background-color:#fbfbfb; padding:0 15px;}
+.peoplesearchTips_l{ float:left;}
+.peoplesearchTips_l span{ color:#19c04c;}
+.peoplesearchTips_r{ float:right;}
+/* 结果列表 */
+.peoplesearchList{ clear:both; margin-bottom:20px;}
+.peoplesearchList .cell{ clear:both; padding:20px 0; background-position:left bottom;}
+.peoplesearchList .cell .uPic{ width:182px; float:left; overflow:hidden; margin-right:20px;}
+.peoplesearchList .cell .uPic img{ border:1px solid #dcdcdc;}
+.peoplesearchList .uInfo{ float:left; width:510px; overflow:hidden;}
+.peoplesearchList .uInfo h3{ font-size:14px; font-weight:normal;}
+.peoplesearchList .uInfo p{ margin:10px 0;}
+.peoplesearchList .uInfo li{ line-height:21px;}
+.peoplesearch_nodata{ clear:both; text-align:center; font-family:"微软雅黑","宋体"; font-size:20px; padding:110px 0;}
+/*　相似用户　*/
+.peoplesearch_similar{ clear:both; background-position:left top;}
+.peoplesearch_similar h3{ font-size:12px; padding:15px 0; clear:both;}
+.peoplesearch_similarList{ clear:both;}
+.peoplesearch_similarList .cell{ height:115px; width:100px; overflow:hidden; float:left;}
+.peoplesearch_similarList .cell p{ margin-bottom:6px; white-space:nowrap;}
+
+/* 右侧模块 */
+.peoplesearch_module{ width:208px; clear:both; margin-bottom:10px; border:1px solid #bfd5e0;}
+.peoplesearch_module h3{ height:27px; line-height:27px; font-size:12px; padding:0 8px; overflow:hidden; border:1px solid #fff; background:url(../../images/special/peoplesearch/bg.gif) repeat-x left -100px;}
+.peoplesearch_module h3 span{ padding-left:13px; float:left; height:27px; background:url(../../images/special/peoplesearch/bg.gif) no-repeat left -140px;}
+.peoplesearch_module .moduleContent{ clear:both;}
+.peoplesearch_module .moduleContent .grade{ line-height:24px; padding:6px 10px;}
+.peoplesearch_module .moduleContent .find{ line-height:18px; padding:8px 10px;}
+.peoplesearch_module .moduleContent .acquaint{ padding:10px 0 10px 15px;}
+.peoplesearch_module .moduleContent .acquaint li{ width:64px; height:94px; overflow:hidden; float:left;}
+.peoplesearch_module .moduleContent .acquaint li .nm{ margin-top:5px;}
+.peoplesearch_module .moduleContent .acquaint li .set{ margin-top:4px; margin-left:-2px;}
+.peoplesearch_module .moduleContent .acquaint .acquaint_more{ margin-top:5px; padding-right:10px; text-align:right;}
+.peoplesearch_module .moduleContent .commend{ padding:10px 9px;}
+.peoplesearch_module .moduleContent .commend .sliderBox{ width:190px; height:200px; overflow:hidden; width:}
+.peoplesearch_module .moduleContent .commend .sliderList{ clear:both;}
+.peoplesearch_module .moduleContent .commend .sliderCell{ clear:both; height:67px; overflow:hidden;}
+.peoplesearch_module .moduleContent .commend .sliderCell .pt{ width:52px; height:52px; margin-right:8px; overflow:hidden; float:left;}
+.peoplesearch_module .moduleContent .commend .sliderCell .pt img{ border:1px solid #dccdc;}
+.peoplesearch_module .moduleContent .commend .sliderCell .sliderInfo{ float:left; width:130px; overflow:hidden; }
+.peoplesearch_module .moduleContent .commend .sliderCell .sliderInfo .tip{ margin-top:5px;}
+.peoplesearch_module .moduleContent .commend .sliderCell .sliderInfo .link{ margin-top:4px; margin-left:-2px;}
+.peoplesearch_module .moduleContent .commend .slider_arrow {background:transparent url(../../images/center/slider_arrow.png) no-repeat scroll left top;cursor:pointer;height:12px;margin:5px auto;width:23px;}
+
+
+.peoplesearch_table{ clear:both; padding-left:45px;}
+.peoplesearch_table .title{ clear:both; padding:15px 0;}
+.peoplesearch_table .title strong{ font-size:14px;}
+.peoplesearch_table .txterr{ height:48px; line-height:48px; background-position:left bottom; margin-right:50px; font-size:14px; color:#c00; clear:both;}
+.peoplesearch_table th{ width:60px; height:22px; font-weight:normal; font-family:"宋体"; padding-bottom:10px; line-height:23px; margin-bottom:8px; font-size:14px;}
+.peoplesearch_table td{height:22px; padding-bottom:10px; font-size:14px;}
+.peoplesearch_table select{font-size:14px;}
+
+/* 登录 */
+.peoplesearch_login{ height:400px; clear:both; position:relative;}
+.peoplesearch_login .CP_w{ position:absolute; left:170px; top:80px;}
+.peoplesearch_login .passLoginItem{ padding-bottom:30px;}
+.peoplesearch_login .bLyTop{ font-weight:normal; color:#c00;}
+
+.peoplesearch .sinablogfooter{ border-top:1px solid #d5d5d5; padding-top:15px; margin-top:40px; color:#808080; }
+.peoplesearch .sinablogfooter a:link,
+.peoplesearch .sinablogfooter a:visited,
+.peoplesearch .sinablogfooter a:hover{ color:#808080;}

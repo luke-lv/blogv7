@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> 打包平台 </title>
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+    <link type="text/css" rel="stylesheet" href="/static/style/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/style/css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/style/css/pack.css"/>
+    <% include jsLibTmpl.html %>
+    <script type="text/javascript" src="js/adaptHeight.js"></script>
+</head>
+<body>
+
+<!-- Begin Wrapper -->
+<div id="wrapper">
+
+    <!-- Begin Header -->
+    <div id="header">
+        <?php require("header.php") ?>
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Navigation -->
+    <div id="navigation">
+        <?php require("navigationMenu.php") ?>
+    </div>
+    <!-- End Navigation -->
+
+    <!-- Begin Faux Columns -->
+    <div id="faux">
+
+        <!-- Begin Left Column -->
+        <div id="leftcolumn">
+            <?php require("leftColumnMenu.php") ?>
+        </div>
+        <!-- End Left Column -->
+
+        <!-- Begin Right Column -->
+        <div id="rightcolumn">
+            <h1>正在打包，请稍等...</h1>
+
+            <div></div>
+            <div>
+                <ul class="main">
+                    <li id="waiting-bar">
+                        <label class="desc" for="svn-path">loading....</label>
+
+                        <div class="input-warp"></div>
+                    </li>
+                    <li id="packing-info-bar" style="display:none;">
+                        <textarea id="packing-info"
+                                  style="width:580px;min-height:280px;color:#fff;background-color:#000;font-size:12px;"></textarea>
+                    </li>
+                </ul>
+            </div>
+            <div style="padding-left:100px;margin-top:20px;hegiht:30px;"><a href="/">返回打包</a></div>
+            <div class="clear"></div>
+        </div>
+        <!-- End Right Column -->
+
+        <div class="clear"></div>
+
+    </div>
+    <!-- End Faux Columns -->
+
+    <!-- Begin Footer -->
+    <div id="footer">
+        <?php require_once("footer.php"); ?>
+    </div>
+    <!-- End Footer -->
+
+</div>
+<!-- End Wrapper -->
+<script type="text/javascript" src="js/getPackInfo.js"></script>
+</body>
+</html>

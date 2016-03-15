@@ -1,0 +1,238 @@
+﻿.sinabloga{background:url(../../images/nine_g/sinabloga.jpg) repeat-x 0 top #fff;}
+.sinablogb{background:url(../../images/nine_g/sinablogb.jpg) no-repeat center 0;}
+.sinablogbody{background: url(../../images/nine_g/ninegeeditorwrap.jpg) no-repeat bottom center;padding-bottom:55px;}
+/*预览页面*/
+.nine_g_others{margin-top:20px;width:690px;margin:20px auto 0 auto;}
+.nine_g_others textarea{border-width:1px;border-style:solid;border-color:#755956 #bea09d #bea09d #755956;width:672px;height:35px;padding:5px 8px;color:#999;resize:none}
+.nine_g_post{ text-align:center;padding:20px 0 40px;}
+.nine_preview,.nine_post{ background-image:url(../../images/nine_g/nine_g_btn.gif);background-repeat:no-repeat; background-position:0 -24px;width:110px;height:32px;display:inline-block;text-decoration:none;}
+.nine_preview:hover,.nine_post:hover{text-decoration:none;}
+.nine_preview em,.nine_post em{ visibility:hidden}
+.nine_post{ background-position:0 -58px;margin-left:10px;}
+.nine_g_preview{width:690px;margin:40px auto 0}
+.nine_g_others_pre{font-size:14px;line-height:22px;}
+a.nine_g_reedit:link,a.nine_g_reedit:visited,a.nine_g_reedit:hover{float:right;margin-top:10px;color:#d6736e;}
+
+/*选择模板*/
+.select_skin{width:690px;margin:0 auto;position:relative;}
+.select_skin .select_skin_option{text-indent:6px;overflow:hidden;overflow:hidden;margin-top:12px;text-align:right}
+.select_skin .select_skin_option a{color:#333;width:85px;height:22px;border:1px solid #a4a4a4;border-bottom:0;display:inline-block;background:#FFF;text-align:left;font:normal normal 14px/16px  "微软雅黑",microsoft yahei,"华文细黑","宋体";padding-top:3px;overflow:hidden;position:relative;}
+.select_skin .select_skin_option a.backClassic{width:95px;border:none;background:url(../../images/nine_g/classic_back_arrow.gif) 0 8px no-repeat;padding-left:16px;}
+.select_skin .select_skin_option .forspring_skin_link{position:absolute;right; background:url(../../images/nine_g/to_forspring_skin.jpg);height:58px;width:145px;text-indent:-9000px;top:-32px;*top:-20px;right:85px;border:none;padding-top:0; outline:none;}
+.select_skin .select_skin_option .arrow{width:0;height:0;border-style:solid;border-width:4px;border-color:#333 #FFF #FFF #FFF;margin:6px 0 0 4px ;display:inline-block;vertical-align:top;font-size:0;line-height:0;}
+.skin_thumb_list{padding:4px 0 0 6px;border:1px solid #a4a4a4; position:absolute; background:#fff;right:0;height:140px;width:652px;}
+.skin_thumb_list ul li{float:left;text-align:center;color:#999;line-height:26px;}
+.select_skin .skin_thumb_list a.slect_skin_name{width:80px;height:91px;text-decoration:none;cursor:pointer;display:block;margin:15px 7px  0 0;padding:2px;background:display:inline;border:#ccc 1px solid;position:relative;text-align:center;}
+.select_skin .skin_thumb_list a.slect_skin_name:hover{border:2px solid #65b954;padding:1px;}
+.select_skin .skin_thumb_list a.fixed_skin_name{border:2px solid #65b954;padding:1px;}
+.select_skin .skin_thumb_list a.fixed_skin_name .selected_arrow{ background:url(../../images/nine_g/nine_skin_selected.gif);position:absolute;bottom:0;right:0; display:block;height:18px;width:18px;}
+
+/*九宫格*/
+.nine_g {width:690px;overflow:hidden;background-position:0 0;background-repeat:no-repeat; margin:0 auto;}
+.nine_g .nine_wrap{overflow:hidden;background-position:0 0;background-repeat:no-repeat;}
+.nine_g .nine_cnt{margin:0 0 0 7px;}
+.nine_g .nine_g_title{height:120px;width:690px;}
+.nine_g .nine_g_title .nine_g_title_input{padding-top:72px;padding-left:10px;}
+.nine_g .nine_g_title .nine_g_title_input label{font:normal normal 16px/24px "微软雅黑",microsoft yahei,"华文细黑","宋体",simsun;color:#b78759;display:inline-block;}
+.nine_g .nine_g_title .nine_g_title_input input{width:305px;height:30px;line-height:30px;border-width:1px;border-style:solid;font-family:"微软雅黑",microsoft yahei,"华文细黑","宋体",simsun;text-indent:4px;font-size:18px;color:#333;display:inline-block;margin-left:4px;}
+.nine_g .nine_cnt ul{width:100%;overflow:hidden;margin:0;padding:0;clear:both;}
+.nine_g .nine_cnt ul li{float:left;display:inline;overflow:hidden;}
+.nine_g .nine_cnt ul li .nine_title{font:normal normal 16px/24px "微软雅黑",microsoft yahei,"华文细黑","宋体",simsun;height:20px;overflow:hidden;line-height:20px;text-indent:6px;margin:14px 22px 6px 16px;}
+
+.nine_g .nine_cnt ul li .nine_box{}
+.nine_g .nine_cnt ul li .nine_g_select input{margin-left:22px;margin-left:18px \9;width:175px;height:30px;line-height:30px;border-width:1px;border-style:solid;font-family:"微软雅黑",microsoft yahei,"华文细黑","宋体",simsun;text-indent:4px;font-size:18px;color:#333;display:inline}
+.nine_g .nine_cnt ul li .nine_box .nine_g_alter{margin:8px 22px 0;height:106px;overflow:hidden;}
+.nine_g .nine_cnt ul li .nine_box .nine_g_alter a{display:inline-block;white-space:nowrap;height:24px;font:normal normal 14px/24px "微软雅黑",microsoft yahei,"华文细黑","宋体",simsun;padding:0 8px;height:24px;margin:1px;overflow:hidden;}
+/*表情区域*/
+.nine_g .nine_cnt ul li.nine_g_emoticon{position:relative;}
+.nine_g .nine_cnt ul li.nine_g_emoticon div.maskLayer {position:relative; overflow:hidden; width:200px; margin-left:12px; }
+.nine_g .nine_cnt ul li.nine_g_emoticon .nine_title{font:normal normal 28px/32px  "微软雅黑",microsoft yahei,"华文细黑","宋体";height:42px;text-align:center;}
+.nine_g .nine_cnt ul li.nine_g_emoticon .emoticon_box{display:block; position:relative;height:122px;width:200px;overflow:hidden;}
+.nine_g .nine_cnt ul li.nine_g_emoticon a.leftarrow,
+.nine_g .nine_cnt ul li.nine_g_emoticon a.rightarrow
+{display:none; position:absolute;top:95px;left:14px;width:14px;height:21px;background-image:url(../../images/nine_g/nine_g_btn.gif); background-repeat:no-repeat;background-position:0 0;background-color:transparent;}
+.nine_g .nine_cnt ul li.nine_g_emoticon a.rightarrow{left:196px; background-position:-16px 0;background-color:transparent;}
+.nine_g .nine_cnt ul li.nine_g_emoticon a.leftarrow:hover{background-image:url(../../images/nine_g/nine_g_btn.gif);background-position:-33px 0;background-color:transparent;}
+.nine_g .nine_cnt ul li.nine_g_emoticon a.rightarrow:hover{background-image:url(../../images/nine_g/nine_g_btn.gif);background-position:-49px 0;background-color:transparent;}
+.nine_g .nine_cnt ul li.nine_g_emoticon .emoticon_box .emoticon_list{width:145px;overflow:hidden;clear:none;margin-left:36px;display:inline;float:left}
+.nine_g .nine_cnt ul li.nine_g_emoticon .emoticon_box .emoticon_list li{float:left;width:54px;height:54px;margin:0 18px 14px 0;overflow:hidden;display:inline;}
+.nine_g .nine_cnt ul li.nine_g_emoticon .emoticon_box .emoticon_list li a img{border:2px solid #FFF;background:#fff;}
+.nine_g .nine_cnt ul li.nine_g_emoticon .emoticon_box .emoticon_list li a:hover img{border:2px solid #08c211;background:#fffef2;}
+
+/* 发博文高级选项*/
+.advanced{margin-top:20px;}
+.advanced li {padding:5px 0; line-height:26px; font-size:14px; clear:both; float:none;}
+.advanced li span {margin:0; padding:0; }
+.advanced li .cTit {float:left; line-height:26px; color:#333; width:auto;}
+.advanced li .cInfo {float:left; font-family:Arial; padding:0;}
+.advanced li.li1 .cInfo{ height:26px;}
+.advanced li .ATextLine {text-decoration:underline; font-size:12px; color:#900;}
+.advanced li .BTextLine {font-size:12px; text-decoration:underline; font-size:12px; color:#336699; line-height:20px; *margin-top:3px;}
+.advanced li .CTextLine {font-size:12px; text-decoration:underline; font-size:12px; color:#336699; line-height:20px; display:block;}
+.advanced .li1 .ATextLine {color:#900;}
+.advanced .li1 select, .advanced .li1 select option {font-size:14px;line-height:20px;margin-right:16px;vertical-align:middle;}
+.advanced .li2 .cInfo{margin-top:5px;*margin-top:3px;}
+.advanced .li2 .cInfo a.ATextLine{float:left;margin-top:-3px; margin-left:5px;}
+.advanced .li2 label{float:left; padding-right:10px; line-height:20px; width:auto; white-space:nowrap}
+.advanced .liText12 {font-size:12px; }
+.advanced .liText12 input,.advanced .liText12 strong,.advanced .liText12 label{float:none;}
+.advanced .liText12 label{margin:0;}
+.advanced .liText12 label,.advanced .liText12 span{width:auto;}
+.advanced .liText12 span{float:none;}
+.advanced li span.CP_pgttl {color:#666666;}
+.advanced li .Fm_input1{margin-top:2px;*margin-top:1px;}
+.advanced li .cInfo .editBtn1{margin-top:1px;}
+.blogTs { width:550px; border:1px solid #C1C1BB; margin-left:36px; _margin-left:0px; background:#FFFEEB; padding:10px 10px 5px;color:#7E7E7E; float:left; display:inline; position:relative; margin-top:-6px;margin-top:-7px\9;*margin-top:-11px;  }
+.blogTs .closex { margin-top:-8px; text-align:right; margin-right:-3px; font-family:"Tahoma"; font-size:10px; }
+.blogTs .ts { line-height:21px; margin-top:-12px; padding:0px 3px 8px; font-size:14px; font-family:simsun }
+.blogTs .blogTsTbl th { vertical-align:top; line-height:20px; width:86px; text-align:right; font-weight:normal;white-space:nowrap;  }
+.blogTs .blogTsTbl td { line-height:20px; vertical-align:top;word-wrap:break-word;word-break:break-all; width:380px; }
+.blogTs .blogTsTbl td,
+.blogTs .blogTsTbl th { padding-bottom:6px; }
+.blogTs .blogTsTbl td a {text-decoration:underline; color:##43609C; }
+.blogTs .blogTsTb1 td a hover { color:#CC0000; }
+.blogTs .blogTsTbl td a.co1 { color:#FF6600; }
+.blogTs .blogTsTbl td a.co2 { color:#7E7E7E; }
+.blogTs .blogTsTbl div.w380{ width:380px; overflow:hidden;word-wrap:break-word;word-break:break-all;}
+
+#cateContent{padding:5px 0 0 20px;width:620px;}
+#cateContent span {float:left;padding:2px 0 6px;width:54px;}
+#cateContent label {float:left;line-height:20px;margin:0 8px 0 0;overflow:hidden;padding:0;width:25px;}
+#cateContent input { vertical-align:-2px; float:left }
+
+.editBtn1:link,
+.editBtn1:visited{ background:url(../../images/common/editor/editor_bg2.png) no-repeat left -136px; text-decoration:none;color:#000;font-size:12px !important; font-family:"宋体" !important; padding:5px 0 6px 3px; *display:inline-block;
+*height:23px;overflow:hidden; *padding:0 0 0 3px;white-space:nowrap; *vertical-align:middle; color:#000;margin-top:-1;margin-right:4px;}
+.editBtn1:hover{ background-position:left -165px; text-decoration:none;color:#000;}
+.editBtn1:link cite,
+.editBtn1:visited cite{ font-size:12px !important; line-height:23px; padding:5px 10px 6px 8px; *display:block;
+_line-height:25px; *padding:0 11px 0 11px; background:url(../../images/common/editor/editor_bg2.png) no-repeat right -136px;color:#000;}
+.editBtn1:hover cite{ background-position:right -165px;color:#000;}
+
+.advanced span{ float:left; width:60px; padding:4px 0 6px; font-size:12px;}
+.advanced input { vertical-align:-2px; float:left }
+.advanced label { width:25px; padding:0; overflow:hidden; margin:0; margin-right:14px;line-height:20px;float:left;}
+.sinablogfooter{padding-top:0;}
+
+/*模板开始*/
+/*template 01*/
+.nine_g_sk01{background-image:url(../../images/nine_g/skin/01/nine_skin_top.jpg);}
+.nine_g_sk01 .nine_wrap{background-image:url(../../images/nine_g/skin/01/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk01 .nine_cnt{width:676px;}
+.nine_g_sk01 .nine_cnt ul{}
+.nine_g_sk01 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk01 .nine_cnt ul li .nine_title{color:#b78759;}
+.nine_g_sk01 .nine_cnt ul li a{color:#FFF;background:#b47758;text-decoration:none}
+.nine_g_sk01 .nine_cnt ul li a:hover{background:#caa08a;text-decoration:none}
+.nine_g_sk01 .nine_cnt ul li .nine_g_select input{border-color:#755956 #bea09d #bea09d #755956;}
+.nine_g_sk01 .nine_g_title .nine_g_title_input input{border-color:#755956 #bea09d #bea09d #755956;}
+/*template 02*/
+.nine_g_sk02{background-image:url(../../images/nine_g/skin/02/nine_skin_top.jpg);}
+.nine_g_sk02 .nine_wrap{background-image:url(../../images/nine_g/skin/02/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk02 .nine_g_title .nine_g_title_input label{ color:#0c5535;}
+.nine_g_sk02 .nine_cnt{width:676px;}
+.nine_g_sk02 .nine_cnt ul{}
+.nine_g_sk02 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk02 .nine_cnt ul li .nine_title{color:#4fc08f;}
+.nine_g_sk02 .nine_cnt ul li a{color:#FFF;background:#327b5b;text-decoration:none}
+.nine_g_sk02 .nine_cnt ul li a:hover{background:#6fa28c;text-decoration:none}
+.nine_g_sk02 .nine_cnt ul li .nine_g_select input{border-color:#567275 #9dbbbe #9dbbbe #567275; color:#0c5535;}
+.nine_g_sk02 .nine_g_title .nine_g_title_input input{border-color:#567275 #9dbbbe #9dbbbe #567275; color:#0c5535;}
+.nine_g_sk02 .nine_g_others textarea{border-color:#567275 #9dbbbe #9dbbbe #567275;}
+/*template 03*/
+.nine_g_sk03{background-image:url(../../images/nine_g/skin/03/nine_skin_top.jpg);}
+.nine_g_sk03 .nine_wrap{background-image:url(../../images/nine_g/skin/03/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk03 .nine_g_title .nine_g_title_input label{ color:#625509;}
+.nine_g_sk03 .nine_cnt{width:676px;}
+.nine_g_sk03 .nine_cnt ul{}
+.nine_g_sk03 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk03 .nine_cnt ul li .nine_title{color:#b59948;}
+.nine_g_sk03 .nine_cnt ul li a{color:#FFF;background:#89791e;text-decoration:none}
+.nine_g_sk03 .nine_cnt ul li a:hover{background:#aca161;text-decoration:none}
+.nine_g_sk03 .nine_cnt ul li .nine_g_select input{border-color:#717556 #babe9d #babe9d #717556; color:#625509;}
+.nine_g_sk03 .nine_g_title .nine_g_title_input input{border-color:#717556 #babe9d #babe9d #717556; color:#625509;}
+.nine_g_sk03 .nine_g_others textarea{border-color:#717556 #babe9d #babe9d #717556;}
+/*template 04*/
+.nine_g_sk04{background-image:url(../../images/nine_g/skin/04/nine_skin_top.jpg);}
+.nine_g_sk04 .nine_wrap{background-image:url(../../images/nine_g/skin/04/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk04 .nine_g_title .nine_g_title_input label{ color:#9f6c9c;}
+.nine_g_sk04 .nine_cnt{width:676px;}
+.nine_g_sk04 .nine_cnt ul{}
+.nine_g_sk04 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk04 .nine_cnt ul li .nine_title{color:#9f6c9c;}
+.nine_g_sk04 .nine_cnt ul li a{color:#FFF;background:#9f6c9c;text-decoration:none}
+.nine_g_sk04 .nine_cnt ul li a:hover{background:#bc98ba;text-decoration:none}
+.nine_g_sk04 .nine_cnt ul li .nine_g_select input{border-color:#75566f #be9db8 #be9db8 #75566f; color:#ac017e;}
+.nine_g_sk04 .nine_g_title .nine_g_title_input input{border-color:#75566f #be9db8 #be9db8 #75566f; color:#ac017e;}
+.nine_g_sk04 .nine_g_others textarea{border-color:#75566f #be9db8 #be9db8 #75566f;}
+/*template 05*/
+.nine_g_sk05{background-image:url(../../images/nine_g/skin/05/nine_skin_top.jpg);}
+.nine_g_sk05 .nine_wrap{background-image:url(../../images/nine_g/skin/05/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk05 .nine_g_title .nine_g_title_input label{ color:#e05592;}
+.nine_g_sk05 .nine_cnt{width:676px;}
+.nine_g_sk05 .nine_cnt ul{}
+.nine_g_sk05 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk05 .nine_cnt ul li .nine_title{color:#e05592;}
+.nine_g_sk05 .nine_cnt ul li a{color:#FFF;background:#59acd8;text-decoration:none}
+.nine_g_sk05 .nine_cnt ul li a:hover{background:#80bfe0;text-decoration:none}
+.nine_g_sk05 .nine_cnt ul li .nine_g_select input{border-color:#755956 #bea09d #bea09d #755956; color:#333;}
+.nine_g_sk05 .nine_g_title .nine_g_title_input input{border-color:#755956 #bea09d #bea09d #755956; color:#333;}
+.nine_g_sk05 .nine_g_others textarea{border-color:#755956 #bea09d #bea09d #755956;}
+/*template 06*/
+.nine_g_sk06{background-image:url(../../images/nine_g/skin/06/nine_skin_top.jpg);}
+.nine_g_sk06 .nine_wrap{background-image:url(../../images/nine_g/skin/06/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk06 .nine_g_title .nine_g_title_input label{ color:#cf1c3e;}
+.nine_g_sk06 .nine_cnt{width:676px;}
+.nine_g_sk06 .nine_cnt ul{}
+.nine_g_sk06 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk06 .nine_cnt ul li .nine_title{color:#cf1c3e;}
+.nine_g_sk06 .nine_cnt ul li a{color:#FFF;background:#d5582e;text-decoration:none}
+.nine_g_sk06 .nine_cnt ul li a:hover{background:#eb835f;text-decoration:none}
+.nine_g_sk06 .nine_cnt ul li .nine_g_select input{border-color:#755956 #bea09d #bea09d #755956; color:#333;}
+.nine_g_sk06 .nine_g_title .nine_g_title_input input{border-color:#755956 #bea09d #bea09d #755956; color:#333;}
+.nine_g_sk06 .nine_g_others textarea{border-color:#755956 #bea09d #bea09d #755956;}
+/*template 07*/
+.nine_g_sk07{background-image:url(../../images/nine_g/skin/07/nine_skin_top.jpg);}
+.nine_g_sk07 .nine_wrap{background-image:url(../../images/nine_g/skin/07/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk07 .nine_g_title .nine_g_title_input label{ color:#86401d;}
+.nine_g_sk07 .nine_cnt{width:676px;}
+.nine_g_sk07 .nine_cnt ul{}
+.nine_g_sk07 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk07 .nine_cnt ul li .nine_title{color:#86401d;}
+.nine_g_sk07 .nine_cnt ul li a{color:#FFF;background:#b47758;text-decoration:none}
+.nine_g_sk07 .nine_cnt ul li a:hover{background:#caa08a;text-decoration:none}
+.nine_g_sk07 .nine_cnt ul li .nine_g_select input{border-color:#755956 #bea09d #bea09d #755956; color:#333;}
+.nine_g_sk07 .nine_g_title .nine_g_title_input input{border-color:#755956 #bea09d #bea09d #755956; color:#333;}
+.nine_g_sk07 .nine_g_others textarea{border-color:#755956 #bea09d #bea09d #755956;}
+/*template 寻找春天 */
+.nine_g_sk13 .nine_g_title .nine_g_title_input label{color:#1b8fb6;}
+.nine_g_sk13{background-image:url(../../images/nine_g/skin/13/nine_skin_top.jpg);}
+.nine_g_sk13 .nine_wrap{background-image:url(../../images/nine_g/skin/13/nine_skin_bottom.jpg);height:783px;background-position:0 bottom;}
+.nine_g_sk13.nine_g_title .nine_g_title_input label{ color:#1b8fb6;}
+.nine_g_sk13 .nine_cnt{width:676px;}
+.nine_g_sk13 .nine_cnt ul li{width:225px;height:210px;}
+.nine_g_sk13 .nine_cnt ul li .nine_title{color:#f45784;}
+.nine_g_sk13 .nine_cnt ul li.nine_g_emoticon .nine_title{color:#70b9d5}
+.nine_g_sk13 .nine_cnt ul li a{color:#FFF;background:#70b9d5;text-decoration:none}
+.nine_g_sk13 .nine_cnt ul li a:hover{background:#9bcee2;text-decoration:none}
+.nine_g_sk13 .nine_cnt ul li .nine_g_select input{border-color:#516c7a #97b4c3 #97b4c3 #516c7a; color:#1b8fb6;}
+.nine_g_sk13 .nine_g_title .nine_g_title_input input{border-color:#516c7a #97b4c3 #97b4c3 #516c7a; color:#f12d65;}
+.nine_g_sk13 .nine_g_others textarea{border-color:#516c7a #97b4c3 #97b4c3 #516c7a;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

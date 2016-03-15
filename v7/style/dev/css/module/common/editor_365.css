@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+.blogEditor365Top{width:950px; height:245px; background:url(../../../images/common/editor/editor365_top.jpg?20150409) no-repeat;}
+.blogEditor365Top a,.blogEditor365Top a:link{width:950px; height:245px; display:block;}
+.blogEditor365Tips{padding:0 20px;}
+.blogEditor365Tips p{line-height:12px; font-size:12px; color:#999;}
+.blogEditor365Tips p.ico{background:url(../../../images/common/editor/editor365_ico.png) no-repeat; padding-left:15px;}
+.blogEditor365Tips p a,.blogEditor365Tips p a:link,.blogEditor365Tips p a:visited{color:#3E73A0; text-decoration:none;}
+.blogEditor365Tips p a:hover{color:#3E73A0; text-decoration:underline;}
+.sinablogb{background:#e7fcff!important;}
+.SG_colW95 .SG_connHead{padding:10px 10px 8px; background:url("../../../images/common/editor/editor365_bd.png?2013022101")!important;}
+.SG_colW95 .SG_connBody{background:url("../../../images/common/editor/editor365_bd.png?2013022101")!important;}
+.SG_colW95 .SG_connFoot{background-image:url("../../../images/common/editor/editor365_btm.png")!important;}

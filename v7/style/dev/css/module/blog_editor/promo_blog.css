@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.atcSideList{
+	margin-top:10px;
+	padding:0 8px 15px;
+	border:1px solid #eee;
+	background-color:#fff;
+}
+.atcSideList .atcTit{
+	height:40px;
+	font-size:17px;
+	line-height:40px;
+	margin-bottom:7px;
+	border-bottom:1px solid #efefef;
+}
+.atcSideList .atcTitList ul{
+	display:block;
+	overflow:hidden;
+}
+.atcSideList .atcTitList .SG_j_linedot1{
+	/*height:20px;*/
+	line-height:20px;
+	padding:4px 0 3px;
+}
+.atcSideList .atcTitList .atcTitCell_tit{
+	height:20px;
+	line-height:20px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.atcSideList .atcTitCell_tit .icon{
+	margin-right:5px;
+}
+.ie6 .atcSideList .atcTitList .relaPic{ width:192px;}
+.atcSideList .atcTitList .relaPic ul{ width:106%;}
+.atcSideList .atcTitList .relaPic {
+	border-top: 1px dashed #ececec;
+	clear: both;
+	margin-top: 12px;
+	padding-top: 12px;
+	zoom: 1;
+	overflow: hidden;
+}
+.atcSideList .relaPic li{
+	width: 86px;
+	height:108px;
+	margin-left: 3px;
+	margin-right: 11px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	word-break: break-all;
+	font-size: 12px;
+	line-height: 18px;
+}
+.atcSideList .relaPic li p{  
+	padding: 3px 3px 0;
+	overflow: hidden;
+	zoom:1;
+}
+.atcSideList .relaPic li a:hover{ color:#8997d8;}
+.atcSideList .relaPic .pw2{ 
+	padding: 3px 3px 0;
+	margin-bottom: 9px;
+	height: 19px;
+	overflow: hidden;
+	zoom:1;
+}
+.atcSideList .relaPic img{
+	width: 80px;
+	height: 58px;
+}
+.atcSideList .relaPic .clearfix {
+	height: 0;
+	overflow: hidden;
+}
+.atcSideList .relaList .atcTit_more {
+	text-align: right;
+}
+.atcSideList .relaList .atcTit_more .BNE_lkA:hover .i46_rsj{
+	background-position:-32px -288px;
+}
+/*精彩博文*/
+.ie6 .atcSideList .frameTitList{ width:192px;}
+.atcSideList .frameTitList{
+	overflow:hidden;
+}
+.atcSideList .frameTitList iframe{
+	border: 0 none;
+	margin-left: -9px;
+}

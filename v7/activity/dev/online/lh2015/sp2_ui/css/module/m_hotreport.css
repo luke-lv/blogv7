@@ -1,0 +1,18 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*热点报道*/
+.M_hotreport{width:1000px;overflow:hidden;position:relative;margin:0 auto;margin-bottom:40px;}
+.M_hotreport .hotreport_list{overflow:hidden;margin-right:-25px;*zomm:1;}
+.M_hotreport .hotreport_item{position:relative;width:235px;height:400px;float:left;margin-right:20px;}
+.M_hotreport .report_last{margin-right:-25px;}
+.M_hotreport .hotreport_item .hotreport_img{width:235px;height:400px;display:block;float:left;}
+.M_hotreport .hotreport_item .title{position:absolute;left:0;bottom:0;width:100%;text-align: center;height:50px;line-height:50px;color:#fff;background: #000;background: url("http://www.sinaimg.cn/dy/2015/lh2015/lianghui_video/bot_bg.png");font-size:16px;}
+.M_hotreport .hotreport_item a.title:hover{color:#d33a2e;}
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* 好友 访客 */
+
+.ptList{ clear:both;padding-top:20px; zoom:1; overflow:hidden; padding-left:11px;}
+.ptList .ptCell{ float:left; width:62px; display:inline;}
+.ptList .ptCell .pt_img{ width:52px; height:52px; overflow:hidden; position:relative;}
+.ptList .ptCell .pt_img img{ border:1px solid #d8d8d8;}
+.ptList .ptCell .pt_nm{width:62px; overflow:hidden; clear:both;font-family:"宋体"; height:14px; font-size:12px; margin-top:7px;}
+.ptList .ptCell .pt_tm{ font-family:"宋体";font-size:12px; }
+.ptList .ptCell .pt_img .new{ position:absolute; display:block; width:15px; height:15px; overflow:hidden; left:0; bottom:0; /*cursor:pointer;*/}
+.ptList .ptCell .pt_img .del{ position:absolute; display:block; width:15px; height:15px; overflow:hidden; right:1px; bottom:0; cursor:pointer;}
+.ptList .ptCell .pt_img .del img,
+.ptList .ptCell .pt_img .new img{ border:none;}
+.moreLink{ clear:both; margin:0 20px; padding-top:10px; padding-bottom:17px; text-align:right; overflow:hidden; }
+
+
+.friendList .ptCell{ height:78px;margin-top:5px; overflow:hidden;}
+.friendList .ptCell .pt_nm{ margin-top:7px;}
+
+.visitorList .ptCell{ height:95px;margin-top:5px; overflow:hidden;}
+.visitorList .ptCell .pt_nm{ margin-top:5px;}
+.visitorList .ptCell .pt_tm{ margin-top:6px;}
+
+
+.SG_colW73 .ptList{ padding-left:13px;}
+.SG_colW73 .ptCell{ margin-left:15px;}
+.SG_colW51 .ptList{}
+.SG_colW51 .ptCell{ margin-left:18px;}
+.SG_colW21 .ptList{ padding-top:10px;}
+.SG_colW21 .ptCell{ margin-left:3px;}

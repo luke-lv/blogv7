@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import "alert.css";
+
+/**
+ * Description:
+ *
+ * Author: wangqiang
+ * 
+ * Date: 2011-08-03
+ */
+
+.input-warp {
+    margin: 5px 0px 0px;
+}
+
+.radio-warp {
+    margin: 3px 0px 5px;
+}
+
+.btn-publish:hover {
+    background-color: #fee799;
+}
+
+.console {
+    width: 580px;
+    min-height: 280px;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+}
+
+.return-area {
+    margin: 10px 0 0 0;
+}
+
+.label-highlight {
+    color: #f00;
+    font-weight: bold;
+}

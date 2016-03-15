@@ -1,0 +1,105 @@
+@charset "gb2312";
+/* CSS Document */
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei",Helvetica,Arial,sans-serif;}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+fieldset,img{border:0;vertical-align:middle;}
+input,textarea{outline-style:none;}
+textarea{resize:none;}
+article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:400;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:underline;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+
+body,a{color:#333;}
+a:hover{color:#d33a2e;}
+
+/*头部导航*/
+.Mininav{ width:100%; height:60px; background:#fff; position:fixed; z-index:9999;-webkit-box-shadow:1px 1px 10px #eceae8;box-shadow:1px 1px 10px #eceae8; border-bottom:1px solid #f2f1ef; }
+.top-nav{width: 1000px;margin: 0 auto;height: 60px;}
+.tn-left{float: left; }
+.tn-left a.logo,.Mininav .timeline-time li{float: left;}
+.tn-left a.logo{display:block; width:140px; height:60px; background: url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_pic/logotop.png) no-repeat left 9px;  background-size:100%;}
+.tn-left a.title {float: left;border-left: 1px solid #b39d6e;height:32px;line-height: 33px;font-size: 20px;padding-left: 20px; margin-left: 20px; color: #000; margin-top:14px;}
+.tn-left a.title:hover{ color:#d33a2e; text-decoration:none;}
+.tn-right{float: right; width:80px;}
+.tn-right .bshare-custom{ width: 27px;height: 60px; float: left; line-height: 200px;overflow: hidden;margin-right: 25px; cursor: pointer;}
+.tn-right .bshare-custom.icon-medium a.bshare-more.more-style-addthis{ width: 27px;height: 60px; float: left; background:url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_pic/top_commit.png) no-repeat center; cursor: pointer; padding: 0px !important;margin: 0px !important;}
+.tn-right .cmnt{width: 28px;height: 60px; float: left; line-height: 200px;overflow: hidden; background: url(http://www.sinaimg.cn/dy/2015/lh2015/lianghui_pic/top_enjoy.png) no-repeat center; cursor: pointer;}
+/*头部背景图*/
+.M_img{
+	padding-top:60px;
+	_padding-top:0;
+	margin-bottom:-84px;
+}
+.Mtopbg{
+	height:285px;
+	background:url(../../images/Mimg.jpg) no-repeat center top;
+}
+/*Tabtit*/
+.Tabtit{
+	width:1000px;
+	height:85px;
+	margin:0 auto;
+	background:#f5f5f5 url(../../images/tabbg.jpg) repeat-y right top;
+}
+.Tabtit li{
+	width:25%;
+	float:left;
+	border-top:3px solid #5a6164;
+}
+.Tabtit li.last{background:url(../../images/tabbg.jpg) repeat-y right top;}
+.Tabtit li .lk_a{
+	color:#333;
+	display:block;
+	font-size:24px;
+	line-height:80px;
+	text-align:center;
+	border:1px solid #dadada;
+	border-right:none;
+}
+.Tabtit li .lk_a:hover{
+	color:#d33a2e;
+	text-decoration:none;
+}
+.Tabtit li.cur{
+	background-color:#FFF;
+	border-top-color:#d33a2e;
+}
+.Tabtit li.cur .lk_a{
+	color:#d33a2e;
+	border-top-color:#FFF;
+	border-bottom-color:#FFF;
+}
+/*mainIframe*/
+.mainIframe{
+	width:1000px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+
+/*专题导航*/
+.M_layer{width:132px;position:fixed;right:0;top:140px;-webkit-backface-visibility: hidden; z-index:100;}	
+.M_layer a span{ vertical-align:middle; display:inline-block; width:94px; height:54px; line-height:54px; text-align:center; cursor:pointer;}
+.M_layer .nav1{ border-bottom:1px solid #fff; font-size:16px;}
+.M_layer .nav1 a{ display:block; width:100%; height:54px; line-height:54px; background:#4a525e; color:#fff;}
+.M_layer .nav1 .bshare-custom{ font-size:16px;}
+.M_layer .nav1 .bshare-custom .bshare-more{ color:#fff!important;}
+.M_layer .nav1 a:hover,.M_layer .nav1 .cur{background:#d13c34; text-decoration:none;}
+.M_layer .nav2_ul{ display:none;}
+.M_layer .nav2{ height:42px; border-top:1px solid #ba2621; font-size:14px;} 
+.M_layer .nav2 a{ display:block; height:42px; line-height:42px; color:#fff; background:#d13c34; text-align:center;} 
+.M_layer .nav2 a:hover{ background:#ba2621;text-decoration:none;} 
+.M_layer .icon{ display:inline-block; width:38px; height:54px; line-height:54px; vertical-align:middle; background-position: center right; background-repeat:no-repeat; cursor:pointer;}
+.M_layer .icon1{ background-image:url(../../images/layer1.png);_background-image:url(../../images/layer1ie6.png);}
+.M_layer .icon2{ background-image:url(../../images/layer2.png);_background-image:url(../../images/layer2ie6.png);}
+.M_layer .icon3{ background-image:url(../../images/layer3.png);_background-image:url(../../images/layer3ie6.png); background-position: 18px center;}
+.M_layer .icon4{ background-image:url(../../images/layer4.png);_background-image:url(../../images/layer4ie6.png);}
+
+/*M_foot*/
+.M_foot{ margin:0 auto; text-align:center;  line-height:30px; padding:35px 0 80px; border-top:2px solid #5a6164; color:#666;}
+.M_foot a{ color:#666;}

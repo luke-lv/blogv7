@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* 个人资料  个人档案 */
+
+
+/* 个人档案 */
+.archive{ clear:both; padding:20px 21px 34px; font-size:14px; zoom:1;}
+.archive_title{ font-size:14px; clear:both;}
+.archive_para{ clear:both; line-height:22px; padding-top:8px; word-break:break-all; overflow:hidden;}
+.archive_para p{ line-height:24px; font-family:"宋体";}
+.archive .SG_j_linedot{ clear:both; margin-top:14px; margin-bottom:20px;}
+
+
+.SG_colW21 .archive{ padding:15px 10px 25px; font-size:12px;}
+.SG_colW21 .archive_title{ font-size:12px;}
+.SG_colW21 .archive_para{ line-height:18px; padding-top:5px;}
+.SG_colW21 .archive_para p{ line-height:21px;}
+.SG_colW21 .archive .SG_j_linedot{margin-top:10px; margin-bottom:15px;}
+
+
+
+/* 个人资料 */
+
+.info{ padding:20px 21px; padding-right:0; zoom:1;}
+.info .info_img{ float:left; margin-right:10px; width:182px; height:182px; overflow:visible;}
+.info .info_img img{ border:1px solid #ccc;}
+.info .info_txt{float:left;}
+.info_nm{ font-size:14px; font-family:"宋体"; white-space:nowrap;}
+.info_nm .SG_icon{ margin-right:3px; margin-left:-3px;vertical-align:-2px\9; *vertical-align:-1px;  }
+.info_nm .info_into{ margin-left:16px;font-size:12px;}
+.info_nm .info_into img{ vertical-align:-2px;}
+
+.info_btn1{ clear:both; margin-top:8px; height:23px;}
+.info_btn1 a.SG_aBtn_ico cite {padding-right:16px;}
+.SG_colW51 .info_btn1 a.SG_aBtn, 
+.SG_colW51 .info_btn1 a.SG_aBtn:link, 
+.SG_colW51 .info_btn1 a.SG_aBtn:visited,
+.SG_colW73 .info_btn1 a.SG_aBtn, 
+.SG_colW73 .info_btn1 a.SG_aBtn:link, 
+.SG_colW73 .info_btn1 a.SG_aBtn:visited{/* float:left;*/ margin-right:10px;}
+.info_btn2{ width:190px; clear:both;}
+.info_btn2 p{ clear:both; padding-top:8px;}
+.info_btn2 a.SG_aBtn, 
+.info_btn2 a.SG_aBtn:link, 
+.info_btn2 a.SG_aBtn:visited {/* float:left;*/ margin-right:10px;}
+
+
+.info_list{ clear:both; margin-left:-16px; float:left; _display:inline; margin-top:12px; overflow:hidden; zoom:1;}
+.info_list ul{ overflow:hidden;}
+.info_list ul.info_list3{ white-space:nowrap; clear:both;}
+.info_list li{ float:left; margin-left:16px; display:inline; font-family:Verdana;white-space:nowrap; line-height:20px; height:20px;}
+.info_list li span{white-space:nowrap;}
+
+.SG_colW73 .info_list1,
+.SG_colW73 .info_list2{ float:left;}
+.SG_colW73 .info .SG_j_linedot,
+.SG_colW51 .info .SG_j_linedot{ display:none;}
+
+.SG_colW51 .info_txt{ width:295px; overflow:hidden;}
+.SG_colW51 .info_list ul{ clear:both;}
+.SG_colW21 .info{ padding:10px 14px 15px; overflow:hidden; width:180px;}
+.SG_colW21 .info_img{ float:none; margin-right:0; margin-bottom:10px; }
+.SG_colW21 .info_txt{ width:182px; float:none; }
+.SG_colW21 .info_nm{ text-align:center;}
+.SG_colW21 .info_btn1{ margin-top:12px; text-align:center; margin-bottom:33px; height:23px;}
+.SG_colW21 .info_btn1 a{ float:none; margin:0 5px;}
+.SG_colW21 .info_txt{ position:relative;}
+.SG_colW21 .info_into{ width:182px; text-align:center; margin-left:0;display:block; position:absolute; left:0px; top:60px;}
+/*.SG_colW21 .info_locate{ margin-top:33px;}*/
+.SG_colW21 .info_btn2{ padding-left:17px;*padding-left:18px; margin-top:7px; margin-bottom:15px; width:170px;}
+.SG_colW21 .info_list{ float:none; zoom:1; margin:0; padding-top:15px; clear:both;}
+.SG_colW21 .info_list li{ float:none; margin:0; clear:both; display:block;}
+.SG_colW21 .info_list3{ margin-top:10px;}
+.info_more{ clear:both; text-align:right; padding-top:15px;}
+.info_more2{ clear:both; text-align:right; padding-top:25px; padding-bottom:10px;}
+/*关于我 个人资料*/
+.SG_colW21 .info_locate2{ clear:both;margin-top:10px;}
+.info_list4 li{ white-space:nowrap;}
+.info_list4 li span{ float:left; font-family:"宋体";}
+.info_list4 li span.SG_txtc{ width:48px;}
+.info_AD{ padding-top:15px; padding-bottom:12px; clear:both;}
+.info_modi{ clear:both; text-align:center;font-family:"宋体"; margin-top:6px; margin-bottom:12px;}
+.info_id{ clear:both; padding:15px 0 12px; overflow:hidden; white-space:nowrap; font-family:"宋体";}
+.info_id p{ clear:both;}
+.info_id p.info_pwd{ padding-left:43px; margin-top:10px;}
+
+.info_badge{ clear: both; height:115px; padding-bottom:8px; text-align:center;}
+.info_badge img{ margin:0 auto;}
+
+/* 已开通彩信博客 */
+.info_wap{ clear:both; padding-top:10px;}
+.info_wap img{ vertical-align:-4px; *vertical-align:-2px; margin-left:-2px;}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*欢迎浮层*/
+
+.guideArea{position:absolute;zoom:1;
+}
+.guidecenter{width:672px;height:492px;background: url(../../../images/center/guidecenter/bg_guide_center.png) no-repeat 0 0;
+_background: url(../../../images/center/guidecenter/bg_guide_center.gif) no-repeat 0 0;
+z-index:300;}
+.guidecenter .close{color:#762d98;font-size:50px;position:absolute;right:6px;top:0px;cursor:pointer; font-weight:normal; }
+.guidecenter .List{ padding:230px 0 0 119px;}
+.guidecenter .List li{ width:131px; float:left; margin-right:22px; display:inline;}
+
+.guidecenter .List .title{ float:left; position:relative; height:25px;  padding:0 18px 0 18px; background:#fe9c52; font:  12px/25px "Simsun"; color:#fff; margin:4px 0 0 26px; display:inline; cursor:pointer; }
+.guidecenter .List .title b{ display:block; width:0; height:0; overflow:hidden; font-size:0; line-height:0; border-style:dashed solid dashed dashed; border-width:13px 12px 13px 0; border-color:transparent #fff transparent transparent; position:absolute; right:-1px; top:0;}
+.guidecenter .List .title i{  display:block; width:0; height:0; overflow:hidden; font-size:0; line-height:0; border-style:dashed  dashed  dashed solid; border-width:13px 0 13px 12px; border-color:transparent  transparent transparent #fff; position:absolute; left:-1px; top:0;}
+
+.guidecenter .List .title.titlecolor2{ background-color:#58c2ec;}
+.guidecenter .List .title.titlecolor3{background-color:#ff7b73; padding:0 30px;}
+.guidecenter .guide_center_botton{ clear:both;padding:50px 0 0 260px; *margin:50px 0 0 260px;*padding:0; }
+.guidecenter .guide_center_botton .guide_center_bn{ height:29px; line-height:29px; display:inline-block; background-color:#854ad2; padding:0 15px; color:#f1ecf9; text-decoration:none; margin-right:20px;}
+.guidecenter .List .title a{ color:#fff; text-decoration:none;}

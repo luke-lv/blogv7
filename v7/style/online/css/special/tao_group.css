@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* general */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+table,th,td{margin:0;padding:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family:Verdana, "宋体", sans-serif}
+select,input {vertical-align:middle}
+cite,em {font-style:normal}
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox] {cursor:pointer}
+label {cursor:pointer;}
+.hidden {display:none}
+.wordwrap {word-wrap:break-word;word-break:break-all; }
+.clearit{ clear: both; height:0px; overflow:hidden}
+
+
+/*淘博汇聚合页*/
+.groupwarp{ font-family:"微软雅黑";}
+.grouptopbar{background:#000;}
+.grouptopbar .topbar_main{height: 30px; margin: 0 auto;width: 950px;}
+.grouptopbar .topbar_main .topbar_logo {float: left;}
+.grouptopbar .topbar_main .topbar_inter { float: right;min-width: 257px;position: relative; text-align:right;}
+.grouptopbar .topbar_main .topbar_inter a{color:#9c9c9c; line-height:30px; padding-left:20px;}
+.group_heard{background:#fff}
+.group_heard .headarea{margin:0 auto; width: 950px;}
+.group_heard .headarea ul{width:950px; background:url(../../images/special/tao_group/manu_bg.jpg) no-repeat right 0; height:42px; overflow:hidden;}
+.group_heard .headarea ul li{float:left; width:101px; height:42px;text-indent: -9999px;}
+.group_heard .headarea ul li a{ width:101px; height:42px;display: block;}
+.group_heard .headarea ul li.index{width:106px; background:url(../../images/special/tao_group/manu_01.jpg) no-repeat 0 0; }
+.group_heard .headarea ul li.cloth{background:url(../../images/special/tao_group/manu_02.jpg) no-repeat 0 0; }
+.group_heard .headarea ul li.kids{background:url(../../images/special/tao_group/manu_03.jpg) no-repeat 0 0; }
+.group_heard .headarea ul li.accessories{background:url(../../images/special/tao_group/manu_04.jpg) no-repeat 0 0; }
+.group_heard .headarea ul li.kazza{background:url(../../images/special/tao_group/manu_05.jpg) no-repeat 0 0; }
+.groudmain{margin:0 auto; width: 950px; padding:20px 0 0; background:#fff;}
+.groudmain .tit{height:20px; padding-bottom:10px;}
+.groudmain .banner{ position: relative;}
+.groudmain .banner a,.groudmain .banner a:link,.groudmain .banner a:hover{color:#fff;text-decoration:none}
+.groudmain .banner .bannerpic{border:1px solid #e0e0e0;}
+.groudmain .banner .pictxt{padding:22px 0 0 30px; position: absolute; height:85px; width:354px; background:url(../../images/special/tao_group/bg_yellw.png) repeat 0 0;_background:#fecb18; top:193px; right:0;}
+.groudmain .banner .pictxt p{color:#fff; font-size:20px; font-family:"微软雅黑"; padding-bottom:6px;}
+.groudmain .banner .pictxt p.pictxt_tit{font-size:24px; font-weight:bold;}
+.groudmain h3{color:#343434; padding:10px 0 8px; font-weight:normal;position: relative;}
+.groudmain h3 span{right:0;position: absolute; top:9px;_top:6px;}
+.groudmain .piclist{clear:both; overflow:hidden; width:950px; padding:0 0 20px;}
+.groudmain .piclist ul{border-bottom:1px solid #e1e1e1; width:951px;float: left;}
+.groudmain .piclist li{float:left;margin-right:1px;position: relative;}
+.groudmain .piclist li .picbox a,.groudmain .piclist li .picbox a:hover,.groudmain .piclist li .picbox a:link{color:#666;text-decoration:none;}
+.groudmain .piclist li .picbox .userare{line-height:34px;position: absolute; bottom:36px;left:0; width:316px;height:34px;background:url(../../images/special/tao_group/bg_gray.png) repeat 0 0;_background:#000;color:#fff;}
+.groudmain .piclist li .picbox .userare img{float:left; margin:8px 10px 0 7px;}
+.groudmain .piclist li .picbox .picboxtxt{position: absolute; top:85px; left:30px; width:232px; padding:10px; background:#fff;  color:#666; font-size:18px;}
+.groudmain .piclist li .picicon{padding:7px 0 11px; text-align:right;}
+.groudmain .piclist li .picicon a{color:#b8b8b8}
+.groudmain .pic_icon{margin-left:8px;background:url(../../images/special/tao_group/tao_ico.gif) no-repeat 2px 1px; width:15px; height:15px;}
+.groudmain .pic_icon01{background-position:-25px 1px;}
+.groudmain .pic_icon02{background-position:-50px 1px;}
+.groudmain .pic_icon03{background-position:-78px 1px; margin:0 3px 0 0;}
+
+/*圣诞*/
+.groupxmas{ background:url(../../images/special/tao_group/bg_max1301.jpg) no-repeat center 30px; }
+.groupxmas .group_heard{background:none}
+.groupxmas .group_heard .headarea ul{background:url(../../images/special/tao_group/manu_bg_max1301.jpg) no-repeat right 0;}
+.groupxmas .group_heard .headarea ul li.index{width:106px; background:url(../../images/special/tao_group/manu_01_max1301.jpg) no-repeat 0 0; }
+.groupxmas .group_heard .headarea ul li.cloth{background:url(../../images/special/tao_group/manu_02_max1301.jpg) no-repeat 0 0; }
+.groupxmas .group_heard .headarea ul li.kids{background:url(../../images/special/tao_group/manu_03_max1301.jpg) no-repeat 0 0; }
+.groupxmas .group_heard .headarea ul li.accessories{background:url(../../images/special/tao_group/manu_04_max1301.jpg) no-repeat 0 0; }
+.groupxmas .group_heard .headarea ul li.kazza{background:url(../../images/special/tao_group/manu_05_max1301.jpg) no-repeat 0 0; }
+
+
+/*页脚*/
+.tao_foot{margin: 20px auto;width: 950px;padding:20px 0 100px;text-align:center;color:#999;border-top:2px solid #4d2f59;}

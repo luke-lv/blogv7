@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* 育儿组件  dongyan 2010-07-28 */
+
+/*宝宝资料*/
+.baby_info{ clear:both; overflow:hidden; zoom:1; padding:0 15px; font-family:"宋体";}
+.baby_info .baby_info_cell{ clear:both; padding:10px 0;}
+.baby_infotop{ font-size:14px; line-height:26px; padding-bottom:8px;}
+.baby_infotop p.howold{ font-size:12px;}
+.baby_infotop p.howold span{color:#d4145a;font-size:18px; font-weight:bold; font-family:"微软雅黑"; }
+.baby_info ul{ padding-top:13px; overflow:hidden;}
+.baby_info li{ line-height:19px;}
+.SG_colW51 .baby_infotop p{ float:left;}
+.SG_colW51 .baby_infotop p.howold{ margin-left:20px;}
+.SG_colW51 .baby_info li{ height:19px; width:240px; float:left; overflow:hidden;}
+.SG_colW73 .baby_info li{ height:19px; width:220px; float:left; overflow:hidden;}
+
+/*实用工具*/
+.baby_tools{ clear:both; padding:0px 10px 10px; overflow:hidden; zoom:1;}
+.baby_tools ul{ padding-top:5px;}
+.baby_tools li{ height:27px; background:#fdf9cd url(../../images/common/baby/baby_toolsbg.png) no-repeat 11px 11px; border:1px solid #f3ebd6; line-height:27px; overflow:hidden; margin-top:5px; text-indent:23px; overflow:hidden;}
+.baby_tools li a:link,
+.baby_tools li a:visited,
+.baby_tools li a:hover{ color:#f48706;}
+.SG_colW51 .baby_tools li{ width:180px; float:left; margin-right:40px;}
+.SG_colW73 .baby_tools li{ width:180px; float:left; margin-right:40px;}
+
+/* 浮层 选择话题 */
+.baby_topicLayer{ min-height:240px;}
+.baby_topicLayer ul{ padding-left:10px; padding-top:5px;}
+.baby_topicLayer li{ float:left; width:150px; height:75px; margin-right:25px; margin-bottom:20px; padding:2px; border:2px solid #fff;}
+.baby_topicLayer li img{ border:1px solid #c6c6c6;}
+.baby_topicLayer li.selected{ border:2px solid #65b954;}
+.baby_topicLayer .btn{ clear:both; text-align:center;}

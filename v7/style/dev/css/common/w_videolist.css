@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.zVideolist{ padding:22px 0 24px 21px; }
+.zVideolist .zVideolistUl{ margin-left:10px; clear:both;}
+.zVideolist .videoReview{float: left; display:inline; margin-top:4px;}
+.zVideolist .videoReview img{ border:1px solid #ccc;}
+.zVideolist .videoDesc{ margin-left:131px; overflow:hidden;}
+.zVideolist .videoCell{width:345px; float:left; display:inline; margin-bottom:26px; overflow:hidden;}
+.zVideolist h6{ font-size:12px; line-height:18px; margin-bottom:10px; font-weight:normal; margin-right:28px; font-family:"宋体"; word-break:break-all; word-wrap:break-word;}
+.zVideolist .param{ line-height:16px;}
+.zVideolist .param .num{ font-size:11px; font-family:Arial, Helvetica, sans-serif;}
+.zVideolist .zVideoMore{ background:url(../../images/common/SG_linedot.gif) repeat-x  0 0; text-align:right; margin-right:21px; clear:left; overflow:hidden; padding:11px 0 0 0; zoom:1}
+.SG_colW73 .videoDesc{width:210px;}
+/* w510 */
+.SG_colW51 .videoDesc{ margin-left:91px; width:143px;}
+.SG_colW51 .zVideolist .videoCell{ width:238px;}
+.SG_colW51 .zVideolist h6{ margin-right:18px;}
+/* w210 */
+.SG_colW21 .zVideolist{ padding:12px 0 20px 16px;}
+.SG_colW21 .zVideolist .zVideolistUl{ margin-left:0; clear:left;}
+.SG_colW21 .zVideolist .videoReview{ float:none; display:block}
+.SG_colW21 .videoDesc{ margin-left:0;}
+.SG_colW21 .zVideolist .videoCell{ width:96px; margin-bottom:4px}
+.SG_colW21 .zVideolist h6{ margin:3px 20px 0 0;}

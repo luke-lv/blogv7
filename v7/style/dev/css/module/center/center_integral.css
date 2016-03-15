@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+/*2014-4-21 积分兑换 新增需求*/
+/*通知*/
+.int_notice{ padding:20px 0 15px;overflow:hidden;/* background:url(../../../images/common/SG_linedot.gif) repeat-x bottom;*/}
+.int_notice h5{ font-size:14px; margin-bottom:8px;}
+.int_notice p{line-height:30px;}
+.int_notice p a{ text-decoration:underline}
+.int_notice p .cola,.int_rule li .cola{ color:#999999}
+.cps_tab .colb{ color:#ff4747}
+.cps_tab .colc{ color:#40b400}
+/*积分记录*/
+.int_rule{ padding:16px 26px 19px; background:#f9f9f9; margin-bottom:16px;}
+.int_rule h3{font-size:14px; line-height:36px;}
+.int_rule ul{ overflow:hidden; zoom:1}
+.int_rule li{ width:318px; float:left; vertical-align:middle; line-height:30px;}
+.int_tab{ margin-top:10px;}
+/*积分兑换*/
+.int_btn{ height:40px; display:inline-block;background:url(../../../images/center/newversion/int_btn.gif) no-repeat top left;font-size:14px; color:#FFF; font-weight:bold;}
+.int_btn span{ display:inline-block; height:40px; line-height:40px; margin-left:20px; padding-right:20px; background:url(../../../images/center/newversion/int_btn.gif) no-repeat bottom right;color:#FFF; cursor:pointer }
+.int_btn_gray{background:url(../../../images/center/newversion/int_btn_gray.gif) no-repeat top left;cursor:default}
+.int_btn_gray span{background:url(../../../images/center/newversion/int_btn_gray.gif) no-repeat bottom right; cursor:default}
+.int_btn,.int_btn:link,.int_btn:visited,.int_btn:hover{ text-decoration:none;color:#fff}
+.int_list{margin-bottom:-30px;}
+.int_list li{ overflow:hidden; position:relative; margin-bottom:30px; zoom:1}
+.int_list .img_con{ float:left; width:190px; height:150px;text-align:center; line-height:150px; display:table; vertical-align:middle;}
+.int_list .img_con span{zoom:1}
+.int_list .int_col1{ background:#84cbe9}
+.int_list .int_col2{ background:#ff937a}
+.int_list .int_col3{ background:#bad94d}
+.int_list .int_col4{ background:#4aa1b2}
+.int_list .img_con img{ vertical-align:middle}
+.int_list .int_col4 img{vertical-align:-41px; padding-left:9px}
+.int_list .text_con{ float:left; width:470px; display:inline; margin-left:23px;}
+.int_list h2{font:20px "Helvetica Neue","Microsoft YaHei",Helvetica,STHeiTi; margin:13px 0 8px 0}
+.int_list p{ color:#999999;font:14px "Helvetica Neue","Microsoft YaHei",Helvetica,STHeiTi; line-height:22px}
+.int_list p .col,.int_title1 .col{ color:#ff4747}
+.int_list .int_btna{ position:absolute; bottom:0; left:213px;}
+.int_title{ height:46px;border-bottom:1px solid #ebebeb; color:#999;font:14px "Helvetica Neue","Microsoft YaHei",Helvetica,STHeiTi; line-height:46px; margin-bottom:25px;}
+.int_title1{ width:213px; float:left;}
+.int_title2{ width:475px; float:left; _padding-top:9px}
+.int_title span{ vertical-align:middle;}
+.int_title span .ct_icon {vertical-align:middle;margin-left:14px; *margin-top:3px;}
+/*荣誉勋章流程--服务*/
+.Private_bw{width:auto;padding-bottom:20px;}
+.Pbw_info{padding:15px 0 0 140px;}
+.Pbw_info_list{display:block;overflow:hidden;}
+.Pbw_info_list li{height:34px;color:#000;font-size:14px;line-height:34px;margin-bottom:12px;}
+.Pbw_info_list li a{font-size:12px;}
+.Pwb_info_tit{width:100px;float:left;color:#666;font-weight:bold; vertical-align:middle}
+.Pwb_info_txt{width:440px;float:left;/*vertical-align:middle;*/}
+.Pwb_info_txt strong{color:#f76403}
+.Pwb_info_txt img{margin-top:5px;}
+.Pwb_ipt{width:250px;height:22px;color:#000;line-height:22px;padding:5px 8px;margin-right:10px;border:1px solid #E2E2E2;}
+.Pbw_info_list .Pwb_info_face{height:30px;line-height:30px;padding-left:100px;margin-bottom:22px;}
+.Pwb_info_face img{width:30px;height:30px;margin-top:-4px;vertical-align:middle;}
+.Pwb_info_face span{color:#999;font-size:12px;padding-left:5px;}
+.Pbw_info_list li.btn{height:40px;padding-top:12px;}
+.Pbw_info_list li.btn a{font-size:14px;margin-left:164px;}
+.Pbw_info_list li.clause{height:auto;color:#999;font-size:12px;line-height:normal;padding-top:6px;margin:0 0 28px 100px;}
+.Pbw_info_list li.clause a,
+.Pbw_info_list li.clause a:link,
+.Pbw_info_list li.clause a:visited,
+.Pbw_info_list li.clause a:hover{color:#2e3092;margin-left:13px;}
+.Pbw_Service{color:#999;line-height:24px;margin-bottom:26px;padding:24px 36px 28px 26px;background:#F9F9F9;}
+.Pbw_Service b{color:#666;display:block;font-size:14px;margin-bottom:6px;}
+.Pbw_tisp{color:#999;line-height:24px;padding:0 36px 0 26px;}
+.Pbw_tisp .bt{margin-bottom:6px;}
+.medal_list{display:block;overflow:hidden;margin-top:18px;margin-bottom:-6px;}
+.medal_list li{width:300px;float:left;color:#000;padding:6px 0;overflow:hidden;line-height:normal}
+.medal_list li img{display:inline;margin-right:10px;vertical-align:middle;}
+.medal_list li span{color:#666;padding-right:8px;}
+.Pwb_info_txt .info_s1{ font-weight:bold; color:#666666; margin-right:10px}
+.Pwb_info_txt .col1{ color:#ff4747; }
+.Pwb_info_txt .col2{ color:#999999; font-weight:bold }
+.open_status span{vertical-align:middle; font-weight:bold; color:#666;}
+.open_status .ct_icon{ vertical-align:middle; margin-top:0;_vertical-align:-3px; margin-left:10px}
+/*积分金笔兑换*/
+.radio_jf .radio_sp{ margin-right:24px; vertical-align:middle}
+.radio_jf .input_radio { margin-top:0;vertical-align:middle; _margin-bottom:1px}
+.radio_jf .input_jf{width:110px; height:24px; line-height:24px; padding:4px 10px; margin-left:-12px; color:#999999; border:1px solid #e2e2e2; outline:0 none}
+.radio_jf{zoom:1; overflow:hidden}
+.Pwb_info_tit .cold,.Pwb_info_txt .cold{ color:#999; font-weight:bold}
+/**/
+.int_notice .cBox_main{ margin-bottom:20px;}
+/*排行榜*/
+.top_tab{ margin-top:10px;}
+.top_tab td{ height:70px; border-bottom:1px dashed #d1d1d1; vertical-align:middle; border-collapse:collapse;}
+.top_tab .td2 a{ display:block; width:125px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.top_tab .td5 img{ vertical-align:middle;}
+.top_tab .td5 span{ vertical-align:middle; margin-right:7px;}

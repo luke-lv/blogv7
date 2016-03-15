@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 权限管理 */
+.blogManageItem{ padding:27px 0 50px 30px;}
+.blogManageItem h3{ font-size:14px; height:24px; overflow:hidden; margin-bottom:4px}
+.blogManageItem p{ height:42px; overflow:hidden}
+.blogManageItem p label{ margin-right:33px;}
+.blogManageItem p input{ vertical-align:-2px;}
+.blogManageItem .btn{ text-align:center;}
+
+/* 个人档案 */
+
+.componentPerson{ padding-top:10px;}
+.basicInfo{ padding:15px 0 14px 0px;background-position:bottom; }
+.personTable td,.personTable th{ font-size:14px; height:22px; vertical-align:top; line-height:23px;}
+.personTable th{ padding-bottom:5px;}
+.personTable .rolTd1{ width:57px; height:22px; vertical-align:top; line-height:22px;}
+.personTable .rolTd2{ margin:4px 0;}
+
+.personTable .rolTd2 .unSchool{ margin-right:6px;}
+.personTable .rolSele{ padding:2px 0 5px 0;}
+.basicInfo .personTable .tdP20{ padding-right:9px; font-family:"宋体";}
+.personTable .personIntro{ line-height:22px; font-family:"宋体"; overflow:hidden; word-wrap:break-word; word-break:break-all; width:688px;}
+.personTable .personIntro strong{}
+.speciaOver{ overflow:hidden;}
+.personRight{ margin-bottom:30px;}
+.changeHead{ width:100%; overflow:visible; text-align:center; font-weight:normal; line-height:16px; text-align:left; }
+.lineCH{ background-position:bottom; padding-bottom:6px; text-align:left;}
+.loginHead{ text-align:left; font-weight:normal; font-size:12px; line-height:16px; width:50px; display:block; float:left;}
+.personEdit{ font-weight:normal;}
+.personFin{ font-weight:normal; font-size:12px; padding-left:18px;}
+.rolTd2 .personRadio{ vertical-align:2px;}
+.rolTd2 .sameBirth{ font-size:12px; padding-left:4px;}
+.rolTd2 select{ height:21px; line-height:21px; font-size:14px; color:#666666;}
+.rolTd2 .personBtn{ overflow:hidden; padding-top:14px; clear:both;}
+.rolTd2 .personBtn span{ padding-right:10px; overflow:hidden;}
+.basicInfo .personTable .tdP20 em{ padding-right:6px; font-family:"宋体";}
+.basicInfo .personTable .tdP20 em textarea{ width:650px; height:72px;}
+.personText{ height:18px; line-height:18px; border-left:2px solid #716f64l; border-bottom:1px solid #dadada; border-right:1px solid #dadada; border-top:2px solid #716f64l; padding-left:5px; font-size:14px;}
+.personDelete{ padding-left:5px;}
+.personArea{ border-left:2px solid #716f64l; border-bottom:1px solid #dadada; border-right:1px solid #dadada; border-top:2px solid #716f64l;}
+.personTable .personAction{ width:658px; border:1px solid #c5b270; background-color:#fffbd6; text-align:left; font-size:12px; font-weight:normal; color:#cc0000; line-height:20px; padding:7px 16px 7px 10px;}
+.errorAction{ font-size:12px; color:#cc0000;}
+.lineCH p{ margin-bottom:4px;}
+.personPtop{ margin-top:1px;}
+.assn_sel { position:absolute;}
+.assn_sel ul{ float:left; background-color:#f0f0f0; width:188px; border:1px solid #cccccc; overflow:hidden; text-align:left; z-index:99999; float:left; font-size:12px;}
+.assn_sel li{ color:#000000;; text-align:left; line-height:18px; padding-bottom:5px; text-indent:8px; border-top:1px dotted #909090; margin-top:-1px; padding-top:1px;}
+.assn_sel li.assn_on{ background-color:#C6C6C6;}
+.assn{ position:absolute;}
+.assn ul{ width:188px; background:#f0f0f0; border:1px solid #cccccc; overflow:hidden; text-align:left; z-index:99999; float:left; font-size:12px;}
+.assn li{ color:#333333; text-align:left; line-height:18px; padding:5px;}
+.assn li a{ text-decoration:underline;}
+.assn li.on{ background-color:#4268b2; color:#ffffff;}
+.posSchool{ position:relative;}
+.promenu li.on span.blogbanner a:link,.promenu li.on span.blogbanner a:visited{ color:#333333;}
+.promenu li.on span.blogbanner a:hover,.promenu li.on span.blogbanner a:active{ color:#333333; text-decoration:underline;}
+.tCenter{ text-align:center; width:100%; display:block;}
+.addForm{ margin:4px 0 -3px 0;}
+.addExp{ margin-left:-2px; line-height:18px;}
+.addPerson{ padding-top:0px;}
+/*  修改密码 */
+/* 帐户管理 */
+.changePsw{ padding:18px 0 50px 0;}
+.changePsw .admin_title{ overflow:hidden; height:26px; width:100%; line-height:26px; font-size:14px; font-weight:bolder; color:#333333; text-indent:30px; border-bottom:1px solid #cccccc;}
+.changePsw .admin_information{ padding-bottom:25px; width:100%; }
+.changePsw .admin_information .admin_name{ color:#000000; padding-bottom:14px;}
+.changePsw .admin_information .admin_name span{ font-size:14px;}
+.changePsw .admin_information .admin_num{ color:#666666; padding-bottom:23px;}
+.changePsw .admin_note{ color:#666666; padding-top:20px; text-indent:50px; padding-bottom:15px;}
+.changePsw table{ margin:0 0 0  31px}
+.changePsw table tr td{ padding-bottom:12px; line-height:20px; vertical-align:top; font-size:14px;}
+.changePsw table tr td input{ font-size:14px;}
+.changePsw table tr td .ts{ width:300px; margin-top:5px; line-height:20px; font-size:12px;}
+.changePsw .admin_tabl{ width:115px; text-align:right; overflow:hidden;}
+/*  手机订阅 */
+/* 手机订阅 */
+a.mobile_aML{ margin-left:6px;}
+.SG_icon109{ margin-left:5px;}
+.mobile_T{ margin-left:30px; height:50px; padding-bottom:6px;}
+.mobile_T img{ float:left;} 
+.mobile_TOK{ font-weight:bold; font-size:14px;  margin-left:10px; float:left; padding-top:18px;}
+.mobile_TCT{ height:20px; line-height:20px;  margin-left:91px;}
+.mobile_Tconn{ width:375px; overflow:hidden; margin-left:91px; margin-bottom:17px;}
+.mobile_Tconn li{ float:left; width:186px; line-height:20px;}
+.mobile_MBot{ margin-bottom:18px;}
+.mobile_bottom{ line-height:19px; margin-top:14px; margin-left:30px; padding-bottom:20px;}
+.aBmore {
+margin:0 20px;
+padding:20px 0 0;
+}
+
+
+/* 手机订阅未订阅 */
+.MoNcheck_BigImg{ padding-top:20px; margin-bottom:30px; text-align:center;}
+.MoNcheck_Method p{ font-size:14px; font-weight:bold;  margin-bottom:28px;}
+.MoNcheck_Method img{ margin-bottom:39px;}
+.MoNcheck_tell p{ float:left;  width:204px;}
+.MoNcheck_InputNum{ width:117px;}
+.MoNcheck_InputYZ{ width:77px;}
+.MoNcheck_tell{ margin-bottom:16px; }
+.MoNcheck_PM{ line-height:12px; height:12px; margin-bottom:18px;}
+.MoNcheck_law{  line-height:12px; margin-bottom:20px;}
+.MoNcheck_lawBtn,.MoNcheck_lawBtn2{ width:730px; text-align:center; margin-bottom:30px;}
+.MoNcheck_help{height:100%}
+.MoNcheck_helpTit{ line-height:35px; font-weight:bold; font-size:14px;}
+.MoNcheck_helpL{ float:left; margin-left:10px; margin-right:24px; overflow:hidden; height:100%; display:inline;}
+.MoNcheck_secTit{ font-weight:bold; line-height:33px;}
+.MoNcheck_helpR{ margin-top:7px; float:left; width:285px; overflow:hidden;  height:100%;}
+.MoNcheck_helpR p{ line-height:21px;}
+.MoNcheck_secTit2{font-weight:bold; line-height:21px;}
+.MoNcheck_helpRT1{ margin-bottom:21px;}
+.MoNcheck_helpRT1 tr td,
+.MoNcheck_helpRT1 tr th{ vertical-align:top; line-height:21px;}
+.MoNcheck_helpRT1 tr th{ width:15px; text-align:left; font-family:"宋体";}
+.MoNcheck_helpRT1 tr td{ width:269px; overflow:hidden;}
+.MoNcheck_way{ margin-top:22px; margin-bottom:26px;}
+.MoNcheck_way p{ line-height:19px; text-indent:2em;}
+p.MoNcheck_wayTit{ font-weight:bold; text-indent:0; line-height:33px;}
+.MoNcheck_wayP1{ padding-bottom:15px;}
+.MoNcheck_kefu{ padding:10px 0 20px 0; }
+.MoNcheck_lawTXT{ width:809px; height:240px; width:685px; overflow:scroll-y; margin-bottom:10px;}
+
+.MoNcheck_Ard{ line-height:12px; margin-bottom:20px;}
+.MoNcheck_MethodArd{ margin-top:19px;}
+.clear{ clear:both;}
+
+/* 阅读纸条 */
+
+/*短消息对话*/
+.msgNotice{ line-height:20px; padding:15px 0 0 0}
+.dialogTit{ padding:15px 0 25px 0;}
+.dialogTit strong{ font-size:14px;}
+.dialogLi .dialogCell{ clear:left; padding:10px 0;}
+.dialogLi .avatar{ float:left}
+.dialogLi .avatar img{ border-style:solid; border-width:1px;}
+.dialogLi .txt{ margin-left:80px; line-height:22px;}
+.dialogLi .txt .date{ text-align:right; font-size:10px; }
+.dialogMod .reply { width:500px; padding-top:20px}
+.dialogMod .reply strong{ font-size:14px; }
+.dialogMod .reply .inpbase{ width:500px; height:80px; margin-top:10px;}
+.dialogMod .sendReply{ padding:10px 0 40px 0}

@@ -1,0 +1,194 @@
+@import "common.css";
+
+/**
+ * Description: 定义页面的基本属性
+ *
+ * Author: Qiangyee
+ * 
+ * Date: 2011-08-03
+ */
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #fff;
+    background-image: none;
+    color: #000;
+}
+
+.form li, .login li, .main li, .menu li {
+    list-style: none outside none;
+    padding: 15px 0px 0px 15px;
+    font-size: 15px;
+}
+
+button, input[type="submit"], input[type="button"], a.button, a.button:link, a.button:visited {
+    background-color: #f77462;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover, a.button:hover {
+    background-color: #DC4A37;
+}
+
+.common li {
+    list-style: none outside none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.error {
+    border-color: #DF0000 !important;
+}
+
+.field {
+    background: url("../images/_bg-field-shadow-top.png") repeat-x scroll 0 0 white;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    height: 25px;
+    padding: 1px 5px;
+    vertical-align: middle;
+    font-size: 15px;
+    width: 230px;
+}
+
+.text {
+    width: 230px;
+}
+
+.enlarge-width {
+    width: 550px;
+}
+
+.enlarge-history-width {
+    width: 500px;
+}
+
+.last-pack-label {
+    margin-top: 10px;
+}
+
+.last-pack, .last-pack ul, .last-pack li {
+    margin-top: 5px;
+    padding: 0px;
+}
+.last-pack .cursor-pointer {
+    cursor: pointer;
+}
+
+.select {
+    padding-right: 1px;
+    width: 240px;
+}
+
+.desc {
+
+}
+
+.choice {
+    line-height: 25px;
+}
+
+.table-wrapper-div {
+    margin-top: 10px;
+}
+
+.table {
+    border: 1px solid #888;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.table th {
+    vertical-align: baseline;
+    padding: 5px 15px 5px 5px;
+    background-color: #CCC;
+    border: 1px solid #888;
+    text-align: left;
+}
+
+.table td {
+    vertical-align: text-top;
+    padding: 5px 15px 5px 5px;
+    border: 1px solid #AAA;
+}
+
+.table tr:hover {
+    background-color: #EFE;
+}
+
+.log li {
+    border: 2px double #333;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.log li:hover {
+    border-style: dotted;
+}
+
+.log li:nth-child(2n+1) {
+    background-color: #ebc;
+}
+
+.log li:nth-child(2n) {
+    background-color: #EC1;
+}
+
+
+
+/*------ angularjs css 定义开始 -----*/
+.error .ng-invalid {
+    border: 1px solid #FA787E;
+}
+
+.error .ng-valid {
+    border: 1px solid #25C75A;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.ng-hide {
+    opacity: 0;
+}
+
+.ng-show {
+    opacity: 1;
+}
+/*-------- angularjs css 定义结束 -------*/
+
+.align-center {
+    text-align: center;
+}
+
+table.list {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    font-size: 15px;
+}
+
+table.list thead{
+    background-color: #F1F1F1;
+}
+
+table.list tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
+
+table.list td, table.list th{
+    border: 1px solid #d4d4d4;
+    padding: 5px;
+}
+table.list .field {
+    width: 150px;
+}

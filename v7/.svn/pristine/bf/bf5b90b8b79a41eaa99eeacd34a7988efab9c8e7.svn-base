@@ -1,0 +1,6 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*M_foot*/
+.M_foot{ margin:0 auto; text-align:center;  line-height:30px; padding:35px 0 80px; border-top:2px solid #5a6164; color:#666;}
+.M_foot a{ color:#666;}

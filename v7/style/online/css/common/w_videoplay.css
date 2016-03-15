@@ -1,0 +1,33 @@
+﻿/*视频播放器*/
+.videoplayer{ float:left; width:482px; height:387px; text-align:center;}
+.videoplayer_s{ float:left; width:190px; height:166px;}
+.VP_big{ zoom:1; overflow:auto; padding:20px;}
+.VP_midd{ height:100%; overflow:hidden; padding:20px 13px 30px 13px;}
+.VP_small{ height:100%; overflow:hidden; padding:15px 9px 20px 9px;}
+.videolist{ float:left; width:200px; margin:0 0 40px 5px;}
+.v_wm{ width:475px; margin:10px auto 0 auto;zoom:1;overflow:auto;}
+.v_ws{ width:190px; margin:10px 0 0 0;}
+ul.minvideo{min-height:330px; _height:330px; overflow:visible;}
+.videolist ul li{ font-family:"宋体";}
+.videolist ul li.SG_j_linedot1{ line-height:27px;background-position:bottom;}
+.videolist ul li .SG_dot{ float:left; width:7px; height:3px; margin-top:12px; overflow:hidden;}
+.videolist ul li.cur{clear:both; line-height:1.5em;overflow:auto;zoom:1;padding:10px 0 6px 0;}
+.videolist ul li.cur img{ float:left; width:67px; height:50px; padding:1px; border:1px solid #ccc; margin-right:10px;}
+.videolist ul li.cur .vltxt{ float:left; width:103px;overflow:hidden;}
+.videolist ul li.cur .vp_midd_txt{ float:left; width:390px;}
+.videolist ul li.cur .vltime{ font-family:Arial; font-size:10px;overflow:hidden;}
+/*登录状态*/
+.vp_login{ border:1px solid #b5b7bf;padding:15px 0 20px 0;text-align:center; background-color:#fff;}
+.vp_login div{line-height:24px;}
+.vp_login select,
+.vp_login option{ font-family:"宋体";}
+.w1{width:728px; }
+.w2{width:508px;}
+.w3{width:198px;text-align:left;padding-left:10px;}
+.w4{width:208px;text-align:center;}
+.vp_login a{margin-top:19px;}
+
+
+.videopage .SG_page{ width:190px; text-align:right;overflow:visible;padding-top:7px;height:100%;}
+.VP_midd .videopage .SG_page{width:auto;margin-right:8px;}
+.videopage .SG_page li{margin-top:3px;}

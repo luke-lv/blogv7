@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/*博文页样式汇总*/
+
+/*浮层公用样式，添加浮层需先添加此样式*/ 
+@import url("../../module/layer/layer.css");
+
+/*通行证登录 -  通行证+MSN*/
+
+@import url("../../module/layer/layer6.css");
+
+/*加好友 - 发纸条*/
+@import url("../../module/layer/layer7.css");
+
+/*订阅*/
+@import url("../../module/layer/layer12.css");
+
+/*新表情浮层*/
+@import url("../../module/layer/layer13.css");
+
+/*举报*/
+@import url("../../module/layer/re_report.css");
+
+/*博文页样式*/
+@import url("../../module/blog/blog_index.css");
+
+/*消息浮层*/
+@import url("../../module/layer/layer26.css");
+
+/*顶部托盘*/
+@import url("../../module/common/topbar.css");
+/*帮助*/
+@import url("../../module/layer/layer28.css");

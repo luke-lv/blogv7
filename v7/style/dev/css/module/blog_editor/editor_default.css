@@ -1,0 +1,253 @@
+@charset "utf-8";
+/*主体宽度*/
+.BNE_content{
+	width:670px;
+	margin:0 auto 100px;
+	position:relative;
+}
+.BNE_content .old_new{
+	font-size:14px;
+	position:absolute;
+	right:12px;
+	top:-50px;
+}
+.BNE_content .old_new .icon{
+	margin-left:8px;
+}
+.BNE_content .old_new a,
+.BNE_content .old_new a:hover{
+	color:#8997d8;
+}
+
+/* 编辑器默认 */
+.BNE_editor{
+	margin-top:70px;
+}
+.BNE_editor i,
+.BNE_editor em{
+	font-style:italic;
+}
+.BNE_editor .editor_tit{
+	padding-bottom:20px;
+	border-bottom:1px solid #EEE;
+}
+.BNE_editor .editor_tit .ipt{
+	width:100%;
+	height:50px;
+	color:#CCC;
+	font-size:34px;
+	line-height:50px;
+	border:none;
+	overflow:auto;
+	outline:none;
+	background:none;
+}
+.BNE_editor .editor_txt{
+	margin-top:25px;
+}
+.BNE_editor .editor_txt a span:hover,
+.BNE_editor .editor_txt a span[style]:hover{ color:#8997d8; text-decoration:underline;}
+.BNE_editor .editor_txt .tar{
+	width:100%;
+	color:#CCC;
+	min-height:230px;
+	font-size:17px;
+	line-height:28px;
+	outline:none;
+	border:none;
+	overflow:hidden;
+	background:none;
+	word-spacing:normal;
+  word-wrap:break-word;
+}
+.BNE_editor .tar .input_link::-ms-clear{
+	width:0;
+	height:0;
+	display:none;
+	overflow:hidden;
+}
+.BNE_editor .tar p{ margin-bottom:22px;}
+.BNE_editor .tar h1{
+	font-size:34px;
+	line-height:50px;
+	margin-bottom:16px;
+}
+.BNE_editor .tar h2{
+	font-size:24px;
+	line-height:38px;
+	margin-bottom:18px;
+}
+.BNE_editor .editor_txt .tar span{outline:none;}
+.BNE_editor .editor_txt .tar a{ color:#999;}
+.BNE_editor .editor_txt .tar a:hover{ color:#b2bdf0;}
+.BNE_editor .editor_tit .BNE_txtA,
+.BNE_editor .editor_txt .BNE_txtA{color:#333;}
+.BNE_operation{
+	width:100%;
+	margin-top:46px;
+	padding:40px 0 0;
+	border-top:1px solid #f2f2f2;
+	background-color:#FBFBFB;
+}
+.BNE_operation .opera_btn{
+	overflow:hidden;
+	padding-bottom:30px;
+	border-bottom:1px solid #eeeeee;
+	zoom:1;
+}
+.BNE_operation .opera_btn li{
+	width:106px;
+	float:left;
+	margin-left:-10px;
+	margin-right:34px;
+	display:inline;
+}
+.BNE_operation .opera_btn .btn_lka{
+	display:block;
+	text-align:center;
+}
+.BNE_operation .btn_lka:hover .img{
+	/*background-color:#f0f0f0;*/
+	background-position:-64px -320px;
+}
+.BNE_operation .opera_btn .img{
+	width:61px;
+	height:60px;
+	cursor:pointer;
+	overflow:hidden;
+	display:inline-block;
+	background:url(../../../images/blog_editor/bg_bne.png) no-repeat 0 -320px;
+	_background-image:url(../../../images/blog_editor/bg_bne.gif);
+}
+.BNE_operation .opera_btn .txt{
+	color:#666;
+	font-size:14px;
+	display:block;
+	padding-top:6px;
+}
+.BNE_operation .opera_btn .i4_art{
+	margin-top:15px;
+}
+.BNE_operation .opera_btn .i5_music{margin-top:13px;margin-left:-4px;}
+.BNE_operation .opera_btn .i6_video{margin-top:20px;}
+.BNE_choice{
+	padding:28px 0;
+	overflow:hidden;
+	border-bottom:1px solid #eee;
+}
+.BNE_choice .choice_tit{
+	color:#666;
+	font-size:17px;
+}
+.BNE_choice .choice_tit a,
+.BNE_choice .choice_tit a:hover{
+	color:#666;
+}
+.BNE_choice .choice_btn{
+	width:690px;
+	height:34px;
+	margin-right:-20px;
+}
+.BNE_choice .choice_btn .btn_a{
+	width:208px;
+	height:32px;
+	float:left;
+	cursor:pointer;
+	display:inline;
+	margin-right:20px;
+	border:1px solid #D9D9D9;
+}
+.BNE_choice .choice_btn .txt{
+	width:165px;
+	height:32px;
+	float:left;
+	color:#666;
+	font-size:16px;
+	line-height:32px;
+	text-align:center;
+	border-right:1px solid #D9D9D9;
+}
+
+.BNE_choice .choice_btn .btn_noclick .txt{ 
+	color: #ccc;
+} 
+.BNE_choice .choice_btn a.btn_noclick:hover,
+.BNE_choice .choice_btn a.btn_noclick:hover .txt{ 
+	border-color: #d9d9d9;
+	cursor:default;
+} 
+.BNE_choice .choice_btn a.btn_noclick i{
+	cursor:default;
+}
+.BNE_choice .choice_btn .ico{
+	width:30px;
+	height:24px;
+	float:right;
+	padding:7px 0 0 11px;
+	border-top:1px solid #F2F2F2;
+	border-left:1px solid #F2F2F2;
+}
+.BNE_choice .choice_btn .i1_yes{
+	display:none;
+}
+.BNE_choice .choice_btn .btn_cur,
+.BNE_choice .choice_btn .btn_a:hover,
+.BNE_choice .choice_btn .btn_cur .txt,
+.BNE_choice .choice_btn .btn_a:hover .txt{
+	border-color:#6583FF;
+}
+.BNE_choice .choice_btn .btn_cur .i1_yes,.BNE_choice .choice_btn .btn_noclick .i1_yes1{
+	display:block;
+}
+.BNE_operation .release_btn{
+	overflow:hidden;
+	margin:60px 0 0 42px;
+}
+.BNE_operation .release_btn .btn_a{
+	color:#333;
+	float:left;
+	font-size:16px;
+	display:inline;
+	margin:24px 20px 0 0;
+	border-bottom:1px solid #E2E2E2;
+}
+.BNE_operation .release_btn .btn_a:hover{
+	color:#6583ff;
+}
+.BNE_operation .release_btn .BNE_btn_commit{
+	float:left;
+	display:inline;
+	margin-left:10px;
+}
+.BNE_operation .release_btn2{
+	padding-left:84px;
+}
+/*旅游发布功能*/
+.BNE_editor .travel{ font-size:15px; margin:25px 0; position:relative;}
+.BNE_editor .travel .name{ color:#999; line-height:32px; vertical-align:middle;}
+.BNE_editor .travel input{ width:525px; border-bottom:1px dashed #eee; padding:6px 2px; color:#333; margin-left:6px; font-size:15px; height:20px; line-height:20px; vertical-align:middle; _width:532px;}
+.BNE_editor .travel_hint{  margin-top:20px;}
+.BNE_editor .travel_hint textarea{ line-height:28px; border:0 none; outline:0 none; height:28px; font-size:15px; color:#666; width:100%; margin-top:2px;background: none; overflow:auto;border-bottom:1px dashed #eee; }
+.BNE_editor .travel_hint .name{  width:75px;padding-right:6px; margin-right:2px; line-height:28px; }
+.BNE_editor .travel .hint{ width:100%; color:#666; font-size:15px;/* line-height:28px;*/}
+.BNE_editor .travel .hint_col{ color:#ee3016; font-size:12px; line-height:28px;}
+.BNE_editor .travel .placeholder textarea{color:#ccc;}
+.BNE_editor .add_place{ font-size:24px; color:#ffac28; text-align:center; border-top:1px solid #eee; padding-top:30px; cursor:pointer;}
+.BNE_editor .add_place .icon{ margin-right:16px;}
+.BNE_editor .add_place .des{ line-height:31px;}
+.BNE_editor .think_list{ width:528px; position:absolute; right:0; top:33px; *top:34px; _right:30px; max-height:238px;_height:238px; overflow:auto; font-size:14px;background:#fbfbfb; border:1px solid #f7f7f7; border-top:0 none;box-shadow: 0px 1px 0px rgba(0,0,0,.08);}
+.BNE_editor .think_list li{ height:34px; line-height:34px; width:100%}
+.BNE_editor .think_list li a{ display:block;height:34px; line-height:34px; color:#333; background:#fbfbfb; padding:0 20px;}
+.BNE_editor .think_list li a:hover{ background:#eee;}
+.BNE_editor .delete_place{ font-size:15px; margin:30px 0; height:32px;*padding-bottom:30px; *margin-bottom:0;}
+.BNE_editor .delete_place a{ display:block;width:120px; float:right; line-height:30px; border:1px dashed #ddd;color:#999; text-align:center; }
+.BNE_editor .operate_case1{ margin:50px 0 80px;}
+.BNE_editor .operate_case1 .delete_place{ display:none;}
+.BNE_editor .operate_case2 .add_place{ display:none;}
+.BNE_editor .operate_case2{ border-bottom:1px solid #eee; margin-bottom:30px;}
+.BNE_forbid,
+.BNE_forbid .BNE_txtA,
+.BNE_forbid .BNE_cont .h1_tit,
+.BNE_forbid .h1_tit .h1_tit,
+.BNE_forbid .travel_hint textarea,
+.BNE_forbid .travel input{ color:#888;}

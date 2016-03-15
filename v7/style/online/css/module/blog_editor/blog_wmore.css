@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.BNE_wmore{ margin: 24px 0 16px 0; font-size: 14px; overflow: hidden; zoom: 1;}
+.BNE_wmore li{ position: relative; float: left; width: 311px; margin: 0 24px 14px 0; overflow: hidden; zoom: 1;}
+.BNE_wmore .wmore_link{ float: left; padding-bottom: 4px; margin: 0 0 0 12px; display: inline; overflow: hidden; zoom:1; hidden; white-space:nowrap; text-overflow:ellipsis; width: 299px; line-height: 16px; text-decoration:}
+.BNE_wmore .dot{ position: absolute; top: 5px; left: 0; background: url(../../../images/blog_editor/bg_bne.png) -96px 0  no-repeat; width: 2px; height: 2px; _background-image: url(../../../images/blog_editor/bg_bne.gif);}
+.BNE_wmore .jian{ width:7px; height:14px; float:left; margin:2px 7px 0 0; background-position:-160px -320px;}
+

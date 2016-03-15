@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*  登录注册 */
+
+.loginreg .txta{ color:#61ad27;}
+.loginreg .txtb{ color:#999;}
+.loginreg .txtc{ color:#c00;}
+.loginreg a:link,
+.loginreg a:visited,
+.loginreg a:hover{ color:#1e50a2;}
+.loginreg{ background: #fff url(../../images/special/loginreg/bg.gif) repeat-x left top; font-family:"宋体"; color:#333;}
+.loginreg .wrap{ width:950px; margin:0 auto;}
+.loginreg .head{ clear:both; height:70px; overflow:hidden;}
+.loginreg .head .logo{ float:left; margin-left:18px; margin-top:20px;}
+.loginreg .head .menu{ float:right; padding-top:38px; padding-right:10px; color:#999;}
+.loginreg .main{ width:950px; margin:0 auto; overflow:hidden; clear:both;}
+.loginreg .main .top{ height:10px; width:950px; overflow:hidden; background:url(../../images/special/loginreg/top.png) no-repeat left top;}
+.loginreg .main .middle{ width:950px; color:both; overflow:hidden; padding-top:35px; background:url(../../images/special/loginreg/middle.gif) repeat-y left top;}
+.loginreg .main .bottom{ width:950px; height:48px; overflow:hidden; background:url(../../images/special/loginreg/bottom.png) no-repeat left top;}
+.loginreg .login{ width:313px; padding-left:31px; height:340px; float:left; padding-top:10px; background:url(../../images/special/loginreg/border.gif) no-repeat right top;}
+.loginreg .login h3{ font-size:18px;}
+.loginreg .login .loginTab{ margin-top:30px; position:relative;}
+.loginreg .login th{ width:55px; font-size:12px; font-weight:normal; height:25px;vertical-align:top; line-height:21px; padding-bottom:14px;font-family:"宋体"; text-align:right;}
+.loginreg .login td{ font-size:12px;height:25px; padding-bottom:14px;vertical-align:top;}
+.loginreg .login td p.check{ margin-left:-4px;}
+.loginreg .login td p.txtb{ margin-top:3px;}
+.loginreg .login td p.txtc{ margin-top:3px;}
+.loginreg .login .input{ width:153px; padding-left:9px; height:18px; padding-top:3px; border-width:1px; border-style:solid; border-color:#525252 #949494 #949494 #525252;color:#000; }
+
+.loginreg .register{ padding-left:17px; float:left; padding-top:10px; }
+.loginreg .register h3{ font-size:12px; font-weight:normal; color:#666;}
+.loginreg .register h3 .txta{ font-size:18px; font-weight:bold;}
+.loginreg .register .registerTab{ margin-top:30px;}
+.loginreg .register th{ font-size:14px; width:110px; font-weight:normal; height:25px; vertical-align:top;line-height:21px;  padding-bottom:14px;font-family:"宋体";text-align:right;}
+.loginreg .register td{ font-size:12px;height:25px; padding-bottom:14px;vertical-align:top; line-height:21px;}
+.loginreg .register td p.check{ margin-left:-4px;}
+.loginreg .register td p.txtb{ margin-top:3px;}
+.loginreg .register td .code{ vertical-align:middle;}
+.loginreg .register .input{ width:179px; padding-left:9px; height:17px; padding-top:4px; border-width:1px; border-style:solid; border-color:#525252 #949494 #949494 #525252; color:#000; }
+.loginreg .register .regBtn{ display:block; width:138px; height:37px; overflow:hidden; background:url(../../images/special/loginreg/btn.png) no-repeat left top; text-align:center; line-height:35px; font-family:"微软雅黑","黑体"; font-size:16px;}
+.loginreg .register a.regBtn:hover{ text-decoration:none;}
+.loginreg .register .input_ar{ background:url(../../images/special/loginreg/arrow.gif) no-repeat 175px 9px; width:161px; padding-right:18px; cursor:pointer; }
+.loginreg .register table,
+.loginreg .register td{ table-layout:fixed;}
+.loginlayer{ width:162px;width:163px\9; padding-top:10px; overflow:hidden; background-color:#fff; border:1px solid #909090; position:absolute; left:59px; top:25px;}
+.loginreg .register .regQuestion{ position:relative;}
+.loginlayer li{ height:27px; line-height:27px; overflow:hidden;}
+.loginlayer li a{ display:block;height:27px;overflow:hidden; padding-left:10px;}
+.loginlayer li a:link,
+.loginlayer li a:visited,
+.loginlayer li a:hover{ color:#000;}
+.loginlayer li a:hover{ text-decoration:none; background-color:#d4eaf7}
+.loginreg .register .loginlayer{left:0; top:23px; width:188px;width:189px\9;}
+.loginreg .sinablogfooter,
+.loginreg .sinablogfooter a:link,
+.loginreg .sinablogfooter a:visited,
+.loginreg .sinablogfooter a:hover{ color:#606060;}

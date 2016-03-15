@@ -1,0 +1,58 @@
+/* CSS Document */
+/*博文宣传*/
+body,html{font-family:"宋体";font-size:12px;}
+.blog_expand{width:986px;margin:25px auto 0 auto;}
+.blog_expand a:link,.blog_expand a:visited{color:#0172c9;}
+
+/* 教程顶部页签 */
+.intro_tab{ margin-top:14px; height:84px;}
+.intro_tabl,
+.intro_tabm,
+.intro_tabr{ background-image:url(../../images/blog/intro/bg_intro.gif); overflow:hidden; height:84px; float:left;}
+.intro_tabl{ background-position:left top; background-repeat:no-repeat; width:4px;}
+.intro_tabm{ background-position:left -84px; background-repeat:repeat-x; width:978px;}
+.intro_tabr{ background-position:left -168px; background-repeat:no-repeat; width:4px;}
+.intro_tabm ul{ margin-left:223px; margin-top:36px; }
+.intro_tabm ul li{ overflow:hidden; margin:0 15px 0 11px; display:inline;}
+.intro_tabm ul li,
+.intro_tabm ul li a{ height:48px; float:left; cursor:pointer; font-family:"黑体"; font-size:16px; }
+.intro_tabm ul li a:link,
+.intro_tabm ul li a:visited{ color:#666;}
+.intro_tabm ul li a:hover{ text-decoration:none; color:#4272b5;}
+.intro_tabm ul li img{ padding-top:9px; padding-right:2px; float:left;}
+.intro_tabm ul li cite{ padding-top:16px; float:left;}
+.intro_tabm li.introcur{ margin-left:0px; margin-right:0px;}
+.intro_tabm li.introcur a{ padding-left:11px; height:48px; background:url(../../images/blog/intro/bg_introtab.gif) no-repeat left top; cursor:default;}
+.intro_tabm li.introcur span{ float:left; padding-right:15px; height:48px; background:url(../../images/blog/intro/bg_introtab.gif) no-repeat right -48px;}
+.intro_tabm li.introcur a:link,
+.intro_tabm li.introcur a:visited{ color:#4272b5;}
+.intro_tabm li.introcur a:hover{ text-decoration:none; color:#4272b5; font-weight:normal;}
+.intro_tabm li.introcur a:link span,
+.intro_tabm li.introcur a:visited span{ color:#4272b5;}
+.intro_tabm li.introcur a:hover span{ text-decoration:none;color:#4272b5; font-weight:normal;}
+
+/* 左侧问题 */
+.school{ position:relative; margin-bottom:100px;}
+.intro_quet{ position:absolute; left:0px; top:60px; width:217px; overflow:hidden;}
+.intro_Qtop{ background:url(../../images/blog/intro/bg_qest.gif) no-repeat left top; width:217px; height:10px; overflow:hidden;}
+.intro_Qmid{ background:url(../../images/blog/intro/bg_qest.gif) repeat-y -217px 0px; width:217px; height:941px; overflow:hidden; padding-top:45px;}
+.intro_Qbot{ background:url(../../images/blog/intro/bg_qest.gif) no-repeat -434px 0px; width:217px; height:110px; overflow:hidden;}
+.intro_Qmid li{ background:url(../../images/blog/intro/bg_qestli.gif) no-repeat left -33px; width:187px; height:33px; padding-right:27px; font-family:"宋体"; font-size:12px; overflow:hidden;}
+.intro_Qmid li a{ display:block; width:187px; line-height:37px; height:33px; padding-left:27px;}
+.intro_Qmid li a:link,
+.intro_Qmid li a:visited,
+.intro_Qmid li a:hover{text-decoration:none; color:#666768;}
+.intro_Qmid li a:hover{ background:url(../../images/blog/intro/bg_qestli.gif) no-repeat left -66px;}
+.intro_Qmid li.intro_Qcur{ background:url(../../images/blog/intro/bg_qestli.gif) no-repeat left top; font-size:14px; font-weight:bold;}
+.intro_Qmid li.intro_Qcur a{ color:#1753a5;}
+.intro_Qmid li.intro_Qcur a:hover{ background-image:none;}
+
+/* 右侧解释 */
+.intro_exp{margin:16px 0px 0px 274px;}
+.intro_expEve{ width:650px; overflow:hidden; padding-bottom:20px; padding-top:15px;}
+.intro_expEve .intro_expTit{ line-height:54px; height:54px; font-family:"黑体"; font-size:20px;}
+.intro_expEve .intro_expconn{ line-height:22px; color:#595858; font-family:"宋体"; font-size:12px;
+ padding-left:12px;}
+.intro_expEve .intro_expimg{ padding:16px 0 18px 16px;}
+.intro_linedot{ background:url(../../images/blog/intro/linedot.gif) repeat-x left top; height:1px; width:712px; overflow:hidden;}
+

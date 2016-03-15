@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document 
+*  关于我
+*  liran@sina.cn    2009.8.10
+*/
+
+/* 手机订阅 */
+.MoNcheck_BigImg{position:relative;}
+.aBfocuse {clear:both;margin:0 20px;}
+.mobile_btn{position:absolute; left:431px;_left:430px;top:336px;display:block;width:168px; height:41px;cursor:pointer;background:url(../../images/me/688260.jpg) no-repeat 150px 220px;}
+.mobile_btn2{position:absolute; display:block; left:563px;top:247px; display:block;width:168px; height:41px;cursor:pointer;background:url(../../images/me/688260.jpg) no-repeat 150px 220px;}

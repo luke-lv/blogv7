@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 公用样式 */
+body, button, input, select, textarea {font-size:12px; line-height:1.125; font-family: 'Microsoft Yahei', 'Simsun'; -webkit-text-size-adjust:none;}
+sub, sup { line-height:0; }
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr { margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6{font-size:100%; font-weight:normal;}
+table { border-collapse:collapse; border-spacing:0; }
+li { list-style:none; }
+fieldset, img { border:0; vertical-align:middle;}
+input, textarea { outline-style:none; }
+input::-ms-clear{display:none;}
+input{ border: 0 none;}
+textarea { resize:none }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+legend { color:#000; }
+abbr, acronym { border:0; font-variant:normal; }
+a { text-decoration:none; outline:none; }
+a:hover { text-decoration:none; }
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+i,em{ font-style:italic;}

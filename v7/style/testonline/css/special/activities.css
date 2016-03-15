@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+table,th,td{margin:0;padding:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family:Verdana, "宋体", sans-serif}
+body#index_page{ background:#fff url(../../images/special/asiangames/bg_warp.jpg) no-repeat -6px 0;}
+body{text-align:left;}
+select,input {vertical-align:middle}
+cite,em {font-style:normal}
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+li{list-style:none;}
+input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox] {cursor:pointer}
+label {cursor:pointer;}
+.hidden {display:none}
+.wordwrap {word-wrap:break-word;word-break:break-all; }
+.clearit{clear: both; height:0px; overflow:hidden}
+.blank_15{clear: both; height:15px; overflow:hidden}
+.line{ height:1px; font-size:1px; line-height:1px; display:block; clear:both; background:url(../../images/special/asiangames/icon.png) repeat-x 0 0;}
+
+.warp_t,
+.biaoti,
+.warp_t .main,
+.warp_t .main .center,
+.list_top{ display:block; zoom:1;}
+
+.warp_t:after,
+,.biaoti:after,
+.warp_t .main:after
+.warp_t .main .center,
+.list_top:after{ content:"."; display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; visibility:hidden;}
+
+/* 标题 */
+.tit_l h2,.tit_r h2{ margin:8px 0 0 0;}
+.biaoti{ background-image:url(../../images/special/asiangames/tit.png); background-repeat:no-repeat; display:block; clear:both;}
+.h2_1{ height:48px; background-position:0 0; text-indent:-100em; margin-top:-19px; position:relative}
+.h2_2{ height:57px; background-position:0 -60px; text-indent:-100em; }
+.h2_3{ height:58px; background-position:0 -130px; text-indent:-100em;}
+.h2_4{ height:57px; background-position:0 -200px; text-indent:-100em;}
+.h3_1{ height:18px; background-position:0 -289px; text-indent:-100em;}
+.h3_2{ height:18px; background-position:0 -324px; text-indent:-100em;}
+
+/* 活动页内容 */
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.none{display:none;}
+.relative{position:relative;}
+
+.warp{width:950px; margin:0 auto;}
+.warp .heard{width:950px; height:502px;overflow:hidden;background:url(../../images/special/asiangames/banner_top.jpg) no-repeat;}
+.warp .heard h1{float:left; height:169px;}
+.warp .heard h1 img{margin:17px 0 0 37px;}
+.warp .heard .toptxt{float:left;width:383px;height:114px;padding:2px 0 0 567px;background:url(../../images/special/asiangames/banner_tit.jpg) no-repeat;}
+.warp_t{clear:both; background:#fff url(../../images/special/asiangames/bg_warp_bottom.jpg) repeat-x bottom;}
+.warp_t .main{width:950px; margin:0 auto; background:url(../../images/special/asiangames/bg_main.jpg) repeat-y right #EDF3FA;}
+.warp_t .main .tit01{clear:both; height:47px; padding-right:44px;  background:url(../../images/special/asiangames/img_tit01.jpg) no-repeat; text-align:right;}
+.warp_t .main .itembox{clear:both; overflow:hidden; height:156px; padding:34px 0 0 64px; background:url(../../images/special/asiangames/bg_item.jpg) no-repeat;}
+.warp_t .main .itembox li{float:left; overflow:hidden; width:101px; height:98px; margin:0 20px 0 0; display:inline;}
+.warp_t .main .itembox li .tit{display:block; width:101px; height:20px; margin-top:3px; background:url(../../images/special/asiangames/bg_tit.jpg) no-repeat; text-align:center; line-height:20px;}
+.warp_t .main .itembox li .tit a{color:#fff;}
+.warp_t .main .center{width:950px; display:block;zoom:1;background:url(../../images/special/asiangames/tit_c.jpg) no-repeat 0 0; border-bottom:solid 2px #fff;}
+.warp_t .main .center .banner{margin-bottom:10px}
+.tit_l p.text{padding-bottom:14px; color:#333; font-size:14px; line-height:24px;}
+.warp_t .main .center .tit_l .bd{width:515px; padding:10px 0 10px 45px;}
+.warp_t .main .center .tit_l{float:left; width:596px;}
+.warp_t .main .center .tit_l .btn{ text-align:center; padding:15px 0 25px 0;}
+.warp_t .main .center .tit_r{float:left; width:350px;}
+
+.sinablogb{float:left}
+.sinablogfooter{width:950px; height:95px;  margin:0 auto; padding:5px 0 0 0; font-size:12px;  text-align:center; background-position:bottom;}
+.sinablogfooter p{color:#fff; line-height:26px;}
+.sinablogfooter p a{color:#fff}
+/* 获奖名单 */
+.mingdan{ overflow:hidden; display:block; zoom:1; width:875px; margin:0 auto;}
+.mingdan h3{ margin:10px 0 8px 0;}
+.mingdan .left_box{ float:left; width:430px;}
+.mingdan .right_box{ float:left; width:430px; margin:0 0 0 15px}
+.mingdan table{ width:100%; border:solid 1px #fff; border-collapse:collapse;}
+.mingdan tr{}
+.mingdan td{color:#0168B3; width:122px; line-height:25px; padding:0 10px; border:solid 1px #fff; border-collapse:collapse;}
+.mingdan td a{color:#0168B3;}
+.mingdan td span{ display:block; width: inherit;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.mindan tr.odd{}
+.mingdan tr.odd td{ background:#ECF0F4;}
+.mingdan tr.even{}
+.mingdan tr.even td{ background:#E3E6E9}
+/* 奖项设置与抽奖方式 */
+.cjfs h3{ font-size:14px; color:#CD6B01; padding:0 0 10px 0;}
+.cjfs{}
+.cjfs p.text{ color:#666;}
+.cjfs p.er{ color:#666; font-weight:bold; line-height:21px; padding:0 0 15px 0;}
+.cjfs p.er strong{ color:#E90000; padding-right:15px;}
+/* 排行 */
+.list_top{ width:290px; margin:0 auto 0 30px;}
+.list_top ul{ padding:15px 0 0 0; width:100%; float:left;}
+.list_top li{ float:left; width:100%;line-height:18px; padding:10px 0 0 0; overflow:hidden;}
+.list_top li a{ color:#0168b3;}
+.list_top .num{ float:left;width:18px; height:14px; margin:3px 7px 0 0;margin:2px 7px 0 0\9;_margin:1px 7px 0 0; line-height:14px;text-align:center; font-weight:bold; background:url(../../images/special/asiangames/icon.png) no-repeat -120px -50px; color:#707070}
+.list_top .top1 .num{ background-position:0 -50px; color:#fff;}
+.list_top .top2 .num{ background-position:-40px -50px;color:#fff;}
+.list_top .top3 .num{ background-position:-80px -50px;color:#fff;}
+.list_top .txt{float:left; width:245px; height:46px; overflow:hidden;}
+.list_top .txt a{}
+.list_top .txt a:hover{}
+.list_top .status{float:right; margin:6px 0 0 0;*margin:3px 0 0 0; width:8px; height:8px; font-size:1px; line-height:1px; background:url(../../images/special/asiangames/icon.png) no-repeat 0 -80px;}
+.list_top .rise{ background-position:-20px -80px}
+.list_top .down{background-position:-40px -80px}
+.list_top .unch{background-position:-0px -76px}

@@ -1,0 +1,16 @@
+@charset "gb2312";
+/* CSS Document */
+.M_spot{}
+.M_spot .M_spot_list{overflow:hidden;height:430px;}
+.M_spot .M_spot_list .spot_item{float:left;display:block;overflow:hidden;height:430px;position:absolute;left:0;top:0;box-shadow: 3px 0px 5px #000;border-right:1px solid #000\9;}
+.M_spot .M_spot_list .spot_item:last-child{box-shadow:none;}
+.M_spot .M_spot_list .spot_item .spot_title{float:right;display:block;height:430px;overflow:hidden;font-size:24px;color:#fff;background-color:#4a525f;width:70px;padding:40px 23px;word-wrap:break-word;word-break:nomal;line-height:26px;box-shadow: 3px 0px 5px #000;box-sizing:border-box;*width:24px;}
+.M_spot .M_spot_list .hovered_item .spot_title{background-color:#d33a2e;}
+.M_spot .M_spot_list .spot_item .img_info{position:relative;float:right;overflow:hidden;}
+.M_spot .M_spot_list .spot_item .spot_img{display:block;overflow:hidden;width:720px;height:430px;}
+.M_spot .M_spot_list .spot_item .spot_tit_bot{background:#000;background:rgba(0,0,0,.7);position:absolute;left:0;bottom:0;width:100%;height:50px;line-height:50px;padding-left:20px;}
+.M_spot .M_spot_list .spot_item .spot_tit_bot .txt{color:#fff;font-size:24px;}
+.M_spot .s_trangle{width:0; height:0;overflow:hidden;font-size:0;line-height:0;border-width:10px;border-style:dashed solid dashed dashed; border-color:transparent #d33a2e transparent transparent;position:absolute;right:20px;bottom:15px;display:none;}
+.M_spot .hovered_item .s_trangle{display:block;}
+.M_spot .M_video_list{overflow:hidden;margin-top:20px;}
+.M_spot .M_video_list .video_item{float:left;margin-right:25px;}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 博客管理 100928 */
+.blogManageItem{}
+.blogManageItem h3{font-size:12px;height:26px;overflow:hidden}
+.blogManageItem p{height:46px;overflow:hidden}
+.blogManageItem p label{margin-right:40px;}
+.blogManageItem p input{vertical-align:-2px;}
+.blogManageItem .btn{text-align:center;}
+.blogmanagement{padding:27px 20px 50px;}
+.blogmanagement h3{font-size:14px;height:22px;overflow:hidden;}
+.blogmanagement p{margin-left:-4px;padding:14px 0 34px;overflow:hidden;font-size:14px;line-height:26px;}
+.blogmanagement p label{margin-right:40px;}
+.blogmanagement p input{vertical-align:-2px;}
+.blogmanagement .btn{text-align:center;}
+.management{width:100%;padding:20px 0 22px;font-size:14px;}
+.management li{padding:7px 0 8px;}
+.management .list_l{float:left;width:88px;padding-right:13px;text-align:right;}
+.management select{color:#666;font-size:14px;}
+

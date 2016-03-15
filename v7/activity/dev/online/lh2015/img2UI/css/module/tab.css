@@ -1,0 +1,11 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*tab*/
+.tab{height: 50px;list-style: none; background:#f4f6f7; height:44px; border-right: 1px solid #d4dce0;}
+.tab li{ float: left; border-left: 1px solid #d4dce0; border-bottom: 1px solid #d4dce0; margin-left:-1px;position: relative; text-align: center;height:41px;border-top: 3px solid #d4dce0;}
+.tab li a{ color:#004444; text-decoration: none; font-size: 16px; line-height:41px;}
+.tab li.cur{border-bottom-color:transparent;background:#fff; border-top: 3px solid #d23a2d;}
+.tab li{ width: 24.9999999%;*width: 24.99%}
+.tab li.cur{ *width: 24.9%;}
+.tab li.cur a{font-size:20px; color:#d33a2e; }

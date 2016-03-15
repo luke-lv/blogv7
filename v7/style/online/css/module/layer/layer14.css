@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* 搜索浮层 */
+.searchFloatout{width:100%;position:relative;font-family:"宋体";}
+.searchFlot{width:100%;height:83px;background:#fafafa url(../../../images/widget/searchbg.gif) no-repeat;overflow:hidden;}
+.searhBottom{width:100%;background-color:#d6d6d6;overflow:hidden;height:2px;position:absolute;richness:0;top:0;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;}
+.searchFlot .sFlot914{width:914px;margin:0 auto;overflow:hidden;}
+.searchFlot .sFlot914 .flotFirst{padding-top:9px;clear:both;overflow:hidden;}
+.searchFlot .sFlot914 .flotFirst .firstLeft{float:left;font-size:14px;font-family:"宋体";}
+.searchFlot .sFlot914 .flotFirst .firstLeft span{float:left;font-size:14px;font-family:"宋体";}
+.searchFlot .sFlot914 .flotFirst .firstLeft h3{font-size:14px;background:url(../../../images/widget/focusdot.gif) no-repeat left;padding-left:10px;}
+.searchFlot .sFlot914 .flotFirst .firstRight{float:right;}
+.searchFlot .sFlot914 .flotFirst .firstLeft strong{background-color:#ffff66;float:left;display:block;overflow:hidden; height:16px;word-wrap:break-word;word-break:break-all;line-height:16px;}
+.searchFlot .sFlot914 .flotFirst .firstLeft strong a{text-decoration:underline;color:#333333;}
+.searchFlot .sFlot914 .flotFirst .firstRight span{padding-left:13px;}
+.searchFlot .sFlot914 .flotFirst .firstRight span a:link,
+.searchFlot .sFlot914 .flotFirst .firstRight span a:visited{color:#666666;}
+.searchFlot .sFlot914 .flotFirst .firstRight span a:hover,
+.searchFlot .sFlot914 .flotFirst .firstRight span a:active{color:#D90B00;}
+.searchFlot .sFlot914 .flotFirst .firstRight span a{text-decoration:underline;}
+.searchFlot .sFlot914 .floatSecond{float:left;overflow:hidden;clear:left;margin:7px 0 0 0;padding-bottom:6px;} 
+.searchFlot .sFlot914 .floatSecond .loatReading{background:url(../../../images/widget/searchload.gif) no-repeat left -1px;width:100px;height:20px;padding-left:24px;margin:2px 0 26px 191px;color:#6f6f6f;}
+.searchFlot .sFlot914 .floatSecond ul.secondLeft{float:left;width:564px;}
+.searchFlot .sFlot914 .floatSecond ul.secondLeft li{float:left;width:170px;line-height:22px;height:22px;overflow:hidden;background:url(../../../images/widget/searchdot.gif) no-repeat left 9px;padding-left:8px;padding-right:10px;}
+.searchFlot .sFlot914 .floatSecond ul.secondLeft li a:link,
+.searchFlot .sFlot914 .floatSecond ul.secondLeft li a:visited{color:#1b468a;text-decoration:underline;}
+.searchFlot .sFlot914 .floatSecond ul.secondLeft li a:hover,
+.searchFlot .sFlot914 .floatSecond ul.secondLeft li a:active{color:#D90B00;}
+.searchFlot .sFlot914 .floatSecond ul.secondLeft li a em{color:#c60a00;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight{float:left;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li{width:175px;float:left;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightImg{float:left;overflow:hidden;margin-right:5px;border:1px solid #cfcfcf;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord{line-height:22px;height:38px;overflow:hidden;padding-right:10px;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord em{line-height:15px;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord cite a{color:#666666;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord a.wordCont:link,
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord a.wordCont:visited{text-decoration:underline;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord a.wordCont:hover,
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord a.wordCont:active{color:#D90B00;}
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord a em{color:#C60A00;}
+.searchFlot .sFlot914 .floatSecond .interErro{text-indent:216px;}
+.searchFlot .sFlot914 .floatSecond .interErro a{text-decoration:underline;color:#d90b00;padding:4px 0 28px 0;overflow:hidden;float:left;}
+.searchFlot .searchX{position:absolute;right:0;top:0;background:url(../../../images/widget/floatx.jpg) no-repeat;width:27px;height:83px;background-color:#00C }
+.searchFlot .searchX img{margin:10px 0 0 8px;}
+.recopholis .videoImg {background:url(../../../images/widget/bvideo.gif) no-repeat;padding:3px 3px 13px 3px;border:none}
+.recopholis .videoImg2{height:117px} 
+.searchFlot .sFlot914 .floatSecond ul.secondRight li .rightWord a{margin-left:0px;}
+

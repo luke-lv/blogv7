@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* 新表情浮层 */
+.faceItemContent .insertface{ width:534px; padding:0 7px 10px 6px; overflow:hidden; zoom:1;}
+.faceItemContent .insertface .insertface_top{ clear:both; height:25px; padding:18px 10px; overflow:hidden;}
+.faceItemContent .insertface .insertface_top h3{ float:left; font-size:12px; width:200px;}
+.faceItemContent .insertface .insertface_top .insertface_search{ float:right; width:264px;}
+.faceItemContent .insertface .insertface_top .insertface_search .SG_input{ width:183px; height:16px; border:1px solid #ccc; margin-right:5px; }
+.faceItemContent .insertface .insertface_top .insertface_search a.SG_aBtn{ vertical-align:middle; margin-right:0;}
+.faceItemContent .insertface .insertface_hot{ min-height:21px _height:21px; padding:0 10px; clear:both; line-height:21px; background-color:#f4f4f4;outline:none;}
+.faceItemContent .insertface .insertface_hot a{ margin-right:10px;}
+.faceItemContent .insertface .facekeyword{ line-height:26px; height:55px; padding:5px 10px 10px;}
+.faceItemContent .insertface .facetitle{ line-height:27px; height:27px; padding:0 10px; font-size:12px; font-weight:normal;}
+.faceItemContent .insertface .facelist{ }
+.faceItemContent .insertface .facelist ul{width:132px; min-height:217px; _height:217px;}
+.faceItemContent .insertface .facearrow{ clear:both; padding-left:30px; padding-top:10px;}
+.faceItemContent .insertface .facearrow a{width:12px; height:12px; overflow:hidden; background:url(../../../images/common/editor/arrow.gif) no-repeat left top; float:left; margin-left:12px;}
+.faceItemContent .insertface .facearrow a.up_off{}
+.faceItemContent .insertface .facearrow a.down_off{ background-position:left -19px;}
+.faceItemContent .insertface .facearrow a.up{ background-position:left -36px;}
+.faceItemContent .insertface .facearrow a.up:hover{background-position:left -70px;}
+.faceItemContent .insertface .facearrow a.down{ background-position:left -54px;}
+.faceItemContent .insertface .facearrow a.down:hover{ background-position:left -88px;}
+.faceItemContent .insertface .bigface { padding:10px 0 0; margin:0; width:534px; height:347px; overflow:hidden; border-bottom:none;}
+.faceItemContent .insertface .bigface .faceSidebar{ background:url(../../../images/common/editor/layerface_4.gif) repeat-y left top; width:132px; float:left; margin-bottom:0px; overflow:hidden; height:347px; }
+.faceItemContent .insertface .bigface .faceSidebar ul{ width:100%;}
+.faceItemContent .insertface .bigface .faceSidebar li{ height:auto;overflow:hidden; padding:5px 0 6px; background:url(../../../images/common/editor/layerface_3.gif) repeat-x left bottom;margin-top:-1px; width:132px; float:left; font-family:simsun;}/* 0816 */
+.faceItemContent .insertface .bigface .faceSidebar li img{ margin:0 4px 0 8px; float:left;display: inline;}
+.faceItemContent .insertface .bigface .faceSidebar li span{float:left; padding-top:2px; line-height:18px;} 
+.faceItemContent .insertface .bigface .faceSidebar li em{padding-top:5px; line-height:18px;}
+.faceItemContent .insertface .bigface .faceSidebar li.cur{width:120px; background:#fff; border:1px solid #cddee7; border-right:none; margin-left:10px; line-height:18px;display:inline;}
+.faceItemContent .insertface .bigface .faceSidebar li.cur img{margin:0 4px;}
+.faceItemContent .insertface .bigface .faceSidebar li.cur a:link,
+.faceItemContent .insertface .bigface .faceSidebar li.cur a:visited{ color:#333; font-weight:600; }
+.faceItemContent .insertface .bigface .faceSidebar li.cur a:hover{ text-decoration:none;}
+.faceItemContent .insertface .bigface .faceShowAll{ width:390px; height:347px; float:right; overflow:hidden;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li{ position:relative; float:left; width:52px; height:70px; overflow:hidden; margin:0px 6px 8px 6px; display:inline; }
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li span{display:block; color:#999; padding-top:3px; text-align:center;white-space:nowrap;font-family:"宋体";}
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li a:link,
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li a:visited{border:1px solid #ccc; display:block; width:50px; height:50px;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShowAll_list li a:hover{ border-color:#51BD2F;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page{ text-align:center; padding-left:100px; width:auto;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_pages{ float:none; text-align:center;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShownone{ height:313px;}
+.faceItemContent .insertface .bigface .faceShowAll .faceShownone p{ padding-top:83px; padding-left:60px; font-family:"宋体";}
+
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li{ float:left; width:auto; height:auto; overflow:hidden; margin:0; }
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li span{ display:block; color:#999; padding-top:3px; text-align:center;white-space:nowrap;font-family:"宋体";}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li a:link,
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li a:visited{border:none; display:block; width:auto; height:auto;}
+.faceItemContent .insertface .bigface .faceShowAll .SG_page li a:hover{ border-color:none;}
+
+.facein{ width:420px;}
+.facein .facein_line1{ clear:both;}
+.facein .facein_hot{ float:left; width:222px; height:91px; border:1px solid #e3e3e3; position:relative;}
+.facein .facein_hotlist{ clear:both; padding-top:18px; padding-left:2px;}
+.facein .facein_hotlist li{width:28px; height:28px; overflow:hidden; float:left; margin-left:7px; margin-bottom:8px; display:inline; }
+.facein .facein_hotlist a{ width:28px; height:28px; overflow:hidden;}
+.facein .facein_hotlist img{ width:22px; height:22px; border:1px solid #ccc;}
+.facein .facein_hotlist a:hover img{border:1px solid #51bd2f;}
+.facein .facein_in{float:left; margin-left:5px; width:188px; height:91px; border:1px solid #e3e3e3;position:relative;}
+.facein .facein_inlist{ padding-top:15px;}
+.facein .facein_inlist li{ margin-bottom:2px; width:177px; height:34px; overflow:hidden; margin-left:5px; cursor:pointer;}
+.facein .facein_inlist li.hover{ background-color:#f3f5f7;}
+.facein .facein_inlist li img{ width:22px; height:22px; border:1px solid #ccc; float:left; margin:5px;}
+.facein .facein_inlist li.hover img{border:1px solid #51bd2f;}
+.facein .facein_inlist li p{ float:left; width:132px; line-height:17px; color:#9b9b9a; white-space:nowrap; vertical-align:middle; padding-top:10px; overflow:hidden; font-family:"宋体";}
+.facein .facein_inlist li em{ vertical-align:middle;}
+.facein .facein_tit{ position:absolute; left:10px; top:-10px; background-color:#fff; padding:3px 10px; }
+.facein .facein_line2{ clear:both; padding-top:10px;}
+.facein .facein_line2 .insertface_hot{ min-height:21px _height:21px; margin-top:6px; padding:0 10px; clear:both; line-height:21px; background-color:#f4f4f4;}
+.facein .facein_line2 .insertface_hot a{ margin-right:10px;}
+.facein .faceinContent .facein_hotlist{ padding-top:12px; padding-left:8px;}
+.facein .faceinContent .facein_hotlist li{ margin-left:8px;}
+.facein .faceinContent .SG_page{ padding-top:5px;}
+.facein .faceinContent .SG_pages{ float:none; padding-left:150px; width:auto;}
+.facein .faceinContent .facein_inlist{ padding-top:12px;}
+.facein .faceinContent .facein_inlist li{ width:205px; padding:2px 0; margin-bottom:0; float:left; border-bottom:1px dotted #c5c5c5; margin-right:5px; margin-left:0;}
+.facein .faceinContent .facein_inlist li.hover{ background:none;}
+.facein .faceinContent .facein_inlist li.hover .facein_bg{ height:34px; width:205px;background-color:#f3f5f7; }
+.facein .faceinContent .facein_inlist li img{ margin:5px 10px;}

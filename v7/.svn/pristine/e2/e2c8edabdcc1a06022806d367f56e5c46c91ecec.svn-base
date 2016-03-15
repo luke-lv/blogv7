@@ -1,0 +1,85 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*M_data*/
+.M_data{
+	color:#333;
+	overflow:hidden;
+	margin-top:23px;
+	padding-bottom:230px;
+}
+.M_data .data_list{
+	display:block;
+	overflow:hidden;
+	zoom:1;
+}
+.M_data .data_list .data_li{
+	width:300px;
+	height:360px;
+	float:left;
+	display:inline;
+	overflow:hidden;
+	margin-right:50px;
+	position:relative;
+}
+.M_data .data_list .data_li3,
+.M_data .data_list .data_li6,
+.M_data .data_list .data_li9{
+	margin-right:0;
+}
+.M_data .data_li1 .data_mob,
+.M_data .data_li9 .data_mob{ background-color:#8b7b62;}
+.M_data .data_li1 .data_con,
+.M_data .data_li9 .data_con{ background-color:#7d6e58;}
+.M_data .data_li2 .data_mob,
+.M_data .data_li6 .data_mob,
+.M_data .data_li8 .data_mob{ background-color:#d33a2e;}
+.M_data .data_li2 .data_con,
+.M_data .data_li6 .data_con,
+.M_data .data_li8 .data_con{ background-color:#bd3429;}
+.M_data .data_li3 .data_mob,
+.M_data .data_li4 .data_mob{ background-color:#e18230;}
+.M_data .data_li3 .data_con,
+.M_data .data_li4 .data_con{ background-color:#ca752b;}
+.M_data .data_li5 .data_mob,
+.M_data .data_li7 .data_mob{ background-color:#4a525f;}
+.M_data .data_li5 .data_con,
+.M_data .data_li7 .data_con{ background-color:#424a55;}
+.M_data .data_mob{
+	width:300px;
+	height:300px;
+	color:#FFF;
+	line-height:300px;
+	text-align:center;
+	overflow:hidden;
+}
+.M_data .data_mob .mob{
+	font-size:80px;
+}
+.M_data .data_mob .min{
+	font-size:38px;
+}
+.M_data .data_tit{
+	height:48px;
+	font-size:22px;
+	line-height:48px;
+	text-align:center;
+}
+.M_data .data_con{
+	width:204px;
+	height:254px;
+	color:#FFF;
+	font-size:14px;
+	line-height:26px;
+	padding:46px 60px 0 36px;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+	display:none;
+}
+.M_data .data_con .h2Tit{
+	font-size:24px;
+	line-height:30px;
+	padding-bottom:8px;
+}

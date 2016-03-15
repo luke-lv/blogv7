@@ -1,0 +1,360 @@
+@charset "utf-8";
+/*新模版头部*/
+.BNE_head{
+	width:100%;
+	padding-top:30px;
+	padding-bottom:32px;
+	background:url(../../../images/blog_editor/bg_head.png) repeat-x left top;
+}
+.BNE_head .headBox{
+	width:1000px;
+	height:58px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.BNE_head .headTitle{/*overflow:hidden;*/}
+.BNE_head .headTitle .tit{
+	margin-right:15px;
+}
+.BNE_head .headTitle .name{
+	color:#FFF;
+	font-size:32px;
+}
+.BNE_head .headTitle .bigV{
+	vertical-align:3px;
+}
+.headTit{ line-height:58px;}
+.BNE_head .headTxt{
+	color:#a3acbc;
+	font-size:14px;
+	margin-top:6px;
+}
+/*/新模版头部*/
+
+
+
+
+
+
+
+
+
+/*主体宽度*/
+.BNE_template{
+	width:950px;
+	padding:0 24px;
+	margin:80px auto 0;
+	overflow:hidden;
+	position:relative;
+}
+.BNE_nocomment{
+	padding-bottom: 80px;	
+}
+.BNE_main{
+	width:670px;
+	float:left;
+	overflow:hidden;
+}
+.BNE_sub{
+	width:210px;
+	float:right;
+	padding-bottom:120px;
+	overflow:hidden;
+	zoom:1;
+}
+.BNE_title{
+	border-bottom:1px solid #EEEEEE;
+}
+.BNE_title .img1{
+	display:block;
+	position:absolute;
+	left:0px;
+	top:12px;
+}
+.BNE_title .img1 .SG_icon107{
+	width:17px;
+	height:32px;
+	background-image:url(../../../images/blog_editor/bg_bne.png);
+	_background-image:url(../../../images/blog_editor/bg_bne.gif);
+	background-position:-128px -320px;
+}
+	
+.BNE_title .h1_tit,
+.BNE_cont .h1_tit{
+	color:#333;
+	font-size:34px;
+	line-height:50px;
+	word-spacing: normal;
+	word-break:break-all;
+  word-wrap: break-word;
+}
+/*文章页面转载*/
+.BNE_cont .blogzz_ainfo{
+	margin-top:-35px;
+	background:#FFF;
+}
+.BNE_cont .blogzz_ainfo span{
+	display:block;
+	word-spacing: normal;
+	word-wrap: break-word;
+}
+/*文章页面转载*/
+.BNE_title .info{
+	width:670px;
+	height:26px;
+	color:#999;
+	line-height:26px;
+	margin-top:30px;
+	position:relative;
+}
+.BNE_title .info .lk_a{color:#8997D8;}
+.BNE_title .info .lk_a:hover{color:#b2bdf0;}
+.BNE_title .oper_info{float:right; height:26px;}
+.BNE_title .oper_info .lk_a{
+	height:25px;
+	border:1px solid #FFF;
+	border-bottom:none;
+	margin-left:15px;
+	display:inline-block;
+}
+.BNE_title .oper_info .icon{margin-left:8px; position:absolute; right:7px; top:11px;}
+.BNE_title .oper_info .lka_last{ padding-left:8px; padding-right:17px; margin-left:5px;}
+.BNE_title .oper_info .lka_hover{ border-color:#eee;}
+
+.BNE_title .tagbox{
+	overflow:hidden;
+	line-height:18px;
+	padding:8px 0 16px 38px;
+	zoom:1;
+}
+.BNE_title .tagbox .tag_sp{
+	float:left;
+	margin-left:-38px;
+}
+.BNE_title .tagbox .lk_a{
+	display:inline-block;
+	margin-right:10px;
+}
+
+/*title End*/
+.BNE_cont{
+	width:670px;
+	min-height:230px;
+	font-size:17px;
+	line-height:28px;
+	margin-top:20px;
+	overflow:hidden;
+	word-spacing:normal;
+  word-wrap:break-word;
+}
+.BNE_cont a{color:#999;}
+.BNE_cont a:hover{ color:#b2bdf0;}
+
+.BNE_cont p{ margin-bottom:22px;}
+.BNE_cont h1{
+	font-size:34px;
+	line-height:50px;
+	margin-bottom:16px;
+}
+.BNE_cont h2{
+	font-size:24px;
+	line-height:38px;
+	margin-bottom:18px;
+}
+.BNE_cont .h1_tit{
+	margin-top:50px;
+	margin-bottom:38px;
+}
+.BNE_cont .h2_tit{
+	font-size:24px;
+	margin-bottom:30px;
+}
+.BNE_cont .cont_txt{
+	font-size:17px;
+	line-height:28px;
+	margin-bottom:30px;
+}
+.BNE_cont .cont_txt p{
+	margin-bottom:16px;
+}
+.BNE_cont .cont_img{
+	width:323px;
+}
+.BNE_cont .cont_img .cI_txt{
+	color:#999;
+	display:block;
+	font-size:14px;
+	line-height:20px;
+	text-align:center;
+	padding:5px 7px 0;
+	font-style:italic;
+}
+.BNE_cont .imgleft{
+	float:left;
+	margin-top:6px;
+	padding:0 24px 24px 0;
+}
+.BNE_cont .imgcont{
+	width:670px;
+	overflow:hidden;
+	text-align:center;
+	padding-bottom:19px;
+}
+.BNE_cont .imgRight{
+	float:right;
+	margin-top:6px;
+	padding:0 0 24px 24px;
+}
+
+/*插入文章*/
+.BNE_insert{
+	margin-top:44px;
+	padding-top:30px;
+	border-top:1px solid #eeeeee;
+}
+.BNE_insert .inse_tit{
+	height:24px;
+	line-height:22px;
+	overflow:hidden;
+	zoom:1;
+}
+.BNE_insert .inse_tit .tit{
+	font-size:16px;
+}
+.BNE_insert .inse_tit .lk_a{
+	float:right;
+	cursor:pointer;
+	display:inline;
+	margin-left:10px;
+}
+.BNE_insert .inse_tit .txt{
+	display:none;
+	float:left;
+	line-height:none;
+	margin-right:5px;
+}
+.BNE_insert .lk_a:hover .txt{
+	display:block;
+}
+
+
+
+/*喜欢按钮*/
+.BNE_like{
+	font-size:14px;
+	margin-top:60px;
+	text-align:center;
+	line-height:16px;
+}
+.BNE_like .like_btn{
+	width:94px;
+	height:40px;
+	color:#FFF;
+	overflow:hidden;
+	padding-top:54px;
+	text-align:center;
+	display:inline-block;
+	background:url(../../../images/blog_editor/bg_like.png) no-repeat 0 0;
+	_background-image:url(../../../images/blog_editor/bg_like.gif);
+}
+.BNE_like .like_btn:hover{ color:#FFF;}
+.BNE_like .like_txt{
+	color:#4b4b4b;
+	display:block;
+	text-align:center;
+	margin-top:2px;
+}
+.BNE_like .like_h{
+	background-position:0 -104px;
+}
+.BNE_like .like_cur{
+	background-position:0 -204px;
+}
+/*阅读、评论等操作*/
+.BNE_opera{
+	margin-top:66px;
+	padding-top:30px;
+	border-top:1px solid #eee;
+}
+.BNE_opera .OL{
+	float:left;
+	font-size:14px;
+}
+.BNE_opera .OL .BNE_txtB{
+	margin-right:20px;
+}
+.BNE_opera .OL .BNE_txtB:hover{
+	color:#ccc;
+}
+.BNE_opera .OL .BNE_lkA:hover{
+	color:#8997d8;
+}
+.BNE_opera .OR{
+	float:right;
+}
+.BNE_opera .OR .tit{
+	margin-right:10px;
+}
+.BNE_opera .OR .weimi{
+	margin-right:6px;
+}
+
+/*转发页面*/
+
+.BNE_forward .forw_tit{
+	padding-left:16px;
+	position:relative;
+	overflow:hidden;
+}
+.BNE_forward .border{
+	width:3px;
+	height:100%;
+	display:block;
+	background:#D6DAE1;
+	position:absolute;
+	left:0;
+	top:-5px;
+}
+.BNE_forward .h1_tit{
+	margin-top:-8px;
+} 
+.forw_con{
+	font-size:14px;
+	line-height:24px;
+	padding:4px 15px;
+	margin-top:40px;
+	margin-bottom:50px;
+	border:1px solid #f3f3f3;
+	background-color:#fbfbfb;
+}
+.forw_con p{
+	padding:5px 0;
+}
+/*加密文章*/
+.Enc_tit{
+	height:30px;
+	color:#666;
+	font-size:16px;
+	line-height:24px;
+	padding-left:4px;
+	border-bottom:1px solid #EEE;
+}
+.Enc_con{
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:400px;
+}
+.Enc_con .txt{
+	font-size:18px;
+	display:block;
+	padding-top:16px;
+}
+/*加关键字滑过显示樱花图片*/
+.BNE_template .yinghua_a{ position:relative;}
+.BNE_template .yinghua_a:hover{ text-decoration:underline; color:#d24bb1;}
+.BNE_template .yinghua_img{ position:absolute; left:50%; margin-left:-30px; top:-33px; display:none; background:url(../../../images/blog_editor/yinghua.png) no-repeat;_background:url(../../../images/blog_editor/yinghua.gif) no-repeat;}
+.BNE_template .yinghua_a:hover .yinghua_img{ display:block;}
+/*关键词划过添加教育频道链接色*/
+.BNE_template .jiaoyu_a:hover{ color: #ff6c00;}
+/*微博打赏广告位*/
+.dashang{ margin-top: 30px;overflow: hidden; zoom: 1;}

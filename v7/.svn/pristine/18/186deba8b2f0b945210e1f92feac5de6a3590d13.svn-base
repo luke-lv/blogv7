@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 公共浮层 - 加好友 */
+/* 公共浮层 - 发纸条 */
+.addFriendItem{}
+div.toWho img{border:1px solid #ccc;margin-right:10px;}
+div.toWho span{font-size:14px;font-weight:600;}
+div.toWho .SG_icon146,
+div.toWho .SG_icon147 {border:none;}
+div.formTowho{padding-top:12px;}
+div.formTowho .ErrTips{color:#c00;line-height:14px;padding:3px 0 6px;}
+div.formTowho .fm1{height:16px;line-height:16px;padding:2px 2px 2px;border:1px solid #C1C1BB;font-family:verdana;}
+div.formTowho textarea{width:353px;height:54px;line-height:16px;padding:2px 2px 2px;border:1px solid #C1C1BB;font-family:verdana;}
+div.formTowho .row1{padding-bottom:6px;}
+div.formTowho .row1 em{font-family:tahoma;padding:0 3px;}
+div.formTowho .row2{padding-bottom:6px;}
+div.formTowho .row1 .SG_floatR{line-height:22px;}
+div.formTowho .btn{text-align:center;} 

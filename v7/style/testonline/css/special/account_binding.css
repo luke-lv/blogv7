@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/*css sprite*/
+.accountBinding h1,
+.formCon .item .submit{background:url(../../images/special/account_binding/icon.png) no-repeat;}
+
+/*header*/
+.accountBinding .header{height:40px;border-top:1px solid #a0a0a0;border-bottom:1px solid #2368b1;background:#2e79ca}
+.accountBinding .header .headerInner{width:460px;margin:0 auto}
+.accountBinding h1{float:left;width:87px;height:40px;margin-right:14px;text-indent:-9999em;overflow:hidden}
+.accountBinding h2{font-size:14px;color:#fff;float:left;margin-top:18px;*margin-top:20px}
+
+/*content*/
+.accountBinding .content{width:460px;margin:40px auto 0}
+.formWrap{width:458px;border:1px solid #e5e5e5}
+.formWrap .hd{height:36px;background:#e0eefe}
+.formWrap h3{padding-left:13px;line-height:36px;font-size:14px}
+.formWrap .formCon{margin-top:30px;overflow:hidden;width:458px}
+.formCon .item{overflow:hidden;width:100%}
+.formCon .item .label{float:left;width:100px;margin-right:4px;line-height:27px;text-align:right;font-size:14px}
+.formCon .item .inputTxt{float:left;margin-right:10px;width:198px;height:17px;padding:5px 4px;border:1px solid #bdc7da}
+.formCon .item .inputFocus{border-color:#43a1ef;background:#feffe3;box-shadow:0 1px 1px rgba(0,0,0,0.2) inset}
+.formCon .item .errorMsg{color:#d10000;line-height:27px}
+.formCon .itemSubmit{padding-left:100px}
+.formCon .itemSubmit .submit{width:66px;margin-top:8px;height:32px;line-height:32px;color:#fff;cursor:pointer;border:0 none;font-weight:bold;background-position:0 -42px}
+.formCon .itemUserName{padding-bottom:16px}
+.formCon .itemPassWord{padding-bottom:7px}
+.formWrap .regWrap{margin:18px 0 25px}
+.formWrap .regWrap p{padding-left:92px}
+.formWrap .regWrap a{color:#0271d8;text-decoration:underline}
+
+/*footer*/
+.accountBinding .footer{margin-top:20px;height:50px;background:#f0f5f8}
+.accountBinding .footer .footerInner{width:460px;margin:0 auto}
+.accountBinding .footer .tip{padding-left:18px;line-height:50px}

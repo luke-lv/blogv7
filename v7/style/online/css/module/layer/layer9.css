@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* 博客、相册 举报 */
+.denounce{clear:both;}
+.denounce select{color:#666;}
+.denounce .SG_input{width:200px;height:16px;line-height:16px;padding:2px 2px 2px;border:1px solid #C1C1BB;font-family:verdana}
+.denounce .SG_textarea{width:200px;padding:2px 2px 2px;border:1px solid #C1C1BB;}
+.denounce li{float:left;padding-bottom:10px}
+.denounce li span{float:left;line-height:22px;}
+.denounce .butt{margin-left:100px;display:inline}
+.denounce .a{width:100px;color:#666;text-align:right}
+.denounce .b{width:230px}
+.denounce .b .SG_input{width:200px}
+.denounce .b .SG_textarea{width:200px}
+.denounce .deninfo{text-align:left;padding-top:20px;clear:both;color:#999;line-height:18px;clear:both}
+.denounce .deninfo .SG_j_linedot{margin-bottom:15px;}
+.denounce .deninfo p{text-indent:2em;padding-top:5px}
+.denounce .ErrTips{padding:0 0 10px 10px;}
+.denounce .ErrTips img{margin-right:3px;}
+.denounce .denPicRow .a{width:70px;text-align:right;}
+.denounce .denPicRow .b {width:286px;overflow:hidden;word-break:break-all;word-wrap:break-word;}
+.denounce .denPicRow .rlist{white-space:nowrap}
+.denounce .denPicRow .rlist input{vertical-align:-2px;}
+.denounce .denPicRow .rlist label{margin-right:6px;}
+.denounce .denPicRow .b .fm_sele{width:280px;height:33px;}
+

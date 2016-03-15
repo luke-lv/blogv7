@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body,div,p,input{ margin: 0; padding: 0;}
+input{ font-size:100%; vertical-align:middle;outline:none;}
+img{ border: 0 none;}
+i,em{ font-style: normal;}
+a{ text-decoration: none;}
+body{ background: url(../../images/activity/app_tuiguang/app_tg_bg3_bottom.jpg) center repeat-y #fffefe; font-family: Arial; overflow-x: hidden;}
+.app_download .app_btn_ios,.app_download .app_btn_android,.app_footer .app_weibo_logo,.app_qrcode_bg{ background: url(../../images/activity/app_tuiguang/app_sprites.png)   top center no-repeat; _background: url(../../images/activity/app_tuiguang/app_sprites.gif)   top center no-repeat; }
+.app_banner_cont,.app_main_cont{  position: relative; margin: 0 auto; width: 1000px; min-width: 1000px;}
+.app_banner_cont{ padding: 40px 0 0;}
+.app_main_cont{ padding: 112px 0 0;}
+.app_banner,.app_main{ margin: 0 auto;}
+.app_banner{ background: url(../../images/activity/app_tuiguang/app_tg_bg3_01.jpg) top center no-repeat;  height: 412px;}
+.app_main{ background: url(../../images/activity/app_tuiguang/app_tg_bg3_02.jpg) top center no-repeat;}
+.app_msg{ position: relative; margin: 57px 45px 0 79px; padding: 0 0 50px 31px; border-bottom: 1px solid #e34220;}
+.app_msg_tit{ overflow: hidden; zoom: 1; font-size: 14px; font-weight: bold; color: #792f25;}
+.app_msg_arr{ float: left; margin: 3px 5px 0 0; border-width: 4px; border-style: solid; border-color: #fd4b27 #fd4b27 #fd4b27 #792f25;_font-size: 0;}
+.app_msg .app_msg_cont{overflow: hidden;zoom: 1;margin: 14px 0 0 0;_margin-left: -40px;padding: 5px 0 0 0;}
+.app_msg .app_msg_cont .app_msg_txt, .app_msg .app_msg_cont .app_msg_ma{float: left;margin: 0 20px 0 0;padding: 0 0 6px 0;font-size: 14px;font-weight: bold;color: #b53b25;background: none;border-width: 0 0 1px 0;border-style: solid;border-color: #792f25;}
+.app_msg .app_msg_cont .app_msg_txt{ width: 175px;}
+.app_msg .app_msg_cont .app_msg_ma{ width: 105px;}
+.app_msg .app_msg_cont .app_msg_focus{ color:#792f25;}
+.app_msg .app_msg_img{float: left;margin: 0 25px 0 0;}
+.app_msg .app_msg_btn{float: left;margin: -5px 0 0 0;width: 106px;height: 32px;background: url(../../images/activity/app_tuiguang/app_msg.png) -6px -8px no-repeat;_background: url(../../images/activity/app_tuiguang/app_msg_ie6.png) -6px -8px no-repeat;}
+.app_msg .app_msg_w{position: relative;}
+.app_msg .app_msg_w .app_msg_wnumber,.app_msg .app_msg_w .app_msg_wma{ position: absolute; top:2px; font-size: 12px; color: #ffd93f;}
+.app_msg .app_msg_w .app_msg_wnumber{ left: 0;}
+.app_msg .app_msg_w .app_msg_wma{ left: 196px;}
+.app_logo{ position: relative; background: url(../../images/activity/app_tuiguang/app_logo.png)   top center no-repeat; _background: url(../../images/activity/app_tuiguang/app_logo.gif)   top center no-repeat; width: 440px; height: 130px; margin: 0 auto; text-align: center;}
+.app_icon{ position: absolute; top: 0; left: 18px; background: url(../../images/activity/app_tuiguang/app_icon.png)   top center no-repeat; _background: url(../../images/activity/app_tuiguang/app_icon.gif)   top center no-repeat; width: 72px; height: 72px;}
+.app_logo_txt{ position: absolute; top: 95px; left: 22px;font-family:"microsoft Yahei"; font-size: 16px; color: #71706f;letter-spacing: 18px;}
+.app_qrcode{ margin: 45px 0 0 40px;}
+.app_qrcode_bg{ position: absolute; right: 13px; top: 155px; z-index:99; background-position: 0 -219px; width: 206px;height: 211px;}
+.app_download{ margin: 0 90px 0; overflow: hidden; *zoom:1;}
+.app_download .app_btn_ios,.app_download .app_btn_android{ float: left; margin: 0 9px; display: inline;}
+.app_download .app_btn_ios{ background-position: -32px -39px; width: 184px; height: 54px;}
+.app_download .app_btn_android{ background-position: -14px -121px; width: 184px; height: 54px;}
+.app_footer{ overflow: hidden; zoom: 1; margin: 18px 91px 187px;}
+.app_footer .app_footer_txt{float: left; margin: 0 10px; display: inline; font-size: 10px; font-weight: bold;}
+.app_txt1{ color: #a03b24;}
+.app_footer a{ float: right;}
+.app_footer .app_weibo{ font-family: "microsoft Yahei";font-size: 12px; font-weight: bold;}
+.app_footer .app_weibo_logo{ margin: 0 3px; background-position: -33px -196px; display: inline-block;  width: 17px;height: 14px;}

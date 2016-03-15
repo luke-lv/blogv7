@@ -1,0 +1,28 @@
+﻿@charset "utf-8";
+/*博客赞助通知*/
+/* reset  */
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,
+strike,tt,var,h1, h2, h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,
+legend{outline:0; padding:0; margin:0; border:0; text-align:left; font-style:normal; word-wrap:break-word;}
+:focus{outline:0;}
+body{color:#999; font-size:16px;}
+ol, ul,li{list-style:none;}
+a,
+a:link,
+a:visited,
+a:hover{color:#f75375; text-decoration:none;}
+h1{font-size:23px;color:#2e3092;text-align:center;line-height:52px;font-weight:normal;}
+.money_inf{padding:0 20px;}
+.money_inf .header{padding-top:15px;}
+.money_inf .header .logo_inner{display:inline-block;}
+.money_inf .container p{line-height:25px;text-indent:30px;text-justify: inter-ideograph;text-align: justify;}
+.money_inf .agree_outer{overflow:hidden;margin-bottom:20px;}
+.money_inf .agree_outer a{margin-top:32px;line-height:50px;display:inline-block;color:#fff;text-decoration:none;-moz-box-sizing: border-box;-webkit-box-sizing: border-box; -o-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;width:49%;text-align:center;}
+.money_inf .agree_outer .disagree{background-color:#c8c8c8;float:left;}
+.money_inf .agree_outer a:hover.disagree{background-color:#d6d6d6;}
+.money_inf .agree_outer .agree{background-color:#4e6ad3;float:right;}
+.money_inf .spe_color{color:#2e3092;}
+.money_inf .agree_status{text-align:center;overflow:hidden;margin-bottom:20px;}
+.money_inf .agree_status .disagree{float:none;}
+.money_inf .agree_status a:hover.disagree{background-color:#c8c8c8;cursor:default;}
+

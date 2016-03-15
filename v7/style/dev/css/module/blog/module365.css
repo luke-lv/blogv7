@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+/*365组件*/
+.calBtn{margin:20px auto 13px; overflow:hidden; _zoom:1; text-align:center;}
+.calBtn a.btn_preview,.calBtn a.btn_preview:link,.calBtn a.btn_preview:hover,.calBtn a.btn_next,.calBtn a.btn_next:link,.calBtn a.btn_next:hover{display:inline-block; text-decoration:none; font-size:18px; color:#707070;}
+.calBtn a.btn_preview{margin-right:18px;}
+.calBtn a.btn_next{margin-left:18px;}
+.calBtn .current{display:inline-block; margin:0 auto; color:#707070;}
+.calCon{overflow:hidden; *zoom:1; width:690px;}
+.cal365Clone{padding:10px 20px; text-align:right;}
+.calCon .weekDate{height:30px; line-height:30px; text-align:left;}
+.calCon .weekDate span{display:inline-block; width:56px; height:30px; margin-right:7px; text-align:center; font-size:13px; color:#c1bfbf; font-weight:bold;}
+.calCon .weekDate span.nomgr{margin-right:0!important;}
+.calCon ul{overflow:hidden;}
+.calCon ul li{width:85px; height:113px; background:#fff; float:left; _display:inline; margin-right:7px; margin-bottom:7px; overflow:hidden;}
+.calCon ul li.hover{border-color:#000;}
+.calCon ul li.nomgr{margin-right:0!important;}
+.calCon ul li .pic{position:relative; width:56px; height:56px; overflow:hidden; background:url(../../../images/activity/act365/mod365_bgb.png) 0 0 no-repeat;}
+.calCon ul li.coming .pic{background-position:0 -112px;}
+..calCon ul li.today .pic{background-position:0 -224px;}
+.calCon ul li.tqd .pic{background-position:0 -336px;}
+.calCon ul li .pic a,.calCon ul li .pic a:link{width:56px; height:56px; float:left; position:relative;}
+.calCon ul li .pic a .date{display:none; position:absolute; left:0; top:0; width:56px; height:56px; line-height:56px; background:#000; background:rgba(0,0,0,.7); font-size:25px; color:#fff; text-align:center;}
+.calCon ul li .pic a .tq{display:none; position:absolute; left:0; top:0; width:56px; height:48px; padding-top:8px; line-height:18px; color:#fff; text-align:center; background:#30aee8; font-size:14px;}
+.calCon ul li .pic a:hover .date,.article_blk .calCon ul li .pic a:hover .tq{display:block;}
+.calCon ul li .pic img{width:56px; height:56px; float:left;}
+
+.SG_colW51 .cal365zj,.SG_colW73 .cal365zj{width:471px; margin:0 auto; padding:10px 0; overflow:hidden;}
+.SG_colW51 .cal365zj .calBtn .current,.SG_colW73 .cal365zj .calBtn .current{font-size:18px;}
+.SG_colW51 .cal365zj .calCon,.SG_colW73 .cal365zj .calCon{width:434px; margin-left:20px;}
+.SG_colW51 .cal365zj .calCon ul li,.SG_colW73 .cal365zj .calCon ul li{width:56px; height:56px; margin-right:7px;}
+.SG_colW51 .cal365zj .calCon ul li.wk1,.SG_colW73 .cal365zj .calCon ul li.wk1{margin-left:63px;}
+.SG_colW51 .cal365zj .calCon ul li.wk2,.SG_colW73 .cal365zj .calCon ul li.wk2{margin-left:126px;}
+.SG_colW51 .cal365zj .calCon ul li.wk3,.SG_colW73 .cal365zj .calCon ul li.wk3{margin-left:189px;}
+.SG_colW51 .cal365zj .calCon ul li.wk4,.SG_colW73 .cal365zj .calCon ul li.wk4{margin-left:252px;}
+.SG_colW51 .cal365zj .calCon ul li.wk5,.SG_colW73 .cal365zj .calCon ul li.wk5{margin-left:315px;}
+.SG_colW51 .cal365zj .calCon ul li.wk6,.SG_colW73 .cal365zj .calCon ul li.wk6{margin-left:378px;}
+.SG_colW51 .cal365zj .calCon ul li.wk7,.SG_colW73 .cal365zj .calCon ul li.wk7{margin-left:0;}
+.SG_colW21 .cal365zj .calBtn{margin:5px auto 0;}
+.SG_colW21 .cal365zj{width:208px; margin:0 auto; padding:10px 0; overflow:hidden;}
+.SG_colW21 .cal365zj .calCon ul li .pic{width:26px; height:26px; background:url(../../../images/activity/act365/mod365_bgs.png) 0 0 no-repeat;}
+.SG_colW21 .cal365zj .calBtn .current{font-size:13px;}
+.SG_colW21 .cal365zj .calBtn a.btn_preview,.SG_colW21 .cal365zj .calBtn a.btn_preview:link,.SG_colW21 .cal365zj .calBtn a.btn_preview:hover,.SG_colW21 .cal365zj .calBtn a.btn_next,.SG_colW21 .cal365zj .calBtn a.btn_next:link,.SG_colW21 .cal365zj .calBtn a.btn_next:hover{font-size:13px;}
+.SG_colW21 .cal365zj .calCon .weekDate{height:21px; line-height:21px;}
+.SG_colW21 .cal365zj .calCon .weekDate span{width:26px; height:21px; margin-right:3px; font-size:9px;}
+.SG_colW21 .cal365zj .calCon{width:200px; margin-left:5px;}
+.SG_colW21 .cal365zj .calCon ul li{width:26px; height:26px; margin-right:3px; margin-bottom:3px;}
+.SG_colW21 .cal365zj .calCon ul li.wk1{margin-left:29px;}
+.SG_colW21 .cal365zj .calCon ul li.wk2{margin-left:58px;}
+.SG_colW21 .cal365zj .calCon ul li.wk3{margin-left:87px;}
+.SG_colW21 .cal365zj .calCon ul li.wk4{margin-left:116px;}
+.SG_colW21 .cal365zj .calCon ul li.wk5{margin-left:145px;}
+.SG_colW21 .cal365zj .calCon ul li.wk6{margin-left:174px;}
+.SG_colW21 .cal365zj .calCon ul li.wk7{margin-left:0;}
+.SG_colW21 .cal365zj .calCon ul li .pic a,.SG_colW21 .cal365zj .calCon ul li .pic a:link{width:26px; height:26px;}
+.SG_colW21 .cal365zj .calCon ul li .pic a .date{width:26px; height:26px; line-height:26px; font-size:13px;}
+.SG_colW21 .cal365zj .calCon ul li .pic a .tq{width:26px; height:26px; line-height:12px; font-size:13px; background:#fff; color:#5f5f5f;}
+.SG_colW21 .cal365zj .calCon ul li .pic img{width:26px; height:26px; float:left;}
+.SG_colW21 .cal365zj .calCon ul li.coming .pic{background-position:0 -52px;}
+.SG_colW21 .cal365zj .calCon ul li.today .pic{background-position:0 -104px;}
+.SG_colW21 .cal365zj .calCon ul li.tqd .pic{background-position:0 -156px;}
+.SG_colW21 .cal365zj .cal365Clone{padding:10px 10px;}

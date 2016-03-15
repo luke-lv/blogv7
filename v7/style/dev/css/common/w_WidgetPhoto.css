@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+/* 相册专辑 */
+.PSpecial td .SpePic{ width:86px; height:86px; background:url(../../images/photo/photoborder_m.gif) no-repeat;}
+.PSpecial td .SpePic img{ margin:1px 0 0 1px; width:80px; height:80px; overflow:hidden;}
+.PSpecial td .SpeTit em{ padding-left:3px;}
+
+.SG_colW73 .PSWrap{ overflow:hidden; padding:20px 0 0 20px; width:710px;}
+.SG_colW73 .PSpecial td{ padding:0 13px 12px 0px; width:86px; vertical-align:top;}
+.SG_colW73 .PSpecial td .SpeTit{ width:86px; line-height:18px; margin-top:8px; color:#336699; overflow:hidden; word-wrap: break-word; word-break: break-all;}
+.SG_colW73 .PSmore{ width:693px; margin:0 auto; background-position:top; line-height:30px; overflow:hidden; height:30px;}
+.SG_colW73  .PSmore span{ float:right; padding-right:0px; font-family:"宋体";}
+
+.SG_colW51 .PSWrap{ overflow:hidden; padding:20px 0 0 20px; width:490px;}
+.SG_colW51 .PSpecial td{ padding:0 22px 12px 12px; width:86px; vertical-align:top;}
+
+.SG_colW51 .PSpecial td .SpeTit{ width:86px; line-height:18px; margin-top:8px; color:#336699; overflow:hidden; word-wrap: break-word; word-break: break-all;}
+.SG_colW51  .PSmore{ width:463px; margin:0 auto; background-position:top; line-height:30px; overflow:hidden; height:30px;}
+.SG_colW51  .PSmore span{ float:right; padding-right:5px; font-family:"宋体";}
+
+.SG_colW21 .PSWrap{ overflow:hidden; padding:20px 0 0 0px; width:210px;}
+.SG_colW21 .PSpecial td{ padding:0 0px 12px 12px; width:86px; vertical-align:top;}
+.SG_colW21 .PSpecial td .SpeTit{ width:86px; line-height:18px; margin-top:8px; color:#336699; overflow:hidden; word-wrap: break-word; word-break: break-all;}
+.SG_colW21 .PSmore{ width:173px; margin:0 auto; background-position:top; line-height:30px; overflow:hidden; height:30px;}
+.SG_colW21  .PSmore span{ float:right; padding-right:0px; font-family:"宋体";}
+
+/* 相册图片列表 */
+ul.pt_list_nb{ height:100%; overflow:hidden;}
+ul.pt_list_nb li{ float:left; width:206px; margin:15px 12px 15px 12px; display:inline-block; *display:inline; line-height:1.7em; }
+ul.pt_list_nb .clearit{ float:none; width:100%; margin:0;}
+.pt_border{width:200px; position:relative;text-align:center;  display:table-cell; overflow:hidden; vertical-align:middle;}
+.pt_border{ border:1px solid #ccc;  height:202px; height:200px\0;}
+/*html*.pt_border{[ border:1px solid #ccc; height:200px;]}*/
+html*.pt_border{ border:1px solid #ccc; height:200px;}
+.pt_border p { position:static;+position:absolute;top:50%;left:50%;}
+.pt_border p img{position:static;+position:relative;top:-50%;left:-50%;vertical-align:middle;}
+
+.pt_border_bg{ width:206px; height:206px; background: url(../../images/photo/picborder_b.gif) no-repeat; text-align:center;  position: relative; display: table-cell; vertical-align:middle;}
+.pt_border_bg p{ padding:1px 5px 5px 1px;position:static;+position:absolute;top: 50%;left: 50%;*margin-top:1px;}
+.pt_border_bg p img{ position:static;+position:relative;top: -50%;left: -50%; }
+.pt_list_title{ width:206px; font-size:14px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+
+.SG_colW73 .PSList{ margin-left:20px; padding-top:10px;}
+.SG_colW51 .PSList{ margin-left:27px; padding-top:10px;}
+.SG_colW51 .PSList .PSmore{ margin:0px;}
+
+ul.pt_list_21{ height:100%; overflow:hidden; margin:0 0 10px 14px;}
+ul.pt_list_21 li{ float:left; width:80px; height:80px; margin:10px 5px 0px 5px; display:inline-block; *display:inline; line-height:1.7em;}
+ul.pt_list_21 .Wrap_210{ width:78px; height:78px; border:1px solid #cccccc; background-color:#f0f0f0; overflow:hidden;}
+.albumlist ul{ clear:both; overflow:hidden; padding-bottom:15px;}
+.SG_colW73 .albumlist{ height:100%; overflow:hidden; padding:15px 10px 20px 10px;}
+.SG_colW73 .albumlist ul li{ float:left; width:86px; margin:0 8px 0 7px;_margin:0 6px 0 7px; display:block;*display:inline;}
+.SG_colW51 .albumlist{ height:100%; overflow:hidden; padding:15px 10px 20px 10px;}
+.SG_colW51 .albumlist ul li{ float:left; width:86px; margin:0 18px 0 18px;_margin:0 15px 0 18px; display:block;*display:inline;}
+.SG_colW21 .albumlist{ height:100%; overflow:hidden; padding:15px 6px 20px 6px;}
+.SG_colW21 .albumlist ul li{ float:left; width:86px; margin:0 6px 0 6px;_margin:0 3px 0 7px; display:block;*display:inline;}
+.albumlist ul li .smallPic{background:url(../../images/photo/photoborder_m.gif) no-repeat; width:86px; height:86px;	overflow:hidden; margin-bottom:7px;}
+.albumlist ul li .smallPic img {width:80px; height:80px; padding:1px 5px 5px 1px;}
+.SG_colW73 .albumlist ul .clearit{ float:none; width:86px; margin:0;}
+.SG_colW51 .albumlist ul .clearit{ float:none; width:86px; margin:0;}
+.SG_colW21 .albumlist ul .clearit{ float:none; width:86px; margin:0;}
+.albumlisttxt {	width:86px;overflow:hidden;padding-left:2px; line-height:15px; word-wrap:break-word; font-family:"宋体";}
+.albumlisttxt em {font-family:Arial;font-size:12px;}
+.albumlis_more {font-size:12px;	text-align:right;clear:both; padding-top:10px;}
+.albumlist ul{ clear:both; overflow:hidden; padding-bottom:15px;}
+
+/* 图片播放器 */
+.PrWrap{ width:100%; overflow:hidden;}
+.SG_colW73 .PrWrap .PrFirst{ margin:20px auto 10px; width:688px; height:516px; }
+.SG_colW51 .PrWrap .PrFirst{ margin:20px auto 10px; width:470px; height:353px; overflow:hidden;}
+.SG_colW21 .PrWrap .PrFirst{ margin:10px auto 10px; width:187px; height:187px; overflow:hidden;}
+.SG_colW73 .PrWrap .PrFirst td{ vertical-align:middle; text-align:center;}
+.SG_colW51 .PrWrap .PrFirst td{ vertical-align:middle; text-align:center; width:470px; height:353px;}
+.SG_colW73 .PrList{ width:688px; overflow:hidden; margin:0 auto;}
+.SG_colW73 .PrList .ListLeft,
+.SG_colW51 .PrList .ListLeft{ float:left; background:url(../../images/widget/photoRadio.gif) no-repeat; width:20px; height:80px; margin-top:3px;}
+.SG_colW73 .PrList .ListCenter{ width:648px; float:left;}
+.SG_colW51 .PrList .ListCenter ul,
+.SG_colW73 .PrList .ListCenter ul{ padding-left:10px; overflow:hidden;}
+.SG_colW51 .PrList .ListCenter ul li,
+.SG_colW73 .PrList .ListCenter ul li{ float:left; margin-right:10px;}
+.SG_colW73 .PrList .ListCenter ul li img,
+.SG_colW51 .PrList .ListCenter ul li img{ padding:3px 0px 3px 0 ;}
+.SG_colW73 .PrList .ListCenter ul li.on img,
+.SG_colW51 .PrList .ListCenter ul li.on img{ border:3px solid #cbcaca; padding:0;}
+.SG_colW73 .PrList .ListRight,
+.SG_colW51 .PrList .ListRight{ float:left; background:url(../../images/widget/photoRadio.gif) no-repeat -55px 0px;; width:20px; height:80px; margin-top:3px; _margin-left:-10px;}
+.SG_colW73 .ListTit{ width:688px; height:20px; margin:5px auto 20px; text-align:center; font-size:14px;}
+
+.SG_colW51 .PrList{ width:418px;_width:426px; overflow:hidden; margin:0 auto;}
+.SG_colW51 .PrList .ListCenter{ width:378px; float:left;}
+.SG_colW51 .ListTit{ width:418px; height:20px; margin:5px auto 10px; text-align:center; font-size:14px;}
+
+.SG_colW21 .PrList{ width:187px; overflow:hidden; margin:0 auto;}
+.SG_colW21 .PrList .ListCenter{ width:155px; float:left;}
+.SG_colW21 .ListTit{ width:187px; height:20px; margin:5px auto 10px; text-align:center; font-size:14px;}
+.SG_colW21 .PrList .ListLeft{ float:left; background:url(../../images/widget/photoRadio.gif) no-repeat 0 -105px; width:16px; height:35px; margin-top:-1px;}
+.SG_colW21 .PrList .ListRight{ float:left; background:url(../../images/widget/photoRadio.gif) no-repeat -55px -105px;; width:16px; height:35px; margin-top:-1px; _margin-left:-5px;}
+.SG_colW21 .PrList .ListCenter ul{ padding-left:10px;}
+.SG_colW21 .PrList .ListCenter ul li{ float:left; margin-right:5px;}
+.SG_colW21 .PrList .ListCenter ul li img{ padding:1px 0px 1px 0;}
+.SG_colW21 .PrList .ListCenter ul li.on img{ border:1px solid #cecdcd; padding:0px;}
+
+
+/* 图片开始结束按钮变灰 */
+.SG_colW51 .PrList .ListLeftOff,
+.SG_colW73 .PrList .ListLeftOff{ float:left; background:url(../../images/widget/photoRadio.gif) no-repeat 0 -158px; width:20px; height:80px; margin-top:3px;}
+.SG_colW51 .PrList .ListRightOff,
+.SG_colW73 .PrList .ListRightOff{ float:left; background:url(../../images/widget/photoRadio.gif) no-repeat -53px -158px; width:20px; height:80px; margin-top:3px; _margin-left:-10px;}
+.SG_colW21 .PrList .ListLeftOff{float:left; background:url(../../images/widget/photoRadio.gif) no-repeat 0 -247px; width:16px; height:35px; margin-top:-1px;}
+.SG_colW21 .PrList .ListRightOff{float:left; background:url(../../images/widget/photoRadio.gif) no-repeat -53px -247px; width:16px; height:35px; margin-top:-1px; _margin-left:-2px;}
+
+/* 图片浏览滤镜 */
+.PrList .ListCenter li.gray{ filter:alpha(opacity=40)}
+
+

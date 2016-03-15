@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* 举报平台 */
+.blog_report{ width:482px; overflow:hidden; background-color:#fff;}
+.BRpt_topTit{ background:url(../../../images/common/report/bg_toptit.gif) no-repeat left top; width:482px; height:31px; position:relative;}
+.BRpt_topTit a{ display:block; width:15px; height:15px; position:absolute; right:19px; top:9px;}
+.BRpt_mid{ border:1px solid #749cb4; border-top:0px;}
+.BRpt_Mtop{ background:url(../../../images/common/report/bg_top.gif) no-repeat left top; width:480px; height:116px;}
+.BRpt_Mtop p{ line-height:18px; padding-top:60px; padding-left:41px; width:400px; color:#fff; font-family:"宋体";}
+
+/* 举报成功 */
+.Brpt_exclt{ padding-top:64px; padding-left:40px; height:303px; color:#000;}
+.Brpt_extP1{ background:url(../../../images/common/report/icon_exclaim.gif) no-repeat left top; line-height:33px; padding-left:47px; font-size:16px;}
+.Brpt_extP2{ line-height:38px; font-weight:bold; padding-left:83px; font-size:16px;}
+.Brpt_extBtn{ padding:112px 0 0 146px; overflow:hidden;}
+a.BRpt_btn:link,
+a.BRpt_btn:visited{ background:url(../../../images/common/report/btn_grey.gif) no-repeat left top; float:left; padding-left:38px; height:23px; line-height:23px; color:#000;}
+a.BRpt_btn:hover{ background:url(../../../images/common/report/btn_grey.gif) no-repeat left -46px;color:#000;}
+a.BRpt_btn:link span,
+a.BRpt_btn:visited span{ background:url(../../../images/common/report/btn_grey.gif) no-repeat right -23px; float:left; padding-right:38px; height:23px; line-height:23px;color:#000;}
+a.BRpt_btn:hover span{ background:url(../../../images/common/report/btn_grey.gif) no-repeat right -69px;color:#000;}
+
+/* 接收结果 */
+.Brpt_extRst{ padding-top:24px; height:343px; position:relative; color:#000;}
+.Brpt_eRTit{ line-height:24px; font-size:14px; padding-left:35px; padding-bottom:14px;}
+.Brpt_eRmtd{ padding-left:56px; overflow:hidden;}
+.Brpt_eRmtd .tit{ height:14px; padding-top:6px;}
+.Brpt_eRmtd .conn,
+.Brpt_eRmtd .conn2{ padding-left:48px; font-size:12px;}
+.Brpt_eRmtd .conn .mtd,
+.Brpt_eRmtd .conn2 .mtd{ line-height:31px;overflow:hidden; height:31px;}
+.Brpt_eRmtd .conn .mtd input,
+.Brpt_eRmtd .conn2 .mtd input{ margin-right:10px;}
+.Brpt_eRmtd .conn label,
+.Brpt_eRmtd .conn2 label{ _vertical-align:-3px;}
+.Brpt_eRmtd .conn .mtd span{ color:#817f7f; display:inline-block; padding-left:8px;}
+.Brpt_eRmtd .conn .perInf span{ width:62px; display:inline-block; text-align:center;}
+.Brpt_eRmtd .conn .perInf{ line-height:22px; padding-bottom:12px;}
+.Brpt_eRmtd .conn .perInf input{ border:1px solid #c1c1bb; height:19px; width:164px; padding:3px 0 0 3px; margin-right:5px;}
+.Brpt_eRmtd .conn .perInf a:link,
+.Brpt_eRmtd .conn .perInf a:visited{ color:#2e3092; text-decoration:none;}
+.Brpt_eRmtd .conn .perInf a:hover{ text-decoration:underline; color:#2e3092}
+.Brpt_eRmtd .conn2 .perInf{ line-height:22px; padding-top:7px; padding-left:5px;}
+.Brpt_eRmtd .conn2 .perInf input{ border:1px solid #8b8b8b; width:212px; height:19px; padding:3px 0 0 3px;}
+.Brpt_eRBtn{/* padding:18px 0 22px 186px; overflow:hidden;*/ position:absolute; left:186px; bottom:22px;}
+.Brpt_eRBtn2{/* padding:18px 0 22px 186px; overflow:hidden;*/ position:absolute; left:186px; bottom:58px;}
+a.BRpt_btnGy:link,
+a.BRpt_btnGy:visited{ background:url(../../../images/common/report/btn_grey.gif) no-repeat left top; float:left; padding-left:38px; height:23px; line-height:23px;color:#000;}
+a.BRpt_btnGy:hover{ background:url(../../../images/common/report/btn_grey.gif) no-repeat left -46px;color:#000;}
+a.BRpt_btnGy:link span,
+a.BRpt_btnGy:visited span{ background:url(../../../images/common/report/btn_grey.gif) no-repeat right -23px; float:left; padding-right:38px; height:23px; line-height:23px;color:#000;}
+a.BRpt_btnGy:hover span{ background:url(../../../images/common/report/btn_grey.gif) no-repeat right -69px;color:#000;}
+
+/* 举报具体内容 */
+.Brpt_RtConn{ padding:5px 0 0 30px; font-size:12px; color:#000;}
+.Brpt_RtInf{ line-height:31px; width:428px;}
+.Brpt_RtInf a:link,
+.Brpt_RtInf a:visited,
+.Brpt_RtInf a:hover{ text-decoration:underline; color:#3332fc;}
+.Brpt_RtTxt{ border:1px solid #a5acb2; width:418px; height:99px; line-height:21px; color:#777; font-size:12px; overflow-y:scroll;}
+.Brpt_Rhost{ line-height:14px; height:14px; text-align:right; width:422px;}
+.Brpt_Rhost label{ vertical-align:-1px; _vertical-align:-3px;}
+.Brpt_choCla .claTit{ font-weight:bold; line-height:16px;}
+.Brpt_choCla .claTit .cho{ color:#ff3402;}
+.Brpt_choCla .cla_conn{ line-height:24px; overflow:hidden;}
+.Brpt_choCla .cla_conn label{ padding-right:23px; vertical-align:-2px;}
+.Brpt_othInt{ line-height:28px; font-weight:bold;}
+.Brpt_RCBtn{ padding:10px 0 20px 83px;}
+.Brpt_RCBtn a{ margin-right:40px;}
+
+/* 举报感谢 */
+.Brpt_thx{ padding:100px 0 0 66px; height:267px; color:#000;}
+.Brpt_thx p{ background:url(../../../images/common/report/icon_tic.gif) no-repeat left top; line-height:33px; padding-left:52px; font-weight:bold; font-size:16px;}
+.Brpt_thxBtn{ padding:93px 0 0 121px;}
+
+
+
+
+
+
+
+
+
+
+

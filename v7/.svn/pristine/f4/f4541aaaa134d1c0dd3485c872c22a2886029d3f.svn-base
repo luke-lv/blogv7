@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>日本赏樱</title>
+<link type="text/css" href="http://simg.sinajs.cn/blog7style/css/conf/editor/public.css"  rel="stylesheet"/>
+<link type="text/css" href="http://simg.sinajs.cn/blog7style/css/module/blog_editor/blog_feed.css" rel="stylesheet"/>
+<link type="text/css" href="http://simg.sinajs.cn/blog7style/css/activity/travel/sakura.css" rel="stylesheet"/>
+</head>
+<body>
+<!--此处放顶托-->
+<!--topbar-->
+  <!--$sinatopbar-->
+  <div class="nsinatopbar">
+    <div style="position:absolute;left:0;top:0;" id="trayFlashConnetion"></div>
+    <div class="ntopbar_main"> 
+      <a id="login_bar_logo_link_350" class="ntopbar_logo" href="http://blog.sina.com.cn" target="_blank"></a>
+      <div class="ntopbar_floatL">
+
+       <div class="ntopbar_search" id="traySearchBar"></div>
+       <div class="ntopbar_ad" id="loginBarActivity" style="display:none;"></div >
+      
+      </div>
+       <div class="ntopbar_loading"><img src="http://simg.sinajs.cn/blog7style/images/common/loading.gif">加载中…</div>
+      
+    </div>
+  </div>
+  <!--$end sinatopbar-->
+<!--/topbar-->
+<div class="wrap"> 
+  <div class="sakura">
+    <div class="location_ad1"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_13')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic1.jpg"/></a></div>
+    <div class="sakura_play">
+      <div class="sakura_title"><span class="name">玩转日本赏花</span><span class="flower"></span></div>
+      <div class="sakura_news">
+        <div class="rslides">
+         <ul class="rslides_img" id="slide">
+          <li><a href="#" onclick="v7sendLog&&v7sendLog('10_01_14')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic2.jpg"/><p class="des m_ellps">又到了一年一度的赏花的季节了1</p></a></li>
+          <li><a href="#" onclick="v7sendLog&&v7sendLog('10_01_14')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic2.jpg"/><p class="des m_ellps">又到了一年一度的赏花的季节了2</p></a></li>
+          <li><a href="#" onclick="v7sendLog&&v7sendLog('10_01_14')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic2.jpg"/><p class="des m_ellps">又到了一年一度的赏花的季节了3</p></a></li> 
+          <li><a href="#" onclick="v7sendLog&&v7sendLog('10_01_14')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic2.jpg"/><p class="des m_ellps">又到了一年一度的赏花的季节了4</p></a></li>
+          <li><a href="#" onclick="v7sendLog&&v7sendLog('10_01_14')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic2.jpg"/><p class="des m_ellps">又到了一年一度的赏花的季节了5</p></a></li>  
+        </ul>
+       </div> 
+        <div class="news_list">
+          <div class="news_top">
+             <p class="p1 m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">狼图腾靠什么让嘲笑国产片者闭嘴吧咋的者闭嘴吧咋的</a></p>
+             <p class="p2"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">关于狼图腾的新闻很多，我们来介绍一下他的内容的可一的内容的详细…</a></p>
+             <p class="p1 m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">鲁迅的韧性从哪里来？</a></p>
+             <p class="p3"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">［雍正继位那天发生的诡异事件我们也不知道］</a></p>
+          </div>
+          <div class="news_bottom">
+            <ul>
+               <li class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">对香港仇视大陆自由行的几个观点在哪里存在的几个观点在哪里存在</a></li>
+               <li class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">制造业外迁是个假问题</a></li>
+               <li class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_15')">伊朗一夫三妻家庭的爱恨情仇</a></li>
+            </ul>
+            <div class="btn">
+               <a href="http://tags.blog.sina.com.cn/%E6%A8%B1%E8%8A%B1" target="_blank" onclick="v7sendLog&&v7sendLog('10_01_16')">相关博文</a><a href="javascript:;" class="weibo" id="share_weibo" onclick="v7sendLog&&v7sendLog('10_01_17')">分享到微博</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="location_ad2"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_18')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic3.jpg"/></a></div>
+    <div class="sakura_box">
+      <div class="sakura_title"><span class="name">赏樱花地点推荐</span><span class="flower"></span></div>
+      <div class="tab" id="feedContainer">
+        <ul>
+          <li><a href="#hot" onclick="v7sendLog&&v7sendLog('10_01_19')">热门</a></li>
+          <li><a href="#tokyo" onclick="v7sendLog&&v7sendLog('10_01_19')">东京</a></li>
+          <li><a href="#kyoto" onclick="v7sendLog&&v7sendLog('10_01_19')">京都</a></li>
+          <li><a href="#hokkaido" onclick="v7sendLog&&v7sendLog('10_01_19')">北海道</a></li>
+          <li><a href="#okinawa" onclick="v7sendLog&&v7sendLog('10_01_19')">冲绳</a></li>
+          <li><a href="#osaka" onclick="v7sendLog&&v7sendLog('10_01_19')">大阪</a></li>
+          <li><a href="#hakone" onclick="v7sendLog&&v7sendLog('10_01_19')">箱根</a></li>
+          <li><a href="#nara" onclick="v7sendLog&&v7sendLog('10_01_19')">奈良</a></li>
+          <li><a href="#nagoya" oncick="v7sendLog&&v7sendLog('10_01_19)">名古屋</a></li>
+        </ul>
+      </div>
+      <div class="tab_box">
+        <div class="tab_con">
+          <div class="sakura_con"> 
+            <!--博文相关阅读-->
+            <div class="BNE_blog_feed">
+              <ul class="blog_feed" id="hot"></ul>
+              <ul class="blog_feed" id="tokyo"></ul>
+              <ul class="blog_feed" id="kyoto"></ul>
+              <ul class="blog_feed" id="hokkaido"></ul>
+              <ul class="blog_feed" id="okinawa"></ul>
+              <ul class="blog_feed" id="osaka"></ul>
+              <ul class="blog_feed" id="hakone"></ul>
+              <ul class="blog_feed" id="nara"></ul>
+              <ul class="blog_feed" id="nagoya"></ul>
+
+              <a href="javascript:;" class="blog_feed_more">加载中，请稍后<img src="http://simg.sinajs.cn/blog7style/images/blog_editor/feed_loading.gif" alt=""/></a> 
+              <p class="blog_feed_none" style="display:none;">没有找到相关文章...</p>
+            </div>
+            <!--/博文相关阅读--> 
+          </div>
+          <div class="sides">
+            <!-- 右侧第一个广告 -->
+            <div class="side side1"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_27')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic4.jpg"/></a></div>
+            
+            <!-- 热门分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="hot_views">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')">热门香山风景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')">热门卢沟桥流水人家景区</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="hot_hotels">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">热门无聊大酒店</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">热门五台山饭店</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">热门海无边酒店北京海无边酒店</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">热门Orange酒店</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="hot_foods">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">热门薯片陪番茄</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">热门可口酥嫩脆</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">热门小葡萄</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">热门蓝莓冰激凌</a></p>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 东京分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="tokyo_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京香山风景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京卢沟桥流水人家景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京梯田绿色旅游</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京卡克地形温泉</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="tokyo_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京无聊大酒店</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京北京五台山饭店</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京北京Orange酒店</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="tokyo_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京可口酥嫩脆</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">东京小葡萄</a></p>
+                </li>
+              </ul>
+            </div>
+
+           <!-- 京都分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="kyoto_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto东京香山风景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto卢沟桥流水人家景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto东京梯田绿色旅游</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto卡克地形温泉</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="kyoto_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto东京无聊大酒店</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto东京北京Orange酒店</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="kyoto_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto东京可口酥嫩脆</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">kyoto东京小葡萄</a></p>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 北海道分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="hokkaido_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hokkaido东京香山风景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hokkaido流水人家景区</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="hokkaido_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hokkaido</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hokkaido东京北京Orange酒店</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="hokkaido_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+              </ul>
+            </div>
+
+            <!-- 冲绳分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="okinawa_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawaokinawaokinawa热门香山风景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawaokinawa热门卢沟桥流水人家景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawa热门香山风景区</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawa热门卢沟桥流水人家景区</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="okinawa_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+              </ul>
+            </div>
+            <div class="side side4" id="okinawa_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawa薯片陪番茄</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawa可口酥嫩脆</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawa小葡萄</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">okinawa蓝莓冰激凌</a></p>
+                </li>
+              </ul>
+            </div>
+  
+            <!-- 大阪分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="osaka_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">osaka热门香山风景区</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="osaka_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+              </ul>
+            </div>
+            <div class="side side4" id="osaka_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">osaka</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">osaka</a></p>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 箱根分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="hakone_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hakonehakonehakone</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hakonehakonehakone</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="hakone_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hakonehakonehakonehakone</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#">hakonehakonehakone324</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="hakone_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+              </ul>
+            </div>
+
+            <!-- 奈良分类下的酒店，景点，和美食 -->
+            <div class="side side3" id="nara_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+              </ul>
+            </div>
+            <div class="side side2" id="nara_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#"> nara nara nara nara nara</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="nara_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#"> nara nara nara nara nara</a></p>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 名古屋分类下的景点，酒店，美食 -->
+            <div class="side side3" id="nagoya_views" style="display:none;">
+              <div class="title"><span class="line">附近热门景点</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_29')">nagoya</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side2" id="nagoya_hotels" style="display:none;">
+              <div class="title"><span class="line">附近热门酒店</span></div>
+              <ul >
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_28')">nagoya</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="side side4" id="nagoya_foods" style="display:none;">
+              <div class="title"><span class="line">附近热门美食</span></div>
+              <ul>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">nagoya</a></p>
+                </li>
+                <li>
+                  <div class="pic"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic5.jpg"/></a></div>
+                  <p class="m_ellps"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_30')">nagoya</a></p>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 商业合作 -->
+            <div class="side side5"><a href="#" onclick="v7sendLog&&v7sendLog('10_01_31')"><img src="http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic6.jpg"/></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p><a target="_blank" href="http://help.sina.com.cn/index.php?s=askquestion&amp;a=view">新浪BLOG意见反馈留言板</a>　电话：4006900000 提示音后按1键（按当地市话标准计费）　欢迎批评指正</p>
+  <p> <a href="#">新浪简介</a> | <a href="#">About Sina</a> | <a href="#">广告服务</a> | <a href="#">联系我们</a> | <a href="#">招聘信息</a> | <a href="#">网站律师</a> | <a href="#">SINA English</a> | <a href="#">通行证注册</a> | <a href="#">产品答疑</a> | <a href="#">使用须知</a> </p>
+  <p>Copyright © 1996 - 2015 SINA Corporation, All Rights Reserved</p>
+  <p>新浪公司 <a href="#">版权所有</a></p>
+</div>
+</div>
+<script type="text/javascript">
+var scope = {
+  $setDomain : false,
+  $PRODUCT_NAME : "blog7activity",
+  $pageid : "sakura",
+  $weiboUrl: "http://blog.sina.com.cn/activity/sakura.html",    // 分享链接，根据上线后的链接进行修改
+  $relateUid: "1231759973",                                     // 分享文案后面自动带的用户              
+  $sharePic: "http://simg.sinajs.cn/blog7style/images/activity/travel/_temp/pic1.jpg",  // 分享配图
+  $weiboMsg: "又到樱花烂漫时，让我们相约日本，追随着樱花由南向北推进开放的“樱前线”，欣赏那种稍纵即逝的“樱吹雪”。", // 分享文案
+  $appkey: "1617465124" // 确定分享来自哪里，默认博客
+};
+</script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/boot.js"></script>
+<script type="text/javascript">__load_js();</script>
+<script type="text/javascript">__render_page();</script>
+
+</body>
+</html>

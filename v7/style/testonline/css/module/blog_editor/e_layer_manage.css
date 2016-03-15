@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.e_layer_cont3 .manage_cont{ margin-top: -10px; overflow: hidden; zoom:1;}
+.e_layer_cont3 .manage_cont .manage_input{ float: left; margin: 0 10px 0 0; padding: 0 7px; background:#fff; border: 1px solid #ccc; width: 210px; height: 32px; line-height: 32px; font-size: 14px; color:#999; overflow: hidden;}
+.e_layer_cont3 .manage_cont .manage_input .tag_input{ background: none; font-size: 14px; border: 0 none; outline: none; *vertical-align: middle; *margin: 10px 0;  color:#999;  width: 207px; height: 14px; line-height: 14px;_line-height: 16px;}
+.e_layer_cont3 .manage_cont .manage_btn{ float: left; width: 82px; height: 32px; line-height: 32px; font-size: 14px;}
+.e_layer_cont3 .bp{ margin: 7px 0 0 7px; font-size: 12px; color: #999;}
+.e_layer_cont3 .manage_ul{ margin: 18px 0 0; width: 318px; border: 1px solid #d9d9d9; overflow-x:hidden; overflow-y: auto;}
+.e_layer_cont3 .manage_ul li{ width: 320px; height: 40px; line-height: 40px; font-size: 12px; background:#fbfbfb; overflow: hidden; zoom:1;}
+.e_layer_cont3 .manage_ul .m_a{ background:#f4f4f4;}
+.e_layer_cont3 .manage_ul .manage_l{ float: left; margin: 0 6px; display: inline; width: 182px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.e_layer_cont3 .manage_ul .manage_r{ float: right; margin: 0 20px 0 0; overflow: hidden; zoom:1; }
+.e_layer_cont3 .manage_ul .manage_r a{ float: left; color: #8997d8;}
+.e_layer_cont3 .manage_ul .manage_r a:hover{ float: left; color: #b2bdf0;}
+.e_layer_cont3 .manage_ul .manage_r .m_word{ margin: 0 8px 0 0;}
+.e_layer_cont3 .manage_ul .manage_r .m_icon{ background:url(../../../images/blog_editor/bg_bne.png) top center no-repeat; _background-image:url(../../../images/blog_editor/bg_bne.gif); filter:alpha(opacity=30); opacity:0.3;}
+.e_layer_cont3 .manage_ul .manage_r .m_icon:hover{ filter:alpha(opacity=50); opacity:0.5;}
+.e_layer_cont3 .manage_ul .manage_r .m_down{  margin: 14px 0 0 3px; display: inline; background-position: -2px -134px; width: 14px; height: 13px;}
+.e_layer_cont3 .manage_ul .manage_r .m_up{ margin: 14px 0 0 7px; display: inline; background-position: -33px -134px; width: 14px; height: 13px;}
+.e_layer_cont3 .manage_btn_a{ display: block; margin: 26px 0 32px 110px; width: 100px; height: 38px; line-height: 38px; font-size: 14px;}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* 引导 */
+/*2014.4.24广告分成绑定银行卡提交弹窗*/
+.CP_layercon1 a.SG_aBtnB, .CP_layercon1 a.SG_aBtnB cite {
+color: #333399;
+background-image:url(../../../images/common/sg_btnb.png);
+_background-image: url(../../../images/common/sg_btnb.gif);
+font-size: 12px!important;
+line-height: 23px;
+padding: 0px 10px 0px 8px;
+_padding-top: 1px;
+display: inline-block;
+_line-height: 23px;
+height: 23px;
+_height: auto;
+background-repeat: no-repeat;
+background-position: right -28px;
+min-width: 48px;
+_width: 48px;
+overflow-x: visible;
+white-space: nowrap;
+text-align: center;
+}
+.CP_layercon1 a.SG_aBtn,.CP_layercon1 a.SG_aBtn:link, a.SG_aBtn:visited {
+text-decoration: none;
+font-size: 12px!important;
+padding: 0 0 0 3px;
+overflow: hidden;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: 0 0;
+display: inline-block;
+margin-right: 6px;
+margin-right: 4px\9;
+}

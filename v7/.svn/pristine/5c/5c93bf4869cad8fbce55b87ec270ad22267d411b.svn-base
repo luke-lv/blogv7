@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.e_layer_cont1 .e_layer_word{ background: #fbfbfb; padding: 23px 30px 5px; *padding-bottom: 23px; border: 1px solid #eee;}
+.e_layer_cont1 .e_layer_word li{ overflow:hidden; zoom:1; margin: 0 0 16px 0; *padding-bottom: 1px; height:18px; line-height: 18px;}
+.e_layer_cont1 .e_layer_word .jian{ margin: 3px 7px 0 0; padding: 1px; width: 7px; height: 14px; float: left; *display: inline; background-position: -160px -320px; }
+.e_layer_cont1 .e_layer_word .word_box{ float: left; margin: 0 12px 0 0; vertical-align: middle;}
+.e_layer_cont1 .e_layer_word .word_link{ float: left; font-size: 14px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 450px; vertical-align: middle; margin-top:-2px; *padding: 4px 0 3px 0;}
+.e_layer_cont1 .e_layer_warn{ margin: 15px 0 0; overflow: hidden; zoom: 1;}
+.e_layer_cont1 .e_layer_warn .p{ float: left; font-size: 14px;}
+.e_layer_cont1 .e_layer_warn .p a{ margin: 0 0 0 9px; color: #8997d8;}
+.e_layer_cont1 .e_layer_warn .p a:hover{ color: #b2bdf0;}
+.e_layer_cont1 .e_layer_btn{ margin: 22px auto 0; display: block; width: 140px; height: 38px; line-height: 40px;}
+
+/*编辑器添加无博文*/
+.e_layer_cont1 .center{ text-align: center; padding:0;}
+.e_layer_cont1 .e_layer_word .no_blog{ padding: 120px 0; font-size: 14px; color: #999;}
+/*编辑器添加loading*/
+.e_layer_cont1 .e_layer_word .loading_word{ font-size: 12px; line-height: 25px;}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/**
+ * 同意设置
+ * @author wangqiang
+ * @date 14/12/17
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: none;
+}
+
+body {
+    height: 100%;
+    font-family: 'STHeiti', 'Microsoft YaHei', 'SimSun', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-attachment: scroll;
+    background-color: rgba(55, 56, 61, 0.87);
+    background-position: 0 0;
+    background-repeat: repeat;
+    color: #5A5A5A;
+}
+input, textarea {
+    color: #5A5A5A;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+table,th,td{margin:0;padding:0;}
+body,fieldset,th,td,select,input,textarea {font-size:12px;font-family:Verdana, "宋体", sans-serif}
+select,input {vertical-align:middle}
+cite,em {font-style:normal}
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox] {cursor:pointer}
+label {cursor:pointer;}
+
+.mIndexBox{padding:10px 5px; position:relative;}
+.mIndexBox .tab{width:80px; float:left; _display:inline; margin-right:10px; position:absolute; left:5px; top:10px;}
+.mIndexBox .tab a,.mIndexBox .tab a:link{width:80px; height:35px; margin-bottom:3px; line-height:35px; background:#f2f2f2; display:block; text-align:center; font-size:12px; color:#999; text-decoration:none;}
+.mIndexBox .tab a.cur,.mIndexBox .tab a.cur:link{background:#41c8ed; color:#fff;}
+.mIndexBox .con{overflow:hidden; margin-left:90px;}
+.mIndexBox .con .picArt{clear:both; height:123px; border-bottom:1px #dfdede solid; padding-bottom:10px; overflow:hidden; }
+.mIndexBox .con .picArt .pic{width:200px; margin-right:10px; float:left; _display:inline; overflow:hidden;}
+.mIndexBox .con .picArt .pic a,.mIndexBox .con .picArt .pic a:link{width:200px; height:123px; float:left; overflow:hidden;}
+.mIndexBox .con .picArt img{width:200px; overflow:hidden;}
+.mIndexBox .con .picArt .txt{overflow:hidden; height:123px;}
+.mIndexBox .con .picArt strong,.mIndexBox .con .picArt strong a,.mIndexBox .con .picArt strong a:link{line-height:24px; font-size:14px; color:#585858; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.mIndexBox .con .picArt span{line-height:20px; font-size:12px; color:#585858;}
+.mIndexBox .con .picArt span,.mIndexBox .con .picArt p{display:block;}
+.mIndexBox .con .picArt p{line-height:18px; font-size:12px; color:#aaa;}
+.mIndexBox .con .iconStar{margin-top:8px; width:58px; height:10px; overflow:hidden; background:url(../../images/special/mailindex/mailindex_star.png) no-repeat; _background:url(../../images/special/mailindex/mailindex_star.gif) no-repeat;}
+.mIndexBox .con .s0{background-position:0 0;}
+.mIndexBox .con .s1{background-position:0 -20px;}
+.mIndexBox .con .s2{background-position:0 -40px;}
+.mIndexBox .con .s3{background-position:0 -60px;}
+.mIndexBox .con .s4{background-position:0 -80px;}
+.mIndexBox .con .s5{background-position:0 -100px;}
+.mIndexBox .con .txtArt{margin-top:6px;}
+.mIndexBox .con .txtArt ul li{height:22px; line-height:22px; _margin-bottom:-1px; clear:both; color:#585858; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.mIndexBox .con .txtArt ul li p{float:left; _display:inline; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.mIndexBox .con .txtArt .iconStar{float:right; _display:inline;}
+.mIndexBox .con .txtArt a,.mIndexBox .con .txtArt a:link{color:#585858; text-decoration:none;}
+.mIndexBox .con .txtArt a:hover{text-decoration:underline;}
+.mIndexBox .con .txtArt ul li span{padding:0 8px;}
+
+.mIndexBox .con .olPicList{width:620px; overflow:hidden;}
+.mIndexBox .con .olPicList li{width:200px; height:107px; overflow:hidden; float:left; margin-left:10px; margin-bottom:11px;  _display:inline; position:relative;}
+.mIndexBox .con .olPicList li.tt{width:200px; height:225px; margin-left:0; margin-bottom:0;}
+.mIndexBox .con .olPicList li img{width:200px;}
+.mIndexBox .con .olPicList li.tt img{width:auto; height:225px;}
+.mIndexBox .con .olPicList li span{position:absolute; left:0; bottom:0; background:url(../../images/special/mailindex/mailindex_picbg.png) 0 0 repeat-x; padding:0 10px; width:180px; height:32px; line-height:32px; color:#fff;}

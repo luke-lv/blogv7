@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>发布器默认</title>
+    <link rel="stylesheet" href="http://sjs.sinajs.cn/blog7/sinaEditor/test/qunit/qunit.css" type="text/css"/>
+    <link href="http://simg.sinajs.cn/blog7style/css/conf/editor/public.css" rel="stylesheet"/>
+    <link type="text/css" href="http://simg.sinajs.cn/blog7style/css/module/blog_editor/blog_editor_component.css"
+          rel="stylesheet">
+
+    <script src="http://sjs.sinajs.cn/blog7/sinaEditor/test/qunit/qunit.js" type="text/javascript"></script>
+</head>
+<style>
+    .active button {
+        color: red;
+    }
+</style>
+<body>
+<div>
+    <div id="qunit"></div>
+    <!--<div id="editor" style="width:100%; height:500px; border: 1px solid;"></div> --!>
+
+    <div id="qunit-fixture"></div>
+  </div>
+  <!--页面主体框-->
+    <div class="BNE_content BNE_editor">
+        <div class="editor_tit">
+            <input name="" type="text" class="ipt" value="请输入标题">
+        </div>
+        <div class="editor_txt">
+            <div class="tar BNE_txtA" id="editor" name="blog_body">输入正文</div>
+        </div>
+        <!--编辑器的高度是根据内容的高度进行增加-->
+    </div>
+    <div class="BNE_operation">
+        <div class="BNE_content">
+            <div class="opera_btn">
+                <ul>
+                    <li>
+                        <a href="javascript:;" class="btn_lka" id="article_associate">
+                            <span class="img"><i class="icon i4_art"></i></span>
+                            <span class="txt">插入更多文章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="btn_lka" id="insert_music">
+                            <span class="img"><i class="icon i5_music"></i></span>
+                            <span class="txt">插入音乐</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="btn_lka" id="insert_video">
+                            <span class="img"><i class="icon i6_video"></i></span>
+                            <span class="txt">插入视频</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="BNE_choice">
+                <h1 class="choice_tit" id="blog_cate_select"><a href="javascript:;">
+                    选择博文分类 <i class="icon i2_darr"></i>
+                </a></h1>
+                <!--博文分类触发-->
+                <ul class="BNE_blog_sort" id="blog_cate_list" style="display:none;">
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计设计设计设计设计设计设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计设计设计设计设计设计设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计设计设计设计设计设计设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计设计设计设计设计设计设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计设计设计</a></li>
+                    <li class="clearfix"></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计</a></li>
+                    <li><span class="dot"></span><a class="sort_by" href="javascript:void(0);">设计</a></li>
+                </ul>
+                <!--/博文分类触发-->
+                <!--博文分类完成-->
+                <ul class="BNE_blog_sort" id="blog_cate_selected_list">
+                    <li><span class="dot"></span><a href="javascript:void(0);">设计设计设计设计设计设计设计设计</a></li>
+                </ul>
+                <!--/博文分类完成-->
+            </div>
+            <div class="BNE_choice">
+                <h1 class="choice_tit" id="add_blog_tag">
+                    添加博文标签 <i class="icon i2_darr"></i>
+                </h1>
+                <!--博文标签已展开-->
+                <div class="BNE_blog_tags">
+                    <a href="#" class="BNE_txtC btn_close">收起</a>
+
+                    <div class="blog_input" id="t_input_container">
+                        <input type="hidden" autocomplete="off" value="" id="article_tag_input" name="tag">
+
+                        <div class="tag1"><span>杂谈</span><a class="close" href="javascript:void(0);"
+                                                            title="删除">&times;</a></div>
+                        <input id="t_input" class="tag_input" type="text"/>
+                    </div>
+                    <div class="blog_tags" id="blog_tag_list" style="display:none;">
+                        <p class="tag_tit">标签间请用“空格”或“逗号”隔开，最多可添加5个标签</p>
+                        <dl class="tag_cont" id="blog_tag_hot">
+                            <dt>常用标签</dt>
+                            <dd>
+                                <a href="javascript:void(0);" class="tag2">世界杯</a>
+                                <a href="javascript:void(0);" class="tag2">世界杯</a>
+                                <a href="javascript:void(0);" class="tag2">世界杯</a>
+                                <a href="javascript:void(0);" class="tag2">世界杯</a>
+                            </dd>
+                        </dl>
+                        <dl class="tag_cont tag_cont2" id="blog_tag_recommended">
+                            <dt>推荐标签</dt>
+                            <dd>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                                <a href="javascript:void(0);" class="tag2">体育</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <!--/博文标签已展开-->
+            </div>
+            <div class="BNE_choice">
+                <div class="choice_btn">
+                    <!--btn_cur为激活状态-->
+                    <a href="#" class="btn_a btn_cur" id="is_comment_allow">
+                        <span class="txt">允许评论</span>
+                        <span class="ico"><i class="icon i1_yes"></i></span>
+                    </a>
+                    <a href="#" class="btn_a" id="is_private_blog">
+                        <span class="txt">仅自己可见</span>
+                        <span class="ico"><i class="icon i1_yes"></i></span>
+                    </a>
+                    <a href="#" class="btn_a" id="can_reprint">
+                        <span class="txt">禁止转载</span>
+                        <span class="ico"><i class="icon i1_yes"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="release_btn">
+                <a href="#" class="btn_a" id="articlePreviewBtn">预览博文</a>
+                <a href="#" class="btn_a" id="articlePosTempBtn">保存草稿</a>
+                <a href="#" class="BNE_btn_commit" id="articlePostBtn">发博文</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var scope = {
+        $uid: "1455987560",
+        $setDomain: false,
+        $PRODUCT_NAME: "blog7",
+        $pageid: "editor_new_publish"
+    };
+
+    // 为了调试，临时加上的，最后由php渲染出来
+    var articleEditorCFG = {
+        /**
+         * 系统提供的Tag分类
+         * user为用户使用过的tag列表
+         * hot为系统提供的热门tag列表
+         * {Object}
+         *  {Array}
+         *  {Array}
+         */
+        articleAllTagList: {
+            user: ["佛学", "美食", "杂谈", "股票", "编辑器", "光标", "剪贴板", "模式", "幸存", "手机博客", "cache", "web", "娱乐", "疯狂原始人", "影评",
+                "ajax", "it", "js", "编码", "365"],
+            hot: [
+                {label: "高考", link: "http://blog.sina.com.cn/lm/hotrank/161.html"},
+                {label: "欧洲杯", link: "http://blog.sina.com.cn/lm/hotrank/162.html"},
+                {label: "奥运会", link: "http://blog.sina.com.cn/lm/hotrank/164.html"}
+            ],
+            tag_Recommend: ["奥运会", "暴雨", "高考", "月薪", "油价", "房价"],
+            newhot: [
+                {"title": "\u6614\u65e5\u7684\u201c\u6563\u7247\u201d\u8bb0\u5f55", "presetTag": "Qing\u8bdd\u9898  \u6563\u7247"}
+            ],
+            hotTagNick: ['育儿', '娱乐', '星座', '文化', '体育', '时尚', '情感', '汽车', '美食', '旅游', '军事', '教育', '健康', '股票', '房产', '财经',
+                '历史', '收藏', '时评', '佛学', '图片', 'IT'],
+            hotTagNum: {'育儿': '125', '娱乐': '105', '星座': '131', '文化': '102', '体育': '104', '时尚': '134', '情感': '149', '汽车': '130', '美食': '108', '旅游': '127', '军事': '116', '教育': '122', '健康': '141', '股票': '111', '房产': '129', '财经': '153', '历史': '117', '收藏': '117', '时评': '117', '佛学': '117', '图片': '117', 'IT': '113'}
+        },
+        servertime: "1407395027",
+        /**
+         * 本篇文章的tag列表
+         * {String}
+         */
+        articleTagList: "",
+        tagPostURL: "http://interface.blog.sina.com.cn/api/get_blog_tag.php",
+        articlePreviewURL: "http://control.blog.sina.com.cn/myblog/htmlsource/article_preview.php",
+        // 新发->草稿
+        articlePostTempURL: "http://control.blog.sina.com.cn/admin/article/article_post.php?act=3",
+        // 新发->发表
+        // 编辑->保存
+        articlePostURL: "http://control.blog.sina.com.cn/admin/article/article_post.php",
+        // 编辑草稿->草稿
+        articleEditPostTempURL: "http://control.blog.sina.com.cn/admin/article/article_edit_post.php?act=3",
+        // 编辑草稿->发表
+        articleEditPostURL: "http://control.blog.sina.com.cn/admin/article/article_edit_post.php",
+        articleStatus: "1",
+        worldcupPics: 0,
+        articleAssociate: {"total": 40, "cates": {"1": {"name": "\u8bf4\u8bf4", "count": 1, "id": 1}, "3": {"name": "\u8f6c\u8f7d", "count": 8, "id": 3}, "4": {"name": "\u5b66\u4e60\u603b\u7ed3", "count": 3, "id": 4}, "5": {"name": "\u6e38\u56fe", "count": 5, "id": 5}, "2": {"name": "\u603b\u7ed3", "count": 1, "id": 2}, "6": {"name": "test", "count": 0, "id": 6}, "32768": {"count": 0, "name": "\u8d2d\u559c\u6b22", "id": "32768"}}},
+        articleAssociateHistory: [],
+        articleBGMHistory: '',
+        articlevData: null,
+        articleActivity: null,
+        articleClassID: 117
+    };
+
+    QUnit.config.autostart = false;
+    QUnit.config.reorder = false;
+
+</script>
+<script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/boot.js"></script>
+<script type="text/javascript">__load_js();</script>
+<script type="text/javascript">__render_page();</script>
+</html>

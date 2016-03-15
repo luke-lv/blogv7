@@ -1,0 +1,9 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*ulimg*/
+.ulimg{ width:1000px; margin:0 auto; padding-bottom:20px;border-bottom:1px  solid #e5e5e5; overflow:hidden;}
+.ulimg .ul{ height:200px; width:99999px;}
+.ulimg .ul li{ float:left;margin-right:10px;}
+.ulimg .ul li a{ display:block;}
+.ulimg .ul img{ height:200px; }

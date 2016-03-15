@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* 公用-clearfix */
+@import url("editor.css");
+
+/* 电影博客 发布器 */
+.sinablogb{background:#f5faff;}
+.sinablogbody{background:url(../../images/common/editor/bg_blog_editor.jpg) no-repeat left top;}
+.flwarp { float:left;width:651px; margin:0 66px 0 0; overflow:hidden;}
+.flwarp h2{padding-bottom:5px;font-size:22px;font-weight:normal;padding-bottom:5px; font-family:"微软雅黑";}
+.flwarp li {float:left; padding:2px 0 3px; line-height:26px; font-size:14px; clear:both; }
+.flwarp li .Fm_input1 { height:16px; line-height:16px; padding:3px 2px 3px; border:1px solid #C1C1BB; font-size:14px; font-family:simsun; color:#333; }
+.flwarp li .cTit { float:left; line-height:26px; color:#333; font-size:14px; }
+.flwarp li .cInfo { float:left; padding-top:6px; font-family:Arial;}
+.flwarp li .cInfo .editBtn1{ margin-right:4px;}
+.flwarp li div{width:550px;}
+.flwarp li div input{*margin-top:-2px}
+.frwarp{float:left;width:202px;}
+.frwarp p img{width:200px; height:266px; border:1px solid #dcdcdc}
+.flwarp span{ float:left; width:60px; padding:4px 0 6px; font-size:12px;}
+.flwarp input { vertical-align:-2px; float:left }
+.flwarp label { width:25px; padding:0; overflow:hidden; margin:0; margin-right:14px;line-height:20px;float:left;}
+.flwarp .tit{padding:0 0 6px; font-size:14px;}
+.flwarp .txt_box{float:left; width:100%; padding:0;}
+.flwarp .txt_box textarea{width:626px; height:334px; padding:10px; border:1px solid #ddd; color:#333; line-height:18px;}
+.flwarp p{padding:20px 0 32px; text-align:center;}
+.flwarp .btn_h{float:left; padding-bottom:0;  text-align:left;}
+.flwarp .editBtn2:link,
+.flwarp .editBtn2:visited{ background:url(../../images/common/editor/editor_bg2.png) no-repeat 0 0; 
+text-decoration:none;color:#000;font-size:14px !important; font-family:"宋体" !important; padding:8px 0 8px 3px; display:inline-block\9;
+height:28px\9;overflow:hidden; padding:0px 0 5px 3px\9;white-space:nowrap; vertical-align:middle\9;}
+.flwarp .editBtn2:link cite,
+.flwarp .editBtn2:visited cite{ font-size:14px !important; line-height:25px; padding:8px 17px 8px 15px; display:block\9;
+line-height:30px\9; padding:0px 18px 5px 18px\9; background:url(../../images/common/editor/editor_bg2.png) no-repeat right -33px;}
+.flwarp .editBtn2:hover{ background-position:left -67px; text-decoration:none}
+.flwarp .editBtn2:hover cite{ background-position:right -101px;}
+
+
+/* 电影插件 */
+.filmPlug li{ padding:0 0 0 5em;line-height:20px;overflow:hidden;color:#666; word-wrap:break-word; word-break:break-all;}
+.filmPlug li.name .txt{ font-weight:bold;}
+.filmPlug li.pic{ text-align:center; padding:5px 0;}
+.filmPlug li.pic img{border:solid 1px #D3D3D3}
+.filmPlug li strong{ font-weight:normal; width:5em; margin:0 0 0 -5em;}
+.filmPlug .btn{ text-align:center; padding:8px 0;}
+
+/* 发博文高级选项 */
+.flwarp ul{_zoom:1;}
+.evaluation{width:550px; float:none;}
+.advanced{margin-top:20px;}
+.advanced li {padding:5px 0; line-height:26px; font-size:14px; clear:both; float:none;}
+.advanced li span {margin:0; padding:0; }
+.advanced li .cTit {float:left; line-height:26px; color:#333; width:auto;}
+.advanced li .cInfo {float:left; font-family:Arial; padding:0;}
+.advanced li.li1 .cInfo{ height:26px;}
+.advanced li .ATextLine {text-decoration:underline; font-size:12px; color:#900;}
+.advanced li .BTextLine {font-size:12px; text-decoration:underline; font-size:12px; color:#336699; line-height:20px; *margin-top:3px;}
+.advanced li .CTextLine {font-size:12px; text-decoration:underline; font-size:12px; color:#336699; line-height:20px; display:block;}
+.advanced .li1 .ATextLine {color:#900;}
+.advanced .li1 select, .advanced .li1 select option {font-size:14px;line-height:20px;margin-right:16px;vertical-align:middle;}
+.advanced .li2 .cInfo{margin-top:5px;*margin-top:3px;}
+.advanced .li2 .cInfo a.ATextLine{float:left;margin-top:-3px; margin-left:5px;}
+.advanced .li2 label{float:left; padding-right:10px; line-height:20px; width:auto;}
+.advanced .liText12 {font-size:12px; }
+.advanced .liText12 input,.advanced .liText12 strong,.advanced .liText12 label{float:none;}
+.advanced .liText12 label{margin:0;}
+.advanced .liText12 label,.advanced .liText12 span{width:auto;}
+.advanced .liText12 span{float:none;}
+.advanced li span.CP_pgttl {color:#666666;}
+.advanced li .Fm_input1{margin-top:2px;*margin-top:1px;}
+.advanced li .cInfo .editBtn1{margin-top:1px;}
+.advanced .blogTs{_margin-left:0;}
+.flwarp .btn {height:25px;padding:10px 0 20px 260px;}
+.flwarp .btn .editBtn2:link,
+.flwarp .btn .editBtn2:visited{ background:url(../../images/common/editor/editor_bg2.png) no-repeat 0 0; 
+text-decoration:none;color:#000;font-size:14px !important; font-family:"宋体" !important; padding:8px 0 8px 3px; display:inline-block\9;
+height:28px\9;overflow:hidden; padding:0px 0 5px 3px\9;white-space:nowrap; vertical-align:middle\9;}
+.flwarp .btn .editBtn2:link cite,
+.flwarp .btn .editBtn2:visited cite{ font-size:14px !important; line-height:25px; padding:8px 17px 8px 15px; display:block\9;
+line-height:30px\9; padding:0px 18px 5px 18px\9; background:url(../../images/common/editor/editor_bg2.png) no-repeat right -33px;}
+.flwarp .btn .editBtn2:hover{ background-position:left -67px; text-decoration:none}
+.flwarp .btn .editBtn2:hover cite{ background-position:right -101px;}
+#cateContent{padding:5px 0 0 20px;width:620px;}
+#cateContent span {float:left;padding:2px 0 6px;width:54px;}
+#cateContent label {float:left;line-height:20px;margin:0 8px 0 0;overflow:hidden;padding:0;width:25px;}

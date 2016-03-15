@@ -1,0 +1,264 @@
+﻿@charset "utf-8";
+
+/* 看电影组件 */
+.moviesbox .list{clear:both;overflow:hidden;margin-bottom:5px;}
+.SG_colW73 .moviesbox{height:100%;overflow:hidden;padding:20px 19px 20px 20px;}
+.SG_colW51 .moviesbox{height:100%;overflow:hidden;padding:20px 19px 20px 20px;}
+.SG_colW21 .moviesbox{height:100%;overflow:hidden;padding:15px 10px 10px;}
+.SG_colW73 .moviesbox .list,
+.SG_colW51 .moviesbox .list,
+.SG_colW21 .moviesbox .list{margin-top:15px;}
+.SG_colW73 .moviesbox .list{margin-left:-8px;margin-right:-9px;}
+.SG_colW73 .moviesbox .list li{float:left;width:85px;margin:0 8px;display:block;*display:inline;}
+.SG_colW51 .moviesbox .list{margin-left:-5px;margin-right:-7px;}
+.SG_colW51 .moviesbox .list li{float:left;width:85px;margin:0 6px 0 5px;display:block;*display:inline;}
+.SG_colW21 .moviesbox .list{margin-left:-1px;margin-right:-6px;}
+.SG_colW21 .moviesbox .list li{float:left;overflow:hidden;width:85px;margin:0 6px 5px;display:block;*display:inline;}
+.SG_colW21 .moviesbox .morelink,.SG_colW51 .moviesbox .morelink,.SG_colW73 .moviesbox .morelink{text-align:right;}
+/*peihe 增加删除图标*/
+.moviesbox .list li .smallPic{width:85px;height:110px;overflow:hidden;margin-bottom:7px;position:relative}
+.moviesbox .list li .smallPic .del{position:absolute;display:block;width:15px;height:15px;overflow:hidden;right:1px;_right:0;bottom:0;cursor:pointer;}
+.moviesbox .list li .smallPic .del img{width:15px;height:15px;}
+
+.moviesbox .list li .smallPic img{width:85px;height:110px;}
+.SG_colW73 .moviesbox .list .clearit{float:none;width:85px;margin:0;}
+.SG_colW51 .moviesbox .list .clearit{float:none;width:85px;margin:0;}
+.SG_colW21 .moviesbox .list .clearit{float:none;width:85px;margin:0;}
+.moviesbox .albumlisttxt{width:85px;height:15px;padding-left:0;}
+
+/* 电影组件 近期热播 */
+.movieHotB .list{float:left;}
+.SG_colW51 .movieHotB .list,
+.SG_colW73 .movieHotB .list{margin-left:-10px;}
+.SG_colW21 .movieHotB .list{margin-bottom:4px;margin-left:-6px;overflow:hidden;_zoom:1;float:none;}
+.SG_colW51 .movieHotB .list_movieInf,
+.SG_colW73 .movieHotB .list_movieInf{float:left;margin:12px 0 0 10px;}
+.SG_colW21 .movieHotB .list_movieInf{float:none;margin-bottom:10px;}
+.SG_colW51 .movieHotB .list li,
+.SG_colW73 .movieHotB .list li{margin:0 10px;float:left;display:inline;}
+.SG_colW21 .movieHotB .list li{margin:0 7px 0 6px;}
+.movieHotB .list_movieInf li{background:url(../../../images/common/SG_dot.gif) no-repeat 0 10px;padding-left:8px;line-height:22px;height:22px;overflow:hidden;}
+.movieHotB .list_movieInf li .time{padding-left:13px;}
+.movieHotB .moviePlace{background-position:0 0;}
+.movieHotB .moviePlace .tit{overflow:hidden;_zoom:1;line-height:24px;padding:8px 0 3px;}
+.movieHotB .moviePlace .place{line-height:20px;word-wrap:break-word;word-break:break-all;}
+.movieHotB .moviePlace .place a{padding-right:7px;}
+
+/* 电影组件 空状态 */
+.moviesbox .comTip{text-align:center;padding:62px 0 42px 0;}
+.moviesbox .comTip p{line-height:22px;font-size:14px;}
+.moviesbox .comTip p span{font-size:12px;}
+
+/* 好友的影评 */
+.friendReview{float:left; displayl:inline; width:480px; margin-right:18px; overflow:hidden;}
+.reviewRank{float:left; width:190px;}
+.friendReview h3,.reviewRank h3{width:100%; padding:18px 0 10px;_padding:18px 0 8px; font-size:14px; border-width:0 0 2px 0; clear:both; height:17px;*height:16px;}
+.movielist h3{_padding:18px 0 6px;}
+.friendReview h3 span,.reviewRank h3 span{float:left;}
+.friendReview h3 a.moviesmore{float:right; border:0; font-size:12px; font-weight:normal; line-height:20px;*line-height:18px; cursor:pointer;}
+.reviewRank h3 a.moviesmore{float:right; border:0; font-size:12px; font-weight:normal; line-height:20px;*line-height:16px; cursor:pointer;}
+.friendReview h3 a.moviesmore:hover,.reviewRank h3 a.moviesmore:hover{text-decoration:underline;}
+.friendReview .f12,.reviewRank .f12{font-size:12px;}
+.friendReview .SG_nodata,.reviewRank .SG_nodata{padding-top:45px; text-align:left;}
+.friendReview .SG_nodata{text-align:center;}
+.friendReview .SG_j_linedot1{background-position:bottom;}
+.friendReview .textbox,.reviewRank .textbox{padding-top:20px;}
+.center .friendReview .SG_page{padding-top:0;}
+.moviesList span.red{color:#ff0000;}
+.categoryList{margin-top:18px;}
+.categoryList dt{font-size:12px;}
+.categoryList dt span{color:#909090;}
+.categoryList dd{margin-bottom:20px; overflow:auto; zoom:1;}
+.categoryList .textbox{padding-top:15px;}
+.categoryList .SG_nodata{padding-bottom:65px;}
+.categoryList ul{overflow:auto; zoom:1; margin-bottom:20px;}
+.categoryList ul li{width:89px; height:164px; overflow:hidden; text-align:center; float:left; display:inline; margin-left:42px; margin-top:20px; margin-bottom:10px;}
+.categoryList ul li img,.categoryList ul li .SG_aBtn{display:block; margin-right:0; margin-left:0;}
+.categoryList ul li img{width:85px; height:110px; overflow:hidden; margin-bottom:5px;}
+.categoryList ul li .SG_aBtn{margin-top:8px; padding:0 0 0 3px;height:24px;}
+.categoryList ul li .SG_aBtn cite{*padding-top:2px;padding-left: 25px;padding-right:10px;font-size: 12px !important;}
+.categoryList ul li .SG_aBtn cite img{width:15px; height:15px; overflow:hidden;}
+.categoryList ul li em{display:block;}
+.moviesList h3 span.count{font-size:12px; font-weight:normal; color:#909090;}
+/* 我的电影 */
+.myMovies .textbox{padding-top:5px;}
+.myMovies .SG_nodata{font-size:12px;}
+.myMovies ul{margin-bottom:18px; overflow:auto; zoom:1;}
+.myMovies ul li{width:87px; float:left; display:inline; text-align:center; margin-left:44px; margin-top:19px;}
+.myMovies ul li .borderc{display:block;}
+.myMovies ul li img.borderc{width:85px; height:110px; overflow:hidden;}
+.myMovies ul li .blog_evaluation{margin:5px auto 0; display:block;}
+.myMovies ul li .blog_evaluation em{margin-right:1px;}
+/* 影评博文目录页 此段样式在blog.css中有 */
+.filmReviewList{padding:20px 18px;}
+.moviesindex{padding:0;}
+.filmReview{width:100%; overflow:hidden; zoom:1; position:relative; padding-bottom:18px; margin-bottom:18px;}
+.filmReview .pic{width:87px; float:left; display:inline; margin-right:-100%; position:relative;}
+.filmReview .pic img{width:85px; height:110px; overflow:hidden; display:block; margin-bottom:10px;}
+.filmReview .pic .borderc{background:url(../../images/me/noposter85x110.png) no-repeat;}
+.filmReviewList .filmReview .pic .borderc{width:85px; height:110px;}
+.filmReview .pic a.SG_aBtn_ico{margin:0;}
+.filmReview .pic a.SG_aBtn_ico cite{padding-right:10px;padding-left:25px;font-size: 12px !important;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.filmReview .pic a.SG_aBtn_ico cite{padding-right:7px;padding-left:23px;}}
+.filmReview .pic a.SG_aBtn_ico cite img{width:15px; height:15px; overflow:hidden;}
+.filmReview .info{width:100%; float:left; padding:0;}
+.filmReview .info .con{padding-left:97px;}
+.filmReview .info .con strong{font-size:14px;}
+.filmReview .info .con .des{margin-top:5px; line-height:18px; clear:both; overflow:auto; zoom:1;}
+.filmReview .info .con .des a,.filmReview .info .con .des span{float:left; margin-right:6px;}
+.filmReview .info .con .des span.blog_evaluation{margin-top:4px;*margin-top:0;_margin-top:2px;}
+.filmReview .info .con p{line-height:18px; margin-top:10px;}
+.filmReview .info .con p a{margin-left:15px;}
+.filmReview .edit{position:absolute; top:0; right:0;}
+.filmReview .edit a{margin-left:4px;}
+.filmReviewList .SG_j_linedot1{background-position:bottom;}
+.moviesApp_txtlink{float:right; padding:8px 10px 0 15px;}
+.moviesApp_txtlink a{outline:none;}
+/* 影评排行榜 */
+.reviewRank ul li{margin-bottom:16px; overflow:hidden; zoom:1;}
+.reviewRank ul li em{width:18px; height:14px; float:left; background:url(../../../images/me/me_rank.png) 1px -24px no-repeat; text-align:center; margin-right:8px; color:#fff; font-weight:bold;}
+.reviewRank ul li em.no1{background-position:1px 0;}
+.reviewRank ul li span{float:right; text-align:right; width:54px; font-family:"宋体";}
+.reviewRank ul li.myself{font-weight:bold;}
+.reviewRank ul li.myself em{background-position:1px -48px;}
+.reviewRank ul li a{/*width:9em;*/ height:15px; float:left; overflow:hidden; font-family:"宋体"; margin-top:1px;*margin-top:2px;}
+.reviewRank .rankText{font-size:12px; clear:both;}
+.reviewRank .rankText p{padding-left:30px; height:auto; line-height:22px; background:url(../../images/me/rank_ico.png) no-repeat; margin-bottom:22px;}
+.reviewRank .rankText p.r1{background-position:0 0;}
+.reviewRank .rankText p.r2{background-position:0 -43px;}
+.reviewRank .rankText p.r3{background-position:0 -87px;}
+.reviewRank .SG_j_linedot1{background-position:top; padding-top:20px; margin-top:10px;}
+
+
+/* 影片详情页 */
+.movieBack_n{ clear:both; height:25px; line-height:25px; text-align:right;width:100%; margin-bottom:-5px;}
+.movieDetails_n{margin-top:23px; clear:both; overflow:hidden; zoom:1;}
+.movieDetails_ntit{width:100%; margin-bottom:8px; overflow:hidden; zoom:1; clear:both; text-align:right; line-height:30px;}
+.movieDetails_ntit h2{width:525px; float:left; display:inline; font-size:24px; clear:both; text-align:left;}
+.movieDetails_ntit a{margin-top:5px;*margin-top:-4px;}
+.movieDetails_n .mD_img{  width:202px; overflow:hidden; float:left; text-align:center}
+.movieDetails_n .mD_img img{width:200px; height:266px; overflow:hidden;}
+.movieDetails_n .mD_img .SG_aBtn{ margin-top:15px;}
+.movieDetails_n .mD_img .SG_aBtn cite img{width:15px; height:15px; overflow:hidden;}
+.movieDetails_n .mD_list{ float:right; width:470px; overflow:hidden;line-height:23px; margin-top:-5px;}
+.movieDetails_n .mD_list .txts p{ text-indent:2em; line-height:21px;}
+.movieDetails_n .mD_list .mores{ padding-top:6px;}
+.otherCommed_n h3.borderc,
+.ohterLooked_n h3.borderc{ border-width:0 0 2px; padding:35px 0 10px; font-size:14px;}
+.otherCommed_n{ float:left;width:468px; overflow:hidden;}
+.otherCommed_n h3 span{ font-size:12px; font-weight:400; margin:0 10px;}
+.otherCommed_n .otherCommedList{ padding-top:20px;}
+.otherCommed_n .otherCommedList .filmReview{background-position: left bottom;}
+.otherCommed_n .otherCommedList .filmReview .info .con{ padding-left:60px}
+.otherCommed_n .otherCommedList .filmReview .pic img{width:auto; height:auto; overflow:hidden;}
+.ohterLooked_n{ float:right;width:202px; overflow:hidden;}
+.ohterLooked_n ul.moviesLs{overflow:hidden; zoom:1; margin-top:19px;}
+.ohterLooked_n ul.moviesLs li{float:left; display:inline; text-align:center; margin:0px 4px 12px;}
+.ohterLooked_n ul.moviesLs li img{width:85px; height:110px; overflow:hidden; display:block; margin-bottom:10px;}
+.ohterLooked_n ul.moviesLs li a.SG_aBtn,
+.ohterLooked_n ul.moviesLs li a.SG_aBtn:link,
+.ohterLooked_n ul.moviesLs li a.SG_aBtn:visited{margin:0;}
+.ohterLooked_n ul.moviesLs li a.SG_aBtn cite{padding-right:8px;*padding-right:10px; padding-left:26px;}
+.ohterLooked_n ul.moviesLs li a.SG_aBtn cite img{width:15px; height:15px; overflow:hidden;}
+.ohterLooked_n .SG_j_linedot1{background-position: left bottom;}
+
+/* 电影博客 */
+.blogFilm_pic{ clear:both; display:block; width:425px; min-height:150px; _height:150px; position:relative;}
+.blogFilm_des{ display:block; width:260px; overflow:hidden; margin-left:136px;}
+
+.blogFilm_view{ display:block; height:160px; width:116px; overflow:hidden; position:absolute; left:0; top:0px; margin-left:1px; }
+.blogFilm_view_area{ display:block; width:116px;white-space:nowrap; float:left; position:absolute; left:0; top:0;background:url(../../images/center/movies/bg_film.gif) no-repeat left top; text-align:center;}
+.feedList_main .blogFilm_view_area img{width:90px; margin:0 0 4px;}
+.feedList_main .blogFilm_view_area a,.feedList_main .blogFilm_view_area a:link{display:block;}
+.feedList_main .blogFilm_view_area a:hover{text-decoration:none}
+
+
+/* 影视博客APP */
+/* 电影博客首页 */
+.moviesindex h3{clear:both;margin-bottom:20px; padding: 18px 0 10px; font-size:14px; border-width:0 0 2px 0;}
+.movielist{padding:0;}
+.movielist h3{clear:both;height:17px;*height:16px; width:100%; padding: 18px 0 10px;_padding: 0 0 6px;}
+.movielist h3 span{float:left;}
+.movielist h3 a{float:right;font-size:12px;font-weight:normal; line-height:20px;cursor:pointer;}
+.movielist ul.moviesLs{overflow:hidden; zoom:1; margin-bottom:24px;}
+.movielist ul.moviesLs li{float:left; display:inline; text-align:center; margin:19px 44px 0 0;text-align: center;width: 86px;}
+.movielist ul.moviesLs li img{width:85px; height:110px; overflow:hidden; display:block; margin-bottom:10px;}
+.movielist ul.moviesLs li a.SG_aBtn,.moviesList ul.moviesLs li a.SG_aBtn:link,.moviesList ul.moviesLs li a.SG_aBtn:visited{margin:0;}
+.movielist ul.moviesLs li cite{padding-right:10px; padding-left:25px; font-size: 12px !important;}
+@media screen and (-webkit-min-device-pixel-ratio:0){ .movielist ul.moviesLs li cite{padding-left:21px;}} 
+.movielist ul.moviesLs li cite img{width:15px; height:15px; overflow:hidden;}
+.moviesLs a.SG_aBtn_ico,
+.categoryList a.SG_aBtn_ico,
+.filmReview .pic a.SG_aBtn_ico,
+.moviesList ul.moviesLs li a.SG_aBtn_ico,
+.detailLs li .info li a.SG_aBtn_ico{position: relative;}
+.categoryList a.SG_aBtn img,
+.filmReview .pic a.SG_aBtn img,
+.detailLs li .info li.btn a img,
+.moviesLs a.SG_aBtn img,
+.detailLs li .info li a.SG_aBtn img{left: 7px; position: absolute; top: 4px}
+.movielist ul.moviesLs li.end{margin-right:0;}
+.reviewRank .textbox_t .SG_nodata{padding-top:15px;}
+.moviesAPP_loadding{width:100%; height:20px; margin:65px auto 130px; background:url(../../images/common/loading.gif) center no-repeat;}
+
+.searchMovies{position:absolute; right:0; top:19px;}
+.searchMovies input{width:180px; height:18px; line-height:18px;*line-height:20px; padding:0 5px; float:left; margin-top:2px; margin-right:10px; border:1px #b2b2b2 solid; border-right-color:#d6d6d6; border-bottom-color:#d6d6d6; color:#999;}
+.searchMovies a.SG_aBtn_ico cite{/*padding-left:18px; padding-right:18px;*/}
+.searchMovies a.SG_aBtn_ico,
+.searchMovies a.SG_aBtn_ico cite{ background-position:right -73px;}
+.moviesList h3{padding:18px 0 10px; *padding-bottom:7px; font-size:14px; border-width:0 0 2px 0;}
+.moviesList h3 em{font-size:12px; font-weight:normal; float:right; margin-top:3px; *margin-top:-23px;}
+.moviesList .SG_j_line{height:2px; background:url(../../images/common/SG_line.gif) repeat;}
+.moviesList ul.moviesLs{overflow:hidden; zoom:1; margin-bottom:19px;}
+.moviesList ul.moviesLs li{float:left; display:inline; text-align:center; margin:19px 10px 0 12px;}
+.moviesList ul.moviesLs li img{width:85px; height:110px; display:block; margin-bottom:10px;}
+.moviesList ul.moviesLs li a.SG_aBtn,.moviesList ul.moviesLs li a.SG_aBtn:link,.moviesList ul.moviesLs li a.SG_aBtn:visited{margin:0;}
+.moviesList ul.moviesLs li cite{padding-left: 25px;padding-right:10px;font-size: 12px !important;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.moviesList ul.moviesLs li cite{padding-left: 21px;padding-right:10px;font-size: 12px !important;} }
+.moviesList ul.moviesLs li cite img{width:15px; height:15px; overflow:hidden;}
+.searchPara{height:34px; line-height:34px; padding:0 10px; overflow:hidden;}
+.searchPara label{font-size:14px; font-weight:bold; float:left; margin-top:-5px;}
+.searchPara label,.searchPara select,.searchPara span{float:left;}
+.searchPara ul li{float:left; display:inline; margin-top:6px; background:url(../../images/me/sxline.png) right 4px no-repeat; padding-right:8px; margin-right:12px;}
+.searchPara ul li span{margin-left:10px; margin-top:-6px;}
+.searchPara ul li span a{margin-right:6px; text-decoration:none;}
+.searchPara ul li span a:link{text-decoration:none;}
+.searchPara ul li span a:visited{text-decoration:none;}
+.searchPara ul li span a:hover{text-decoration:underline;}
+.searchPara ul li select{width:60px; text-align:center; margin-top:1px; color:#999;}
+.searchPara ul li.nobg{background:none;}
+.searchResult{width:100%; margin-top:18px; clear:both; padding-bottom:10px;}
+.searchResult em{font-weight:bold;}
+.moviesList .SG_j_linedot1{background-position: left bottom;}
+.detailLs{margin-top:20px;}
+.detailLs li{float:left; display:inline; margin-bottom:30px;}
+.detailLs li.mgr68{margin-right:68px;}
+.detailLs li .pic{width:116px; height:137px; float:left; display:inline; background:url(../../images/me/poster_bg.png) no-repeat; text-align:center;}
+.detailLs li .pic img{width:94px; height:131px; overflow:hidden; margin-top:3px;}
+.detailLs li .info{float:left; padding:0; margin:0 0 0 20px; line-height:18px;}
+.detailLs li .info li{clear:both; height:18px; width:174px; overflow:hidden; margin:0;}
+.detailLs li .info li.btn{height:24px; margin-top:5px;}
+.detailLs li .info li.btn a{margin:0;}
+.detailLs li .info li.btn a.SG_aBtn_ico cite{font-size: 12px !important; padding-left:25px;} 
+.detailLs li .info li a,.detailLs li .info li a:link{text-decoration:none;}
+.detailLs li .info li a:visited{text-decoration:none;}
+.detailLs li .info li a:hover{text-decoration:none;}
+.moviesList .SG_j_linedot1{background-position: left bottom;}
+
+/* 电影博客APP 好友的电影页无好友时 */
+.addMyFriend{width:100%; clear:both;}
+.addMyFriend p{width:100%; clear:both; margin-top:15px;}
+.addMyFriend ul{margin-top:16px; overflow:hidden; zoom:1;}
+.addMyFriend ul li{float:left; width:52px; height:85px; overflow:hidden; margin-right:40px; margin-bottom:15px;}
+.addMyFriend ul li a.xz,.addMyFriend ul li a.wxz{width:52px; height:52px; display:block; position:relative;}
+.addMyFriend ul li a.xz .spic{width:13px; height:13px; background:url(../../images/me/me_select.gif) 0 0 no-repeat; position:absolute; right:0px; bottom:0;}
+.addMyFriend ul li a.wxz .spic{width:13px; height:13px; background:url(../../images/me/me_select.gif) 0 -26px no-repeat; position:absolute; right:0px; bottom:0;}
+.addMyFriend ul li span{margin-top:3px;margin-top:5px\9;*margin-top:5px; display:block;}
+.addMyFriend ul li span a{display:block;}
+.addMyFriendBtn{text-align:center; margin-top:16px;}
+
+/* update by chenhui 2011.03.01 顶浮IE6下错位1px */
+.wrtBlog_sub{_right:171px;}
+.center .clearFix{height:0px;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){ .searchMovies a.SG_aBtn_ico_h cite{line-height:25px;} } 

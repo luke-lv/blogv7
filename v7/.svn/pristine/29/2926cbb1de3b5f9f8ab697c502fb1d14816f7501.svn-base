@@ -1,0 +1,6 @@
+/*@charset "UTF-8";
+.b_old_cont{ position: relative; background: url(../../../images/blog_editor/bne_change.png) 0 0 no-repeat; _background: url(../../../images/blog_editor/bne_change.gif) 0 0 no-repeat; width: 626px; height: 478px;}
+.b_old_cont .b_old_change{ position: absolute; top:0; right:0; width: 90px; height: 90px;}
+.b_old_cont .b_old_box{ position: absolute; left: 2px; bottom: 10px; width: 380px; height: 250px;}
+.b_old_cont .b_old_box .b_close{ position: absolute; right: 10px; top: 10px; background:url(../../../images/blog_editor/bne_change.png) no-repeat -759px -57px; _background: url(../../../images/blog_editor/bne_change.gif) no-repeat -759px -57px; width: 10px; height: 10px;}
+.b_old_cont .b_old_box .b_btn{ position: absolute; bottom: 44px; left:126px; font-size: 16px; color: #361006;background: url(../../../images/blog_editor/bne_change.png) no-repeat -649px -6px; _background: url(../../../images/blog_editor/bne_change.gif) no-repeat -649px -6px; width: 130px; height: 40px; line-height: 40px; text-align: center; }*/

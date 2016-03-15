@@ -1,0 +1,129 @@
+@charset "utf-8";
+body{background:url(../../images/activity/blog7year/blog7year_bg.png) 0 0 repeat-x; position:relative; padding:0; margin:0; overflow-x:hidden!important; font-family:"Microsoft Yahei";}
+img{border:0;}
+.actWrap{width:100%;}
+.container{width:960px; margin:0 auto; position:relative;}
+.container .logo{position:absolute; left:22px; top:29px; z-index:1024; width:146px; height:42px; background:url(../../images/activity/blog7year/blog7year_logo.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_logo.gif) no-repeat; text-indent:-9999px;}
+.userState{position:absolute; right:15px; top:30px; z-index:1024; color:#3a6c8e; font-size:12px;}
+.videoPage .userState{right:0;}
+.userState a,.userState a:link{color:#3a6c8e; text-decoration:underline;}
+.userState a.nikename,.userState a.nikename:link{color:#cbb070; text-decoration:none; margin-right:5px;}
+.sideNav{position:absolute; width:87px; height:593px; background:url(../../images/activity/blog7year/blog7year_nav1.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_nav1.gif) no-repeat;}
+.sideNav .shareTo{margin-top:36px; margin-left:5px;}
+.sideNav .shareTo a,.sideNav .shareTo a:link{width:16px; height:16px; margin-left:3px; display:inline-block;}
+.sideNav .nav{margin-left:14px; margin-top:20px;}
+.sideNav .nav a,.sideNav .nav a:link{width:58px; height:72px; margin-bottom:15px; display:inline-block;}
+.bgstar1{position:absolute; left:0; top:0; z-index:1; width:100%; height:1500px; background:url(../../images/activity/blog7year/blog7year_star1.png) repeat; _background:url(../../images/activity/blog7year/blog7year_star1.gif) repeat;}
+.bgstar2{position:absolute; left:0; top:0; z-index:2; width:100%; height:1500px; background:url(../../images/activity/blog7year/blog7year_star2.png) repeat; _background:url(../../images/activity/blog7year/blog7year_star2.gif) repeat;}
+.bgcloud1{position:absolute; left:0; top:0; z-index:3; width:100%; height:2670px; background:url(../../images/activity/blog7year/blog7year_cloud1.png) repeat; _background:url(../../images/activity/blog7year/blog7year_cloud1.gif) repeat;}
+.bgcloud2{position:absolute; left:0; top:0; z-index:4; width:100%; height:2670px; background:url(../../images/activity/blog7year/blog7year_cloud2.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_cloud2.gif) no-repeat;}
+.actVideo{position:absolute; left:15px; top:158px; z-index:11; width:238px; height:264px; background:url(../../images/activity/blog7year/blog7year_video.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_video.gif) no-repeat;}
+.actVideo a,.actVideo a:link{width:238px; height:264px; display:inline-block; text-indent:-9999px; *text-indent:0; overflow:hidden; *line-height:9999px; outline:none;}
+.actBanner{position:absolute; right:50px; top:445px; z-index:11; padding-top:16px; width:117px; height:96px; background:url(../../images/activity/blog7year/blog7year_banner.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_banner.gif) no-repeat;}
+.actBanner a,.actBanner a:link{width:115px; height:43px; margin-left:2px; margin-top:5px; display:inline-block; text-indent:-9999px; *text-indent:0; overflow:hidden; *line-height:9999px; outline:none;}
+.actBanner1{position:absolute; right:-40px; top:1060px; z-index:9; width:349px; height:80px; background:url(../../images/activity/blog7year/blog7year_flyh.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_flyh.gif) no-repeat; text-indent:-9999px;}
+.actBanner2{position:absolute; left:-10px;; top:2750px; z-index:10; width:359px; height:75px; background:url(../../images/activity/blog7year/blog7year_flyx.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_flyx.gif) no-repeat; text-indent:-9999px;}
+.actBall{position:absolute; right:137px; top:0; z-index:11; width:479px; height:668px; background:url(../../images/activity/blog7year/blog7year_ball.png) 0 0 no-repeat; _background:url(../../images/activity/blog7year/blog7year_ball.gif) 0 0 no-repeat;}
+.actBall .light{position:absolute; top:236px; left:-2px;}
+.actBall .tip{position:absolute; top:521px; left:-70px; width:146px; height:31px; background:url(../../images/activity/blog7year/blog7year_medaltip.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_medaltip.gif) no-repeat;}
+.actBall .tip a,.actBall .tip a:link{width:352px; height:57px; display:inline-block; *line-height:9999px; text-indent:-9999px; *text-indent:0; outline:none; overflow:hidden;}
+.actBall .box{position:absolute; left:96px; bottom:12px; width:257px; height:198px; background:url(../../images/activity/blog7year/box_b.png) 0 0 no-repeat; _background:url(../../images/activity/blog7year/box_b.gif)  0 0 no-repeat;}
+.actBall .box .box_f{position:absolute; left:0; bottom:0; width:257px; height:171px; background:url(../../images/activity/blog7year/box_f.png) no-repeat; _background:url(../../images/activity/blog7year/box_f.gif) no-repeat;}
+.actBall .box .box_f a,.actBall .box .box_f a:link{width:135px; height:96px; *line-height:9999px; display:inline-block; text-indent:-9999px; *text-indent:0; outline:none; margin:40px 0 0 20px; overflow:hidden;}
+.actBall .box .medal{position:absolute; left:83px; top:-21px; width:130px; height:150px;}
+.actBall .box .medal_yuanlao{background:url(../../images/activity/blog7year/icon_ylbz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_ylbz.gif) no-repeat;}
+.actBall .box .medal_jingying{background:url(../../images/activity/blog7year/icon_jybz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_jybz.gif) no-repeat;}
+.actBall .box .medal_xinxin{background:url(../../images/activity/blog7year/icon_xxbz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_xxbz.gif) no-repeat;}
+.actBall .box .medal_xinrui{background:url(../../images/activity/blog7year/icon_xrbz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_xrbz.gif) no-repeat;}
+.actBall .box .medal_zishen{background:url(../../images/activity/blog7year/icon_zsbz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_zsbz.gif) no-repeat;}
+.actBall .box .medal_xianfeng{background:url(../../images/activity/blog7year/icon_xfbz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_xfbz.gif) no-repeat;}
+.actBall .box .medal_fengyun{background:url(../../images/activity/blog7year/icon_fybz.png?2012091701) no-repeat; _background:url(../../images/activity/blog7year/icon_fybz.gif?2012091701) no-repeat;}
+.actBall .box .medal_weimingming{background:url(../../images/activity/blog7year/icon_wmmbz.png) no-repeat; _background:url(../../images/activity/blog7year/icon_wmmbz.gif) no-repeat;}
+.actTree{width:849px; margin:0 auto; padding-top:664px; position:relative; z-index:10;}
+.actTree .stair{width:184px; min-height:603px; _height:603px; *overflow:hidden; margin-left:332px; background:url(../../images/activity/blog7year/blog7year_stair.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_stair.gif) no-repeat;}
+.actTree .stair a,.actTree .stair a:link{width:108px; height:114px; display:inline-block; margin-left:6px; text-indent:-9999px; *text-indent:0; *line-height:9999px; outline:none;}
+.actTree .stairPop{position:absolute; top:790px; left:162px; width:500px; height:831px; border:1px #163b5c solid; border-color:rgba(22,59,92,.7);}
+.actTree .stairPop .hd{width:450px; height:70px; padding:25px; background:url(../../images/activity/blog7year/blog7year_poptitbg.png) repeat-x; _background:url(../../images/activity/blog7year/blog7year_poptitbg.gif) repeat-x; overflow:hidden;}
+.actTree .stairPop .hd strong{font-size:24px; color:#fff600;}
+.actTree .stairPop .hd p{margin:0; padding-top:8px; font-size:14px; color:#777; line-height:20px; font-weight:bold;}
+.actTree .stairPop .hd p span{color:#6ab6e2;}
+.actTree .stairPop .bd{width:100%; height:711px; background:url(../../images/activity/blog7year/blog7year_popbdbg.png) repeat; _background:url(../../images/activity/blog7year/blog7year_popbdbg.gif) repeat; overflow:hidden;}
+.actTree .stairPop .bd ul{margin:0; padding:21px 30px;}
+.actTree .stairPop .bd ul li{list-style:none; overflow:hidden; border-bottom:1px #062038 solid; padding-bottom:19px; margin-bottom:19px; overflow:hidden; *zoom:1;}
+.actTree .stairPop .bd .ico{width:60px; height:60px; margin-right:10px; float:left; _display:inline; background:url(../../images/activity/blog7year/blog7year_popicobg.png) repeat;}
+.actTree .stairPop .bd .ico img{width:39px; height:48px; margin:6px auto 0; display:block;}
+.actTree .stairPop .bd .txt{float:left; width:370px;}
+.actTree .stairPop .bd .txt em{font-size:20px; font-weight:bold; font-style:normal; color:#6ab6e2;}
+.actTree .stairPop .bd .txt p{padding:8px 0 0; margin:0; font-size:14px; color:#777; font-weight:bold;}
+.actTree .stairPop .bd .txt p span{padding:0 5px; color:#6ab6e2;}
+.actTree .nologin{width:849px; height:675px; background:url(../../images/activity/blog7year/blog7year_tree.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_tree.gif) no-repeat; *overflow:hidden;}
+.actTree .nologin a,.actTree .nologin a:link{width:398px; height:81px; display:inline-block; text-indent:-9999px; *text-indent:0; *line-height:9999px; outline:none; margin-top:212px; margin-left:12px;}
+.actTree .login{width:849px; height:675px; background:url(../../images/activity/blog7year/blog7year_treel.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_treel.gif) no-repeat; *overflow:hidden;}
+.actTree .login ul{padding:76px 0 0 30px; margin:0;}
+.actTree .login ul li{height:62px; line-height:62px; list-style:none; font-size:14px; font-weight:bold; color:#fff;}
+.actTree .login ul li a,.actTree .login ul li a:link{color:#fff; text-decoration:none;}
+.actTree .login ul li span{color:#122f07; padding:0 5px;}
+.actTree .login ul li.ls01{padding-left:235px;}
+.actTree .login ul li.ls02{padding-top:10px; padding-left:180px;}
+.actTree .login ul li.ls03{padding-top:10px; padding-left:276px;}
+.actTree .login ul li.ls04{padding-top:14px; text-align:left; padding-left:392px;}
+.actTree .login ul li.ls05{height:60px; line-height:60px; padding-top:12px; padding-left:93px;}
+.actHistory{width:724px; height:615px; position:relative; top:auto; margin-top:-135px; left:127px; z-index:10;}
+.actHistory h3{position:absolute; left:80px; top:112px; width:183px; height:27px; text-indent:-9999px; background:url(../../images/activity/blog7year/blog7year_hisfont.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_hisfont.gif) no-repeat;}
+.actHistory img{width:724px; height:615px; background:url(../../images/activity/blog7year/history_1.png) no-repeat; _background:url(../../images/activity/blog7year/history_1.gif) no-repeat;}
+.actHistory .year2005{background:url(../../images/activity/blog7year/history_8.png) no-repeat; _background:url(../../images/activity/blog7year/history_8.gif) no-repeat;}
+.actHistory .year2006{background:url(../../images/activity/blog7year/history_7.png) no-repeat; _background:url(../../images/activity/blog7year/history_7.gif) no-repeat;}
+.actHistory .year2007{background:url(../../images/activity/blog7year/history_6.png) no-repeat; _background:url(../../images/activity/blog7year/history_6.gif) no-repeat;}
+.actHistory .year2008{background:url(../../images/activity/blog7year/history_5.png) no-repeat; _background:url(../../images/activity/blog7year/history_5.gif) no-repeat;}
+.actHistory .year2009{background:url(../../images/activity/blog7year/history_4.png) no-repeat; _background:url(../../images/activity/blog7year/history_4.gif) no-repeat;}
+.actHistory .year2010{background:url(../../images/activity/blog7year/history_3.png) no-repeat; _background:url(../../images/activity/blog7year/history_3.gif) no-repeat;}
+.actHistory .year2011{background:url(../../images/activity/blog7year/history_2.png) no-repeat; _background:url(../../images/activity/blog7year/history_2.gif) no-repeat;}
+.actHistory .year2012{background:url(../../images/activity/blog7year/history_1.png) no-repeat; _background:url(../../images/activity/blog7year/history_1.gif) no-repeat;}
+.actPen{width:749px; height:1027px; position:relative; top:-10px; left:45px; z-index:9; background:url(../../images/activity/blog7year/blog7year_pen.png) 0 -472px no-repeat; _background:url(../../images/activity/blog7year/blog7year_pen.gif) 0 -472px no-repeat;}
+.actHistory .focusMap{cursor:default;}
+.actFoot{position:relative; top:-40px; margin-bottom:90px; z-index:11; color:#286e9e; font-size:12px; line-height:22px; text-align:right;}
+.actFoot .txt{float:left; _display:inline; width:530px; margin-left:60px; margin-right:10px;}
+.actFoot p{margin:0;}
+.actFoot .ftlogo{width:131px; height:49px; float:left;; background:url(../../images/activity/blog7year/icon_ftlogo.png) no-repeat; _background:url(../../images/activity/blog7year/icon_ftlogo.gif) no-repeat;}
+.actFoot .ftlogo a,.actFoot .ftlogo a:link{width:131px; height:49px; display:inline-block;}
+.actGotop{position:absolute; bottom:200px; right:190px; width:150px; height:195px;}
+.actGotop a,.actGotop a:link{width:150px; height:195px; display:inline-block; background:url(../../images/activity/blog7year/blog7year_gotop.png) no-repeat; _background:url(../../images/activity/blog7year/blog7year_gotop.gif) no-repeat; outline:none;}
+.actGotop a:hover{width:150px; height:195px; background:url(../../images/activity/blog7year/blog7year_gotopd.gif) no-repeat; outline:none;}
+.emPop{position:absolute; z-index:1024; width:448px; height:273px; border:1px #163b5c solid; border-color:rgba(22,59,92,.7);}
+.emPop .bd{width:364px; height:115px; padding:42px; background:url(../../images/activity/blog7year/blog7year_cfbdbg.png) repeat; _background:url(../../images/activity/blog7year/blog7year_cfbdbg.gif) repeat; overflow:hidden; position:relative; _zoom:1;}
+.emPop .bd .close{width:17px; height:16px; position:absolute; right:10px; top:10px; background:url(../../images/activity/blog7year/blog7year_closebtn.png) repeat; _background:url(../../images/activity/blog7year/blog7year_closebtn.gif) repeat; overflow:hidden; _zoom:1;}
+.emPop .bd .ico{width:115px; height:115px; float:left; margin-right:20px; _display:inline; background:url(../../images/activity/blog7year/blog7year_emicobg.png) repeat; _background:url(../../images/activity/blog7year/blog7year_emicobg.gif) repeat; overflow:hidden;}
+.emPop .bd .ico img{width:72px; height:92px; display:block; margin:12px auto 0;}
+.emPop .bd .txt{width:229px; float:left; _margin-left:-3px;}
+.emPop .bd .txt p{margin:3px 0 0; font-size:18px; color:#6ab6e2;}
+.emPop .bd .txt p.f14{font-size:14px;}
+.emPop .bd .txt p span{font-weight:bold; padding:0 5px;}
+.emPop .bd .txt .btn{width:148px; height:42px; margin-top:18px; display:inline-block; background:url(../../images/activity/blog7year/blog7year_btngo.png) repeat; _background:url(../../images/activity/blog7year/blog7year_btngo.gif) repeat;}
+.emPop .hd{position:relative; width:448px; height:74px; line-height:74px; background:url(../../images/activity/blog7year/blog7year_cfhdbg.png) repeat; _background:url(../../images/activity/blog7year/blog7year_cfhdbg.gif) repeat; overflow:hidden;}
+.emPop .hd p{margin:0; text-align:left; padding-left:40px; font-size:14px; color:#fff600; font-weight:bold;}
+.emPop .hd p span{color:#6ab6e2; padding:0 5px;}
+.emPop .hd label{position:absolute; right:40px; top:30px; line-height:16px; font-size:12px; color:#4889b7;}
+.emPop .hd label input{margin:2px 3px 0 0; float:left;}
+.emPop .bd .yet{text-align:center;}
+.emPop .bd .yet p{margin:3px 0 0; font-size:18px; color:#6ab6e2;}
+.emPop .bd .yet p span{font-weight:bold; padding:0 5px;}
+.emPop .bd .yet p.f13{font-size:13px; color:#205fa5;}
+.emPop .bd .yet .btn{width:88px; height:42px; margin-top:18px; display:inline-block; background:url(../../images/activity/blog7year/blog7year_btnback.png) repeat; _background:url(../../images/activity/blog7year/blog7year_btnback.gif) repeat;}
+
+.actVideoWrap{width:100%; height:650px; max-height:1024px; position:absolute; left:0; top:0; background:#143554 url(../../images/activity/blog7year/blog7year_videobg.png) center top no-repeat;}
+.videoPage{background:#143554;}
+.videoPage .container .logo{top:10px; left:0;}
+.videoPage .container{width:980px;}
+.videoPage .vBanner{position:absolute; top:13px; left:605px; width:218px; height:46px; background:url(../../images/activity/blog7year/blog7year_vtop.png) repeat; _background:url(../../images/activity/blog7year/blog7year_vtop.gif) repeat;}
+.videoPage .content{margin:0 auto; padding-top:73px;}
+.videoPage .vNav{width:87px; height:298px; padding-top:35px; float:left; _display:inline; background:url(../../images/activity/blog7year/blog7year_vnav1.png) repeat; _background:url(../../images/activity/blog7year/blog7year_vnav1.gif) repeat;}
+.videoPage .vNav a,.videoPage .vNav a:link{width:60px; height:75px; margin:0 0 10px 14px; display:inline-block;}
+.videoPage .vNav .shareTo{padding-left:5px; padding-bottom:10px;}
+.videoPage .vNav .shareTo a,.videoPage .vNav .shareTo a:link{width:16px; height:16px; margin-left:3px; display:inline-block;}
+.videoPage .vMod{width:876px; float:left; margin-left:17px;}
+.videoPage .vMod .video{width:876px; height:534px; background:url(../../images/activity/blog7year/blog7year_vmod.png) repeat; _background:url(../../images/activity/blog7year/blog7year_vmod.gif) repeat;}
+.videoPage .vMod .video .frame{width:852px; height:506px; float:left; _display:inline; margin:10px 0 0 11px; background:#000;}
+.videoPage .vMod .count{width:876px; height:77px; line-height:63px; background:url(../../images/activity/blog7year/blog7year_count.png)  no-repeat;}
+.videoPage .vMod .count strong{font-size:32px; color:#000; padding-left:290px; _padding-left:293px; font-family:arial; letter-spacing:22px;}
+.videoPage .vMod .btn{width:342px; height:73px; display:inline-block; margin-left:266px; background:url(../../images/activity/blog7year/blog7year_vbtn.png) repeat; _background:url(../../images/activity/blog7year/blog7year_vbtn.gif) repeat;}
+.videoPage .vMod .disable{background-position:0 -83px;}

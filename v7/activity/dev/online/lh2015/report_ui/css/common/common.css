@@ -1,0 +1,16 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*头部导航*/
+.Mininav{ width:100%; height:60px; background:#fff; position:fixed; z-index:9999;-webkit-box-shadow:1px 1px 10px #eceae8;box-shadow:1px 1px 10px #d8c6a2;}
+.top-nav{width: 1000px;margin: 0 auto;height: 60px;}
+.tn-left{float: left; }
+.tn-left a,.Mininav .timeline-time li{float: left;}
+.tn-left a{display:block; width:140px; height:60px; background: url(../../images/common/logotop.png) no-repeat left 9px;  background-size:100%;}
+.tn-left span{float: left;border-left: 1px solid #b39d6e;height:32px;line-height: 33px;font-size: 20px;padding-left: 20px; margin-left: 20px; color: #000; margin-top:14px;}
+.tn-right{float: right;}
+.tn-right .bshare-custom{ width: 26px;height: 60px; float: left; line-height: 200px;overflow: hidden;margin-right: 25px; cursor: pointer;}
+.tn-right .bshare-custom.icon-medium a.bshare-more.more-style-addthis{ width: 26px;height: 60px; float: left; background:url(../../images/common/top_enjoy.png) no-repeat center; cursor: pointer; padding: 0px !important;margin: 0px !important;}
+.tn-right .cmnt{width: 28px;height: 60px; float: left; line-height: 200px;overflow: hidden; background: url(../../images/common/top_commit.png) no-repeat center; cursor: pointer;}
+/*头部背景图*/
+.Mtopbg{ background:url(../../images/common/topbg.jpg) top center no-repeat;  height:230px;}

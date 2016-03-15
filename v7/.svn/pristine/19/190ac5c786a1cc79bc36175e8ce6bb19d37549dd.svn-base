@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 搜索进入页底部浮层 by chenhui 2013.09.17 */
+.nblog_searchBtm{width:100%; height:124px; background:#ededed; border-top:1px #c3c3c3 solid;}
+a.nblog_searchBtmBtn,a.nblog_searchBtmBtn:link,a.nblog_searchBtmBtn:visited{position:absolute; top:9px; right:9px; z-index:3; width:13px; height:13px; overflow:hidden; background:url(../../../images/common/searchbtm_close.png) 0 0 no-repeat; text-indent:-9999px;}
+.nblog_searchBtm .nblog_searchBtmCon{position:relative; overflow:hidden; width:950px; height:124px; margin:0 auto;}
+.nblog_searchBtm .nblog_searchBtmCon .title{height:14px; line-height:14px; font-size:12px; color:#333; padding:0; margin:6px 0 0;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow{margin-top:6px; *margin-top:4px; float:left; _display:inline;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow li{width:150px; height:90px; position:relative; float:left; _display:inline; margin-right:10px;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow li.last{margin-right:0;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow li img{width:150px; height:90px;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow li span{position:absolute; left:0; bottom:0; width:150px; height:24px; line-height:24px; background:#000; background:rgba(0,0,0,.6); overflow:hidden; color:#fff; text-align:center;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow li span a,.nblog_searchBtm .nblog_searchBtmCon ul li span a:link{text-decoration:none; color:#fff;}
+.nblog_searchBtm .nblog_searchBtmCon ul.picShow li span a:hover{text-decoration:underline; color:#fff;}
+.nblog_searchBtm .nblog_searchBtmCon ul.txt{float:left; line-height:19px; margin:53px 0 0 48px;}
+.nblog_searchBtm .nblog_searchBtmCon ul.txt li{padding-left:10px; background:url(../../../images/common/searchbtm_qing.png) -226px -96px no-repeat; height:19px; line-height:19px; overflow:hidden;}
+.nblog_searchBtm .nblog_searchBtmCon ul.txt li a,.nblog_searchBtm .nblog_searchBtmCon ul.txt li a:link{text-decoration:underline; color:#fff;}
+.nblog_searchBtm .nblog_searchBtmCon ul.txt li a:hover{text-decoration:none; color:#fff;}

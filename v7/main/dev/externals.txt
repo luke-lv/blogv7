@@ -1,0 +1,2 @@
+sina https://svn.intra.sina.com.cn/icplatform/tech/ria/sina_base/tags/sina_tags_51
+lib https://svn.intra.sina.com.cn/icplatform/tech/ria/blog7lib/tags/blog7lib_466

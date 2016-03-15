@@ -1,0 +1,6 @@
+<script type="text/javascript" src="/static/assets/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/static/assets/lib/angular.min.js"></script>
+<script type="text/javascript" src="/static/assets/lib/angular-animate.min.js"></script>
+<script type="text/javascript" src="/static/assets/lib/angular-touch.min.js"></script>
+<script type="text/javascript" src="/static/assets/lib/angular-route.min.js"></script>
+<script type="text/javascript" src="/static/js/config/httpProviderConfig.js"></script>

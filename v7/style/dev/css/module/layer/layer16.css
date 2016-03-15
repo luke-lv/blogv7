@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*会员统一登录 提示层*/
+.unilayer{padding-bottom:10px;}
+.unilayerB{clear:both;margin-top:20px;padding-top:10px;}
+.unilayerB p{padding-left:55px;}
+.unilayerB p input{margin-right:3px;}

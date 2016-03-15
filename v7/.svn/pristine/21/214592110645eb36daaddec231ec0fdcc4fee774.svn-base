@@ -1,0 +1,159 @@
+<!doctype html public "-//w3c//dtd xhtml 1.0 strict//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Generator" content="Aptana">
+	<meta name="Author" content="FlashSoft">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title></title>
+
+	<style type="text/css">
+		body, div, dl, dt,	dd,	ul, ol,	li,	h1,	h2,	h3,	h4,	h5,	h6,	pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{margin: 0; padding: 0;}
+		html{height: 100%;}
+		html {height: 100%; width: 100%; margin: 0;}
+		body, td, div, input{
+			font-size: 12px;
+			font-family: "Tahoma";
+		}
+		body{text-align: center; background-color: #fff;}
+		div{margin: 0 auto;}
+		form{margin: 0;}
+		
+		div {
+			text-align: left;
+			margin-top: 8px;
+			margin-left: 20px;
+		}
+		input{
+			height: 17px;
+			padding-top: 4px;
+		}
+		select {
+			height: 21px;
+		}
+		
+		.div1 {
+			margin-top: 15px;
+			line-height: 21px;
+		}
+		.input64 {
+			width: 64px;
+			border: 1px solid #C1C1BB;
+			text-indent: 5px;
+		}
+		.input80 {
+			width: 80px;
+			border: 1px solid #C1C1BB;
+			text-indent: 5px;
+		}
+		.select57 {
+			width: 57px;
+			border: 1px solid #C1C1BB;
+			text-indent: 5px;
+			margin-bottom: 3px;
+		}
+		.input113{
+			width: 113px;
+			border: 1px solid #C1C1BB;
+			text-indent: 5px;
+		}
+		.input101 {
+			width: 101px;
+			border: 1px solid #C1C1BB;
+			text-indent: 5px;
+		}
+		.div2 {
+			margin-left: 70px;
+			margin-top: 22px;
+		}
+	</style>
+	<script>
+		function $ (sID) {
+			return document.getElementById(sID);
+		}
+		function chk_table () {
+			$("tablerow").value = parseInt($("tablerow").value);
+			$("tablecol").value = parseInt($("tablecol").value);
+			$("tablewidth").value = parseInt($("tablewidth").value);
+			$("tableborder").value = parseInt($("tableborder").value);
+			$("tablepadding").value = parseInt($("tablepadding").value);
+			$("tablespacing").value = parseInt($("tablespacing").value);
+			if($("tablerow").value > 50 || $("tablerow").value <= 0) {
+				parent.showError("<b>行数、列数不可为0 可以在1-50之间。</b>", "03", [{label: "确定",func: function () {$("tablerow").select();}}], "window");
+				$("tablerow").value = 2;
+				return;
+			}
+			if($("tablecol").value > 50 || $("tablecol").value <= 0) {
+				parent.showError("<b>行数、列数不可为0 可以在1-50之间。</b>", "03", [{label: "确定",func: function () {$("tablecol").select();}}], "window");
+				$("tablecol").value = 2;
+				return;
+			}
+			if($("tablewidth").value > 650) {
+				parent.showError("<b>抱歉，表格的宽度不能超过650像素。</b>", "03", [{label: "确定",func: function () {$("tablewidth").select();}}], "window");
+				$("tablewidth").value = 650;
+				return;
+			}
+			if($("tablewidth").value > 100 && $("tabletype").value != 'pixels') {
+				parent.showError("<b>抱歉，表格的宽度不能超过100%。</b>", "03", [{label: "确定",func: function () {$("tablewidth").select();}}], "window");
+				$("tablewidth").value = 80;
+				return;
+			}
+			if($("tableborder").value > 5 || $("tableborder").value < 0) {
+				parent.showError("<b>抱歉，表格边框宽度只能输入0-5之间的数字。</b>", "03", [{label: "确定",func: function () {$("tableborder").select();}}], "window");
+				$("tableborder").value = 1;
+				return;
+			}
+			if($("tablepadding").value > 10 || $("tablepadding").value < 0) {
+				parent.showError("<b>抱歉，表格单元格边距只能输入0-10之间的数字。</b>", "03", [{label: "确定",func: function () {$("tablepadding").select();}}], "window");
+				$("tablepadding").value = 3;
+				return;
+			}
+			if($("tablespacing").value > 10 || $("tablespacing").value < 0) {
+				parent.showError("<b>抱歉，表格单元格间距只能输入0-10之间的数字。</b>", "03", [{label: "确定",func: function () {$("tablespacing").select();}}], "window");
+				$("tablespacing").value = 1;
+				return;
+			}
+			var widthType = $("tabletype").value == "pixels" ? "px;" : "%";
+			var html = '<table border="' + $("tableborder").value + '" cellpadding="' + $("tablepadding").value + '" ';
+			html += 'cellspacing="' + $("tablespacing").value + '" style="width:' + $("tablewidth").value + widthType + '">\n';
+			for (var rows = 0; rows < $("tablerow").value; rows ++) {
+				html += "<tr>\n";
+				for (var cols = 0; cols < $("tablecol").value; cols ++) {
+					html += "<td>&nbsp;</td>\n";
+				}
+				html+= "</tr>\n";
+			}
+			html += "</table>\n";
+			if(parent.editor) {
+				//try {
+					parent.editor.insertHTML(html);
+				//}catch(e) {}
+			}
+			dialogClose();
+			return false;
+		}
+		function dialogClose () {
+			if(parent.tableDialog) {
+				parent.tableDialog.hidden();
+			}
+		}
+	</script>
+</head>
+
+<body>
+<form onsubmit="return chk_table();">
+	<div class="div1">行数：&nbsp;<input id="tablerow" class="input64" value="2" />&nbsp;列数：&nbsp;<input id="tablecol" value="2" class="input64" /></div>
+	<div>表格宽度：&nbsp;<input id="tablewidth" class="input80" value="80" />&nbsp;<select class="select57" id="tabletype"><option value="" selected="selected">%</option><option value="pixels"> px</option></select></div>
+	<div>边框粗细：&nbsp;<input id="tableborder" class="input113" value="1" />&nbsp;像素</div>
+	<div>单元格边距：&nbsp;<input id="tablepadding" class="input101" value="3" />&nbsp;像素</div>
+
+	<div>单元格间距：&nbsp;<input id="tablespacing" class="input101" value="1" />&nbsp;像素</div>
+	<div class="div2"><input type="submit" class="but_all but_2 button" value="确定" />&nbsp;&nbsp;&nbsp;<input type="button" class="but_all but_2 button" value="取消" onclick="dialogClose();" /></div>
+</form>
+</body>
+
+</html>
+

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.BNE_e_layer{  position: relative; border: 1px solid #c2c2c2; background: #fff;}
+.new_layer{ width: 458px;}
+.BNE_e_layer .e_layer_header{ background: #fbfbfb; height: 55px; border-bottom: 1px solid #eee; overflow: hidden; zoom:1;}
+.BNE_e_layer .e_layer_header .e_layer_tit{ float: left; margin: 20px 0 0 15px; display: inline; font-size: 16px;}
+.BNE_e_layer .e_layer_header .e_layer_close{ float: right; margin: 15px 10px 0 15px; display: inline; font-size: 18px; color: #999;}
+.BNE_e_layer .e_layer_header .e_layer_close:hover{ color: #b2bdf0;}
+/*cont框架样式*/
+.e_layer_cont1{ margin: 35px 34px 48px;}
+.e_layer_cont2{ margin: 34px 0 59px 34px;}
+.e_layer_cont3{ margin: 50px 30px 0 69px;}
+/*下拉列表*/
+.BNE_e_layer .e_layer_select{ position: absolute; top: 11px; right: 49px; z-index:99; color: #999; cursor: pointer;}
+.BNE_e_layer .e_layer_select .selected{ float: left; margin: 0 0 0 10px; width: 131px; height: 32px; line-height: 32px; font-size:14px; background: #fff;}
+.BNE_e_layer .e_layer_select .selected .s1{ position: relative; *margin-bottom:-2px; overflow: hidden; zoom: 1; text-indent: 10px; border: 1px solid #eee;}
+.BNE_e_layer .e_layer_select .selected li{ overflow: hidden; zoom:1;}
+.BNE_e_layer .e_layer_select .selected .s1 span{ float: left; width: 109px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.BNE_e_layer .e_layer_select .down{ position: absolute; top:0; right: 0; width: 20px; height: 32px;}
+.BNE_e_layer .e_layer_select .down i{ margin: 0 0 0 -4px; *margin-top: 13px; text-indent: 10px;}
+.BNE_e_layer .selected .menu{ background: #fff; width: 129px; max-height: 224px; border: 1px solid #eee;  border-top: 0 none; overflow-x: hidden; overflow-y: auto; text-indent: 10px;}
+.BNE_e_layer .selected .menu span{ display: block; margin: 0 8px 0 0; overflow: hidden; white-space:nowrap; text-overflow: ellipsis; width: 109px;}
+.BNE_e_layer .selected .menu a{ color:#999; display: block;}
+.BNE_e_layer .selected .menu a:hover{ background: #fbfbfb; cursor: pointer;}
+.BNE_e_layer .e_layer_select .sel{ width: 90px;}
+.BNE_e_layer .e_layer_select .sel1{ width: 88px;}
+.BNE_e_layer .e_layer_select .sel .s1 span,.BNE_e_layer .e_layer_select .sel .sel1 span{ width: auto;}
+/*通用弹层按钮*/
+.btn_style{ text-align: center; border: 1px solid #c4c4c4; font-size: 16px; border-radius: 2px;  background: #eaeaea; background:-webkit-linear-gradient(top,#fff,#eaeaea);
+background:-moz-linear-gradient(top,#fff,#eaeaea);background:-o-linear-gradient(top,#fff,#eaeaea);background:linear-gradient(top,#fff,#eaeaea); color: #333;}
+.btn_default{ cursor: default; color: #999;}
+/*内容居中*/
+.e_pro_align{
+	margin-left:auto;
+	margin-right:auto;
+}
+.e_pro_align,
+.e_pro_align p,
+.e_pro_align div{text-align:center;}
+.e_pro_align div.CP_w_cnt{
+	font-size:14px;
+	line-height:22px;
+	margin-top:-30px;
+	padding-left:60px;
+	padding-right:60px;
+}
+.e_pro_align .CP_w_aLine{
+	font-size:14px;
+	line-height:22px;
+	padding-top:10px;
+	padding-bottom:30px;
+}
+
+/*弹层翻页*/
+.e_layer_cont1 .e_layer_page{ float: right; margin: 1px 0 0; overflow: hidden; zoom:1;}
+.e_layer_cont1 .e_layer_page a{ float: left; margin: 0 5px; display: inline; font-size:14px; color: #aaa; line-height: 26px;}
+.e_layer_cont1 .e_layer_page a:hover,.e_layer_cont1 .e_layer_page .a_hover{ color:#8997d8;}
+.e_layer_cont1 .e_layer_page a.prev_next{ width: 24px; height: 24px; line-height: 24px; text-align: center; border: 1px solid #e2e3e5; color: #666; font-size: 12px; margin: 0 10px 0 13px; display: inline;}

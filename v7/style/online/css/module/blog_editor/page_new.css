@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*翻页*/
+.BNE_page{
+	margin-top:44px;
+}
+.pageBox{
+	font-size:14px;
+	overflow:hidden;
+	position:relative;
+}
+.pageBox .prev{
+	float:left;
+}
+.pageBox .next{
+	float:right;
+}
+.pageBox .BNE_txtC{
+	line-height:16px;
+}
+.pageBox .lik_a{
+	height:28px;
+	color:#FFF;
+	float:left;
+	display:inline;
+	font-size:16px;
+	line-height:28px;
+	padding:0 10px;
+	margin-right:10px;
+	background-color:#c9c9c9;
+}
+.pageBox .lik_a:hover,
+.pageBox .lik_cur{
+	color:#ccc;
+	background-color:#f6f6f6;
+}
+.pageBox .lik_p,
+.pageBox .lik_n{
+	font-size:14px;
+	
+}
+.pageBox .lik_p{ margin-right:20px;}
+.pageBox .lik_n{ float:right; margin-right:0;}
+
+
+

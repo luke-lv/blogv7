@@ -1,0 +1,23 @@
+@charset "utf-8";
+.layer_weimi{background: #fff;font-family: "Microsoft Yahei","黑体",Arial;width: 560px;height: 560px;}
+.layer_weimi .close{position: absolute;top:-17px;right: -13px;width: 40px;height: 40px; background:url(../../../images/common/weimilayer/close.png) no-repeat;_background-image:url(../../../images/common/weimilayer/close.gif);}
+
+.layer_weimi .title{padding: 18px 29px 16px;width: 502px;overflow: hidden; font-size: 24px;line-height: 26px; border-bottom: 1px solid #ddd;}
+
+
+
+.layer_weimi .list{padding: 33px  19px 78px   51px;overflow: hidden;zoom: 1;}
+.layer_weimi .step{ height: 177px;float: left;}
+.layer_weimi .step1{ height: 173px;}
+.layer_weimi .step2,.layer_weimi .step3{margin-top: 44px;}
+.layer_weimi .code{float: left;display: inline; width: 161px;height: 161px;margin-left: 16px;}
+.layer_weimi .step .pic img{display: block;}
+.layer_weimi .step1 .pic{margin-left: 28px;}
+.layer_weimi .step2 .pic{margin-left: 6px;}
+.layer_weimi .step .desc{}
+.layer_weimi .step .num{float: left;width: 28px; *text-indent: 4px;  height: 32px;line-height: 40px; _line-height: 36px; text-align: center; font-size: 35px; font-style: italic;color:#dcdcdc;font-family: Arial;overflow: hidden;}
+.layer_weimi .step .txt{float: left;color: #dd4543;font-size: 15px;padding-top: 17px;line-height: 15px;}
+.layer_weimi .step1{margin-left:80px;margin-top: 4px;}
+
+.layer_weimi .step3{}
+.layer_weimi .step3{margin-left:48px;}

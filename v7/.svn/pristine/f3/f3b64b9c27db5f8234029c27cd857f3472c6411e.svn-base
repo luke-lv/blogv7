@@ -1,0 +1,56 @@
+/**
+ * @fileoverview 个人档案基本资料模板配置
+ * @author Random | YangHao@staff.sina.com.cn
+ * @created 2009-08-14
+ */
+
+var bit = [
+    '<table class="personTable">', '<tbody>', '<tr>', '<td class="rolTd1 CP_txta rolSele">性&nbsp;&nbsp;&nbsp;别：</td>',
+    '<td class="rolTd2rolSele">', '<span class="tdP20">',
+    '<em class="personRadio"><input id="bis_man" name="basicInfoSex" value="1" type="radio" /></em><label for="bis_man">男</label>',
+    '<em class="personRadio"><input id="bis_female" name="basicInfoSex" value="0" type="radio" /></em><label for="bis_female">女</label>',
+    '</span>', '</td>', '</tr>', '<tr>', '<td class="rolTd1 CP_txta rolSele">生&nbsp;&nbsp;&nbsp;日：</td>',
+    '<td class="rolTd2 rolSele">', '<span class="tdP20">', '<em>', '<select id="selBirthdayYear" style="width:66px;">',
+    '<option value="0">年</option>', '</select>', '</em>', '<em>', '<select id="selBirthdayMonth" style="width:46px;">',
+    '<option value="0">月</option>', '</select>', '</em>', '<em>', '<select id="selBirthdayDay" style="width:46px;">',
+    '<option value="0">日</option>', '</select>', '</em>', '<em>',
+    '<select id="selBirthdayDisplay" style="width:138px;">', '<option value="0">显示完整年月日</option>',
+    '<option value="1">仅显示月份和日期</option>', '<option value="2">不显示我的生日</option>', '</select>', '</em>',
+    '<em class="sameBirth"><a id="sameBirthday" href="javascript:;"></a></em>', '</span>',
+    '<p id="msgBirthday" style="display:none;" class="errorAction addForm"> 请选择完整年月日</p>',
+    '<p id="msgSameBirthday" style="display:none;" class="errorAction addForm"> 请选择完整出生日期，才能找到你的同生缘</p>', '</td>',
+    '</tr>', '<tr>', '<td class="rolTd1 CP_txta rolSele">婚&nbsp;&nbsp;&nbsp;姻：</td>',
+    '<td class="rolTd2 rolSele"><span class="tdP20">', '<em>', '<select id="selMarriage" style="width:82px;">',
+    '<option value="0">请选择</option>', '<option value="1">单身中</option>', '<option value="2">恋爱中</option>',
+    '<option value="3">小两口</option>', '<option value="4">三口之家</option>', '</select>', '</em></span></td>', '</tr>',
+    '<tr>', '<td class="rolTd1 CP_txta rolSele">职&nbsp;&nbsp;&nbsp;业：</td>',
+    '<td class="rolTd2 rolSele"><span class="tdP20">', '<em>', '<select id="selJob" style="width:207px;">',
+    '<option value="0">请选择</option>', '<option value="1">学生</option>', '<option value="2">政府机关/干部</option>',
+    '<option value="3">邮电通信</option>', '<option value="4">计算机</option>', '<option value="5">网络</option>',
+    '<option value="6">商业/贸易</option>', '<option value="7">银行/金融/证券/保险/投资</option>', '<option value="8">税务</option>',
+    '<option value="9">咨询</option>', '<option value="10">社会服务</option>', '<option value="11">旅游/饭店</option>',
+    '<option value="12">健康/医疗服务</option>', '<option value="13">房地产</option>', '<option value="14">交通运输</option>',
+    '<option value="15">法律/司法</option>', '<option value="16">文化/娱乐/体育</option>', '<option value="17">媒介/广告</option>',
+    '<option value="18">科研/教育</option>', '<option value="19">农业/渔业/林业/畜牧业</option>',
+    '<option value="20">矿业/制作业</option>', '<option value="21">自由职业</option>', '<option value="22">其他</option>',
+    '</select>', '</em></span></td>', '</tr>', '<tr>', '<td class="rolTd1 CP_txta rolSele">现居地：</td>',
+    '<td class="rolTd2 rolSele"><span class="tdP20">', '<em>', '<select id="selProvince" style="width:105px;">',
+    '<option></option>', '</select>', '</em>', '<em>', '<select id="selCity" style="width:105px;">',
+    '<option></option>', '</select>', '</em>', '<em class="sameBirth"><a id="samePlace" href="javascript:;"></a></em>',
+    '</span>', '<p id="msgPlace" style="display:none;" class="errorAction addForm"> 请选择省内城市或直辖市区域</p>',
+    '<p id="msgSamePlace" style="display:none;" class="errorAction addForm"> 请选择完整现居地位置，才能找到你的邻居</p></td>', '</tr>',
+    '<tr>', '<td class="rolTd1 CP_txta rolSele">家&nbsp;&nbsp;&nbsp;乡：</td>',
+    '<td class="rolTd2 rolSele"><span class="tdP20">', '<em>', '<select id="selHometownProvince" style="width:105px;">',
+    '<option></option>', '</select>', '</em>', '<em>', '<select id="selHometownCity" style="width:105px;">',
+    '<option></option>', '</select>', '</em>',
+    '<em class="sameBirth"><a id="sameHometown" href="javascript:;"></a></em>', '</span>',
+    '<p id="msgHometown" style="display:none;" class="errorAction addForm"> 请选择省内城市或直辖市区域</p>',
+    '<p id="msgSameHometown" style="display:none;" class="errorAction addForm"> 请选择完整家乡位置，才能找到你的老乡</p></td>', '</tr>',
+    //'<tr>',
+    //	'<td class="CP_txta" colspan="2"><br/><input id="basicInfoSearchMask" type="checkbox" checked="" value="" name=""/><label for="basicInfoSearchMask"> 在搜索中隐藏以上信息 </label></td>',
+    //'</tr>',
+    '<tr>', '<td class="rolTd1 CP_txta rolSele"></td>',
+    '<td class="rolTd2 rolSele"><p class="personBtn"><span><a href="javascript:;" class="SG_aBtn SG_aBtnB SG_aBtn14"><cite id="btnBasicInfoSave">&nbsp;保存&nbsp;</cite></a></span><span><a href="javascript:;" class="SG_aBtn SG_aBtnB SG_aBtn14"><cite id="btnBasicInfoCancel">&nbsp;取消&nbsp;</cite></a></span></p></td>',
+    '</tr>', '</tbody>', '</table>'
+];
+scope.basicInfoEditorHTML = bit.join("");
